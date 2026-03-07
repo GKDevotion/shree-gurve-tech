@@ -41,6 +41,9 @@
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- AOS Animation -->
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     </head>
 
         <body>
@@ -136,7 +139,7 @@
                                 <ul>
                                     <li>
                                         <i class="fas fa-map-location"></i>
-                                        Makaraba, Ahmebadab 380015
+                                        Makaraba, Ahmedabad 380015
                                     </li>
                                     <li>
                                         <i class="fas fa-phone"></i>
@@ -167,7 +170,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a class="icon-masking" href="index.html">
+                                    <a class="icon-masking" href="index.php">
                                         <span data-mask-src="assets/img/header-250.png" class="mask-icon"></span>
                                         <img src="assets/img/header-250.png" alt="Webteck">
                                     </a>
@@ -176,10 +179,271 @@
                             <div class="col-auto">
                                 <nav class="main-menu d-none d-lg-inline-block">
                                     <ul>
-                                        <li><a href="#about-sec">About Us</a></li>
-                                        <li><a href="#service-sec">Services</a></li>
-                                        <li class="d-none"><a href="#project-sec">gallery</a></li>
-                                        <li><a href="#contact-sec">Contact Us</a></li>
+                                        <li class="menu-item-has-children mega-menu-wrap">
+                                            <a href="services.php">Services</a>
+                                            <ul class="mega-menu">
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="web-development-services.php">Web Development Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="software-development-services.php">Software Development Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="mobile-app-development.php">Mobile App Development</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="ui-ux-design-development.php">UI/UX Design Services</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="digital-marketing-services.php">Digital Marketing Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cloud-services.php">Cloud Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="it-consulting-services.php">IT Consulting Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cyber-security-services.php">Cybersecurity Services</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="data-analytics-services.php">Data & Analytics Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="ai-automation-services.php">AI & Automation Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="it-support-maintenance.php">IT Support & Maintenance</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blockchain-development.php">Blockchain Development</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children mega-menu-wrap">
+                                            <a href="javascript:void(0)">Company</a>
+                                            <ul class="mega-menu">
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="about-us.php">About US</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(0)">Career</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="gallery.php">Gallery</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="faqs.php">FAQs</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="projects.php">Projects</a>
+                                        </li>
+                                        <li class="menu-item-has-children mega-menu-wrap">
+                                            <a href="javascript:void(0)">Solutions</a>
+                                            <ul class="mega-menu">
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(0)">CRM Solutions</a>
+                                                            <!-- 
+                                                            Customer Relationship Management Systems
+                                                            Lead Management System
+                                                            Sales Pipeline Management
+                                                            Customer Support System
+                                                            Contact Management
+                                                            Marketing Automation
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">ERP Solutions</a>
+                                                            <!-- 
+                                                            Enterprise Resource Planning Systems
+                                                            Inventory Management
+                                                            Accounting & Finance
+                                                            Procurement Management
+                                                            Supply Chain Management
+                                                            Production Planning
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">HRMS Solutions</a>
+                                                            <!-- 
+                                                            Human Resource Management Systems
+                                                            Employee Management
+                                                            Attendance & Leave Management
+                                                            Payroll Management
+                                                            Recruitment System (ATS)
+                                                            Performance Management
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Project Management Systems</a>
+                                                            <!--
+                                                            Task Management
+                                                            Team Collaboration
+                                                            Project Tracking
+                                                            Time Tracking
+                                                            Resource Management
+                                                             -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Helpdesk / Ticketing Systems</a>
+                                                            <!-- 
+                                                            Customer Support Ticket System
+                                                            Issue Tracking
+                                                            SLA Management
+                                                            Knowledge Base
+                                                            -->
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(0)">School / Education Management Systems</a>
+                                                            <!-- 
+                                                            Student Information System
+                                                            Attendance Management
+                                                            Online Examination System
+                                                            Fee Management
+                                                            Parent Portal
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Hospital / Healthcare Management Systems</a>
+                                                            <!--
+                                                            Patient Management
+                                                            Appointment Scheduling
+                                                            Medical Records
+                                                            Pharmacy Management
+                                                            Billing System
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Inventory Management Systems</a>
+                                                            <!--
+                                                            Stock Tracking
+                                                            Warehouse Management
+                                                            Purchase & Sales Management
+                                                            Barcode Integration
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Accounting & Finance Systems</a>
+                                                            <!--
+                                                            Billing & Invoicing
+                                                            GST Accounting
+                                                            Expense Management
+                                                            Financial Reporting
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">E-Commerce Management Systems</a>
+                                                            <!--
+                                                            Product Management
+                                                            Order Management
+                                                            Payment Integration
+                                                            Customer Management
+                                                            -->
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(0)">Real Estate Management Systems</a>
+                                                            <!--
+                                                            Property Listings
+                                                            Lead Management
+                                                            Broker Management
+                                                            Property Booking System
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Travel & Tourism Management Systems</a>
+                                                            <!--
+                                                            Tour Package Management
+                                                            Hotel Booking System
+                                                            Visa Management
+                                                            Travel Agent Portal
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Document Management Systems</a>
+                                                            <!--
+                                                            Digital File Storage
+                                                            Document Workflow
+                                                            Version Control
+                                                            Access Permissions
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Learning Management Systems (LMS)</a>
+                                                            <!--
+                                                            Course Management
+                                                            Online Classes
+                                                            Student Progress Tracking
+                                                            Certification System
+                                                            -->
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="javascript:void(0)">Business Intelligence & Analytics Systems</a>
+                                                            <!--
+                                                            Data Dashboard
+                                                            Reports & Insights
+                                                            Predictive Analytics
+                                                            KPI Tracking
+                                                            -->
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#contact-sec">Contact US</a>
+                                        </li>
                                     </ul>
                                 </nav>
                                 <div class="header-button">
