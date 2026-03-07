@@ -151,12 +151,12 @@
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details.php?service=web-development">Web Development</a>
+                        <a href="service-details/web-development">Web Development</a>
                     </h3>
                     <p class="service-card_text">
                         Shree Gurve Technology provides professional web development services designed to build fast, secure, and modern websites tailored to your business needs. We create responsive, user-friendly, and SEO-optimized websites that enhance your online presence, improve customer engagement, and support business growth across all digital platforms.
                     </p>
-                    <a href="service-details.php?service=web-development" class="th-btn">
+                    <a href="service-details/web-development" class="th-btn">
                         Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
@@ -173,12 +173,12 @@
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details.php?service=ui-ux-design">UI/UX Design</a>
+                        <a href="service-details/ui-ux-design">UI/UX Design</a>
                     </h3>
                     <p class="service-card_text">
                         Shree Gurve Technology offers creative UI/UX design services focused on delivering intuitive, visually appealing, and user-centered digital experiences. We design modern interfaces that improve usability, enhance customer satisfaction, and ensure seamless interaction across websites, web applications, and mobile platforms.
                     </p>
-                    <a href="service-details.php?service=ui-ux-design" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="service-details/ui-ux-design" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     <div class="bg-shape">
                         <img src="assets/img/bg/service_card_bg.png" alt="bg">
                     </div>
@@ -193,12 +193,12 @@
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details.php?service=digital-marketing">Digital Marketing</a>
+                        <a href="service-details/digital-marketing">Digital Marketing</a>
                     </h3>
                     <p class="service-card_text">
                         Shree Gurve Technology provides result-driven digital marketing services to help businesses grow their online presence and reach the right audience. Our strategies include SEO, social media marketing, paid advertising, and content marketing to increase brand visibility, generate quality leads, and drive measurable business growth.
                     </p>
-                    <a href="service-details.php?service=digital-marketing" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="service-details/digital-marketing" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     <div class="bg-shape">
                         <img src="assets/img/bg/service_card_bg.png" alt="bg">
                     </div>
@@ -212,11 +212,11 @@
                         <img src="assets/img/icon/service_card_4.svg" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details.php?service=data-analytics">Data & Analytics </a></h3>
+                    <h3 class="box-title"><a href="service-details/data-analytics">Data & Analytics </a></h3>
                     <p class="service-card_text">
                         Shree Gurve Technology provides advanced data and analytics solutions that help businesses transform raw data into meaningful insights. Our experts analyze complex datasets to uncover trends, patterns, and opportunities that support smarter decision-making. Through data visualization, reporting, and predictive analytics, we help organizations improve operational efficiency, enhance customer experiences, and drive strategic growth with data-driven intelligence.
                     </p>
-                    <a href="service-details.php?service=data-analytics" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="service-details/data-analytics" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     <div class="bg-shape">
                         <img src="assets/img/bg/service_card_bg.png" alt="bg">
                     </div>
@@ -230,11 +230,11 @@
                         <img src="assets/img/icon/service_card_5.svg" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details.php?service=software-development">Software Development</a></h3>
+                    <h3 class="box-title"><a href="service-details/software-development">Software Development</a></h3>
                     <p class="service-card_text">
                         Shree Gurve Technology delivers comprehensive software services tailored to meet diverse business requirements. We design, develop, integrate, and maintain custom software solutions that enhance productivity, streamline operations, and ensure scalability, security, and long-term performance for your organization.
                     </p>
-                    <a href="service-details.php?service=software-development" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="service-details/software-development" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     <div class="bg-shape">
                         <img src="assets/img/bg/service_card_bg.png" alt="bg">
                     </div>
@@ -248,11 +248,11 @@
                         <img src="assets/img/icon/service_card_6.svg" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details.php?service=IT-consulting-services">IT Consulting Services</a></h3>
+                    <h3 class="box-title"><a href="service-details/IT-consulting-services">IT Consulting Services</a></h3>
                     <p class="service-card_text">
                         Shree Gurve Technology provides professional IT consulting services to help businesses leverage technology for growth and efficiency. Our experts analyze your current systems, identify opportunities for improvement, and recommend strategic technology solutions that align with your business goals. We assist organizations in optimizing IT infrastructure, enhancing security, and implementing scalable digital solutions to improve productivity and drive long-term success.
                     </p>
-                    <a href="service-details.php?service=IT-consulting-services" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="service-details/IT-consulting-services" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     <div class="bg-shape">
                         <img src="assets/img/bg/service_card_bg.png" alt="bg">
                     </div>

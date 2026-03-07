@@ -5,8 +5,14 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+        <!-- Base URL -->
+        <base href="http://127.0.0.1/core/shree-gurve-tech/">
+
         <title>Shree Gurve - Technology & IT Solutions</title>
         
+        <!-- Canonical URL -->
+        <link rel="canonical" href="http://127.0.0.1/core/shree-gurve-tech/>
+
         <meta name="author" content="ShreeGurve">
         <meta name="description" content="Shree Gurve - Technology & IT Solutions">
         <meta name="keywords" content="Shree Gurve - Technology & IT Solutions">
@@ -28,9 +34,7 @@
         <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-        <link rel="manifest" href="assets/img/favicons/manifest.json">
-        
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">        
         
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
