@@ -37,8 +37,7 @@
             </div>
             <div class="col-xl-6 ps-xl-4">
                 <h3 class="h4 mt-n2 mb-30 text-center">Make An Contact</h3>
-                <form action="https://html.themeholy.com/webteck/demo/mail.php" method="POST"
-                    class="appoitment-form ajax-contact">
+                <form id="contactForm" method="POST" action="save_contact.php" class="appoitment-form ajax-contact">
                     <div class="row">
                         <div class="form-group col-sm-6">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name">
@@ -62,12 +61,35 @@
                             <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write Your Message"></textarea>
                         </div>
                         <div class="form-btn col-12">
-                            <button class="th-btn w-100">SUBMIT</button>
+                            <button type="submit" class="th-btn w-100">SUBMIT</button>
                         </div>
                     </div>
                     <p class="form-messages mb-0 mt-3"></p>
-                </form>
+                </form> 
             </div>
+            
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+            <script>
+            $("#contactForm").submit(function(e){
+                e.preventDefault();
+
+                $.ajax({
+                    url: "save_contact.php",
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function(response){
+                        
+                        $(".form-messages").html("<span style='color:green'>Message Sent Successfully</span>");
+                        $("#contactForm")[0].reset();
+                    },
+                    error: function(){
+                        $(".form-messages").html("Something went wrong!");
+                    }
+                });
+            });
+            </script>
+            
         </div>
     </div>
 </div>

@@ -139,7 +139,7 @@
                                 <ul>
                                     <li>
                                         <i class="fas fa-map-location"></i>
-                                        Makaraba, Ahmedabad 380015
+                                        Makaraba, Ahemdabad 380015
                                     </li>
                                     <li>
                                         <i class="fas fa-phone"></i>

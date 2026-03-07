@@ -556,6 +556,7 @@
                 !isNaN(s) && s > 1 && a.val(s - 1);
             });
         });
+   
     var C = document.getElementById("filt-monthly"),
         k = document.getElementById("filt-yearly"),
         x = document.getElementById("switcher"),

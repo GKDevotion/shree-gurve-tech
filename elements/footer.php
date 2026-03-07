@@ -98,11 +98,11 @@
                                 <h3 class="widget_title">IT SERVICES</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="service-details.html">Web Development</a></li>
-                                        <li><a href="service-details.html">Business Development</a></li>
-                                        <li><a href="service-details.html">Product Management</a></li>
-                                        <li><a href="service-details.html">UI/UX Design</a></li>
-                                        <li><a href="service-details.html">Cloud services</a></li>
+                                        <li><a href="service-details.php?service=web-development">Web Development</a></li>
+                                        <li><a href="service-details.php?service=software-development">Software Development</a></li>
+                                        <li><a href="service-details.php?service=it-support-maintenance">IT Support & Maintenance</a></li>
+                                        <li><a href="service-details.php?service=ui-ux-design">UI/UX Design</a></li>
+                                        <li><a href="service-details.php?service=cloud-services">Cloud services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -154,7 +154,9 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-6">
                             <p class="copyright-text">
-                                Copyright <i class="fal fa-copyright"></i> 2019 ShreeGurve</a>. All Rights Reserved.</p>
+                                Copyright <i class="fal fa-copyright"></i> 
+                                <?php echo date("Y"); ?> ShreeGurve. All Rights Reserved.
+                            </p>
                         </div>
                         <div class="col-lg-6 text-end d-none d-lg-block">
                             <div class="footer-links">
@@ -193,6 +195,7 @@
         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
         <script src="assets/js/isotope.pkgd.min.js"></script>
         <script src="assets/js/tilt.jquery.min.js"></script>
+        <!-- <script src="assets/js/gsap.min.js"></script> -->
         <script src="assets/js/ScrollTrigger.min.js"></script>
         <script src="assets/js/smooth-scroll.js"></script>
         <script src="assets/js/particles.min.js"></script>
