@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="media-body">
                                         <span class="footer-contact_text">Mail Us On:</span> 
-                                        <a href="mailto:info@webteck.com" class="footer-contact_link">
+                                        <a href="mailto:contact@shareegurve.com" class="footer-contact_link">
                                             contact@shareegurve.com
                                         </a>
                                     </div>
@@ -102,7 +102,7 @@
                                         <li><a href="service-details/it-support-maintenance">IT Support & Maintenance</a></li>
                                         <li><a href="service-details/ui-ux-design">UI/UX Design</a></li>
                                         <li><a href="service-details/cloud-services">Cloud services</a></li>
-                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
+                                        <li><a href="service-details/IT-consulting-services">IT Consulting Services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -112,12 +112,12 @@
                                 <h3 class="widget_title">IT SERVICES</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="service-details/web-development">Web Development</a></li>
-                                        <li><a href="service-details/software-development">Software Development</a></li>
-                                        <li><a href="service-details/it-support-maintenance">IT Support & Maintenance</a></li>
-                                        <li><a href="service-details/ui-ux-design">UI/UX Design</a></li>
-                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
-                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
+                                        <li><a href="service-details/digital-marketing">Digital Marketing Services</a></li>
+                                        <li><a href="service-details/mobile-app-development">Mobile App Development</a></li>
+                                        <li><a href="service-details/cyber-security-services">Cybersecurity Services</a></li>
+                                        <li><a href="service-details/data-analytics">Data & Analytics Services</a></li>
+                                        <li><a href="service-details/ai-automation">AI & Automation Services</a></li>
+                                        <li><a href="service-details/blockchain-development">Blockchain Development</a></li>
                                     </ul>
                                 </div>
                             </div>
