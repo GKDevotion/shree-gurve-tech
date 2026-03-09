@@ -189,48 +189,48 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="web-development-services.php">Web Development Services</a>
+                                                            <a href="service-details/web-development">Web Development Services</a>
                                                         </li>
                                                         <li>
-                                                            <a href="software-development-services.php">Software Development Services</a>
+                                                            <a href="service-details/software-development">Software Development Services</a>
                                                         </li>
                                                         <li>
-                                                            <a href="mobile-app-development.php">Mobile App Development</a>
+                                                            <a href="service-details/mobile-app-development">Mobile App Development</a>
                                                         </li>
                                                         <li>
-                                                            <a href="ui-ux-design-development.php">UI/UX Design Services</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="digital-marketing-services.php">Digital Marketing Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="cloud-services.php">Cloud Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="it-consulting-services.php">IT Consulting Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="cyber-security-services.php">Cybersecurity Services</a>
+                                                            <a href="service-details/ui-ux-design">UI/UX Design Services</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="data-analytics-services.php">Data & Analytics Services</a>
+                                                            <a href="service-details/digital-marketing">Digital Marketing Services</a>
                                                         </li>
                                                         <li>
-                                                            <a href="ai-automation-services.php">AI & Automation Services</a>
+                                                            <a href="service-details/cloud-services">Cloud Services</a>
                                                         </li>
                                                         <li>
-                                                            <a href="it-support-maintenance.php">IT Support & Maintenance</a>
+                                                            <a href="service-details/IT-consulting-services">IT Consulting Services</a>
                                                         </li>
                                                         <li>
-                                                            <a href="blockchain-development.php">Blockchain Development</a>
+                                                            <a href="service-details/cyber-security-services">Cybersecurity Services</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="service-details/data-analytics">Data & Analytics Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="service-details/ai-automation">AI & Automation Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="service-details/it-support-maintenance">IT Support & Maintenance</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="service-details/blockchain-development">Blockchain Development</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -278,7 +278,7 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="javascript:void(0)">CRM Solutions</a>
+                                                            <a href="solution-details/crm-solutions">CRM Solutions</a>
                                                             <!-- 
                                                             Customer Relationship Management Systems
                                                             Lead Management System
@@ -290,7 +290,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">ERP Solutions</a>
+                                                            <a href="solution-details/erp-solutions">ERP Solutions</a>
                                                             <!-- 
                                                             Enterprise Resource Planning Systems
                                                             Inventory Management
@@ -302,7 +302,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">HRMS Solutions</a>
+                                                            <a href="solution-details/hrms-solutions">HRMS Solutions</a>
                                                             <!-- 
                                                             Human Resource Management Systems
                                                             Employee Management
@@ -314,7 +314,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Project Management Systems</a>
+                                                            <a href="solution-details/project-management-systems">Project Management Systems</a>
                                                             <!--
                                                             Task Management
                                                             Team Collaboration
@@ -325,7 +325,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Helpdesk / Ticketing Systems</a>
+                                                            <a href="solution-details/helpdesk-systems">Helpdesk / Ticketing Systems</a>
                                                             <!-- 
                                                             Customer Support Ticket System
                                                             Issue Tracking
@@ -338,7 +338,7 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="javascript:void(0)">School / Education Management Systems</a>
+                                                            <a href="solution-details/education-management-systems">School / Education Management Systems</a>
                                                             <!-- 
                                                             Student Information System
                                                             Attendance Management
@@ -349,7 +349,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Hospital / Healthcare Management Systems</a>
+                                                            <a href="solution-details/healthcare-management-systems">Hospital / Healthcare Management Systems</a>
                                                             <!--
                                                             Patient Management
                                                             Appointment Scheduling
@@ -360,7 +360,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Inventory Management Systems</a>
+                                                            <a href="solution-details/inventory-management-systems">Inventory Management Systems</a>
                                                             <!--
                                                             Stock Tracking
                                                             Warehouse Management
@@ -370,7 +370,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Accounting & Finance Systems</a>
+                                                            <a href="solution-details/accounting-finance-systems">Accounting & Finance Systems</a>
                                                             <!--
                                                             Billing & Invoicing
                                                             GST Accounting
@@ -380,7 +380,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">E-Commerce Management Systems</a>
+                                                            <a href="solution-details/ecommerce-management-systems">E-Commerce Management Systems</a>
                                                             <!--
                                                             Product Management
                                                             Order Management
@@ -393,7 +393,7 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="javascript:void(0)">Real Estate Management Systems</a>
+                                                            <a href="solution-details/real-estate-management-systems">Real Estate Management Systems</a>
                                                             <!--
                                                             Property Listings
                                                             Lead Management
@@ -403,7 +403,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Travel & Tourism Management Systems</a>
+                                                            <a href="solution-details/travel-tourism-management-systems">Travel & Tourism Management Systems</a>
                                                             <!--
                                                             Tour Package Management
                                                             Hotel Booking System
@@ -413,7 +413,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Document Management Systems</a>
+                                                            <a href="solution-details/document-management-systems">Document Management Systems</a>
                                                             <!--
                                                             Digital File Storage
                                                             Document Workflow
@@ -423,7 +423,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Learning Management Systems (LMS)</a>
+                                                            <a href="solution-details/learning-management-systems">Learning Management Systems (LMS)</a>
                                                             <!--
                                                             Course Management
                                                             Online Classes
@@ -433,7 +433,7 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="javascript:void(0)">Business Intelligence & Analytics Systems</a>
+                                                            <a href="solution-details/business-intelligenceanalytics-systems">Business Intelligence & Analytics Systems</a>
                                                             <!--
                                                             Data Dashboard
                                                             Reports & Insights

@@ -66,7 +66,7 @@ include_once('elements/footer.php');
         const serviceData = data[service];
 
         if (!serviceData) {
-            console.log("Service not found");
+            console.log("Solution not found");
             return;
         }
 
@@ -80,7 +80,7 @@ include_once('elements/footer.php');
 
         let html = "";
 
-        serviceData.services.forEach((item, index) => {
+        serviceData.solutions.forEach((item, index) => {
 
         let number = (index + 1).toString().padStart(1, '0');
 

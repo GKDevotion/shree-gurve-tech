@@ -4,7 +4,7 @@
     "icon"  :"service_card_1.svg",
     "title": "Customer Relationship Management (CRM) Systems",
     "description": "Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.",
-    "services": [
+    "solutions": [
       {
         "title": "Lead Management System",
         "text": "Efficiently capture, track, and manage potential leads to ensure better follow-ups and higher conversion rates.",
@@ -42,7 +42,7 @@
     "icon"  :"service_card_2.svg",
     "title": "Enterprise Resource Planning (ERP) Systems",
     "description": "Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.",
-    "services": [
+    "solutions": [
       {
         "title": "Inventory Management",
         "text": "Track and manage stock levels, product movement, and warehouse operations efficiently to avoid shortages and overstocking.",
@@ -80,7 +80,7 @@
     "icon"  :"service_card_3.svg",
     "title": "Human Resource Management (HRM) Systems",
     "description": "Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.",
-    "services": [
+    "solutions": [
       {
         "title": "Employee Management",
         "text": "Centralized system to manage employee information, profiles, roles, and organizational hierarchy efficiently.",
@@ -118,7 +118,7 @@
     "icon"  :"service_card_4.svg",
     "title": "Project Management Systems",
     "description": "UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.",
-    "services": [
+    "solutions": [
       {
         "title": "Task Management",
         "text": "Create, assign, and track tasks efficiently to ensure project activities are completed on time and within scope.",
@@ -156,7 +156,7 @@
     "icon"  :"service_card_5.svg",
     "title": "Helpdesk / Ticketing Systems",
     "description": "Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.",
-    "services": [
+    "solutions": [
       {
         "title": "Customer Support Ticket System",
         "text": "Manage customer queries and support requests through a structured ticketing system to ensure timely responses and efficient issue resolution.",
@@ -188,7 +188,7 @@
     "icon"  :"service_card_6.svg",
     "title": "School / Education Management Systems",
     "description": "Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.",
-    "services": [
+    "solutions": [
       {
         "title": "Student Information System",
         "text": "A centralized platform to manage student records, personal details, academic history, and enrollment information efficiently.",
@@ -226,7 +226,7 @@
     "icon"  :"service_card_7.svg",
     "title": "Hospital / Healthcare Management Systems",
     "description": "IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.",
-    "services": [
+    "solutions": [
       {
         "title": "Patient Management System",
         "text": "Centralized system to manage patient records, medical history, appointments, and treatment details efficiently.",
@@ -264,7 +264,7 @@
     "icon"  :"service_card_8.svg",
     "title": "Inventory Management Systems",
     "description": "Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.",
-    "services": [
+    "solutions": [
       {
         "title": "Stock Tracking",
         "text": "Real-time monitoring of inventory levels to ensure accurate stock availability and prevent shortages or overstocking.",
@@ -302,7 +302,7 @@
     "icon"  :"service_card_9.svg",
     "title": "Accounting & Finance Systems",
     "description": "Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.",
-    "services": [
+    "solutions": [
       {
         "title": "Financial Accounting",
         "text": "Comprehensive system to manage general ledger, financial transactions, and accurate financial records for business operations.",
@@ -340,7 +340,7 @@
     "icon"  :"service_card_9.svg",
     "title": "E-Commerce Management Systems",
     "description": "AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.",
-    "services": [
+    "solutions": [
       {
         "title": "Product Management",
         "text": "Manage product listings, categories, descriptions, pricing, and inventory from a centralized dashboard.",
@@ -378,7 +378,7 @@
     "icon"  :"service_card_9.svg",
     "title": "Real Estate Management Systems",
     "description": "IT support and maintenance ensure that systems, software, and networks run smoothly and efficiently. It includes regular updates, troubleshooting, and technical support to keep business operations uninterrupted.",
-    "services": [
+    "solutions": [
       {
         "title": "Property Management",
         "text": "Manage property listings, details, pricing, availability, and property documentation from a centralized system.",
@@ -416,7 +416,7 @@
     "icon"  :"service_card_9.svg",
     "title": "Travel & Tourism Management Systems",
     "description": "Blockchain development involves creating secure, decentralized applications and digital solutions using blockchain technology. It helps businesses improve transparency, security, and efficiency in transactions and data management.",
-    "services": [
+    "solutions": [
       {
         "title": "Tour Package Management",
         "text": "Create and manage tour packages, itineraries, pricing, and availability for customers easily.",
@@ -449,11 +449,12 @@
       } 
     ]
   },
+
   "document-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Document Management Systems",
     "description": "",
-    "services": [
+    "solutions": [
       {
         "title": "Document Storage & Organization",
         "text": "Securely store, organize, and manage digital documents with structured folders and easy access controls.",
@@ -486,11 +487,12 @@
       }
     ]
   },
+
   "learning-management-systems": {
     "icon"  :"service_card_9.svg",
-    "title": "",
-    "description": "Learning Management Systems (LMS)",
-    "services": [
+    "title": "Learning Management Systems (LMS)",
+    "description": "",
+    "solutions": [
       {
         "title": "Course Management",
         "text": "Create, organize, and manage online courses, lessons, and learning materials in a structured and easy-to-access platform.",
@@ -523,11 +525,12 @@
       }
     ]
   },
+
   "business-intelligenceanalytics-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Business Intelligence & Analytics Systems",
     "description": "",
-    "services": [
+    "solutions": [
       {
         "title": "Data Integration",
         "text": "Collect and integrate data from multiple sources such as databases, applications, and external systems for unified analysis.",
