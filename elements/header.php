@@ -6,51 +6,40 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Base URL -->
-        <base href="http://127.0.0.1/core/shree-gurve-tech/">
+        <base href="<?php echo $seoArr['base_url'];?>">
 
-        <title>Shree Gurve - Technology & IT Solutions</title>
+        <title id="pageTitle"><?php echo $seoArr['title'];?></title>
         
         <!-- Canonical URL -->
-        <link rel="canonical" href="http://127.0.0.1/core/shree-gurve-tech/>
+        <link id="canonicalLink" rel="canonical" href="<?php echo $seoArr['base_url'].$seoArr['canonical'];?>">
 
         <meta name="author" content="ShreeGurve">
-        <meta name="description" content="Shree Gurve - Technology & IT Solutions">
-        <meta name="keywords" content="Shree Gurve - Technology & IT Solutions">
+        <meta id="metaDescription" name="description" content="<?php echo $seoArr['description'];?>">
+        <meta id="metaKeywords" name="keywords" content="<?php echo $seoArr['keyword'];?>">
         <meta name="robots" content="INDEX,FOLLOW">
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">        
+        
+        <link rel="icon" type="image/png" sizes="192x192" href="<?php echo $seoArr['base_url'];?>/assets/img/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $seoArr['base_url'];?>/assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="<?php echo $seoArr['base_url'];?>assets/img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $seoArr['base_url'];?>/assets/img/favicon-16x16.png">        
         
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/magnific-popup.min.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/style.css">
 
         <!-- AOS Animation -->
         <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     </head>
 
-        <body>
+    <body>
 
         <div id="preloader" class="preloader">
             <div id="loader" class="th-preloader">
@@ -174,7 +163,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a class="icon-masking" href="index.php">
+                                    <a class="icon-masking" href="index">
                                         <span data-mask-src="assets/img/header-250.png" class="mask-icon"></span>
                                         <img src="assets/img/header-250.png" alt="Webteck">
                                     </a>
@@ -184,7 +173,7 @@
                                 <nav class="main-menu d-none d-lg-inline-block">
                                     <ul>
                                         <li class="menu-item-has-children mega-menu-wrap">
-                                            <a href="services.php">Services</a>
+                                            <a href="services">Services</a>
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
@@ -242,7 +231,7 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="about-us.php">About US</a>
+                                                            <a href="about-us">About US</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -256,21 +245,21 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="gallery.php">Gallery</a>
+                                                            <a href="gallery">Gallery</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="faqs.php">FAQs</a>
+                                                            <a href="faqs">FAQs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="">
-                                            <a href="projects.php">Projects</a>
+                                            <a href="projects">Projects</a>
                                         </li>
                                         <li class="menu-item-has-children mega-menu-wrap">
                                             <a href="javascript:void(0)">Solutions</a>
@@ -279,59 +268,22 @@
                                                     <ul>
                                                         <li>
                                                             <a href="solution-details/crm-solutions">CRM Solutions</a>
-                                                            <!-- 
-                                                            Customer Relationship Management Systems
-                                                            Lead Management System
-                                                            Sales Pipeline Management
-                                                            Customer Support System
-                                                            Contact Management
-                                                            Marketing Automation
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/erp-solutions">ERP Solutions</a>
-                                                            <!-- 
-                                                            Enterprise Resource Planning Systems
-                                                            Inventory Management
-                                                            Accounting & Finance
-                                                            Procurement Management
-                                                            Supply Chain Management
-                                                            Production Planning
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/hrms-solutions">HRMS Solutions</a>
-                                                            <!-- 
-                                                            Human Resource Management Systems
-                                                            Employee Management
-                                                            Attendance & Leave Management
-                                                            Payroll Management
-                                                            Recruitment System (ATS)
-                                                            Performance Management
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/project-management-systems">Project Management Systems</a>
-                                                            <!--
-                                                            Task Management
-                                                            Team Collaboration
-                                                            Project Tracking
-                                                            Time Tracking
-                                                            Resource Management
-                                                             -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/helpdesk-systems">Helpdesk / Ticketing Systems</a>
-                                                            <!-- 
-                                                            Customer Support Ticket System
-                                                            Issue Tracking
-                                                            SLA Management
-                                                            Knowledge Base
-                                                            -->
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -339,54 +291,22 @@
                                                     <ul>
                                                         <li>
                                                             <a href="solution-details/education-management-systems">School / Education Management Systems</a>
-                                                            <!-- 
-                                                            Student Information System
-                                                            Attendance Management
-                                                            Online Examination System
-                                                            Fee Management
-                                                            Parent Portal
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/healthcare-management-systems">Hospital / Healthcare Management Systems</a>
-                                                            <!--
-                                                            Patient Management
-                                                            Appointment Scheduling
-                                                            Medical Records
-                                                            Pharmacy Management
-                                                            Billing System
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/inventory-management-systems">Inventory Management Systems</a>
-                                                            <!--
-                                                            Stock Tracking
-                                                            Warehouse Management
-                                                            Purchase & Sales Management
-                                                            Barcode Integration
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/accounting-finance-systems">Accounting & Finance Systems</a>
-                                                            <!--
-                                                            Billing & Invoicing
-                                                            GST Accounting
-                                                            Expense Management
-                                                            Financial Reporting
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/ecommerce-management-systems">E-Commerce Management Systems</a>
-                                                            <!--
-                                                            Product Management
-                                                            Order Management
-                                                            Payment Integration
-                                                            Customer Management
-                                                            -->
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -394,59 +314,29 @@
                                                     <ul>
                                                         <li>
                                                             <a href="solution-details/real-estate-management-systems">Real Estate Management Systems</a>
-                                                            <!--
-                                                            Property Listings
-                                                            Lead Management
-                                                            Broker Management
-                                                            Property Booking System
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/travel-tourism-management-systems">Travel & Tourism Management Systems</a>
-                                                            <!--
-                                                            Tour Package Management
-                                                            Hotel Booking System
-                                                            Visa Management
-                                                            Travel Agent Portal
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/document-management-systems">Document Management Systems</a>
-                                                            <!--
-                                                            Digital File Storage
-                                                            Document Workflow
-                                                            Version Control
-                                                            Access Permissions
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/learning-management-systems">Learning Management Systems (LMS)</a>
-                                                            <!--
-                                                            Course Management
-                                                            Online Classes
-                                                            Student Progress Tracking
-                                                            Certification System
-                                                            -->
                                                         </li>
 
                                                         <li>
                                                             <a href="solution-details/business-intelligenceanalytics-systems">Business Intelligence & Analytics Systems</a>
-                                                            <!--
-                                                            Data Dashboard
-                                                            Reports & Insights
-                                                            Predictive Analytics
-                                                            KPI Tracking
-                                                            -->
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact-us.php">Contact US</a>
+                                            <a href="contact-us">Contact US</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -458,7 +348,13 @@
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    <a href="#contact-sec" class="th-btn style3 shadow-none">
+                                    <?php
+                                    $checkURL = "#contact-sec";
+                                    if (str_contains( $seoArr['canonical'], "contact-us")) {
+                                        $checkURL = "index#contact-sec";
+                                    }
+                                    ?>
+                                    <a href="<?php echo $checkURL; ?>" class="th-btn style3 shadow-none">
                                         Make Appointment <i class="fas fa-arrow-right ms-1"></i>
                                     </a>
                                 </div>

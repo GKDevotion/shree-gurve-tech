@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'contact-us',
+    'title' => "Contact Shree Gurve Technology | Web & Software Development Company",
+    'meta_description' => "Get in touch with Shree Gurve Technology for web development, mobile apps, software solutions, and IT consulting. Contact our experts for your project today.",
+    'h1_tag' => "Contact Our Technology Experts",
+    'description' => "Shree Gurve Technology is a professional IT services company providing innovative digital solutions for businesses worldwide. If you are looking for reliable web development, software development, mobile application development, UI/UX design, or digital transformation services, our experienced team is ready to help.",
+    'keyword' => "IT company in India, web development company, custom software development services, mobile app development company, technology consulting services, IT solutions company, digital transformation services",
+];
+
 include_once('elements/header.php');
 ?>
 
@@ -10,7 +22,7 @@ include_once('elements/header.php');
 
             <ul class="breadcumb-menu">
                 <li>
-                    <a href="index.php">
+                    <a href="index">
                         Home
                     </a>
                 </li>
@@ -69,6 +81,18 @@ include_once('elements/footer.php');
             console.log("Solution not found");
             return;
         }
+
+        // Title
+        $("#pageTitle").text( serviceData.meta_title );
+
+        // Canonical
+        $("#canonicalLink").attr("href", "<?php echo getBaseUrl();?>"+serviceData.canonical);
+
+        // Description
+        $("#metaDescription").attr("content", serviceData.meta_description);
+
+        // Keywords
+        $("#metaKeywords").attr("content", serviceData.keyword);
 
         // breadcrumb
         document.getElementById("serviceTitle").innerText = serviceData.title;

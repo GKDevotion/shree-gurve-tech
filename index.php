@@ -1,8 +1,19 @@
 <?php
-    include_once( 'elements/header.php' );
-    include_once( 'elements/home-top-slider.php' );
-?>
+include_once('helper/function.php');
 
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => '',
+    'title' => "Shree Gurve Technology – Web Development, Software Development & IT Services",
+    'meta_description' => "Shree Gurve Technology is a professional IT company offering web development, software development, mobile app development, UI/UX design, and digital solutions.",
+    'h1_tag' => "Professional IT Services & Technology Solutions",
+    'description' => "Shree Gurve Technology is a leading IT solutions company providing innovative and reliable digital services for businesses worldwide. Since 2019, we have been helping startups, small businesses, and enterprises build powerful digital platforms and scalable technology solutions.",
+    'keyword' => "IT company in India, web development company, software development services, mobile app development company, custom software development, IT solutions provider, digital transformation services, technology consulting services, web design company, Shree Gurve Technology",
+];
+
+include_once( 'elements/header.php' );
+include_once( 'elements/home-top-slider.php' );
+?>
 
 <section class="space-top">
     <div class="container z-index-common">

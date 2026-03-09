@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'faqs',
+    'title' => "FAQs - Shree Gurve Technology | IT Services & Software Development Questions",
+    'meta_description' => "Find answers to common questions about Shree Gurve Technology services including web development, software development, mobile apps, and IT solutions.",
+    'h1_tag' => "Frequently Asked Questions (FAQs)",
+    'description' => "Welcome to the Frequently Asked Questions (FAQ) page of Shree Gurve Technology. Here you can find answers to common questions about our IT services, including web development, software development, mobile application development, UI/UX design, digital marketing, cloud solutions, and technology consulting.",
+    'keyword' => "Shree Gurve Technology provides web development, software development, mobile apps, UI/UX design, and digital marketing services.",
+];
+
 include_once('elements/header.php');
 ?>
 
