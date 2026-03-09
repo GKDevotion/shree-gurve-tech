@@ -1,0 +1,563 @@
+{
+
+  "crm-solutions": {
+    "icon"  :"service_card_1.svg",
+    "title": "Customer Relationship Management (CRM) Systems",
+    "description": "Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.",
+    "services": [
+      {
+        "title": "Lead Management System",
+        "text": "Efficiently capture, track, and manage potential leads to ensure better follow-ups and higher conversion rates.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Sales Pipeline Management",
+        "text": "Organize and monitor the entire sales process from lead generation to deal closure with clear visibility of each stage.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Customer Support System",
+        "text": "Manage customer inquiries, support tickets, and service requests to provide faster and more effective customer support.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Contact Management",
+        "text": "Centralized system to store, organize, and manage customer contact information, communication history, and interactions.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Marketing Automation",
+        "text": "Automate marketing activities such as email campaigns, lead nurturing, and customer engagement to improve marketing efficiency and results.",
+        "icon": "service_card_6.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "erp-solutions": {
+    "icon"  :"service_card_2.svg",
+    "title": "Enterprise Resource Planning (ERP) Systems",
+    "description": "Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.",
+    "services": [
+      {
+        "title": "Inventory Management",
+        "text": "Track and manage stock levels, product movement, and warehouse operations efficiently to avoid shortages and overstocking.",
+        "icon": "service_card_7.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Accounting & Finance",
+        "text": "Integrated financial management system for handling accounting, invoicing, budgeting, tax calculations, and financial reporting.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Procurement Management",
+        "text": "Streamline purchasing processes including vendor management, purchase orders, approvals, and procurement tracking.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Supply Chain Management",
+        "text": "Optimize the flow of goods, information, and resources across suppliers, manufacturers, and distributors to improve operational efficiency.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Production Planning",
+        "text": "Plan and manage manufacturing processes, resource allocation, and production schedules to ensure timely product delivery and optimal resource use.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "hrms-solutions": {
+    "icon"  :"service_card_3.svg",
+    "title": "Human Resource Management (HRM) Systems",
+    "description": "Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.",
+    "services": [
+      {
+        "title": "Employee Management",
+        "text": "Centralized system to manage employee information, profiles, roles, and organizational hierarchy efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Attendance & Leave Management",
+        "text": "Track employee attendance, working hours, and leave requests with automated approvals and accurate record keeping.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Payroll Management",
+        "text": "Automated payroll processing including salary calculations, tax deductions, bonuses, and payslip generation.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Recruitment System (ATS)",
+        "text": "Applicant Tracking System to manage job postings, candidate applications, interview scheduling, and hiring processes.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Performance Management",
+        "text": "Evaluate employee performance through goal tracking, appraisals, feedback, and productivity analysis to support professional growth.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "project-management-systems": {
+    "icon"  :"service_card_4.svg",
+    "title": "Project Management Systems",
+    "description": "UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.",
+    "services": [
+      {
+        "title": "Task Management",
+        "text": "Create, assign, and track tasks efficiently to ensure project activities are completed on time and within scope.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Project Planning & Scheduling",
+        "text": "Plan project timelines, milestones, and deliverables with clear scheduling to keep projects organized and on track.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Team Collaboration",
+        "text": "Enable seamless communication and collaboration among team members through shared workspaces, comments, and file sharing.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Time Tracking",
+        "text": "Monitor time spent on tasks and projects to improve productivity, resource allocation, and project costing.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Project Reporting & Analytics",
+        "text": "Generate detailed reports and performance insights to track project progress, identify bottlenecks, and support better decision-making.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "helpdesk-systems": {
+    "icon"  :"service_card_5.svg",
+    "title": "Helpdesk / Ticketing Systems",
+    "description": "Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.",
+    "services": [
+      {
+        "title": "Customer Support Ticket System",
+        "text": "Manage customer queries and support requests through a structured ticketing system to ensure timely responses and efficient issue resolution.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Issue Tracking",
+        "text": "Track, prioritize, and manage technical issues or customer problems from reporting to resolution with clear status updates.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "SLA Management",
+        "text": "Monitor and enforce Service Level Agreements to ensure support requests are handled within defined response and resolution times.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Knowledge Base",
+        "text": "Create and manage a centralized repository of guides, FAQs, and solutions to help customers and support teams quickly resolve common issues.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "education-management-systems": {
+    "icon"  :"service_card_6.svg",
+    "title": "School / Education Management Systems",
+    "description": "Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.",
+    "services": [
+      {
+        "title": "Student Information System",
+        "text": "A centralized platform to manage student records, personal details, academic history, and enrollment information efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Attendance Management",
+        "text": "Automated system to track and manage student attendance, generate reports, and monitor attendance patterns.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Online Examination System",
+        "text": "Digital platform for conducting online tests, managing question banks, evaluating results, and generating performance reports.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Fee Management",
+        "text": "Streamlined system to manage student fee collection, payment tracking, receipts, and financial reporting.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Parent Portal",
+        "text": "A dedicated portal that allows parents to monitor their child’s academic progress, attendance, fee status, and school announcements.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+
+  "healthcare-management-systems": {
+    "icon"  :"service_card_7.svg",
+    "title": "Hospital / Healthcare Management Systems",
+    "description": "IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.",
+    "services": [
+      {
+        "title": "Patient Management System",
+        "text": "Centralized system to manage patient records, medical history, appointments, and treatment details efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Appointment Scheduling",
+        "text": "Online appointment booking and scheduling system that helps manage doctor availability and reduce patient waiting time.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Electronic Medical Records (EMR)",
+        "text": "Secure digital storage of patient medical records, prescriptions, lab reports, and treatment history for quick and easy access.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Billing & Insurance Management",
+        "text": "Automated billing system that manages patient invoices, insurance claims, payment tracking, and financial reports.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Pharmacy Management",
+        "text": "System to manage medicine inventory, prescriptions, stock levels, and pharmacy billing efficiently.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+
+  "inventory-management-systems": {
+    "icon"  :"service_card_8.svg",
+    "title": "Inventory Management Systems",
+    "description": "Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.",
+    "services": [
+      {
+        "title": "Stock Tracking",
+        "text": "Real-time monitoring of inventory levels to ensure accurate stock availability and prevent shortages or overstocking.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Warehouse Management",
+        "text": "Efficient management of warehouse operations including storage, stock movement, and inventory organization.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Purchase & Supplier Management",
+        "text": "Manage purchase orders, supplier details, and procurement processes to ensure smooth supply chain operations.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Order Management",
+        "text": "Track customer orders from placement to delivery, ensuring accurate order processing and fulfillment.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Inventory Reports & Analytics",
+        "text": "Generate detailed reports and insights on stock movement, inventory valuation, and demand trends to support better business decisions.",
+        "icon": "service_card_6.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+
+  "accounting-finance-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Accounting & Finance Systems",
+    "description": "Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.",
+    "services": [
+      {
+        "title": "Financial Accounting",
+        "text": "Comprehensive system to manage general ledger, financial transactions, and accurate financial records for business operations.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Invoicing & Billing Management",
+        "text": "Create, manage, and track invoices, payments, and billing processes to ensure smooth financial transactions.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Expense Management",
+        "text": "Monitor and control business expenses with proper tracking, categorization, and approval workflows.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Tax Management",
+        "text": "Automate tax calculations, compliance, and reporting to ensure accurate tax filing and regulatory adherence.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Financial Reporting & Analytics",
+        "text": "Generate detailed financial reports, balance sheets, profit & loss statements, and insights to support strategic financial decisions.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+
+  "ecommerce-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "E-Commerce Management Systems",
+    "description": "AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.",
+    "services": [
+      {
+        "title": "Product Management",
+        "text": "Manage product listings, categories, descriptions, pricing, and inventory from a centralized dashboard.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Order Management",
+        "text": "Track and process customer orders, payments, shipping, and delivery status efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Payment Gateway Integration",
+        "text": "Secure integration with multiple payment gateways to enable smooth and safe online transactions.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Customer Management",
+        "text": "Store and manage customer profiles, order history, preferences, and communication for better customer relationships.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Sales Reports & Analytics",
+        "text": "Generate detailed reports on sales performance, customer behavior, and revenue trends to support business growth.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+
+  "real-estate-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Real Estate Management Systems",
+    "description": "IT support and maintenance ensure that systems, software, and networks run smoothly and efficiently. It includes regular updates, troubleshooting, and technical support to keep business operations uninterrupted.",
+    "services": [
+      {
+        "title": "Property Management",
+        "text": "Manage property listings, details, pricing, availability, and property documentation from a centralized system.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Property Listing Portal",
+        "text": "Create and manage online property listings with images, descriptions, and advanced search features for buyers and renters.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Tenant Management",
+        "text": "Track tenant details, lease agreements, rental history, and communication for efficient tenant management.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Rent & Payment Management",
+        "text": "Automate rent collection, payment tracking, invoicing, and financial records for property owners and managers.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Property Reports & Analytics",
+        "text": "Generate detailed reports on property performance, occupancy rates, revenue, and investment insights.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+
+  "travel-tourism-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Travel & Tourism Management Systems",
+    "description": "Blockchain development involves creating secure, decentralized applications and digital solutions using blockchain technology. It helps businesses improve transparency, security, and efficiency in transactions and data management.",
+    "services": [
+      {
+        "title": "Tour Package Management",
+        "text": "Create and manage tour packages, itineraries, pricing, and availability for customers easily.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Booking & Reservation System",
+        "text": "Manage hotel, flight, and tour reservations with a centralized booking system for smooth operations.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Customer Management",
+        "text": "Maintain customer profiles, booking history, preferences, and communication for better customer service.",
+        "icon": "service_card_3.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Payment & Billing Management",
+        "text": "Handle secure online payments, invoicing, and transaction tracking for tourism services.",
+        "icon": "service_card_4.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Travel Reports & Analytics",
+        "text": "Generate detailed reports on bookings, revenue, customer trends, and business performance.",
+        "icon": "service_card_5.svg",
+        "link": "service-details.html"
+      } 
+    ]
+  },
+  "document-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Document Management Systems",
+    "description": "",
+    "services": [
+      {
+        "title": "Document Storage & Organization",
+        "text": "Securely store, organize, and manage digital documents with structured folders and easy access controls.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Document Search & Retrieval",
+        "text": "Quickly find and retrieve documents using advanced search, filters, and indexing features.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Version Control",
+        "text": "Track document revisions and maintain version history to ensure users always access the latest and correct files.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Access Control & Security",
+        "text": "Manage user permissions and protect sensitive documents with role-based access and secure authentication.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Document Sharing & Collaboration",
+        "text": "Enable teams to share, review, and collaborate on documents efficiently with controlled access and updates.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+  "learning-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "",
+    "description": "Learning Management Systems (LMS)",
+    "services": [
+      {
+        "title": "Course Management",
+        "text": "Create, organize, and manage online courses, lessons, and learning materials in a structured and easy-to-access platform.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Student Enrollment & Management",
+        "text": "Manage student registrations, course enrollments, profiles, and learning progress efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Online Assessments & Quizzes",
+        "text": "Conduct online tests, quizzes, and assignments with automated evaluation and performance tracking.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Progress Tracking & Reporting",
+        "text": "Monitor learner progress, course completion rates, and performance through detailed reports and analytics.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Certification Management",
+        "text": "Automatically generate and manage digital certificates for students upon successful course completion.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      }
+    ]
+  },
+  "business-intelligenceanalytics-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Business Intelligence & Analytics Systems",
+    "description": "",
+    "services": [
+      {
+        "title": "Data Integration",
+        "text": "Collect and integrate data from multiple sources such as databases, applications, and external systems for unified analysis.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Data Dashboards",
+        "text": "Create interactive dashboards that present key business metrics and performance indicators in a clear visual format.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Data Visualization",
+        "text": "Transform complex data into charts, graphs, and visual reports to help stakeholders understand insights quickly.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Predictive Analytics",
+        "text": "Use advanced analytics and data modeling techniques to forecast trends, identify opportunities, and support strategic decisions.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      },
+      {
+        "title": "Business Reporting",
+        "text": "Generate automated reports that provide accurate insights into business performance, operations, and growth trends.",
+        "icon": "service_card_2.svg",
+        "link": "service-details.html"
+      }
+    ]
+  }
+}
