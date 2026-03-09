@@ -84,11 +84,10 @@
                                 <h3 class="widget_title">Quick Links</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="javascript:voic(0)">About Us</a></li>
-                                        <li><a href="team.html">Meet Our Team</a></li>
-                                        <li><a href="project.html">Our Projects</a></li>
-                                        <li><a href="faq.html">Help & FAQs</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="about-us.php">About Us</a></li>
+                                        <li><a href="projects.php">Our Projects</a></li>
+                                        <li><a href="faqs.php">Help & FAQs</a></li>
+                                        <li><a href="contact-us.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -98,51 +97,28 @@
                                 <h3 class="widget_title">IT SERVICES</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="service-details.php?service=web-development">Web Development</a></li>
-                                        <li><a href="service-details.php?service=software-development">Software Development</a></li>
-                                        <li><a href="service-details.php?service=it-support-maintenance">IT Support & Maintenance</a></li>
-                                        <li><a href="service-details.php?service=ui-ux-design">UI/UX Design</a></li>
-                                        <li><a href="service-details.php?service=cloud-services">Cloud services</a></li>
+                                        <li><a href="service-details/web-development">Web Development</a></li>
+                                        <li><a href="service-details/software-development">Software Development</a></li>
+                                        <li><a href="service-details/it-support-maintenance">IT Support & Maintenance</a></li>
+                                        <li><a href="service-details/ui-ux-design">UI/UX Design</a></li>
+                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
+                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-auto d-none">
-                            <div class="widget footer-widget">
-                                <h3 class="widget_title">Recent Posts</h3>
-                                <div class="recent-post-wrap">
-                                    <div class="recent-post">
-                                        <div class="media-img">
-                                            <a href="blog-details.html">
-                                                <img src="assets/img/blog/recent-post-2-1.jpg" alt="Blog Image">
-                                            </a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="post-title">
-                                                <a class="text-inherit" href="blog-details.html">Unsatiable entreaties may collecting Power.</a>
-                                            </h4>
-                                            <div class="recent-post-meta">
-                                                <a href="blog.html">
-                                                    <i class="fal fa-calendar-days"></i>21 June, 2024
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="recent-post">
-                                        <div class="media-img"><a href="blog-details.html">
-                                            <img src="assets/img/blog/recent-post-2-2.jpg" alt="Blog Image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="post-title">
-                                                <a class="text-inherit" href="blog-details.html">
-                                                    Regional Manager limited time management.
-                                                </a>
-                                            </h4>
-                                            <div class="recent-post-meta">
-                                                <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2024</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="col-md-6 col-xl-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">IT SERVICES</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="service-details/web-development">Web Development</a></li>
+                                        <li><a href="service-details/software-development">Software Development</a></li>
+                                        <li><a href="service-details/it-support-maintenance">IT Support & Maintenance</a></li>
+                                        <li><a href="service-details/ui-ux-design">UI/UX Design</a></li>
+                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
+                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

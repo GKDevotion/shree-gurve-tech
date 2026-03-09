@@ -446,7 +446,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#contact-sec">Contact US</a>
+                                            <a href="contact-us.php">Contact US</a>
                                         </li>
                                     </ul>
                                 </nav>

@@ -1,0 +1,87 @@
+{
+
+  "devotion-bullion": {
+    "icon"  :"service_card_1.svg",
+    "title": "Devotion Bullion",
+    "description": "Invest and vault precious metals in multiple Plans. Rest easy knowing your wealth is secure and outside of traditional banking systems. Offers a high-end solution enabling individuals.",
+    "link": "https://devotionbullion.com"
+  },
+  "devotion-estate": {
+    "icon"  :"service_card_1.svg",
+    "title": "Devotion Estate",
+    "description": "At Devotion Estate, we are a team of experienced professionals who are passionate about real estate. Our expertise spans residential, commercial, and investment properties. Whether you are buying your first home, looking for a lucrative investment, or seeking the perfect commercial space, we are here to guide you every step of the way.",
+    "link": "https://devotionestate.com"
+  },
+  "devotion-tourism": {
+    "icon"  :"service_card_1.svg",
+    "title": "Devotion Tourism",
+    "description": "Business travel doesn't have to be a hassle. Our best in the industry travel advisors provide a complete suite of travel services for discerning corporate clients, whether individual travelers or groups of any size. From exclusively negotiated airfares & custom travel arrangements, to transfers, visas, and other privileges, we strive to create authentic and personalized travel experiences.",
+    "link": "https://devotiontourism.com"
+  },
+  "devotion-group": {
+    "icon"  :"service_card_1.svg",
+    "title": "Devotion Group",
+    "description": "At Devotion Group, we are an Organization who is focusing on the future, not dwelling on the past, as we embrace life on Earth. Let us unite with a shared purpose, prioritizing the protection of this magnificent planet, which is our one and only home. Our commitment lies in cherishing its wonders and fostering a sense of purpose that goes beyond mere profit.",
+    "link": "https://devotiongroup.org"
+  },
+  "pvl-tourism": {
+    "icon"  :"service_card_1.svg",
+    "title": "PVL Tourism",
+    "description": "At PVL Tours & Travels, we pride ourselves on being a premier travel company dedicated to delivering exceptional experiences across top destinations. With a diverse portfolio of travel packages, we cater to every type of traveler, offering a range of options from thrilling adventures to serene retreats.",
+    "link": "https://pvltourism.com"
+  },
+  "rishan-techno": {
+    "icon"  :"service_card_1.svg",
+    "title": "Rishaan Technology",
+    "description": "System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.",
+    "link": "https://rishaantechno.com"
+  },
+  "la-neonix": {
+    "icon"  :"service_card_1.svg",
+    "title": "LA Neonix",
+    "description": "Inside Majestic Premier Hotel, La Neonix blends pro-grade sound with theatrical lights and a curated bar & kitchen. Expect seamless service and a space that turns moments into memories.",
+    "link": "https://laneonix.com"
+  },
+  "zed-capital": {
+    "icon"  :"service_card_1.svg",
+    "title": "Zed Capital",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  "": {
+    "icon"  :"service_card_1.svg",
+    "title": "",
+    "description": "",
+    "link": ""
+  }
+}
