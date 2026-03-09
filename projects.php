@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'projects',
+    'title' => "Our Projects - Shree Gurve Technology | Web, Software & Mobile App Portfolio",
+    'meta_description' => "Get in touch with Shree Gurve Technology for web development, mobile apps, software solutions, and IT consulting. Contact our experts for your project today.",
+    'h1_tag' => "Our Development Portfolio",
+    'description' => "Welcome to the project portfolio of Shree Gurve Technology. Here you can explore some of the innovative technology solutions we have developed for businesses across various industries. Our portfolio includes web development projects, custom software systems, mobile applications, UI/UX designs, and digital platforms designed to improve business performance.",
+    'keyword' => "IT company portfolio, web development projects, software development portfolio, mobile app development projects, custom software projects, website design portfolio, technology solutions portfolio, Shree Gurve Technology projects",
+];
+
 include_once('elements/header.php');
 ?>
 
@@ -7,7 +19,7 @@ include_once('elements/header.php');
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Our Projects</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index">Home</a></li>
                 <li>Our Projects</li>
             </ul>
         </div>

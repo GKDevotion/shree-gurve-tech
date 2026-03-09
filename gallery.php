@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'contact-us',
+    'title' => "Gallery – Shree Gurve Technology | Our Projects & Work Portfolio",
+    'meta_description' => "Explore the Shree Gurve Technology gallery to view our web development, software projects, mobile apps, UI/UX designs, and digital solutions portfolio.",
+    'h1_tag' => "Project & Development Gallery",
+    'description' => "Welcome to the gallery of Shree Gurve Technology, where we showcase our completed projects, development work, and creative digital solutions. Our gallery highlights various projects including website development, software applications, mobile app development, UI/UX designs, and digital solutions delivered to clients across different industries.",
+    'keyword' => "IT company portfolio, web development portfolio, software development projects, mobile app development portfolio, IT company gallery, website design portfolio, technology solutions portfolio, Shree Gurve Technology projects",
+];
+
 include_once('elements/header.php');
 ?>
 

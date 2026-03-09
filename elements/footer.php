@@ -84,10 +84,10 @@
                                 <h3 class="widget_title">Quick Links</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="about-us.php">About Us</a></li>
-                                        <li><a href="projects.php">Our Projects</a></li>
-                                        <li><a href="faqs.php">Help & FAQs</a></li>
-                                        <li><a href="contact-us.php">Contact Us</a></li>
+                                        <li><a href="about-us">About Us</a></li>
+                                        <li><a href="projects">Our Projects</a></li>
+                                        <li><a href="faqs">Help & FAQs</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>

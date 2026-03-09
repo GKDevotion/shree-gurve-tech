@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'about-us',
+    'title' => "About Shree Gurve Technology | IT Company & Software Development Services",
+    'meta_description' => "Learn about Shree Gurve Technology, a trusted IT company offering web development, software solutions, mobile apps, UI/UX design, and digital services since 2019.",
+    'h1_tag' => "About Shree Gurve Technology",
+    'description' => "Shree Gurve Technology is a professional IT solutions company providing innovative digital services to businesses worldwide. Since our journey began in 2019, we have been delivering reliable technology solutions including web development, software development, mobile application development, UI/UX design, and digital marketing services.",
+    'keyword' => "Shree Gurve Technology, IT company in India, software development company, web development company, mobile app development services, custom software development, IT solutions company, technology consulting services, digital transformation services, IT service provider in Surat",
+];
+
 include_once('elements/header.php');
 ?>
 
@@ -7,7 +19,7 @@ include_once('elements/header.php');
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">About Us</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index">Home</a></li>
                 <li>About Us</li>
             </ul>
         </div>
@@ -19,7 +31,7 @@ include_once('elements/header.php');
         <div class="row align-items-center">
             <div class="col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box1">
-                    <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                    <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About-us"></div>
                     <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
                     <div class="year-counter">
                         <h3 class="year-counter_number"><span class="counter-number">25</span></h3>
@@ -58,7 +70,7 @@ include_once('elements/header.php');
                             </div>
                         </div>
                     </div>
-                    <div class="btn-group"><a href="about.html" class="th-btn">DISCOVER MORE<i
+                    <div class="btn-group"><a href="about-us" class="th-btn">DISCOVER MORE<i
                                 class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="call-btn">
                             <div class="play-btn"><i class="fas fa-phone"></i></div>

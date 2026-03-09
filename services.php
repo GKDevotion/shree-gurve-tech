@@ -1,4 +1,16 @@
 <?php
+include_once('helper/function.php');
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => 'services',
+    'title' => "Custom Software Development | Shree Gurve Technology",
+    'meta_description' => "Shree Gurve Technology provides professional web development services including custom websites, web applications, and scalable digital solutions.",
+    'h1_tag' => "Professional Web Development Services",
+    'description' => "Shree Gurve Technology offers professional web development services designed to help businesses establish a strong online presence. Our experienced team develops high-quality, responsive, and scalable websites using modern technologies and best development practices.",
+    'keyword' => "web development services, custom website development, web application development, professional web development company, IT services company, website development company in India, Shree Gurve Technology services",
+];
+
 include_once('elements/header.php');
 ?>
 
@@ -7,7 +19,7 @@ include_once('elements/header.php');
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Services</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index">Home</a></li>
                 <li>Services</li>
             </ul>
         </div>
@@ -70,7 +82,7 @@ include_once('elements/header.php');
                 </div>
 
                 <h3 class="box-title">
-                <a href="service-details.php?service=${key}">
+                <a href="service-details/service=${key}">
                 ${service.title}
                 </a>
                 </h3>
@@ -79,7 +91,7 @@ include_once('elements/header.php');
                 ${service.description}
                 </p>
 
-                <a href="service-details.php?service=${key}" class="th-btn">
+                <a href="service-details/service=${key}" class="th-btn">
                 Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                 </a>
 

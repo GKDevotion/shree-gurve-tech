@@ -3,6 +3,7 @@
   "crm-solutions": {
     "icon"  :"service_card_1.svg",
     "title": "Customer Relationship Management (CRM) Systems",
+    "meta_title": "CRM Software Development Services | Custom Customer Relationship Management Systems",
     "description": "Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.",
     "solutions": [
       {
@@ -35,12 +36,17 @@
         "icon": "service_card_6.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Customer Relationship Management (CRM) systems to manage leads, customers, sales, and support efficiently. Scalable CRM solutions for modern businesses.",
+    "canonical": "crm-solutions",
+    "h1_tag": "Customer Relationship Management (CRM) Systems Development",
+    "keyword": "customer relationship management system, CRM software development, custom CRM development, CRM system for business, CRM software solutions, sales and customer management system, lead management CRM, CRM development company, business CRM software, CRM solutions for enterprises"
   },
 
   "erp-solutions": {
     "icon"  :"service_card_2.svg",
     "title": "Enterprise Resource Planning (ERP) Systems",
+    "meta_title": "ERP Software Development Services | Custom Enterprise Resource Planning Systems",
     "description": "Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.",
     "solutions": [
       {
@@ -73,12 +79,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Enterprise Resource Planning (ERP) systems to integrate and manage business processes including finance, HR, inventory, and operations efficiently.",
+    "canonical": "erp-solutions",
+    "h1_tag": "Enterprise Resource Planning (ERP) Systems Development",
+    "keyword": "enterprise resource planning systems, ERP software development, custom ERP development, ERP solutions for business, enterprise management software, ERP system for companies, business process automation ERP, ERP development company, integrated business management system, ERP software solutions"
   },
 
   "hrms-solutions": {
     "icon"  :"service_card_3.svg",
     "title": "Human Resource Management (HRM) Systems",
+    "meta_title": "HRM Software Development Services | Human Resource Management Systems",
     "description": "Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.",
     "solutions": [
       {
@@ -111,12 +122,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Human Resource Management (HRM) systems to manage employee data, attendance, payroll, recruitment, and performance with efficient HR automation solutions.",
+    "canonical": "hrms-solutions",
+    "h1_tag": "Human Resource Management (HRM) Systems Development",
+    "keyword": "human resource management system, HRM software development, HR management software,employee management system, HR automation software, payroll management system, attendance management software, custom HRM development, HR software solutions, HR management system for companies"
   },
 
   "project-management-systems": {
     "icon"  :"service_card_4.svg",
     "title": "Project Management Systems",
+    "meta_title": "Project Management Software Development | Custom Project Management Systems",
     "description": "UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.",
     "solutions": [
       {
@@ -149,12 +165,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Project Management Systems to plan, track, and manage tasks, teams, and projects efficiently with advanced reporting and collaboration tools.",
+    "canonical": "project-management-systems",
+    "h1_tag": "Project Management Systems Development",
+    "keyword": "project management system, project management software development, custom project management software, task management system, team collaboration software, project tracking system, workflow management software, project planning software, project management solutions, business project management system"
   },
 
   "helpdesk-systems": {
     "icon"  :"service_card_5.svg",
     "title": "Helpdesk / Ticketing Systems",
+    "meta_title": "Helpdesk & Ticketing Software Development | Customer Support Management Systems",
     "description": "Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.",
     "solutions": [
       {
@@ -181,12 +202,17 @@
         "icon": "service_card_4.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Helpdesk and Ticketing Systems to manage customer support requests, track issues, automate workflows, and improve service efficiency.",
+    "canonical": "helpdesk-systems",
+    "h1_tag": "Helpdesk & Ticketing Systems Development",
+    "keyword": "helpdesk ticketing system, helpdesk software development, customer support ticket system, IT helpdesk management system, support ticket management software, issue tracking system, helpdesk automation software, customer service management system, ticket management software, helpdesk solution for businesses"
   },
 
   "education-management-systems": {
     "icon"  :"service_card_6.svg",
     "title": "School / Education Management Systems",
+    "meta_title": "School Management Software Development | Education Management Systems",
     "description": "Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.",
     "solutions": [
       {
@@ -219,12 +245,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom School and Education Management Systems to manage student records, attendance, exams, fees, and communication efficiently.",
+    "canonical": "education-management-systems",
+    "h1_tag": "School & Education Management Systems Development",
+    "keyword": "school management system, education management software, school ERP system, student information system, school administration software, online school management system, education ERP software, school automation system, school management software development, education management solutions"
   },
 
   "healthcare-management-systems": {
     "icon"  :"service_card_7.svg",
     "title": "Hospital / Healthcare Management Systems",
+    "meta_title": "Hospital Management Software Development | Healthcare Management Systems",
     "description": "IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.",
     "solutions": [
       {
@@ -257,12 +288,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom Hospital and Healthcare Management Systems to manage patient records, appointments, billing, and hospital operations efficiently.",
+    "canonical": "healthcare-management-systems",
+    "h1_tag": "Hospital & Healthcare Management Systems Development",
+    "keyword": "hospital management system, healthcare management software, hospital ERP system, patient management system, hospital administration software, clinic management software, healthcare software development, hospital automation system, medical management software, healthcare management solutions"
   },
 
   "inventory-management-systems": {
     "icon"  :"service_card_8.svg",
     "title": "Inventory Management Systems",
+    "meta_title": "Inventory Management Software Development | Custom Stock Management Systems",
     "description": "Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.",
     "solutions": [
       {
@@ -295,12 +331,17 @@
         "icon": "service_card_6.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom Inventory Management Systems to track stock levels, manage products, automate inventory control, and improve business efficiency.",
+    "canonical": "inventory-management-systems",
+    "h1_tag": "Inventory Management Systems Development",
+    "keyword": "inventory management system, inventory management software, stock management system, warehouse inventory software, product inventory tracking system, inventory control software, custom inventory management software, inventory automation system, warehouse management system, inventory management solutions"
   },
 
   "accounting-finance-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Accounting & Finance Systems",
+    "meta_title": "Accounting & Finance Software Development | Business Financial Management Systems",
     "description": "Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.",
     "solutions": [
       {
@@ -333,12 +374,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom Accounting and Finance Management Systems to manage billing, invoicing, expenses, financial reports, and business accounting efficiently.",
+    "canonical": "accounting-finance-systems",
+    "h1_tag": "Accounting & Finance Management Systems Development",
+    "keyword": "accounting management system, finance management software, accounting software development, financial management system, billing and invoicing software, business accounting software, accounting automation system, finance ERP software, custom accounting software, accounting and finance solutions"
   },
 
   "ecommerce-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "E-Commerce Management Systems",
+    "meta_title": "E-Commerce Software Development | Custom Online Store Management Systems",
     "description": "AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.",
     "solutions": [
       {
@@ -371,12 +417,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom E-Commerce Management Systems to manage products, orders, payments, inventory, and customer data with scalable online store solutions.",
+    "canonical": "ecommerce-management-systems",
+    "h1_tag": "E-Commerce Management Systems Development",
+    "keyword": "e-commerce management system, e-commerce software development, online store management system, e-commerce platform development, custom e-commerce software, online shopping management system, e-commerce business software, order management system, e-commerce automation software, e-commerce solutions for businesses"
   },
 
   "real-estate-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Real Estate Management Systems",
+    "meta_title": "Real Estate Software Development | Property Management Systems",
     "description": "IT support and maintenance ensure that systems, software, and networks run smoothly and efficiently. It includes regular updates, troubleshooting, and technical support to keep business operations uninterrupted.",
     "solutions": [
       {
@@ -409,12 +460,17 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom Real Estate Management Systems to manage property listings, clients, sales, rentals, and real estate operations efficiently.",
+    "canonical": "real-estate-management-systems",
+    "h1_tag": "Real Estate Management Systems Development",
+    "keyword": "real estate management system, real estate software development, property management software, real estate CRM system, property listing management system, real estate automation software, real estate business management system, property sales management software, custom real estate software, real estate solutions for agencies"
   },
 
   "travel-tourism-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Travel & Tourism Management Systems",
+    "meta_title": "Travel & Tourism Software Development | Travel Management Systems",
     "description": "Blockchain development involves creating secure, decentralized applications and digital solutions using blockchain technology. It helps businesses improve transparency, security, and efficiency in transactions and data management.",
     "solutions": [
       {
@@ -447,13 +503,18 @@
         "icon": "service_card_5.svg",
         "link": "service-details.html"
       } 
-    ]
+    ],
+    "meta_description" : "Custom Travel and Tourism Management Systems to manage bookings, tour packages, customer records, and travel operations efficiently.",
+    "canonical": "travel-tourism-management-systems",
+    "h1_tag": "Travel & Tourism Management Systems Development",
+    "keyword": "travel management system, tourism management software, travel booking management system, tour operator software, travel agency management system, tourism ERP software, travel automation system, tour package management software, travel business management system, custom travel software development"
   },
 
   "document-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Document Management Systems",
-    "description": "",
+    "meta_title": "Document Management Software Development | Digital Document Management Systems",
+    "description": "A Document Management System (DMS) helps businesses store, manage, and track digital documents efficiently. Shree Gurve Technology provides custom document management solutions designed to improve document organization, security, and accessibility.",
     "solutions": [
       {
         "title": "Document Storage & Organization",
@@ -485,13 +546,18 @@
         "icon": "service_card_2.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Document Management Systems to securely store, organize, manage, and retrieve digital documents with advanced access control and workflow automation.",
+    "canonical": "document-management-systems",
+    "h1_tag": "Document Management Systems Development",
+    "keyword": "document management system, document management software, digital document management system, document storage management software, enterprise document management system, document workflow management software, document automation system, secure document management solution, file management system software, document management software development"
   },
 
   "learning-management-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Learning Management Systems (LMS)",
-    "description": "",
+    "meta_title": "Learning Management Software Development | Custom LMS Platforms",
+    "description": "Learning Management Systems (LMS) help organizations, schools, and training institutes deliver and manage online education and training programs efficiently. At Shree Gurve Technology, we develop custom LMS solutions that enable course management, student enrollment, online assessments, progress tracking, and certification management.",
     "solutions": [
       {
         "title": "Course Management",
@@ -523,13 +589,18 @@
         "icon": "service_card_2.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Learning Management Systems (LMS) to manage online courses, training programs, student progress, and digital learning platforms.",
+    "canonical": "learning-management-systems",
+    "h1_tag": "Learning Management Systems (LMS) Development",
+    "keyword": "learning management system, LMS software development, online learning management system, e-learning management software, LMS platform development, training management system, online course management software, education LMS software, corporate training management system, LMS solutions for businesses"
   },
 
   "business-intelligenceanalytics-systems": {
     "icon"  :"service_card_9.svg",
     "title": "Business Intelligence & Analytics Systems",
-    "description": "",
+    "meta_title": "Business Intelligence & Analytics Software Development | BI Solutions",
+    "description": "Business Intelligence & Analytics Systems help organizations transform raw data into meaningful insights for better decision-making and strategic planning. At Shree Gurve Technology, we develop powerful Business Intelligence solutions that collect, analyze, and visualize data from multiple sources to provide clear and actionable business insights.",
     "solutions": [
       {
         "title": "Data Integration",
@@ -561,6 +632,10 @@
         "icon": "service_card_2.svg",
         "link": "service-details.html"
       }
-    ]
+    ],
+    "meta_description" : "Custom Business Intelligence and Analytics Systems to transform data into actionable insights with dashboards, reports, and advanced data analysis tools.",
+    "canonical": "business-intelligenceanalytics-systems",
+    "h1_tag": "Business Intelligence & Analytics Systems Development",
+    "keyword": "business intelligence systems, business analytics software, BI software development, data analytics solutions, business intelligence tools, data visualization software, reporting and analytics system, business data analysis platform, BI dashboard software, business intelligence solutions"
   }
 }
