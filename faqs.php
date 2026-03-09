@@ -209,6 +209,6 @@ include_once('elements/header.php');
 <?php
 include_once('elements/how-work-step.php');
 include_once('elements/happy-client.php');
-include_once('elements/contact-us.php');
+include_once('elements/appointment.php');
 include_once('elements/footer.php');
 ?>

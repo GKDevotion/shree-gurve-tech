@@ -42,7 +42,7 @@ include_once('elements/header.php');
 </section>
 
 <?php
-include_once('elements/contact-us.php');
+include_once('elements/appointment.php');
 include_once('elements/footer.php');
 ?>
 
