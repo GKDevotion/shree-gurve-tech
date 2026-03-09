@@ -5,9 +5,9 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3">
                             <div class="footer-logo">
-                                <a class="icon-masking" href="index.html">
-                                    <span data-mask-src="assets/img/footer-white.png" class="mask-icon"></span>
-                                    <img src="assets/img/footer-white.png" alt="Webteck">
+                                <a class="icon-masking" href="<?php echo $seoArr['base_url'];?>">
+                                    <span data-mask-src="<?php echo $seoArr['base_url'].'assets/img/footer-white.png';?>" class="mask-icon"></span>
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/footer-white.png';?>" alt="Shree Gurve Tech">
                                 </a>
                             </div>
                         </div>
@@ -20,7 +20,7 @@
                                     <div class="media-body">
                                         <span class="footer-contact_text">Quick Call Us:</span> 
                                         <a href="tel:+918200017181" class="footer-contact_link">
-                                            +91 82000 17181
+                                            <?php echo callNumber();?>
                                         </a>
                                     </div>
                                 </div>
@@ -30,8 +30,8 @@
                                     </div>
                                     <div class="media-body">
                                         <span class="footer-contact_text">Mail Us On:</span> 
-                                        <a href="mailto:contact@shareegurve.com" class="footer-contact_link">
-                                            contact@shareegurve.com
+                                        <a href="mailto:<?php echo contactEmail();?>" class="footer-contact_link">
+                                            <?php echo contactEmail();?>
                                         </a>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@
                                     <div class="media-body">
                                         <span class="footer-contact_text">Visit Location:</span> 
                                         <a href="https://www.google.com/maps" class="footer-contact_link">
-                                            B710, Westgate by True value, Ahmedabad
+                                            <?php echo representativeOfficeAddress();?>
                                         </a>
                                     </div>
                                 </div>
@@ -60,21 +60,12 @@
                                         Shree Gurve Technology is a professional IT solutions company offering web development, UI/UX design, digital marketing, software services, and business consulting. We focus on delivering innovative, reliable, and scalable technology solutions that help businesses grow, improve efficiency, and succeed in the digital world.
                                     </p>
                                     <div class="th-social">
-                                        <a href="https://www.facebook.com/">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a> 
-                                        <a href="https://www.twitter.com/">
-                                            <i class="fab fa-twitter"></i>
-                                        </a> 
-                                        <a href="https://www.linkedin.com/">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a> 
-                                        <a href="https://www.whatsapp.com/">
-                                            <i class="fab fa-whatsapp"></i>
-                                        </a> 
-                                        <a href="https://www.youtube.com/">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
+                                        <a href="<?php echo facebookLink();?>"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="<?php echo twitterLink();?>"><i class="fab fa-twitter"></i></a>
+                                        <a href="<?php echo linkedinLink();?>"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="<?php echo instagramLink();?>"><i class="fab fa-instagram"></i></a>
+                                        <a href="<?php echo youtubeLink();?>"><i class="fab fa-youtube"></i></a>
+                                        <a href="<?php echo whatsappLink();?>"><i class="fab fa-whatsapp"></i></a> 
                                     </div>
                                 </div>
                             </div>

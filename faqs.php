@@ -19,7 +19,7 @@ include_once('elements/header.php');
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Frequently Asked Question</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="<?php echo $seoArr['base_url'];?>">Home</a></li>
                 <li>Frequently Asked Question</li>
             </ul>
         </div>

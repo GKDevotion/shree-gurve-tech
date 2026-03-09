@@ -17,4 +17,43 @@ function getBaseUrl() {
     return $base_url;
 }
 
+function callNumber(){
+    return "+91 82000 17181";
+}
+
+function contactEmail(){
+    return "contact@shreegurvetech.com";
+}
+
+function officeAddress(){
+    return "103, Hany Arcade, Dabholi Village, Katargam, Surat - 395004, India";
+}
+
+function representativeOfficeAddress(){
+    return "710, Westgate by True Value, Nr. YMCA Club, Makarba, Ahmedabad - 380015, India";
+}
+
+function facebookLink(){
+    return "facebook.com";
+}
+
+function linkedinLink(){
+    return "linkedin.com";
+}
+
+function twitterLink(){
+    return "twitter.com";
+}
+
+function instagramLink(){
+    return "instagram.com";
+}
+
+function youtubeLink(){
+    return "youtube.com";
+}
+
+function whatsappLink(){
+    return "whatsapp.com";
+}
 ?>
