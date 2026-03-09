@@ -3,6 +3,11 @@
   "web-development": {
     "icon"  :"service_card_1.svg",
     "title": "Web Development Services",
+    "meta_title":"Web Development Services | Custom Website Development Company",
+    "meta_description":"Professional web development services to build fast, responsive, and secure websites. We create custom business websites, eCommerce platforms, and scalable web applications to grow your online presence.",
+    "keyword":"web development services, website development company, custom web development, responsive website design, ecommerce website development, business website development, professional web developers, web application development",
+    "h1_tag":"Professional Web Development Services for Modern Businesses",
+    "canonical":"web-development", 
     "description": "Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.",
     "services": [
       {
@@ -47,6 +52,11 @@
   "software-development": {
     "icon"  :"service_card_2.svg",
     "title": "Software Development Services",
+    "meta_title":"Software Development Services | Custom Software Solutions",
+    "meta_description":"Professional software development services to build secure, scalable, and high-performance applications. We develop custom software solutions that help businesses improve efficiency, automate processes, and drive digital growth.",
+    "keyword":"software development services, custom software development, business software solutions, enterprise software development, application development services, professional software developers, scalable software solutions",
+    "h1_tag":"Custom Software Development Services for Modern Businesses",
+    "canonical":"software-development",
     "description": "Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.",
     "services": [
       {
@@ -91,6 +101,11 @@
   "mobile-app-development": {
     "icon"  :"service_card_3.svg",
     "title": "Mobile App Development",
+    "meta_title":"Mobile App Development Services | Android & iOS App Development",
+    "meta_description":"Professional mobile app development services for Android and iOS platforms. We build secure, scalable, and user-friendly mobile applications that help businesses enhance customer engagement and accelerate digital growth.",
+    "keyword":"mobile app development services, android app development, ios app development, custom mobile app development, mobile application development company, cross platform app development, business mobile apps",
+    "h1_tag":"Professional Mobile App Development Services for Android & iOS",
+    "canonical":"mobile-app-development",
     "description": "Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.",
     "services": [
       {
@@ -135,6 +150,11 @@
   "ui-ux-design": {
     "icon"  :"service_card_4.svg",
     "title": "UI/UX Design Services",
+    "meta_title":"UI/UX Design Services | Creative User Experience Solutions",
+    "meta_description":"Professional UI/UX design services to create intuitive, engaging, and user-friendly digital experiences. We design modern interfaces for websites and mobile apps that improve usability, customer satisfaction, and business growth.",
+    "keyword":"ui ux design services, user interface design, user experience design, website ui design, mobile app ui ux design, professional ui ux designers, digital product design services",
+    "h1_tag":"Creative UI/UX Design Services for Modern Digital Experiences",
+    "canonical":"ui-ux-design",
     "description": "UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.",
     "services": [
       {
@@ -179,6 +199,11 @@
   "digital-marketing": {
     "icon"  :"service_card_5.svg",
     "title": "Digital Marketing Services",
+    "meta_title":"Digital Marketing Services | SEO, PPC & Social Media Marketing",
+    "meta_description":"Professional digital marketing services to grow your business online. We offer SEO, social media marketing, PPC advertising, content marketing, and data-driven strategies to increase traffic, leads, and conversions.",
+    "keyword":"digital marketing services, seo services, social media marketing, ppc advertising, online marketing agency, search engine optimization services, content marketing services, internet marketing solutions",
+    "h1_tag":"Professional Digital Marketing Services to Grow Your Business Online",
+    "canonical":"digital-marketing",
     "description": "Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.",
     "services": [
       {
@@ -223,6 +248,11 @@
   "cloud-services": {
     "icon"  :"service_card_6.svg",
     "title": "Cloud Services",
+    "meta_title":"Cloud Services | Secure & Scalable Cloud Computing Solutions",
+    "meta_description":"Professional cloud services to help businesses scale, secure, and manage their digital infrastructure. We provide cloud migration, cloud application development, storage solutions, and cloud consulting for improved performance and flexibility.",
+    "keyword":"cloud services, cloud computing services, cloud migration services, cloud infrastructure solutions, cloud consulting services, cloud application development, business cloud solutions",
+    "h1_tag":"Reliable Cloud Services for Scalable and Secure Business Solutions",
+    "canonical":"cloud-services",
     "description": "Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.",
     "services": [
       {
@@ -267,6 +297,11 @@
   "IT-consulting-services": {
     "icon"  :"service_card_7.svg",
     "title": "IT Consulting Services",
+    "meta_title":"IT Consulting Services | Technology & Digital Transformation Experts",
+    "meta_description":"Professional IT consulting services to help businesses optimize technology, improve efficiency, and drive digital transformation. Our experts provide strategic guidance, system integration, and innovative IT solutions tailored to your business needs.",
+    "keyword":"IT consulting services, technology consulting, IT strategy consulting, digital transformation consulting, business IT solutions, IT advisory services, enterprise IT consulting",
+    "h1_tag":"Expert IT Consulting Services for Digital Transformation",
+    "canonical":"IT-consulting-services",
     "description": "IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.",
     "services": [
       {
@@ -305,6 +340,11 @@
   "cyber-security-services": {
     "icon"  :"service_card_8.svg",
     "title": "Cybersecurity Services",
+    "meta_title":"Cybersecurity Services | Network & Data Protection Solutions",
+    "meta_description":"Advanced cybersecurity services to protect your business from cyber threats, data breaches, and online attacks. We provide network security, threat monitoring, vulnerability assessment, and complete cybersecurity solutions.",
+    "keyword":"cybersecurity services, network security solutions, cyber security consulting, data protection services, vulnerability assessment, information security services, business cybersecurity solutions",
+    "h1_tag":"Advanced Cybersecurity Services to Protect Your Business",
+    "canonical":"cyber-security-services",
     "description": "Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.",
     "services": [
       {
@@ -343,6 +383,11 @@
   "data-analytics": {
     "icon"  :"service_card_9.svg",
     "title": "Data & Analytics Services",
+    "meta_title":"Data & Analytics Services | Business Intelligence Solutions",
+    "meta_description":"Professional data and analytics services to help businesses transform raw data into actionable insights. We provide data analysis, business intelligence, data visualization, and analytics solutions to support smarter decision-making.",
+    "keyword":"data analytics services, business intelligence solutions, data analysis services, data visualization services, big data analytics, business data insights, data driven decision making",
+    "h1_tag":"Data & Analytics Services for Smarter Business Decisions",
+    "canonical":"data-analytics",
     "description": "Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.",
     "services": [
       {
@@ -381,6 +426,11 @@
   "ai-automation": {
     "icon"  :"service_card_9.svg",
     "title": "AI & Automation Services",
+    "meta_title":"AI & Automation Services | Intelligent Business Solutions",
+    "meta_description":"AI and automation services to help businesses streamline operations, reduce costs, and improve productivity. We develop intelligent systems, automated workflows, and AI-powered solutions that drive innovation and digital transformation.",
+    "keyword":"ai automation services, artificial intelligence solutions, business process automation, ai development services, intelligent automation, ai powered business solutions, automation technology services",
+    "h1_tag":"AI & Automation Services for Smarter Business Operations",
+    "canonical":"ai-automation",
     "description": "AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.",
     "services": [
       {
@@ -419,6 +469,11 @@
   "it-support-maintenance": {
     "icon"  :"service_card_9.svg",
     "title": "IT Support & Maintenance",
+    "meta_title":"IT Support & Maintenance Services | Managed IT Solutions",
+    "meta_description":"Reliable IT support and maintenance services to keep your systems secure, updated, and running smoothly. We provide technical support, system monitoring, troubleshooting, and ongoing IT maintenance for businesses.",
+    "keyword":"it support services, it maintenance services, technical support solutions, managed it services, system maintenance services, business it support, it infrastructure support",
+    "h1_tag":"Reliable IT Support & Maintenance Services for Your Business",
+    "canonical":"it-support-maintenance",
     "description": "IT support and maintenance ensure that systems, software, and networks run smoothly and efficiently. It includes regular updates, troubleshooting, and technical support to keep business operations uninterrupted.",
     "services": [
       {
@@ -457,6 +512,11 @@
   "blockchain-development": {
     "icon"  :"service_card_9.svg",
     "title": "Blockchain Development",
+    "meta_title":"Blockchain Development Services | Smart Contract & DApp Solutions",
+    "meta_description":"Professional blockchain development services to build secure, transparent, and decentralized applications. We create smart contracts, blockchain platforms, and innovative solutions for businesses across various industries.",
+    "keyword":"blockchain development services, smart contract development, decentralized application development, blockchain solutions, crypto blockchain development, blockchain consulting services",
+    "h1_tag":"Secure Blockchain Development Services for Decentralized Solutions",
+    "canonical":"blockchain-development",
     "description": "Blockchain development involves creating secure, decentralized applications and digital solutions using blockchain technology. It helps businesses improve transparency, security, and efficiency in transactions and data management.",
     "services": [
       {

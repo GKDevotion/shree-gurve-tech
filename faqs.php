@@ -22,7 +22,9 @@ include_once('elements/header.php');
             </span>
             <h2 class="sec-title">Talk To About Any <span class="text-theme">Question?</span></h2>
         </div>
+
         <div class="row">
+
             <div class="col-xl-6">
                 <div class="accordion-area accordion" id="faqAccordion">
                     <div class="accordion-card style2">
@@ -87,6 +89,7 @@ include_once('elements/header.php');
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-6">
                 <div class="accordion-area accordion" id="faqAccordion2">
                     <div class="accordion-card style2">
@@ -166,45 +169,11 @@ include_once('elements/header.php');
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="space" id="contact-sec" data-bg-src="assets/img/bg/form_bg_1.jpg">
-    <div class="container">
-        <div class="title-area text-center"><span class="sub-title">
-                <div class="icon-masking me-2"><span class="mask-icon"
-                        data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                        src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>GET A QUOTE
-            </span>
-            <h2 class="sec-title">Request A Free <span class="text-theme">Consultation</span></h2>
-        </div>
-        <form action="https://html.themeholy.com/webteck/demo/mail.php" method="POST"
-            class="quote-form ajax-contact">
-            <div class="row">
-                <div class="form-group col-md-6"><input type="text" class="form-control" name="name" id="name"
-                        placeholder="Enter Your Name"> <i class="fal fa-user"></i></div>
-                <div class="form-group col-md-6"><input type="email" class="form-control" name="email" id="email"
-                        placeholder="Enter Your Email"> <i class="fal fa-envelope"></i></div>
-                <div class="form-group col-md-6"><input type="tel" class="form-control" name="number" id="number"
-                        placeholder="Phone number"> <i class="fal fa-phone"></i></div>
-                <div class="form-group col-md-6"><select name="subject" id="subject" class="form-select">
-                        <option value="" disabled="disabled" selected="selected" hidden>Select Subject</option>
-                        <option value="IT Consult">IT Consult</option>
-                        <option value="UI/UX Design">UI/UX Design</option>
-                        <option value="Branding Solution">Branding Solution</option>
-                        <option value="Product Marketing">Product Marketing</option>
-                    </select> <i class="fal fa-file-lines"></i></div>
-                <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3"
-                        class="form-control" placeholder="Write Your Message"></textarea> <i
-                        class="fal fa-pencil"></i></div>
-                <div class="form-btn text-center col-12"><button class="th-btn">Send Message<i
-                            class="fa-regular fa-arrow-right ms-2"></i></button></div>
-            </div>
-            <p class="form-messages mb-0 mt-3"></p>
-        </form>
-    </div>
-</div>
 
+        </div>
+        
+    </div>
+</div> 
 
 <?php
 include_once('elements/how-work-step.php');

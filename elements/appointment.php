@@ -37,7 +37,7 @@
             </div>
             <div class="col-xl-6 ps-xl-4">
                 <h3 class="h4 mt-n2 mb-30 text-center">Make An Contact</h3>
-                <form id="contactForm" method="POST" action="save_contact.php" class="appoitment-form ajax-contact">
+                <form id="appointmentForm" method="POST" action="save_appointment.php" class="appoitment-form ajax-contact">
                     <div class="row">
                         <div class="form-group col-sm-6">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name">
@@ -71,17 +71,17 @@
             <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
             <script>
-            $("#contactForm").submit(function(e){
+            $("#appointmentForm").submit(function(e){
                 e.preventDefault();
 
                 $.ajax({
-                    url: "save_contact.php",
+                    url: "save_appointment.php",
                     type: "POST",
                     data: $(this).serialize(),
                     success: function(response){
                         
                         $(".form-messages").html("<span style='color:green'>Message Sent Successfully</span>");
-                        $("#contactForm")[0].reset();
+                        $("#appointmentForm")[0].reset();
                     },
                     error: function(){
                         $(".form-messages").html("Something went wrong!");

@@ -33,7 +33,7 @@ $services = json_decode($json, true);
                         empowered relationships.</p>
                 </div>
 
-                <form action="" method="POST"
+                <form id="contactForm" method="POST" action="save_contact.php"
                     class="contact-form ajax-contact">
 
                     <div class="row">
@@ -70,8 +70,8 @@ $services = json_decode($json, true);
                                 class="fal fa-comment"></i>
                         </div>
 
-                        <div class="form-btn text-xl-start text-center col-12"><button class="th-btn">Send Message<i
-                                    class="fa-regular fa-arrow-right ms-2"></i></button>
+                        <div class="form-btn text-xl-start text-center col-12">
+                            <button type="submit" class="th-btn">Send Message<i class="fa-regular fa-arrow-right ms-2"></i></button>
                         </div>
 
                     </div>
@@ -80,6 +80,26 @@ $services = json_decode($json, true);
                 </form>
 
             </div>
+
+            <script>
+            $("#contactForm").submit(function(e){
+                e.preventDefault();
+
+                $.ajax({
+                    url: "save_contact.php",
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function(response){
+                        
+                        $(".form-messages").html("<span style='color:green'>Message Sent Successfully</span>");
+                        $("#contactForm")[0].reset();
+                    },
+                    error: function(){
+                        $(".form-messages").html("Something went wrong!");
+                    }
+                });
+            });
+            </script>
 
             <div class="col-xl-4 d-flex flex-column gy-4">
 

@@ -113,7 +113,7 @@
                         <div class="call-btn">
                             <div class="play-btn"><i class="fas fa-phone"></i></div>
                             <div class="media-body"><span class="btn-text">Call Us On:</span> <a
-                                    href="tel:+19088000393" class="btn-title">+190-8800-0393</a></div>
+                                    href="tel:+91 82000 17181" class="btn-title">+91 82000 17181</a></div>
                         </div>
                     </div>
                 </div>
@@ -414,8 +414,10 @@
                             class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
+            
             <div class="col-xl-7 mt-40 mt-xl-0">
                 <div class="testi-card-area slider-area">
+
                     <div class="swiper testi-card-slide th-slider" id="testiSlide1"
                         data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
                         <div class="swiper-wrapper">
@@ -509,6 +511,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="testi-thumb-wrap">
                         <div class="testi-thumb testi-card-tab" data-slider-tab="#testiSlide1">
                             <div class="tab-btn active"><img src="assets/img/testimonial/testi_1_1.jpg" alt="Image">
@@ -518,8 +521,10 @@
                             <div class="tab-btn"><img src="assets/img/testimonial/testi_1_4.jpg" alt="Image"></div>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
 </section>
