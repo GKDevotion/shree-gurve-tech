@@ -52,6 +52,6 @@ include_once('elements/header.php');
     </div>
 
 <?php
-include_once('elements/contact-us.php');
+include_once('elements/appointment.php');
 include_once('elements/footer.php');
 ?>
