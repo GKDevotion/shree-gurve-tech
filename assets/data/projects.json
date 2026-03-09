@@ -48,40 +48,46 @@
     "description": "",
     "link": ""
   },
-  "": {
+  "crest-view-tech": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Crest View Tech",
+    "description": "We help companies adopt modern, scalable, and secure technology systems that accelerate growth and improve operational excellence.",
+    "link": "https://www.crestviewtech.io"
   },
-  "": {
+  "cosmos-globe": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Cosmos Globe",
+    "description": "People may immigrate for various reasons, including better economic opportunities, family reunification, professional work permits, residency, or seeking refuge.",
+    "link": "https://cosmos-globe.com/"
   },
-  "": {
+  "insert-labs": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Insert Labs",
+    "description": "Insert Labs Best And Top IT Company In Surat which has skills and expertise to facilitate complex business solutions. We Provide Complete digital solution for your brand.",
+    "link": "https://insertlabs.com"
   },
-  "": {
+  "select-stock": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Select Stock",
+    "description": "SelectStock is a privately owned Indian e-commerce trading and distribution company, built with a strong focus on product research, demand analysis, and efficient online retail execution.",
+    "link": "https://selectstock.in"
   },
-  "": {
+  "keshav-tech": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Keshav Tech",
+    "description": "Keshav Tech is a passionate collective of engineers, designers, and marketers dedicated to building the digital future.",
+    "link": "https://keshavtech.ae"
   },
-  "": {
+  "the-tax-counsel": {
     "icon"  :"service_card_1.svg",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "The Tax Counsel",
+    "description": "The Tax Counsel™ is a premier law firm based in Newport Beach, California, specializing in a broad range of legal services tailored to meet the specific needs of our clients. We focus on federal and California matters across various practice areas including Tax Resolution, Tax Litigation, and Bankruptcy, providing expert assistance to clients facing tax controversy issues.",
+    "link": "https://thetaxcounsel.com"
+  },
+  "go-2-click": {
+    "icon"  :"service_card_1.svg",
+    "title": "Go 2 Clik",
+    "description": "Go2Clik is a fast, simple, and reliable URL shortener built to make sharing links easier and smarter.",
+    "link": "https://go2clik.com"
   }
 }
