@@ -6,7 +6,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/devotion-group.png';?>" alt="Devotion Group Company">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/devotion-group-1.png';?>" alt="Devotion Group Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -41,7 +41,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/select-stock.png';?>" alt="Select Stock E-Commerce">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/select-stock-1.png';?>" alt="Select Stock E-Commerce">
                         </div>
                     </div>
                     <div class="swiper-slide">
