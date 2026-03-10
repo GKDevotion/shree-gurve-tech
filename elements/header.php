@@ -167,7 +167,7 @@
                                     <a href="<?php echo $seoArr['base_url'].'solution-details/helpdesk-systems';?>">Helpdesk / Ticketing Systems</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/ education-management-systems';?>">School / Education Management Systems</a>
+                                    <a href="<?php echo $seoArr['base_url'].'solution-details/education-management-systems';?>">School / Education Management Systems</a>
                                 </li>
 
                                 <li>
@@ -385,7 +385,7 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/ education-management-systems';?>">School / Education Management Systems</a>
+                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/education-management-systems';?>">School / Education Management Systems</a>
                                                         </li>
 
                                                         <li>
