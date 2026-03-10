@@ -27,74 +27,84 @@ include_once('elements/header.php');
 </div>
 <section class="space">
     <div class="container">
-        <div class="row gy-4">
-            <div class="col-lg-4 col-md-6">
+        <div class="row gy-4" >
+            <div class="col-lg-4 col-md-6 d-none">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="assets/img/project/project_1_1.jpg" alt="project image">
+                        <img src="assets/img/project/devotion-bullion.jpg" alt="project image">
                     </div>
                     <div class="project-content-wrap">
                         <div class="project-content">
                             <div class="box-particle" id="project-p1"></div>
                             <h3 class="box-title">
-                                <a href="project-details.php">IT Consultency</a>
+                                <a href="https://devotionbullion.com" target="__blank">
+                                    Devotion Bullion
+                                </a>
                             </h3>
-                            <p class="project-subtitle">Technology</p>
-                            <a href="assets/img/project/project_1_1.jpg" class="icon-btn popup-image">
+                            <a href="assets/img/project/devotion-bullion.jpg" class="icon-btn popup-image" title="">
                                 <i class="far fa-plus"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/img/project/project_1_1.jpg" alt="project image">
-                    </div>
-                    <div class="project-content-wrap">
-                        <div class="project-content">
-                            <div class="box-particle" id="project-p1"></div>
-                            <h3 class="box-title">
-                                <a href="project-details.php">IT Consultency</a>
-                            </h3>
-                            <p class="project-subtitle">Technology</p>
-                            <a href="assets/img/project/project_1_1.jpg" class="icon-btn popup-image">
-                                <i class="far fa-plus"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/img/project/project_1_1.jpg" alt="project image">
-                    </div>
-                    <div class="project-content-wrap">
-                        <div class="project-content">
-                            <div class="box-particle" id="project-p1"></div>
-                            <h3 class="box-title">
-                                <a href="project-details.php">IT Consultency</a>
-                            </h3>
-                            <p class="project-subtitle">Technology</p>
-                            <a href="assets/img/project/project_1_1.jpg" class="icon-btn popup-image">
-                                <i class="far fa-plus"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+            </div>        
+        </div>
+        <div class="row gy-4" id="projectList">
         </div>
     </div>
-    <div class="shape-mockup" data-top="0%" data-right="0%"><img src="assets/img/shape/tech_shape_1.png"
-            alt="shape"></div>
-    <div class="shape-mockup" data-bottom="0%" data-left="0%"><img src="assets/img/shape/tech_shape_2.png"
-            alt="shape"></div>
+    <div class="shape-mockup" data-top="0%" data-right="0%">
+        <img src="assets/img/shape/tech_shape_1.png" alt="shape">
+    </div>
+    <div class="shape-mockup" data-bottom="0%" data-left="0%">
+        <img src="assets/img/shape/tech_shape_2.png" alt="shape">
+    </div>
 </section>
+
+<script>
+    fetch("assets/data/projects.json")
+        .then(res => res.json())
+        .then(data => {
+
+            let html = "";
+
+            Object.keys(data).forEach(key => {
+            
+                let project = data[key];
+
+                html += `
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="${base_url}assets/img/project/${project.icon}" alt="${project.title}">
+                        </div>
+                        <div class="project-content-wrap">
+                            <div class="project-content">
+                                <div class="box-particle" id="project-p1"></div>
+                                <h3 class="box-title">
+                                    <a href="${project.link}" target="_blank">
+                                        ${project.title}
+                                    </a>
+                                </h3>
+                                <a href="${base_url}assets/img/project/${project.icon}" class="icon-btn popup-image">
+                                    <i class="far fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+
+            $('#projectList').append(html);
+
+            // 🔥 Important: Reinitialize popup
+            $('.popup-image').magnificPopup({
+                type: 'image',
+                gallery: { enabled: true }
+            });
+
+        });
+</script>
 
 <?php
 include_once('elements/appointment.php');

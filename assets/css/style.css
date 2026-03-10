@@ -3039,7 +3039,7 @@ textarea.is-invalid {
 }
 
 .box-title {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.417;
     font-weight: 700;
     margin-top: -0.32em;
@@ -33894,7 +33894,7 @@ span.select2-selection.select2-selection--single:focus {
     border-radius: 10px;
     position: relative;
     z-index: 2;
-    padding: 26px 30px
+    padding: 20px 20px
 }
 
 .project-card .box-title {

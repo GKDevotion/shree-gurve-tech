@@ -37,6 +37,10 @@
         <!-- AOS Animation -->
         <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
+        <script>
+            var base_url = "<?php echo $seoArr['base_url'];?>";
+        </script>
+
     </head>
 
     <body>
