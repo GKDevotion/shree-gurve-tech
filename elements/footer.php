@@ -75,10 +75,10 @@
                                 <h3 class="widget_title">Quick Links</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="about-us">About Us</a></li>
-                                        <li><a href="projects">Our Projects</a></li>
-                                        <li><a href="faqs">Help & FAQs</a></li>
-                                        <li><a href="contact-us">Contact Us</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'about-us';?>">About Us</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'projects';?>">Our Projects</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'faqs';?>">Help & FAQs</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'contact-us';?>">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,12 +88,12 @@
                                 <h3 class="widget_title">IT SERVICES</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="service-details/web-development">Web Development</a></li>
-                                        <li><a href="service-details/software-development">Software Development</a></li>
-                                        <li><a href="service-details/it-support-maintenance">IT Support & Maintenance</a></li>
-                                        <li><a href="service-details/ui-ux-design">UI/UX Design</a></li>
-                                        <li><a href="service-details/cloud-services">Cloud services</a></li>
-                                        <li><a href="service-details/IT-consulting-services">IT Consulting Services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">Web Development</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>">Software Development</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/it-support-maintenance';?>">IT Support & Maintenance</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>">UI/UX Design</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>">Cloud services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/IT-consulting-services';?>">IT Consulting Services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -103,12 +103,12 @@
                                 <h3 class="widget_title">IT SERVICES</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="service-details/digital-marketing">Digital Marketing Services</a></li>
-                                        <li><a href="service-details/mobile-app-development">Mobile App Development</a></li>
-                                        <li><a href="service-details/cyber-security-services">Cybersecurity Services</a></li>
-                                        <li><a href="service-details/data-analytics">Data & Analytics Services</a></li>
-                                        <li><a href="service-details/ai-automation">AI & Automation Services</a></li>
-                                        <li><a href="service-details/blockchain-development">Blockchain Development</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>">Digital Marketing Services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>">Mobile App Development</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/cyber-security-services';?>">Cybersecurity Services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>">Data & Analytics Services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>">AI & Automation Services</a></li>
+                                        <li><a href="<?php echo $seoArr['base_url'].'service-details/blockchain-development';?>">Blockchain Development</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,9 +128,9 @@
                         <div class="col-lg-6 text-end d-none d-lg-block">
                             <div class="footer-links">
                                 <ul>
-                                    <li><a href="javascript:voic(0)">Terms & Condition</a></li>
-                                    <li><a href="javascript:voic(0)">Careers</a></li>
-                                    <li><a href="javascript:voic(0)">Privacy Policy</a></li>
+                                    <li><a href="<?php echo $seoArr['base_url'].'terms-conditions';?>">Terms & Condition</a></li>
+                                    <li><a href="<?php echo $seoArr['base_url'].'cookie-policy';?>">Cookie Policy</a></li>
+                                    <li><a href="<?php echo $seoArr['base_url'].'privacy-policy';?>">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -152,22 +152,30 @@
             </svg>
         </div>
         
-        <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/circle-progress.js"></script>
-        <script src="assets/js/jquery-ui.min.js"></script>
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/tilt.jquery.min.js"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/vendor/jquery-3.7.1.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/swiper-bundle.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/bootstrap.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.magnific-popup.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.counterup.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/circle-progress.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery-ui.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/imagesloaded.pkgd.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/isotope.pkgd.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/tilt.jquery.min.js';?>"></script>
         <!-- <script src="assets/js/gsap.min.js"></script> -->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <script src="assets/js/smooth-scroll.js"></script>
-        <script src="assets/js/particles.min.js"></script>
-        <script src="assets/js/particles-config.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/ScrollTrigger.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/smooth-scroll.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/particles.min.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/particles-config.js';?>"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/main.js';?>"></script>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+        <script>
+        AOS.init({
+            duration:1000,
+            once:true
+        });
+        </script>
     </body>
 
 </html>
