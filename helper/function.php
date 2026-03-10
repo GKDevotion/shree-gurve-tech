@@ -114,7 +114,7 @@ function getCompanyChildMenu( $seoArr, $type=0 ){
     if( $type == 1 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/about-us').'">About US</a>
+                <a href="'.($seoArr['base_url'].'about-us').'">About US</a>
             </li>
         ';
     }
@@ -130,7 +130,7 @@ function getCompanyChildMenu( $seoArr, $type=0 ){
     if( $type == 3 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/gallery').'">Gallery</a>
+                <a href="'.($seoArr['base_url'].'gallery').'">Gallery</a>
             </li>
         ';
     }
@@ -138,7 +138,7 @@ function getCompanyChildMenu( $seoArr, $type=0 ){
     if( $type == 4 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/faqs').'">FAQs</a>
+                <a href="'.($seoArr['base_url'].'faqs').'">FAQs</a>
             </li>
         ';
     }
@@ -149,19 +149,19 @@ function getSolutionChildMenu( $seoArr, $type=0 ){
     if( $type == 1 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/crm-solutions').'">CRM Solutions</a>
+                <a href="'.($seoArr['base_url'].'solution-details/crm-solutions').'">CRM Solutions</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/erp-solutions').'">ERP Solutions</a>
+                <a href="'.($seoArr['base_url'].'solution-details/erp-solutions').'">ERP Solutions</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/hrms-solutions').'">HRMS Solutions</a>
+                <a href="'.($seoArr['base_url'].'solution-details/hrms-solutions').'">HRMS Solutions</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/project-management-systems').'">Project Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/project-management-systems').'">Project Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/helpdesk-systems').'">Helpdesk / Ticketing Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/helpdesk-systems').'">Helpdesk / Ticketing Systems</a>
             </li>
         ';
     }
@@ -169,19 +169,19 @@ function getSolutionChildMenu( $seoArr, $type=0 ){
     if( $type == 2 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/education-management-systems').'">School / Education Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/education-management-systems').'">School / Education Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/healthcare-management-systems').'">Hospital / Healthcare Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/healthcare-management-systems').'">Hospital / Healthcare Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/inventory-management-systems').'">Inventory Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/inventory-management-systems').'">Inventory Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/accounting-finance-systems').'">Accounting & Finance Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/accounting-finance-systems').'">Accounting & Finance Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/ecommerce-management-systems').'">E-Commerce Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/ecommerce-management-systems').'">E-Commerce Management Systems</a>
             </li>
         ';
     }
@@ -189,19 +189,19 @@ function getSolutionChildMenu( $seoArr, $type=0 ){
     if( $type == 3 ){
         return '
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/real-estate-management-systems').'">Real Estate Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/real-estate-management-systems').'">Real Estate Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/travel-tourism-management-systems').'">Travel & Tourism Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/travel-tourism-management-systems').'">Travel & Tourism Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/document-management-systems').'">Document Management Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/document-management-systems').'">Document Management Systems</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/learning-management-systems').'">Learning Management Systems (LMS)</a>
+                <a href="'.($seoArr['base_url'].'solution-details/learning-management-systems').'">Learning Management Systems (LMS)</a>
             </li>
             <li>
-                <a href="'.($seoArr['base_url'].'service-details/business-intelligenceanalytics-systems').'">Business Intelligence & Analytics Systems</a>
+                <a href="'.($seoArr['base_url'].'solution-details/business-intelligenceanalytics-systems').'">Business Intelligence & Analytics Systems</a>
             </li>
         ';
     }
