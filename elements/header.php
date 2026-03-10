@@ -41,6 +41,15 @@
             var base_url = "<?php echo $seoArr['base_url'];?>";
         </script>
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YED9EGZHR"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-0YED9EGZHR');
+        </script>
     </head>
 
     <body>
