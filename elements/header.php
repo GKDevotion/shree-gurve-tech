@@ -50,6 +50,7 @@
 
             gtag('config', 'G-0YED9EGZHR');
         </script>
+        
     </head>
 
     <body>
