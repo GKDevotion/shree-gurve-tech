@@ -28,8 +28,8 @@
                         <div class="icon-btn"><i class="fa-solid fa-envelope"></i></div>
                         <div class="media-body">
                             <p class="contact-feature_label">Quick Mail Us:</p>
-                            <a href="mailto:contact@shreegurve.com" class="contact-feature_link">
-                                contact@shreegurve.com
+                            <a href="mailto:contact@shreegurvetech.com" class="contact-feature_link">
+                                contact@shreegurvetech.com
                             </a>
                         </div>
                     </div>

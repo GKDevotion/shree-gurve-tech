@@ -24,48 +24,76 @@ include_once( 'elements/home-top-slider.php' );
                     <div class="swiper-slide">
                         <div class="service-featured">
                             <div class="service-featured_content">
-                                <div class="shape-icon"><img src="assets/img/icon/service_featured_1.svg"
-                                        alt="Icon"> <span class="dots"></span></div>
-                                <h3 class="box-title"><a href="service-details.html">IT Management</a></h3>
-                                <p class="service-featured_text">Conveniently promote transparent materials and
-                                    stand-alone strategic theme areas.</p><a href="service-details.html"
-                                    class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                                <div class="shape-icon">
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_1.svg';?>" alt="Icon"> 
+                                    <span class="dots"></span>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">
+                                        Web Development Services
+                                    </a>
+                                </h3>
+                                <p class="service-featured_text">
+                                    Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.
+                                </p>
+                                <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="service-featured">
                             <div class="service-featured_content">
-                                <div class="shape-icon"><img src="assets/img/icon/service_featured_2.svg"
-                                        alt="Icon"> <span class="dots"></span></div>
-                                <h3 class="box-title"><a href="service-details.html">Cloud Computing</a></h3>
-                                <p class="service-featured_text">Conveniently promote transparent materials and
-                                    stand-alone strategic theme areas.</p><a href="service-details.html"
-                                    class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                                <div class="shape-icon">
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_2.svg';?>" alt="Icon"> 
+                                    <span class="dots"></span>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>">
+                                        Software Development Services
+                                    </a>
+                                </h3>
+                                <p class="service-featured_text">
+                                    Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.
+                                </p>
+                                <a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="service-featured">
                             <div class="service-featured_content">
-                                <div class="shape-icon"><img src="assets/img/icon/service_featured_3.svg"
-                                        alt="Icon"> <span class="dots"></span></div>
-                                <h3 class="box-title"><a href="service-details.html">Backup & Recovery</a></h3>
-                                <p class="service-featured_text">Conveniently promote transparent materials and
-                                    stand-alone strategic theme areas.</p><a href="service-details.html"
-                                    class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                                <div class="shape-icon">
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_3.svg';?>" alt="Icon"> 
+                                    <span class="dots"></span>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>">
+                                        Mobile App Development
+                                    </a>
+                                </h3>
+                                <p class="service-featured_text">
+                                    Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.
+                                </p>
+                                <a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="service-featured">
                             <div class="service-featured_content">
-                                <div class="shape-icon"><img src="assets/img/icon/service_featured_4.svg"
-                                        alt="Icon"> <span class="dots"></span></div>
-                                <h3 class="box-title"><a href="service-details.html">Machine Learning</a></h3>
-                                <p class="service-featured_text">Conveniently promote transparent materials and
-                                    stand-alone strategic theme areas.</p><a href="service-details.html"
-                                    class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                                <div class="shape-icon">
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_4.svg';?>" alt="Icon"> 
+                                    <span class="dots"></span>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>">
+                                        UI/UX Design Services
+                                    </a>
+                                </h3>
+                                <p class="service-featured_text">
+                                    UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.
+                                </p>
+                                <a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -133,15 +161,15 @@ include_once( 'elements/home-top-slider.php' );
     </div>
 </div>
 
-<section class="service-sec space" id="service-sec" data-bg-src="assets/img/bg/service_bg_1.png">
+<section class="service-sec space" id="service-sec" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/service_bg_1.png';?>">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-7 col-sm-10 px-xl-4">
                 <div class="title-area text-center">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> 
-                            <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
+                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         OUR SERVICES
                     </span>
@@ -158,20 +186,22 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">01</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_1.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_1.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details/web-development">Web Development</a>
+                        <a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>">
+                            Digital Marketing Services
+                        </a>
                     </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology provides professional web development services designed to build fast, secure, and modern websites tailored to your business needs. We create responsive, user-friendly, and SEO-optimized websites that enhance your online presence, improve customer engagement, and support business growth across all digital platforms.
+                        Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.
                     </p>
-                    <a href="service-details/web-development" class="th-btn">
+                    <a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>" class="th-btn">
                         Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -180,18 +210,23 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">02</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_2.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_2.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details/ui-ux-design">UI/UX Design</a>
+                        <a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>">
+                            Cloud Services
+                        </a>
                     </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology offers creative UI/UX design services focused on delivering intuitive, visually appealing, and user-centered digital experiences. We design modern interfaces that improve usability, enhance customer satisfaction, and ensure seamless interaction across websites, web applications, and mobile platforms.
+                        Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.
                     </p>
-                    <a href="service-details/ui-ux-design" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>" class="th-btn">
+                        Read More
+                        <i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -200,18 +235,22 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">03</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_3.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_3.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
                     <h3 class="box-title">
-                        <a href="service-details/digital-marketing">Digital Marketing</a>
+                        <a href="<?php echo $seoArr['base_url'].'service-details/it-consulting-services';?>">
+                            IT Consulting Services
+                        </a>
                     </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology provides result-driven digital marketing services to help businesses grow their online presence and reach the right audience. Our strategies include SEO, social media marketing, paid advertising, and content marketing to increase brand visibility, generate quality leads, and drive measurable business growth.
+                        IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.
                     </p>
-                    <a href="service-details/digital-marketing" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="<?php echo $seoArr['base_url'].'service-details/it-consulting-services';?>" class="th-btn">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -220,16 +259,22 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">04</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_4.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_4.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details/data-analytics">Data & Analytics </a></h3>
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'].'service-details/cyber-security-services';?>">
+                            Cybersecurity Services
+                        </a>
+                    </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology provides advanced data and analytics solutions that help businesses transform raw data into meaningful insights. Our experts analyze complex datasets to uncover trends, patterns, and opportunities that support smarter decision-making. Through data visualization, reporting, and predictive analytics, we help organizations improve operational efficiency, enhance customer experiences, and drive strategic growth with data-driven intelligence.
+                        Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.
                     </p>
-                    <a href="service-details/data-analytics" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="<?php echo $seoArr['base_url'].'service-details/cyber-security-services';?>" class="th-btn">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -238,16 +283,22 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">05</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_5.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_5.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details/software-development">Software Development</a></h3>
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>">
+                            Data & Analytics Services
+                        </a>
+                    </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology delivers comprehensive software services tailored to meet diverse business requirements. We design, develop, integrate, and maintain custom software solutions that enhance productivity, streamline operations, and ensure scalability, security, and long-term performance for your organization.
+                        Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.
                     </p>
-                    <a href="service-details/software-development" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>" class="th-btn">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -256,16 +307,22 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="service-card">
                     <div class="service-card_number">06</div>
                     <div class="shape-icon">
-                        <img src="assets/img/icon/service_card_6.svg" alt="Icon"> 
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_card_6.svg';?>" alt="Icon"> 
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="service-details/IT-consulting-services">IT Consulting Services</a></h3>
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>">
+                            AI & Automation Services
+                        </a>
+                    </h3>
                     <p class="service-card_text">
-                        Shree Gurve Technology provides professional IT consulting services to help businesses leverage technology for growth and efficiency. Our experts analyze your current systems, identify opportunities for improvement, and recommend strategic technology solutions that align with your business goals. We assist organizations in optimizing IT infrastructure, enhancing security, and implementing scalable digital solutions to improve productivity and drive long-term success.
+                        AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.
                     </p>
-                    <a href="service-details/IT-consulting-services" class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>" class="th-btn">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
                     <div class="bg-shape">
-                        <img src="assets/img/bg/service_card_bg.png" alt="bg">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
                     </div>
                 </div>
             </div>
@@ -273,7 +330,7 @@ include_once( 'elements/home-top-slider.php' );
         </div>
 
         <div class="text-center mt-5">
-            <a href="services.php" class="th-btn">
+            <a href="<?php echo $seoArr['base_url'].'services';?>" class="th-btn">
                 VIEW ALL SERVICES <i class="fa-regular fa-arrow-right ms-2"></i>
             </a>
         </div>
@@ -281,9 +338,12 @@ include_once( 'elements/home-top-slider.php' );
 </section>
 
 <section class="bg-bottom-right position-relative" data-bg-src="assets/img/bg/cta_bg_1.png" data-bg-color="#080E1C">
-    <div class="img-half img-left th-video2"><img src="assets/img/normal/cta_1.jpg" alt="video"> <a
-            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                class="fas fa-play"></i></a></div>
+    <div class="img-half img-left th-video2">
+        <img src="assets/img/normal/cta_1.jpg" alt="video"> 
+        <a href="https://www.youtube.com/watch?v=WcebHQF4a14" class="play-btn popup-video">
+            <i class="fas fa-play"></i>
+        </a>
+    </div>
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-xl-5 space">
