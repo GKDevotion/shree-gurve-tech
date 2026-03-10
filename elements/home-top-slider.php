@@ -51,7 +51,7 @@
                                         class="ripple-4"></span><span class="ripple-5"></span><span
                                         class="ripple-6"></span></div><span class="hero-subtitle"
                                     data-ani="slideinleft" data-ani-delay="0.1s">SECURE & IT SERVICES</span>
-                                <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.3s">Webteck Best
+                                <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.3s">Shree Gurve Tech Best
                                 </h1>
                                 <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">IT Solution 2024
                                 </h1>
