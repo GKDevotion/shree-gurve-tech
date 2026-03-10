@@ -56,4 +56,154 @@ function youtubeLink(){
 function whatsappLink(){
     return "whatsapp.com";
 }
+
+function getServiceChildMenu( $seoArr, $type=0 ){
+    if( $type == 1 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/web-development').'">Web Development Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/software-development').'">Software Development Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/mobile-app-development').'">Mobile App Development</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/ui-ux-design').'">UI/UX Design Services</a>
+            </li>
+        ';
+    }
+
+    if( $type == 2 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/digital-marketing').'">Digital Marketing Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/cloud-services').'">Cloud Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/it-consulting-services').'">IT Consulting Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/cyber-security-services').'">Cybersecurity Services</a>
+            </li>
+        ';
+    }
+
+    if( $type == 3 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/data-analytics').'">Data & Analytics Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/ai-automation').'">AI & Automation Services</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/it-support-maintenance').'">IT Support & Maintenance</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/blockchain-development').'">Blockchain Development</a>
+            </li>
+        ';
+    }
+}
+
+function getCompanyChildMenu( $seoArr, $type=0 ){
+    if( $type == 1 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/about-us').'">About US</a>
+            </li>
+        ';
+    }
+
+    if( $type == 2 ){
+        return '
+            <li>
+                <a href="javascript:void(0)">Career</a>
+            </li>
+        ';
+    }
+
+    if( $type == 3 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/gallery').'">Gallery</a>
+            </li>
+        ';
+    }
+
+    if( $type == 4 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/faqs').'">FAQs</a>
+            </li>
+        ';
+    }
+}
+
+function getSolutionChildMenu( $seoArr, $type=0 ){
+    
+    if( $type == 1 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/crm-solutions').'">CRM Solutions</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/erp-solutions').'">ERP Solutions</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/hrms-solutions').'">HRMS Solutions</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/project-management-systems').'">Project Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/helpdesk-systems').'">Helpdesk / Ticketing Systems</a>
+            </li>
+        ';
+    }
+
+    if( $type == 2 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/education-management-systems').'">School / Education Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/healthcare-management-systems').'">Hospital / Healthcare Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/inventory-management-systems').'">Inventory Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/accounting-finance-systems').'">Accounting & Finance Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/ecommerce-management-systems').'">E-Commerce Management Systems</a>
+            </li>
+        ';
+    }
+
+    if( $type == 3 ){
+        return '
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/real-estate-management-systems').'">Real Estate Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/travel-tourism-management-systems').'">Travel & Tourism Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/document-management-systems').'">Document Management Systems</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/learning-management-systems').'">Learning Management Systems (LMS)</a>
+            </li>
+            <li>
+                <a href="'.($seoArr['base_url'].'service-details/business-intelligenceanalytics-systems').'">Business Intelligence & Analytics Systems</a>
+            </li>
+        ';
+    }
+}
 ?>

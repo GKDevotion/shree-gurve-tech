@@ -86,59 +86,18 @@
                         <li class="menu-item-has-children">
                             <a href="<?php echo $seoArr['base_url'].'services';?>">Services</a>
                             <ul class="sub-menu">
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">Web Development Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>">Software Development Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>">Mobile App Development</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>">UI/UX Design Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>">Digital Marketing Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>">Cloud Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/IT-consulting-services';?>">IT Consulting Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/yber-security-services';?>">Cybersecurity Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>">Data & Analytics Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>">AI & Automation Services</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/it-support-maintenance';?>">IT Support & Maintenance</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'service-details/blockchain-development';?>">Blockchain Development</a>
-                                </li>
+                                <?php echo getServiceChildMenu( $seoArr, 1 );?>
+                                <?php echo getServiceChildMenu( $seoArr, 2 );?>
+                                <?php echo getServiceChildMenu( $seoArr, 3 );?>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="javascript:void(0)">Company</a>
                             <ul class="sub-menu">
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'about-us';?>">About US</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Career</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'gallery';?>">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'faqs';?>">FAQs</a>
-                                </li>
+                                <?php echo getCompanyChildMenu( $seoArr, 1 );?>
+                                <?php echo getCompanyChildMenu( $seoArr, 2 );?>
+                                <?php echo getCompanyChildMenu( $seoArr, 3 );?>
+                                <?php echo getCompanyChildMenu( $seoArr, 4 );?>
                             </ul>
                         </li>
                         <li class="">
@@ -147,63 +106,9 @@
                         <li class="menu-item-has-children">
                             <a href="javascript:void(0)">Solutions</a>
                             <ul class="sub-menu">
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/crm-solutions';?>">CRM Solutions</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/erp-solutions';?>">ERP Solutions</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/hrms-solutions';?>">HRMS Solutions</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/project-management-systems';?>">Project Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/helpdesk-systems';?>">Helpdesk / Ticketing Systems</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/education-management-systems';?>">School / Education Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/healthcare-management-systems';?>">Hospital / Healthcare Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/inventory-management-systems';?>">Inventory Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/accounting-finance-systems';?>">Accounting & Finance Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/ecommerce-management-systems';?>">E-Commerce Management Systems</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/real-estate-management-systems';?>">Real Estate Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/travel-tourism-management-systems';?>">Travel & Tourism Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/document-management-systems';?>">Document Management Systems</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/learning-management-systems';?>">Learning Management Systems (LMS)</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo $seoArr['base_url'].'solution-details/business-intelligenceanalytics-systems';?>">Business Intelligence & Analytics Systems</a>
-                                </li>
+                                <?php echo getSolutionChildMenu( $seoArr, 1 );?>
+                                <?php echo getSolutionChildMenu( $seoArr, 2 );?>
+                                <?php echo getSolutionChildMenu( $seoArr, 3 );?>
                             </ul>
                         </li>
                         <li>
@@ -272,50 +177,17 @@
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">Web Development Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>">Software Development Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>">Mobile App Development</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>">UI/UX Design Services</a>
-                                                        </li>
+                                                        <?php echo getServiceChildMenu( $seoArr, 1 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>">Digital Marketing Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>">Cloud Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/IT-consulting-services';?>">IT Consulting Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/yber-security-services';?>">Cybersecurity Services</a>
-                                                        </li>
+                                                        <?php echo getServiceChildMenu( $seoArr, 2 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>">Data & Analytics Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>">AI & Automation Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/it-support-maintenance';?>">IT Support & Maintenance</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'service-details/blockchain-development';?>">Blockchain Development</a>
-                                                        </li>
+                                                        <?php echo getServiceChildMenu( $seoArr, 3 );?>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -325,30 +197,22 @@
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'about-us';?>">About US</a>
-                                                        </li>
+                                                        <?php echo getCompanyChildMenu( $seoArr, 1 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="javascript:void(0)">Career</a>
-                                                        </li>
+                                                        <?php echo getCompanyChildMenu( $seoArr, 2 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'gallery';?>">Gallery</a>
-                                                        </li>
+                                                        <?php echo getCompanyChildMenu( $seoArr, 3 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'faqs';?>">FAQs</a>
-                                                        </li>
+                                                        <?php echo getCompanyChildMenu( $seoArr, 4 );?>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -361,71 +225,17 @@
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/crm-solutions';?>">CRM Solutions</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/erp-solutions';?>">ERP Solutions</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/hrms-solutions';?>">HRMS Solutions</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/project-management-systems';?>">Project Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/helpdesk-systems';?>">Helpdesk / Ticketing Systems</a>
-                                                        </li>
+                                                        <?php echo getSolutionChildMenu( $seoArr, 1 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/education-management-systems';?>">School / Education Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/healthcare-management-systems';?>">Hospital / Healthcare Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/inventory-management-systems';?>">Inventory Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/accounting-finance-systems';?>">Accounting & Finance Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/ecommerce-management-systems';?>">E-Commerce Management Systems</a>
-                                                        </li>
+                                                        <?php echo getSolutionChildMenu( $seoArr, 2 );?>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/real-estate-management-systems';?>">Real Estate Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/travel-tourism-management-systems';?>">Travel & Tourism Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/document-management-systems';?>">Document Management Systems</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/learning-management-systems';?>">Learning Management Systems (LMS)</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="<?php echo $seoArr['base_url'].'solution-details/business-intelligenceanalytics-systems';?>">Business Intelligence & Analytics Systems</a>
-                                                        </li>
+                                                        <?php echo getSolutionChildMenu( $seoArr, 3 );?>
                                                     </ul>
                                                 </li>
                                             </ul>
