@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+    "image": "assets/img/testimonial/testi_2_1.jpg",
+    "name": "Rahul Mehta",
+    "designation": "Founder at Mehta Digital",
+    "text": "Shree Gurve Technology delivered an exceptional website for our business. Their team understood our requirements perfectly and provided a fast, responsive, and SEO-friendly solution that helped us improve our online presence.",
+    "rating": 5
+  },
+  {
+    "image": "assets/img/testimonial/testi_2_2.jpg",
+    "name": "Priya Shah",
+    "designation": "Marketing Head ",
+    "text": "Working with Shree Gurve Technology was a great experience. The team was professional, responsive, and highly skilled. They redesigned our website and improved our user experience significantly.",
+    "rating": 5
+  },
+  {
+    "image": "assets/img/testimonial/testi_2_3.jpg",
+    "name": "Amit Patel",
+    "designation": "CEO at Patel Enterprises",
+    "text": "We hired Shree Gurve Technology for web development and SEO services. The results exceeded our expectations. Our website now loads faster, ranks better on search engines, and attracts more clients.",
+    "rating": 5
+  },
+  {
+    "image": "assets/img/testimonial/testi_2_1.jpg",
+    "name": "Neha Verma",
+    "designation": "Director at NV Consulting",
+    "text": "The team at Shree Gurve Technology is extremely talented and dedicated. They built a modern and mobile-friendly website for us that perfectly represents our brand.",
+    "rating": 5
+  },
+  {
+    "image": "assets/img/testimonial/testi_2_2.jpg",
+    "name": "Sanjay Kulkarni",
+    "designation": "Manager at Global Traders",
+    "text": "We needed a reliable development partner and Shree Gurve Technology delivered exactly what we wanted. Their attention to detail and technical expertise made our project successful.",
+    "rating": 5
+  },
+  {
+    "image": "assets/img/testimonial/testi_2_3.jpg",
+    "name": "Kavita Sharma",
+    "designation": "Owner at Sharma Creations",
+    "text": "Shree Gurve Technology helped us build a beautiful and professional website for our brand. The entire process was smooth and the support team was always available when we needed help.",
+    "rating": 5
+  }
+  ]
+}
