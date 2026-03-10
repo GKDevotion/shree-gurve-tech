@@ -62,7 +62,7 @@ include_once('elements/header.php');
 
 </style>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Terms & Conditions</h1>

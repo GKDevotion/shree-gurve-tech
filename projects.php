@@ -14,7 +14,7 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Our Projects</h1>
@@ -31,7 +31,7 @@ include_once('elements/header.php');
             <div class="col-lg-4 col-md-6 d-none">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="assets/img/project/devotion-bullion.jpg" alt="project image">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/project/devotion-bullion.jpg';?>" alt="project image">
                     </div>
                     <div class="project-content-wrap">
                         <div class="project-content">
@@ -41,7 +41,7 @@ include_once('elements/header.php');
                                     Devotion Bullion
                                 </a>
                             </h3>
-                            <a href="assets/img/project/devotion-bullion.jpg" class="icon-btn popup-image" title="">
+                            <a href="<?php echo $seoArr['base_url'].'assets/img/project/devotion-bullion.jpg';?>" class="icon-btn popup-image" title="">
                                 <i class="far fa-plus"></i>
                             </a>
                         </div>
@@ -53,10 +53,10 @@ include_once('elements/header.php');
         </div>
     </div>
     <div class="shape-mockup" data-top="0%" data-right="0%">
-        <img src="assets/img/shape/tech_shape_1.png" alt="shape">
+        <img src="<?php echo $seoArr['base_url'].'assets/img/shape/tech_shape_1.png';?>" alt="shape">
     </div>
     <div class="shape-mockup" data-bottom="0%" data-left="0%">
-        <img src="assets/img/shape/tech_shape_2.png" alt="shape">
+        <img src="<?php echo $seoArr['base_url'].'assets/img/shape/tech_shape_2.png';?>" alt="shape">
     </div>
 </section>
 

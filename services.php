@@ -14,7 +14,7 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Services</h1>
@@ -33,8 +33,8 @@ include_once('elements/header.php');
 </section>
 
 <section class="position-relative space">
-    <div class="th-bg-img" data-bg-src="assets/img/bg/cta_bg_2.jpg">
-        <img src="assets/img/bg/bg_overlay_1.png" alt="overlay">
+    <div class="th-bg-img" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/cta_bg_2.jpg';?>">
+        <img src="<?php echo $seoArr['base_url'].'assets/img/bg/bg_overlay_1.png';?>" alt="overlay">
     </div>
     <div class="container z-index-common">
         <div class="row justify-content-center">
@@ -42,8 +42,8 @@ include_once('elements/header.php');
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span>
-                            <img src="assets/img/theme-img/title_shape_2.svg" alt="shape">
+                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></span>
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>" alt="shape">
                         </div>
                         CONTACT US
                     </span>
@@ -71,36 +71,36 @@ include_once('elements/header.php');
                 let number = index.toString().padStart(2, '0');
 
                 html += `
-                <div class="col-md-6 col-xl-4">
-                <div class="service-card">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="service-card">
 
-                <div class="service-card_number">${number}</div>
+                            <div class="service-card_number">${number}</div>
 
-                <div class="shape-icon">
-                <img src="assets/img/icon/${service.icon}" alt="Icon">
-                <span class="dots"></span>
-                </div>
+                            <div class="shape-icon">
+                                <img src="${base_url}assets/img/icon/${service.icon}" alt="Icon">
+                                <span class="dots"></span>
+                            </div>
 
-                <h3 class="box-title">
-                <a href="service-details/service=${key}">
-                ${service.title}
-                </a>
-                </h3>
+                            <h3 class="box-title">
+                                <a href="${base_url}service-details/service=${key}">
+                                ${service.title}
+                                </a>
+                            </h3>
 
-                <p class="service-card_text">
-                ${service.description}
-                </p>
+                            <p class="service-card_text">
+                                ${service.description}
+                            </p>
 
-                <a href="service-details/service=${key}" class="th-btn">
-                Read More<i class="fa-regular fa-arrow-right ms-2"></i>
-                </a>
+                            <a href="${base_url}service-details/service=${key}" class="th-btn">
+                                Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                            </a>
 
-                <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg">
-                </div>
+                            <div class="bg-shape">
+                                <img src="${base_url}assets/img/bg/service_card_bg.png" alt="bg">
+                            </div>
 
-                </div>
-                </div>
+                        </div>
+                    </div>
                 `;
 
                 index++;

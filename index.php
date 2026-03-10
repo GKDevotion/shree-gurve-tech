@@ -108,8 +108,8 @@ include_once( 'elements/home-top-slider.php' );
         <div class="row align-items-center">
             <div class="col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box1">
-                    <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
-                    <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
+                    <div class="img1"><img src="<?php echo $seoArr['base_url'].'assets/img/normal/about_1_1.png';?>" alt="About"></div>
+                    <div class="shape1"><img src="<?php echo $seoArr['base_url'].'assets/img/normal/about_shape_1.png';?>" alt="shape"></div>
                     <div class="year-counter">
                         <h3 class="year-counter_number"><span class="counter-number">25</span></h3>
                         <p class="year-counter_text">Years Experience</p>
@@ -120,8 +120,8 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="ps-xxl-4 ms-xl-3">
                     <div class="title-area mb-35"><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>About Us
+                                    data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> <img
+                                    src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape"></div>About Us
                         </span>
                         <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">IT
                                 Solution</span></h2>
@@ -131,7 +131,7 @@ include_once( 'elements/home-top-slider.php' );
                         generate efficient schemas before future.</p>
                     <div class="about-feature-wrap">
                         <div class="about-feature">
-                            <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_1.svg"
+                            <div class="about-feature_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/about_feature_1_1.svg';?>"
                                     alt="Icon"></div>
                             <div class="media-body">
                                 <h3 class="about-feature_title">Certified Company</h3>
@@ -139,7 +139,7 @@ include_once( 'elements/home-top-slider.php' );
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_2.svg"
+                            <div class="about-feature_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/about_feature_1_2.svg';?>"
                                     alt="Icon"></div>
                             <div class="media-body">
                                 <h3 class="about-feature_title">Expart Team</h3>
@@ -337,9 +337,9 @@ include_once( 'elements/home-top-slider.php' );
     </div>
 </section>
 
-<section class="bg-bottom-right position-relative" data-bg-src="assets/img/bg/cta_bg_1.png" data-bg-color="#080E1C">
+<section class="bg-bottom-right position-relative" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/cta_bg_1.png';?>" data-bg-color="#080E1C">
     <div class="img-half img-left th-video2">
-        <img src="assets/img/normal/cta_1.jpg" alt="video"> 
+        <img src="<?php echo $seoArr['base_url'].'assets/img/normal/cta_1.jpg';?>" alt="video"> 
         <a href="https://www.youtube.com/watch?v=WcebHQF4a14" class="play-btn popup-video">
             <i class="fas fa-play"></i>
         </a>
@@ -350,8 +350,8 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> 
-                            <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
+                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         GET BEST IT SOLUTION 2019
                     </span>
@@ -376,20 +376,20 @@ include_once( 'elements/home-top-slider.php' );
     </div>
 </section>
 
-<div class="space-top" data-bg-src="assets/img/bg/why_bg_1.png">
+<div class="space-top" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/why_bg_1.png';?>">
     <div class="container">
         <div class="row align-items-center flex-row-reverse">
             <div class="col-xxl-7 col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box2">
-                    <div class="img1"><img src="assets/img/normal/why_1_1.jpg" alt="Why"></div>
+                    <div class="img1"><img src="<?php echo $seoArr['base_url'].'assets/img/normal/why_1_1.jpg';?>" alt="Why"></div>
                 </div>
             </div>
             <div class="col-xxl-5 col-xl-6">
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> 
-                            <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
+                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         WHY CHOOSE US
                     </span>
@@ -423,11 +423,11 @@ include_once( 'elements/home-top-slider.php' );
 
 <div class="space-top" data-pos-for=".team-sec" data-sec-pos="bottom-half">
     <div class="container z-index-common">
-        <div class="counter-card-wrap mb-3" data-bg-src="assets/img/bg/counter_bg_2.png">
+        <div class="counter-card-wrap mb-3" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/counter_bg_2.png';?>">
             <div class="row gy-40 justify-content-between">
                 <div class="col-6 col-lg-auto">
                     <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_1.svg" alt="Icon"></div>
+                        <div class="counter-card_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/counter_1_1.svg';?>" alt="Icon"></div>
                         <div class="media-body">
                             <h2 class="counter-card_number"><span class="counter-number">50</span>+</h2>
                             <p class="counter-card_text">Finished Project</p>
@@ -436,7 +436,7 @@ include_once( 'elements/home-top-slider.php' );
                 </div>
                 <div class="col-6 col-lg-auto">
                     <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_2.svg" alt="Icon"></div>
+                        <div class="counter-card_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/counter_1_2.svg';?>" alt="Icon"></div>
                         <div class="media-body">
                             <h2 class="counter-card_number"><span class="counter-number">25</span>+</h2>
                             <p class="counter-card_text">Happy Clients</p>
@@ -445,7 +445,7 @@ include_once( 'elements/home-top-slider.php' );
                 </div>
                 <div class="col-6 col-lg-auto">
                     <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_3.svg" alt="Icon"></div>
+                        <div class="counter-card_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/counter_1_3.svg';?>" alt="Icon"></div>
                         <div class="media-body">
                             <h2 class="counter-card_number"><span class="counter-number">10</span>+</h2>
                             <p class="counter-card_text">Skilled Experts</p>
@@ -454,7 +454,7 @@ include_once( 'elements/home-top-slider.php' );
                 </div>
                 <div class="col-6 col-lg-auto">
                     <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_4.svg" alt="Icon"></div>
+                        <div class="counter-card_icon"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/counter_1_4.svg';?>" alt="Icon"></div>
                         <div class="media-body">
                             <h2 class="counter-card_number"><span class="counter-number">5</span>+</h2>
                             <p class="counter-card_text">Honorable Awards</p>
@@ -467,15 +467,15 @@ include_once( 'elements/home-top-slider.php' );
 </div>
 
 <?php if( false ){?>
-    <section class="overflow-hidden space" data-bg-src="assets/img/bg/testi_bg_1.jpg" data-overlay="overlay1" data-opacity="9">
+    <section class="overflow-hidden space" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/testi_bg_1.jpg';?>" data-overlay="overlay1" data-opacity="9">
         <div class="container z-index-common pt-5">
             <div class="row align-items-center">
                 <div class="col-xl-5">
                     <div class="pe-xxl-5 text-xl-start text-center">
                         <div class="title-area mb-35"><span class="sub-title">
                                 <div class="icon-masking me-2"><span class="mask-icon"
-                                        data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>TESTIMONIALS
+                                        data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> <img
+                                        src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape"></div>TESTIMONIALS
                             </span>
                             <h2 class="sec-title text-white">Let’s Here What Are The Customer <span
                                     class="text-theme">Saying</span></h2>
@@ -505,13 +505,13 @@ include_once( 'elements/home-top-slider.php' );
                                             client-centric methods of empow ment whereas effective solut ion.”</p>
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater"><img
-                                                    src="assets/img/testimonial/testi_1_1.jpg" alt="testimonial"></div>
+                                                    src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_1.jpg';?>" alt="testimonial"></div>
                                             <div class="media-body">
                                                 <h3 class="testi-card_name">Alex Farnandes</h3><span
                                                     class="testi-card_desig">UI/UX Designer</span>
                                             </div>
                                         </div>
-                                        <div class="testi-card_quote"><img src="assets/img/icon/quote_left.svg"
+                                        <div class="testi-card_quote"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/quote_left.svg';?>"
                                                 alt="quote"></div>
                                     </div>
                                 </div>
@@ -527,13 +527,13 @@ include_once( 'elements/home-top-slider.php' );
                                             methods of empow ment whereas effective coverless.”</p>
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater"><img
-                                                    src="assets/img/testimonial/testi_1_2.jpg" alt="testimonial"></div>
+                                                    src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_2.jpg';?>" alt="testimonial"></div>
                                             <div class="media-body">
                                                 <h3 class="testi-card_name">Mariana Sonia</h3><span
                                                     class="testi-card_desig">CEO at Corola</span>
                                             </div>
                                         </div>
-                                        <div class="testi-card_quote"><img src="assets/img/icon/quote_left.svg"
+                                        <div class="testi-card_quote"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/quote_left.svg';?>"
                                                 alt="quote"></div>
                                     </div>
                                 </div>
@@ -549,13 +549,13 @@ include_once( 'elements/home-top-slider.php' );
                                             methods of empow ment whereas effective turnings.”</p>
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater"><img
-                                                    src="assets/img/testimonial/testi_1_3.jpg" alt="testimonial"></div>
+                                                    src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_3.jpg';?>" alt="testimonial"></div>
                                             <div class="media-body">
                                                 <h3 class="testi-card_name">Abraham Khalil</h3><span
                                                     class="testi-card_desig">UI/UX Designer</span>
                                             </div>
                                         </div>
-                                        <div class="testi-card_quote"><img src="assets/img/icon/quote_left.svg"
+                                        <div class="testi-card_quote"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/quote_left.svg';?>"
                                                 alt="quote"></div>
                                     </div>
                                 </div>
@@ -571,13 +571,13 @@ include_once( 'elements/home-top-slider.php' );
                                             methods of empow ment whereas effective gotoning.”</p>
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater"><img
-                                                    src="assets/img/testimonial/testi_1_4.jpg" alt="testimonial"></div>
+                                                    src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_4.jpg';?>" alt="testimonial"></div>
                                             <div class="media-body">
                                                 <h3 class="testi-card_name">Alexa Jenifer</h3><span
                                                     class="testi-card_desig">CEO at Morosto</span>
                                             </div>
                                         </div>
-                                        <div class="testi-card_quote"><img src="assets/img/icon/quote_left.svg"
+                                        <div class="testi-card_quote"><img src="<?php echo $seoArr['base_url'].'assets/img/icon/quote_left.svg';?>"
                                                 alt="quote"></div>
                                     </div>
                                 </div>
@@ -586,11 +586,11 @@ include_once( 'elements/home-top-slider.php' );
 
                         <div class="testi-thumb-wrap">
                             <div class="testi-thumb testi-card-tab" data-slider-tab="#testiSlide1">
-                                <div class="tab-btn active"><img src="assets/img/testimonial/testi_1_1.jpg" alt="Image">
+                                <div class="tab-btn active"><img src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_1.jpg';?>" alt="Image">
                                 </div>
-                                <div class="tab-btn"><img src="assets/img/testimonial/testi_1_2.jpg" alt="Image"></div>
-                                <div class="tab-btn"><img src="assets/img/testimonial/testi_1_3.jpg" alt="Image"></div>
-                                <div class="tab-btn"><img src="assets/img/testimonial/testi_1_4.jpg" alt="Image"></div>
+                                <div class="tab-btn"><img src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_2.jpg';?>" alt="Image"></div>
+                                <div class="tab-btn"><img src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_3.jpg';?>" alt="Image"></div>
+                                <div class="tab-btn"><img src="<?php echo $seoArr['base_url'].'assets/img/testimonial/testi_1_4.jpg';?>" alt="Image"></div>
                             </div>
                         </div>
 

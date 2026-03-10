@@ -17,7 +17,7 @@ $json = file_get_contents('assets/data/services.json');
 $services = json_decode($json, true);
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Contact Us</h1>
@@ -29,15 +29,15 @@ $services = json_decode($json, true);
     </div>
 </div>
 
-<div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
+<div class="bg-smoke space" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/contact_bg_1.png';?>" id="contact-sec">
     <div class="container">
         <div class="row">
 
             <div class="col-xl-8">
                 <div class="title-area mb-35 text-xl-start text-center"><span class="sub-title">
                         <div class="icon-masking me-2"><span class="mask-icon"
-                                data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>contact with us!
+                                data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></span> <img
+                                src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>" alt="shape"></div>contact with us!
                     </span>
                     <h2 class="sec-title">Have Any Questions?</h2>
                     <p class="sec-text">Enthusiastically disintermediate one-to-one leadership via business
@@ -128,8 +128,10 @@ $services = json_decode($json, true);
                     <div class="contact-info">
                         <div class="contact-info_icon"><i class="fas fa-phone"></i></div>
                         <div class="media-body">
-                            <h4 class="box-title">Call Us Anytime</h4><span class="contact-info_text"><a
-                                    href="tel:+91 82000 17181">+91 82000 17181</a></span>
+                            <h4 class="box-title">Call Us Anytime</h4>
+                            <span class="contact-info_text">
+                                <a href="tel:+91 82000 17181">+91 82000 17181</a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -138,15 +140,14 @@ $services = json_decode($json, true);
                     <div class="contact-info">
                         <div class="contact-info_icon"><i class="fas fa-envelope"></i></div>
                         <div class="media-body">
-                            <h4 class="box-title">Send An Email</h4><span class="contact-info_text"><a
-                                    href="mailto:contact@shareegurve.com">contact@shareegurve.com</a></span>
+                            <h4 class="box-title">Send An Email</h4>
+                            <span class="contact-info_text">
+                                <a href="mailto:contact@shareegurve.com">contact@shareegurve.com</a>
+                            </span>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     </div>
 </div>

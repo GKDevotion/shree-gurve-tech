@@ -14,7 +14,7 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
 
@@ -27,7 +27,7 @@ include_once('elements/header.php');
                     </a>
                 </li>
                 <li>
-                    <a href="services.php">
+                    <a href="services">
                         Solutions
                     </a>
                 </li>
@@ -115,12 +115,12 @@ include_once('elements/footer.php');
         <div class="service-card_number">${number}</div>
 
         <div class="shape-icon">
-            <img src="assets/img/icon/${item.icon}" alt="Icon">
+            <img src="${base_url}assets/img/icon/${item.icon}" alt="${item.text}">
             <span class="dots"></span>
         </div>
 
         <h3 class="box-title">
-            <a href="${item.link}">
+            <a href="${item.link}" title="${item.text}">
                 ${item.title}
             </a>
         </h3>
@@ -130,7 +130,7 @@ include_once('elements/footer.php');
         </p>
 
         <div class="bg-shape">
-            <img src="assets/img/bg/service_card_bg.png" alt="bg">
+            <img src="${base_url}assets/img/bg/service_card_bg.png" alt="${item.text}">
         </div>
 
             </div>

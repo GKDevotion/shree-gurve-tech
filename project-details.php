@@ -14,7 +14,7 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Project Details</h1>
@@ -32,7 +32,7 @@ include_once('elements/header.php');
             <div class="col-xxl-8 col-lg-8">
                 <div class="page-single">
                     <div class="page-img">
-                        <img src="assets/img/project/project_details.jpg" alt="Project Image">
+                        <img src="<?php echo $seoArr['base_url'].'assets/img/project/project_details.jpg';?>" alt="Project Image">
                     </div>
                     <div class="page-content">
                         <h2 class="h3 page-title">
@@ -53,7 +53,7 @@ include_once('elements/header.php');
                                 mission-critical infrastructures.</p>
                             <div class="row gy-4 align-items-center">
                                 <div class="col-md-5"><img class="w-100 rounded-3"
-                                        src="assets/img/project/project_inner_1.jpg" alt="project"></div>
+                                        src="<?php echo $seoArr['base_url'].'assets/img/project/project_inner_1.jpg';?>" alt="project"></div>
                                 <div class="col-md-7">
                                     <div class="checklist">
                                         <ul>
@@ -82,9 +82,9 @@ include_once('elements/header.php');
                                 Progressively target multidisciplinary.</p>
                             <div class="row gy-4 align-items-center">
                                 <div class="col-md-6"><img class="w-100 rounded-3"
-                                        src="assets/img/project/project_inner_2.jpg" alt="project"></div>
+                                        src="<?php echo $seoArr['base_url'].'assets/img/project/project_inner_2.jpg';?>" alt="project"></div>
                                 <div class="col-md-6"><img class="w-100 rounded-3"
-                                        src="assets/img/project/project_inner_3.jpg" alt="project"></div>
+                                        src="<?php echo $seoArr['base_url'].'assets/img/project/project_inner_3.jpg';?>" alt="project"></div>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ include_once('elements/header.php');
                                 href="service-details.html" class="th-btn style5"><i
                                     class="fa-light fa-file-lines me-2"></i>DOWNLOAD DOC</a></div>
                     </div>
-                    <div class="widget widget_banner" data-bg-src="assets/img/bg/widget_banner.jpg">
+                    <div class="widget widget_banner" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/widget_banner.jpg';?>">
                         <div class="widget-banner"><span class="text">CONTACT US NOW</span>
                             <h2 class="title">You Need Help?</h2><a href="contact.html" class="th-btn style3">GET A
                                 QUOTE<i class="fas fa-arrow-right ms-2"></i></a>

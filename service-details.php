@@ -14,7 +14,7 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
 
@@ -27,7 +27,7 @@ include_once('elements/header.php');
                     </a>
                 </li>
                 <li>
-                    <a href="services.php">
+                    <a href="services">
                         Services
                     </a>
                 </li>
@@ -109,29 +109,29 @@ include_once('elements/footer.php');
         let number = (index + 1).toString().padStart(1, '0');
 
         html += `
-        <div class="col-md-6 col-xl-4">
-        <div class="service-card">
+            <div class="col-md-6 col-xl-4">
+                <div class="service-card">
 
-        <div class="service-card_number">${number}</div>
+                <div class="service-card_number">${number}</div>
 
-        <div class="shape-icon">
-            <img src="assets/img/icon/${item.icon}" alt="Icon">
-            <span class="dots"></span>
-        </div>
+                <div class="shape-icon">
+                    <img src="${base_url}assets/img/icon/${item.icon}" alt="Icon">
+                    <span class="dots"></span>
+                </div>
 
-        <h3 class="box-title">
-            <a href="${item.link}">
-                ${item.title}
-            </a>
-        </h3>
+                <h3 class="box-title">
+                    <a href="${item.link}">
+                        ${item.title}
+                    </a>
+                </h3>
 
-        <p class="service-card_text">
-            ${item.text}
-        </p>
+                <p class="service-card_text">
+                    ${item.text}
+                </p>
 
-        <div class="bg-shape">
-            <img src="assets/img/bg/service_card_bg.png" alt="bg">
-        </div>
+                <div class="bg-shape">
+                    <img src="${base_url}assets/img/bg/service_card_bg.png" alt="bg">
+                </div>
 
             </div>
         </div>
