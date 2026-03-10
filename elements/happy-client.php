@@ -1,10 +1,10 @@
-<section class="bg-auto space" data-bg-src="assets/img/bg/testi_bg_2.png">
+<section class="bg-auto space" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/testi_bg_2.png';?>">
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">
                 <div class="icon-masking me-2">
-                    <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> 
-                    <img src="assets/img/theme-img/title_shape_2.svg" alt="shape">
+                    <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></span> 
+                    <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>" alt="shape">
                 </div>
                 CUSTOMER FEEDBACK
             </span>
@@ -45,9 +45,9 @@
                 <div class="swiper-slide">
                     <div class="testi-box">
                         <div class="testi-box_img">
-                            <img src="${item.image}" alt="Avatar">
+                            <img src="${item.image}" alt="${item.text}">
                             <div class="testi-box_quote">
-                                <img src="assets/img/icon/quote_left_2.svg" alt="quote">
+                                <img src="<?php echo $seoArr['base_url'].'assets/img/icon/quote_left_2.svg';?>" alt="${item.text}">
                             </div>
                         </div>
                         <div class="testi-box_content">
@@ -66,9 +66,9 @@
 </script>
 
     <div class="shape-mockup moving d-none d-xl-block" data-bottom="0%" data-left="10%">
-        <img src="assets/img/shape/line_1.png" alt="shape">
+        <img src="<?php echo $seoArr['base_url'].'assets/img/shape/line_1.png';?>" alt="shape">
     </div>
     <div class="shape-mockup jump d-none d-xl-block" data-top="20%" data-right="2%">
-        <img src="assets/img/shape/line_2.png" alt="shape">
+        <img src="<?php echo $seoArr['base_url'].'assets/img/shape/line_2.png';?>" alt="shape">
     </div>
 </section>

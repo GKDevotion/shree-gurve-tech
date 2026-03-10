@@ -5,7 +5,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="th-hero-slide">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_1.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/hero/hero_bg_2_1.jpg';?>"></div>
                         <div class="container">
                             <div class="hero-style2">
                                 <div class="ripple-shape">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="th-hero-slide">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_2.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/hero/hero_bg_2_2.jpg';?>"></div>
                         <div class="container">
                             <div class="hero-style2">
                                 <div class="ripple-shape"><span class="ripple-1"></span><span
@@ -70,7 +70,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="th-hero-slide">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_3.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/hero/hero_bg_2_3.jpg';?>"></div>
                         <div class="container">
                             <div class="hero-style2">
                                 <div class="ripple-shape"><span class="ripple-1"></span><span
@@ -101,6 +101,6 @@
             class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
     </div>
     <div class="hero-shape1"></div>
-    <div class="hero-shape2"><img src="assets/img/hero/hero_shape_2_2.png" alt="shape"></div>
-    <div class="hero-shape3"><img src="assets/img/hero/hero_shape_2_3.png" alt="shape"></div>
+    <div class="hero-shape2"><img src="<?php echo $seoArr['base_url'].'assets/img/hero/hero_shape_2_2.png';?>" alt="shape"></div>
+    <div class="hero-shape3"><img src="<?php echo $seoArr['base_url'].'assets/img/hero/hero_shape_2_3.png';?>" alt="shape"></div>
 </div>

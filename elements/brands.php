@@ -1,4 +1,4 @@
-<section class="bg-top-right overflow-hidden space" id="blog-sec" data-bg-src="assets/img/bg/blog_bg_1.png">
+<section class="bg-top-right overflow-hidden space" id="blog-sec" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/blog_bg_1.png';?>">
     <div class="container">
         <div class="slider-area text-center">
             <div class="swiper th-slider"
@@ -6,47 +6,47 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/devotion-group.png" alt="Devotion Group Company">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/devotion-group.png';?>" alt="Devotion Group Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/zedcapital.png" alt="Zed Capital">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/zedcapital.png';?>" alt="Zed Capital">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/pvl-tourism.png" alt="PVL Tours & Travels">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/pvl-tourism.png';?>" alt="PVL Tours & Travels">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/adbookee.png" alt="AdBookee Media Solution">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/adbookee.png';?>" alt="AdBookee Media Solution">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/crest-view-tech.png" alt="Crest View Technology">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/crest-view-tech.png';?>" alt="Crest View Technology">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/keshav-tech.png" alt="Keshav Technology">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/keshav-tech.png';?>" alt="Keshav Technology">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/cosmos-globe.png" alt="The Cosmos Globe, Group of Company">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/cosmos-globe.png';?>" alt="The Cosmos Globe, Group of Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/select-stock.png" alt="Select Stock E-Commerce">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/select-stock.png';?>" alt="Select Stock E-Commerce">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <img src="assets/img/brand/rishaan-tech.png" alt="Rishaan Technology">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/brand/rishaan-tech.png';?>" alt="Rishaan Technology">
                         </div>
                     </div>
                 </div>
