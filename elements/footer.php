@@ -171,10 +171,30 @@
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
         <script>
-        AOS.init({
-            duration:1000,
-            once:true
-        });
+            AOS.init({
+                duration:1000,
+                once:true
+            });
+
+            if( $("#contactForm").length > 0 ){
+                $("#contactForm").submit(function(e){
+                    e.preventDefault();
+
+                    $.ajax({
+                        url: "save_contact.php",
+                        type: "POST",
+                        data: $(this).serialize(),
+                        success: function(response){
+                            
+                            $(".form-messages").html("<span style='color:green'>Message Sent Successfully</span>");
+                            $("#contactForm")[0].reset();
+                        },
+                        error: function(){
+                            $(".form-messages").html("Something went wrong!");
+                        }
+                    });
+                });
+            }
         </script>
     </body>
 

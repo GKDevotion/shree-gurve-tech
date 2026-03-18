@@ -29,7 +29,7 @@ $services = json_decode($json, true);
     </div>
 </div>
 
-<div class="bg-smoke space" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/contact_bg_1.png';?>" id="contact-sec">
+<div class="bg-smoke space" id="contact-sec">
     <div class="container">
         <div class="row">
 
@@ -92,26 +92,6 @@ $services = json_decode($json, true);
                 </form>
 
             </div>
-
-            <script>
-            $("#contactForm").submit(function(e){
-                e.preventDefault();
-
-                $.ajax({
-                    url: "save_contact.php",
-                    type: "POST",
-                    data: $(this).serialize(),
-                    success: function(response){
-                        
-                        $(".form-messages").html("<span style='color:green'>Message Sent Successfully</span>");
-                        $("#contactForm")[0].reset();
-                    },
-                    error: function(){
-                        $(".form-messages").html("Something went wrong!");
-                    }
-                });
-            });
-            </script>
 
             <div class="col-xl-4 d-flex flex-column gy-4">
 

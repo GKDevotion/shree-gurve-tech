@@ -337,7 +337,7 @@ include_once( 'elements/home-top-slider.php' );
     </div>
 </section>
 
-<section class="bg-bottom-right position-relative" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/cta_bg_1.png';?>" data-bg-color="#080E1C">
+<section class="bg-bottom-right position-relative" data-bg-color="#080E1C">
     <div class="img-half img-left th-video2">
         <img src="<?php echo $seoArr['base_url'].'assets/img/normal/cta_1.jpg';?>" alt="video"> 
         <a href="https://www.youtube.com/watch?v=WcebHQF4a14" class="play-btn popup-video">
