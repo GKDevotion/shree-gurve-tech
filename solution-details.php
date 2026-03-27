@@ -60,16 +60,17 @@ include_once('elements/footer.php');
 
 
 <script>
-    const params = window.location.pathname;
-    let service = params.split("/");
+  // Get slug from URL (works for both formats)
+const urlParams = new URLSearchParams(window.location.search);
+let service = urlParams.get("slug");
 
-    const count = service.length;
+// If slug not found, fallback to pathname (for SEO URL)
+if (!service) {
+    const path = window.location.pathname.split("/");
+    service = path[path.length - 1];
+}
 
-    if(count > 3){
-        service = service[4];
-    }else{
-        service = service[2];
-    }
+console.log("Service slug:", service);
 
     fetch("assets/data/solutions.json")
     .then(res => res.json())
