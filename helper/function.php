@@ -26,10 +26,11 @@ function contactEmail(){
 }
 
 function officeAddress(){
-    return "103, Hany Arcade, Dabholi Village, Katargam, Surat - 395004, India";
+    return "103, Hany Arcade, Dabholi, Katargam, Surat - 395004, India";
 }
 
 function representativeOfficeAddress(){
+    return officeAddress();
     return "710, Westgate by True Value, Nr. YMCA Club, Makarba, Ahmedabad - 380015, India";
 }
 
