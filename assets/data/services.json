@@ -14,37 +14,37 @@
         "title": "E-commerce Development",
         "text": "Scalable online stores with secure payment systems and optimized shopping experiences.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "CMS Development",
         "text": "Flexible CMS solutions using WordPress, Joomla, or Drupal for easy content management.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Web Application",
         "text": "Powerful web applications built with modern technologies and scalable architecture.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Portal Development",
         "text": "Business, customer, and vendor portals designed to streamline digital operations.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Website Maintenance",
         "text": "Continuous monitoring, updates, and support to keep your website secure and optimized.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Speed Optimization",
         "text": "Improve loading performance and user experience with advanced optimization techniques.",
         "icon": "service_card_7.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -63,37 +63,37 @@
         "title": "Legacy Modernization",
         "text": "Upgrading outdated systems into modern, secure, and scalable applications using the latest technologies while preserving critical business data.",
         "icon": "service_card_7.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Enterprise S/W Development",
         "text": "Robust enterprise-grade applications that integrate multiple departments, streamline operations, and support large-scale business growth.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "CRM Development",
         "text": "Customer Relationship Management systems that help businesses manage leads, track customer interactions, improve sales pipelines, and strengthen customer relationships.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "ERP Development",
         "text": "Enterprise Resource Planning solutions that centralize and automate core business processes such as finance, inventory, HR, and operations.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "SaaS App Development",
         "text": "Cloud-based Software-as-a-Service platforms that allow businesses to deliver scalable applications accessible from anywhere with subscription-based models.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Desktop App Development",
         "text": "Powerful and secure desktop software designed for Windows or cross-platform environments with high performance and offline capabilities.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -112,37 +112,37 @@
         "title": "Android App Development",
         "text": "We develop high-performance Android applications tailored for smartphones, tablets, and various Android devices with seamless user experience and scalability.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "iOS App Development",
         "text": "Custom iOS applications designed for iPhone and iPad, ensuring smooth performance, security, and compliance with Apple’s ecosystem and standards.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Hybrid App Development",
         "text": "Cost-effective mobile apps that run on multiple platforms using a single codebase, combining web technologies with native functionality.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Cross Platform App Development",
         "text": "Build powerful applications that work seamlessly across Android and iOS platforms using modern frameworks, reducing development time and cost.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "App UI/UX Design",
         "text": "User-centric mobile interface design that focuses on intuitive navigation, attractive visuals, and engaging user experiences to maximize app usability.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "App Maintenance",
         "text": "Continuous monitoring, bug fixes, feature enhancements, and version updates to keep your mobile applications secure, stable, and up-to-date.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -161,37 +161,37 @@
         "title": "Website UI Design",
         "text": "Visually appealing and user-friendly website interfaces designed to enhance user engagement, improve navigation, and deliver a seamless browsing experience.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Mobile App UI Design",
         "text": "Creative and intuitive mobile app interfaces that ensure smooth interaction, modern aesthetics, and optimized usability for both Android and iOS users.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "User Experience Research",
         "text": " In-depth analysis of user behavior, needs, and expectations to design products that deliver meaningful and efficient user experiences.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Wireframing & Prototyping",
         "text": "Creating structural layouts and interactive prototypes to visualize application flow, functionality, and design before the development phase.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Product Design",
         "text": " End-to-end digital product design focusing on usability, functionality, and visual appeal to create innovative and user-centered solutions.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Admin Panel Design",
         "text": "Designing clear, data-focused dashboards and admin panels that provide easy management, quick insights, and efficient workflow control.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -210,37 +210,37 @@
         "title": "Search Engine Optimization (SEO)",
         "text": "Improving your website’s visibility on search engines through keyword optimization, technical SEO, and content strategies to attract organic traffic.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Social Media Marketing (SMM)",
         "text": "Promoting your brand across social media platforms with engaging content, campaigns, and audience targeting to increase brand awareness and customer engagement.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Google Ads / PPC Advertising",
         "text": "Running targeted paid advertising campaigns on search engines and display networks to generate high-quality leads and maximize return on investment.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Content Marketing",
         "text": "Creating valuable and relevant content such as blogs, articles, and media to attract, educate, and convert your target audience.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Email Marketing",
         "text": "Strategic email campaigns designed to nurture leads, promote products or services, and maintain strong relationships with your customers.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Conversion Rate",
         "text": " Analyzing user behavior and optimizing website elements to increase the percentage of visitors who take desired actions such as purchases or inquiries.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -259,37 +259,37 @@
         "title": "Cloud Infrastructure Setup",
         "text": "Designing and deploying scalable cloud infrastructure to ensure reliable performance, high availability, and efficient resource management.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "AWS / Azure / Google Cloud Services",
         "text": " Providing cloud solutions using leading platforms like AWS, Microsoft Azure, and Google Cloud for hosting, storage, computing, and application services.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Cloud Migration",
         "text": "Seamlessly moving your applications, data, and systems from on-premise environments to the cloud with minimal downtime and maximum efficiency.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Cloud Application Development",
         "text": "Building cloud-native applications that are scalable, secure, and optimized for modern cloud environments.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Cloud Security",
         "text": "Implementing advanced security measures including encryption, identity management, and monitoring to protect cloud infrastructure and data.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Cloud Backup Solutions",
         "text": "Reliable data backup and disaster recovery solutions to ensure business continuity and protection against data loss.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       }
     ]
   },
@@ -308,31 +308,31 @@
         "title": "Technology Consulting",
         "text": "Expert guidance to help businesses choose the right technologies, tools, and platforms to improve efficiency and support long-term growth.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Digital Transformation Consulting",
         "text": "Helping organizations adopt modern digital technologies to transform operations, enhance customer experiences, and stay competitive in the digital era.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "IT Strategy Planning",
         "text": "Developing strategic IT roadmaps that align technology investments with business goals for sustainable growth and innovation.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Business Process Automation",
         "text": "Identifying repetitive tasks and implementing automation solutions to improve productivity, reduce costs, and streamline business operations.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Startup IT Consulting",
         "text": "Providing startups with technology guidance, system architecture planning, and scalable solutions to launch and grow their digital products successfully.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   },
@@ -351,31 +351,31 @@
         "title": "Security Audits",
         "text": "Comprehensive evaluation of your IT systems and infrastructure to identify vulnerabilities, security gaps, and compliance issues.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Network Security",
         "text": " Protecting your network infrastructure from unauthorized access, cyber threats, and attacks through advanced security protocols and monitoring.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Data Protection",
         "text": " Implementing encryption, access control, and security policies to safeguard sensitive business and customer data.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Firewall Setup",
         "text": "Configuring and managing firewall systems to monitor and control incoming and outgoing network traffic for enhanced security.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Penetration Testing",
         "text": "Simulating real-world cyberattacks to detect weaknesses in systems and strengthen overall security defenses.",
         "icon": "service_card_6.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   },
@@ -394,31 +394,31 @@
         "title": "Data Analytics Solutions",
         "text": "Advanced data analysis solutions that help businesses uncover insights, identify trends, and make data-driven decisions.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Business Intelligence (BI)",
         "text": " Implementing BI tools and dashboards to transform raw data into meaningful reports and actionable business insights.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Data Visualization",
         "text": " Creating interactive charts, dashboards, and visual reports that make complex data easy to understand and analyze.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Big Data Solutions",
         "text": " Handling and processing large volumes of structured and unstructured data using modern big data technologies for deeper business insights.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Data Warehousing",
         "text": " Designing centralized data storage systems that organize and manage business data efficiently for reporting, analytics, and decision-making.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   },
@@ -437,31 +437,31 @@
         "title": "AI Application Development",
         "text": "Developing intelligent applications powered by artificial intelligence to automate tasks, analyze data, and improve business decision-making.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Chatbot Development",
         "text": " Creating smart chatbots for websites, mobile apps, and messaging platforms to provide instant customer support and improve user engagement.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Machine Learning Solutions",
         "text": "Building machine learning models that analyze data patterns, make predictions, and continuously improve system performance.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Process Automation",
         "text": "Automating repetitive business processes to increase efficiency, reduce manual work, and minimize operational errors.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "AI Integration for Business",
         "text": "Designing centralized data storage systems that organize and manage business data efficiently for reporting, analytics, and decision-making.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   },
@@ -480,31 +480,31 @@
         "title": "Technical Support",
         "text": "Providing reliable technical assistance to resolve IT issues quickly and ensure smooth operation of business systems.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "System Monitoring",
         "text": "Continuous monitoring of servers, networks, and applications to detect and resolve issues before they impact business operations.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Software Updates & Patches",
         "text": "Regular updates and security patches to keep software systems secure, stable, and up-to-date with the latest improvements.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Server & Network Maintenance",
         "text": " Maintaining server infrastructure and network systems to ensure high performance, security, and minimal downtime.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Backup & Recovery Management",
         "text": " Implementing regular data backups and disaster recovery solutions to protect critical business data from loss or system failure.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   },
@@ -523,31 +523,31 @@
         "title": "Blockchain Application Development",
         "text": "Building secure and decentralized blockchain-based applications that improve transparency, efficiency, and trust in digital transactions.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Smart Contract Development",
         "text": "Developing automated smart contracts that execute predefined conditions securely on blockchain networks without intermediaries.",
         "icon": "service_card_2.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "Crypto Wallet Development",
         "text": "Creating secure digital wallets that allow users to store, send, and receive cryptocurrencies with strong encryption and user-friendly interfaces.",
         "icon": "service_card_3.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "NFT Marketplace Development",
         "text": " Developing platforms for creating, buying, selling, and trading NFTs with secure blockchain integration and seamless user experience.",
         "icon": "service_card_4.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       },
       {
         "title": "AI Integration for Business",
         "text": "Designing centralized data storage systems that organize and manage business data efficiently for reporting, analytics, and decision-making.",
         "icon": "service_card_5.svg",
-        "link": "service-details.html"
+        "link": "service-details"
       } 
     ]
   }

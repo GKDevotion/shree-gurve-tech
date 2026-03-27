@@ -82,7 +82,7 @@ include_once('elements/header.php');
                             </div>
 
                             <h3 class="box-title">
-                                <a href="${base_url}service-details/service=${key}">
+                                <a href="${base_url}service-details/${key}">
                                 ${service.title}
                                 </a>
                             </h3>
@@ -91,7 +91,7 @@ include_once('elements/header.php');
                                 ${service.description}
                             </p>
 
-                            <a href="${base_url}service-details/service=${key}" class="th-btn">
+                            <a href="${base_url}service-details/${key}" class="th-btn">
                                 Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                             </a>
 
