@@ -26,7 +26,7 @@ function contactEmail(){
 }
 
 function officeAddress(){
-    return "103, Hany Arcade, Dabholi, Katargam, Surat - 395004, India";
+    return "Surat - 395004, India";//103, Hany Arcade, Dabholi, Katargam, 
 }
 
 function representativeOfficeAddress(){

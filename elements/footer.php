@@ -38,7 +38,7 @@
                                 <div class="footer-contact">
                                     <div class="footer-contact_icon"><i class="fas fa-location-dot"></i></div>
                                     <div class="media-body">
-                                        <span class="footer-contact_text">Visit Location:</span> 
+                                        <span class="footer-contact_text">Our Location:</span> 
                                         <a href="https://www.google.com/maps" class="footer-contact_link">
                                             <?php echo representativeOfficeAddress();?>
                                         </a>
