@@ -123,7 +123,7 @@ function getCompanyChildMenu( $seoArr, $type=0 ){
     if( $type == 2 ){
         return '
             <li>
-                <a href="javascript:void(0)">Career</a>
+                <a href="'.($seoArr['base_url'].'proposals').'">Proposal</a>
             </li>
         ';
     }
