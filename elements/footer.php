@@ -35,7 +35,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="footer-contact">
+                                <div class="footer-contact d-none">
                                     <div class="footer-contact_icon"><i class="fas fa-location-dot"></i></div>
                                     <div class="media-body">
                                         <span class="footer-contact_text">Our Location:</span> 

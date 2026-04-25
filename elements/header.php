@@ -147,7 +147,7 @@
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-links">
                                 <ul>
-                                    <li>
+                                    <li class="d-none">
                                         <i class="fas fa-map-location"></i>
                                         <?php echo representativeOfficeAddress();?>
                                     </li>
