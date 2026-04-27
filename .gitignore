@@ -23,7 +23,6 @@ tests
 *.mp4
 *.psd
 *-bkp.*
-.htaccess
 robots.txt
 signature
 sitemap.xml

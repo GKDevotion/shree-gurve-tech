@@ -5,12 +5,17 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Service details URL
+
 RewriteRule ^service-details/([^/]+)$ service-details.php?slug=$1 [L,QSA]
+
 RewriteRule ^solution-details/([^/]+)$ solution-details.php?slug=$1 [L,QSA]
+
 RewriteRule ^projects$ projects.php?slug=$1 [L,QSA]
 RewriteRule ^about-us about-us.php?slug=$1 [L,QSA]
 RewriteRule ^gallery gallery.php?slug=$1 [L,QSA]
 RewriteRule ^faqs faqs.php?slug=$1 [L,QSA]
 RewriteRule ^contact-us contact-us.php?slug=$1 [L,QSA]
 RewriteRule ^proposals proposals.php?slug=$1 [L,QSA]
-RewriteRule ^proposal/([^/]+)$ proposal/jewellery-e-commerce.php?slug=$1 [L,QSA]
+
+RewriteRule ^proposal/jewellery-e-commerce proposal/jewellery-e-commerce.php?slug=$1 [L,QSA]
+RewriteRule ^proposal/smart-crm proposal/smart-crm.php?slug=$1 [L,QSA]

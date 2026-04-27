@@ -48,7 +48,7 @@ include_once('elements/header.php');
             <div class="col-md-6 col-xl-4">
                 <div class="service-card">
 
-                    <div class="service-card_number">Jewellery</div>
+                    <div class="service-card_number">ECommerce</div>
 
                     <div class="shape-icon">
                         <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/jewellery-e-commerce-icon.png" alt="Icon">
@@ -56,8 +56,8 @@ include_once('elements/header.php');
                     </div>
 
                     <h3 class="box-title">
-                        <a href="<?php echo $seoArr['base_url'];?>proposal/jewellery-e-commerce.php" target="_blank">
-                        Jewellery E-Commerce
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/jewellery-e-commerce" target="_blank">
+                            Jewellery
                         </a>
                     </h3>
 
@@ -65,7 +65,38 @@ include_once('elements/header.php');
                         Jewelry E-Commerce Website Development using Laravel & Bootstrap. Includes admin panel, payment integration, scalable and SEO optimization online store features.
                     </p>
 
-                    <a href="<?php echo $seoArr['base_url'];?>proposal/jewellery-e-commerce.php" class="th-btn" target="_blank">
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/jewellery-e-commerce" class="th-btn" target="_blank">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
+
+                    <div class="bg-shape">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/bg/service_card_bg.png" alt="bg">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+                <div class="service-card">
+
+                    <div class="service-card_number">CRM</div>
+
+                    <div class="shape-icon">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/smart-crm.png" alt="Icon">
+                        <span class="dots"></span>
+                    </div>
+
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm.php" target="_blank">
+                        Smart CRM
+                        </a>
+                    </h3>
+
+                    <p class="service-card_text">
+                        All-in-one CRM system for managing customers, sales pipelines and team productivity. Boost conversions with automation.
+                    </p>
+
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm.php" class="th-btn" target="_blank">
                         Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
