@@ -19,3 +19,4 @@ RewriteRule ^proposals proposals.php?slug=$1 [L,QSA]
 
 RewriteRule ^proposal/jewellery-e-commerce proposal/jewellery-e-commerce.php?slug=$1 [L,QSA]
 RewriteRule ^proposal/smart-crm proposal/smart-crm.php?slug=$1 [L,QSA]
+RewriteRule ^proposal/erp-solutions proposal/erp-solutions.php?slug=$1 [L,QSA]

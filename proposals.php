@@ -106,6 +106,37 @@ include_once('elements/header.php');
 
                 </div>
             </div>
+
+            <div class="col-md-6 col-xl-4">
+                <div class="service-card">
+
+                    <div class="service-card_number">ERP</div>
+
+                    <div class="shape-icon">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/erp-solutions.png" alt="ERP Solutions">
+                        <span class="dots"></span>
+                    </div>
+
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" target="_blank">
+                        ERP Solutions
+                        </a>
+                    </h3>
+
+                    <p class="service-card_text">
+                        Powerful ERP solutions to manage accounting, inventory, HR, and operations in one system. Boost efficiency with our scalable ERP software.
+                    </p>
+
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" class="th-btn" target="_blank">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
+
+                    <div class="bg-shape">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/bg/service_card_bg.png" alt="Proposal ERP Solutions">
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
