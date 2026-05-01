@@ -1,5 +1,5 @@
 <?php
-include_once('helper/function.php');
+include_once('../helper/function.php');
 ?>
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
