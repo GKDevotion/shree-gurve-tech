@@ -3,7 +3,7 @@ include_once('helper/function.php');
 
 $seoArr = [
     'base_url' => getBaseUrl(),
-    'canonical' => 'proposal',
+    'canonical' => 'proposals',
     'title' => "Custom Software Development Solutions in India | IT Company & Software Development Services",
     'meta_description' => "Learn about Shree Gurve Technology, a trusted IT company offering web development, software solutions, mobile apps, UI/UX design, and digital services since 2019.",
     'h1_tag' => "Software Development Services | E-commerce, CRM, HRM, ERP Solutions",
@@ -125,6 +125,37 @@ include_once('elements/header.php');
 
                     <p class="service-card_text">
                         Powerful ERP solutions to manage accounting, inventory, HR, and operations in one system. Boost efficiency with our scalable ERP software.
+                    </p>
+
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" class="th-btn" target="_blank">
+                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
+
+                    <div class="bg-shape">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/bg/service_card_bg.png" alt="Proposal ERP Solutions">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+                <div class="service-card">
+
+                    <div class="service-card_number">HRMS</div>
+
+                    <div class="shape-icon">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/hrm-solutions.png" alt="HRM Solutions">
+                        <span class="dots"></span>
+                    </div>
+
+                    <h3 class="box-title">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/hrm-solutions.php" target="_blank">
+                        HRM Solutions
+                        </a>
+                    </h3>
+
+                    <p class="service-card_text">
+                        PeopleCore HRMS is a cloud-based Human Resource Management System offering payroll, attendance, recruitment, performance & compliance tools for SMEs and enterprises in India.
                     </p>
 
                     <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" class="th-btn" target="_blank">

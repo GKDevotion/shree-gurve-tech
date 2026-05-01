@@ -18,20 +18,20 @@
         <meta name="robots" content="index, follow">
 
         <!-- Canonical -->
-        <link rel="canonical" href="https://shreegurvetech.com/smart-crm">
+        <link rel="canonical" href="https://shreegurvetech.com/proposals">
 
         <!-- Open Graph (Facebook / WhatsApp) -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="Smart CRM Software | Lead, Sales & Client Management Tool">
         <meta property="og:description" content="Powerful CRM software to manage leads, track sales, automate workflows, and grow your business. Easy, affordable, and scalable CRM solution.">
-        <meta property="og:image" content="https://shreegurvetech.com/assets/preview.jpg">
-        <meta property="og:url" content="https://shreegurvetech.com/smart-crm">
+        <meta property="og:image" content="https://shreegurvetech.com/assets/img/header-250.png">
+        <meta property="og:url" content="https://shreegurvetech.com/proposal/smart-crm">
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Smart CRM Software | Lead, Sales & Client Management Tool">
         <meta name="twitter:description" content="Powerful CRM software to manage leads, track sales, automate workflows, and grow your business. Easy, affordable, and scalable CRM solution.">
-        <meta name="twitter:image" content="https://shreegurvetech.com/assets/preview.jpg">
+        <meta name="twitter:image" content="https://shreegurvetech.com/assets/img/header-250.png">
         
         <!-- Bootstrap 5 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">

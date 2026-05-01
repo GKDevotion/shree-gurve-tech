@@ -17,20 +17,20 @@
     <meta name="robots" content="index, follow">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://shreegurvetech.com/jewelry-ecommerce-proposal">
+    <link rel="canonical" href="<?= getBaseUrl(); ?>/proposals">
 
     <!-- Open Graph (Facebook / WhatsApp) -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Jewelry E-Commerce Website Development">
     <meta property="og:description" content="Build your online jewelry store with Laravel. Fully responsive, SEO-ready, and scalable solution.">
-    <meta property="og:image" content="https://shreegurvetech.com/assets/preview.jpg">
-    <meta property="og:url" content="https://shreegurvetech.com/jewelry-ecommerce-proposal">
+    <meta property="og:image" content="<?= getBaseUrl(); ?>/assets/img/header-250.png">
+    <meta property="og:url" content="<?= getBaseUrl(); ?>/proposal/jewelry-ecommerce-proposal">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Jewelry E-Commerce Development">
     <meta name="twitter:description" content="Complete jewelry eCommerce solution with admin panel & payment integration.">
-    <meta name="twitter:image" content="https://shreegurvetech.com/assets/preview.jpg">
+    <meta name="twitter:image" content="<?= getBaseUrl(); ?>/assets/img/header-250.png">
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
