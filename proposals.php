@@ -87,7 +87,7 @@ include_once('elements/header.php');
                     </div>
 
                     <h3 class="box-title">
-                        <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm.php" target="_blank">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm" target="_blank">
                         Smart CRM
                         </a>
                     </h3>
@@ -96,7 +96,7 @@ include_once('elements/header.php');
                         All-in-one CRM system for managing customers, sales pipelines and team productivity. Boost conversions with automation.
                     </p>
 
-                    <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm.php" class="th-btn" target="_blank">
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm" class="th-btn" target="_blank">
                         Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
@@ -118,7 +118,7 @@ include_once('elements/header.php');
                     </div>
 
                     <h3 class="box-title">
-                        <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" target="_blank">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions" target="_blank">
                         ERP Solutions
                         </a>
                     </h3>
@@ -127,7 +127,7 @@ include_once('elements/header.php');
                         Powerful ERP solutions to manage accounting, inventory, HR, and operations in one system. Boost efficiency with our scalable ERP software.
                     </p>
 
-                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" class="th-btn" target="_blank">
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions" class="th-btn" target="_blank">
                         Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
@@ -149,7 +149,7 @@ include_once('elements/header.php');
                     </div>
 
                     <h3 class="box-title">
-                        <a href="<?php echo $seoArr['base_url'];?>proposal/hrm-solutions.php" target="_blank">
+                        <a href="<?php echo $seoArr['base_url'];?>proposal/hrm-solutions" target="_blank">
                         HRM Solutions
                         </a>
                     </h3>
@@ -158,7 +158,7 @@ include_once('elements/header.php');
                         PeopleCore HRMS is a cloud-based Human Resource Management System offering payroll, attendance, recruitment, performance & compliance tools for SMEs and enterprises in India.
                     </p>
 
-                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions.php" class="th-btn" target="_blank">
+                    <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions" class="th-btn" target="_blank">
                         Read More<i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
