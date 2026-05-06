@@ -151,8 +151,11 @@ include_once( 'elements/home-top-slider.php' );
                                 class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="call-btn">
                             <div class="play-btn"><i class="fas fa-phone"></i></div>
-                            <div class="media-body"><span class="btn-text">Call Us On:</span> <a
-                                    href="tel:+91 82000 17181" class="btn-title">+91 82000 17181</a></div>
+                            <div class="media-body"><span class="btn-text">Call Us On:</span> 
+                                <a href="tel:<?php echo str_replace(' ', '', callNumber() );?>" class="btn-title">
+                                    <?php echo callNumber();?>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
