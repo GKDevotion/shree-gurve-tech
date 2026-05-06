@@ -43,7 +43,7 @@ include_once('elements/header.php');
     <div class="container">
 
         <div class="text-center mt-5">
-            <h2 class="section-heading" id="serviceTitle3"></h2>
+            <h2 class="section-heading" id="serviceTitle3">&nbsp;</h2>
             <p class="section-sub" id="serviceDescription"></p>
         </div>
 
