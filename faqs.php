@@ -83,15 +83,16 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We develop different types of websites including:
-                                                <ul>
-                                                    <li>Business Websites</li>
-                                                    <li>E-commerce Websites</li>
-                                                    <li>Corporate Websites </li>
-                                                    <li>Portfolio Websites</li>
-                                                    <li>Custom Web Applications</li>
-                                                    <li>CMS-based Websites (WordPress, Drupal, Joomla)</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We develop different types of websites including:
+                                                    <ul>
+                                                        <li>Business Websites</li>
+                                                        <li>E-commerce Websites</li>
+                                                        <li>Corporate Websites </li>
+                                                        <li>Portfolio Websites</li>
+                                                        <li>Custom Web Applications</li>
+                                                        <li>CMS-based Websites (WordPress, Drupal, Joomla)</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -107,13 +108,14 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">The development time depends on the project complexity.
-                                                <ul>
-                                                    <li>Basic website: 5–10 days</li>
-                                                    <li>Business website: 2–4 weeks</li>
-                                                    <li>E-commerce website: 3–6 weeks</li>
-                                                    <li>Custom web application: 1–3 months</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    The development time depends on the project complexity.
+                                                    <ul>
+                                                        <li>Basic website: 5-10 days</li>
+                                                        <li>Business website: 2-4 weeks</li>
+                                                        <li>E-commerce website: 3-6 weeks</li>
+                                                        <li>Custom web application: 1-3 months</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -130,13 +132,14 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use modern technologies such as:
+                                                <p class="faq-text">
+                                                    We use modern technologies such as:
                                                     <ul>
-                                                    <li><b>Frontend:</b>HTML5, CSS3, JavaScript, Bootstrap, React</li>
-                                                    <li><b>Backend:</b>PHP, Laravel, Node.js</li>
-                                                    <li><b>Database:</b>MySQL, PostgreSQL, MongoDB</li>
-                                                    <li><b>CMS:</b>WordPress, Shopify</li>
-                                                </ul>
+                                                        <li><b>Frontend:</b>HTML5, CSS3, JavaScript, Bootstrap, React</li>
+                                                        <li><b>Backend:</b>PHP, Laravel, Node.js</li>
+                                                        <li><b>Database:</b>MySQL, PostgreSQL, MongoDB</li>
+                                                        <li><b>CMS:</b>WordPress, Shopify</li>
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -298,15 +301,16 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We develop various types of software solutions, including:
-                                                <ul>
-                                                    <li>Custom Business Software</li>
-                                                    <li>Web Applications</li>
-                                                    <li>Mobile Applications (Android & iOS)</li>
-                                                    <li>Enterprise Software (ERP, CRM)</li>
-                                                    <li>SaaS Platforms</li>
-                                                    <li>API Integrations and Automation Tools</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We develop various types of software solutions, including:
+                                                    <ul>
+                                                        <li>Custom Business Software</li>
+                                                        <li>Web Applications</li>
+                                                        <li>Mobile Applications (Android & iOS)</li>
+                                                        <li>Enterprise Software (ERP, CRM)</li>
+                                                        <li>SaaS Platforms</li>
+                                                        <li>API Integrations and Automation Tools</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -322,14 +326,15 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use modern and reliable technologies such as:
-                                                <ul>
-                                                    <li><b>Frontend:</b> HTML, CSS, JavaScript, React, Angular</li>
-                                                    <li><b>Backend:</b> Node.js, PHP, Laravel, Python, .NET</li>
-                                                    <li><b>Mobile:</b> Flutter, React Native, Kotlin, Swift</li>
-                                                    <li><b>Database:</b> MySQL, PostgreSQL, MongoDB</li>
-                                                    <li><b>Cloud:</b> AWS, Google Cloud, Azure</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We use modern and reliable technologies such as:
+                                                    <ul>
+                                                        <li><b>Frontend:</b> HTML, CSS, JavaScript, React, Angular</li>
+                                                        <li><b>Backend:</b> Node.js, PHP, Laravel, Python, .NET</li>
+                                                        <li><b>Mobile:</b> Flutter, React Native, Kotlin, Swift</li>
+                                                        <li><b>Database:</b> MySQL, PostgreSQL, MongoDB</li>
+                                                        <li><b>Cloud:</b> AWS, Google Cloud, Azure</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -346,12 +351,13 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">The timeline depends on the complexity and features of the project:
-                                                <ul>
-                                                    <li>Small application: <b>2–4 weeks</b></li>
-                                                    <li>Medium business software: <b>1–3 months</b></li>
-                                                    <li>Enterprise-level solution: <b>3–6 months or more</b></li> 
-                                                </ul>
+                                                <p class="faq-text">
+                                                    The timeline depends on the complexity and features of the project:
+                                                    <ul>
+                                                        <li>Small application: <b>2–4 weeks</b></li>
+                                                        <li>Medium business software: <b>1–3 months</b></li>
+                                                        <li>Enterprise-level solution: <b>3–6 months or more</b></li> 
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -513,15 +519,16 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="mcollapse-item-2" data-bs-parent="#mfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We develop different types of mobile applications, including:
-                                                <ul>
-                                                    <li>Android Applications</li>
-                                                    <li>iOS Applications</li>
-                                                    <li>Cross-Platform Apps</li>
-                                                    <li>E-commerce Apps</li>
-                                                    <li>On-Demand Service Apps</li>
-                                                    <li>Business and Enterprise Apps</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We develop different types of mobile applications, including:
+                                                    <ul>
+                                                        <li>Android Applications</li>
+                                                        <li>iOS Applications</li>
+                                                        <li>Cross-Platform Apps</li>
+                                                        <li>E-commerce Apps</li>
+                                                        <li>On-Demand Service Apps</li>
+                                                        <li>Business and Enterprise Apps</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -537,13 +544,14 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="mcollapse-item-3" data-bs-parent="#mfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use modern technologies to ensure performance and scalability:
-                                                <ul>
-                                                    <li>Native Development: Kotlin (Android), Swift (iOS)</li>
-                                                    <li>Cross-Platform: Flutter, React Native</li>
-                                                    <li>Backend: Node.js, PHP, Laravel</li>
-                                                    <li>Database: MySQL, Firebase, MongoDB</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We use modern technologies to ensure performance and scalability:
+                                                    <ul>
+                                                        <li>Native Development: Kotlin (Android), Swift (iOS)</li>
+                                                        <li>Cross-Platform: Flutter, React Native</li>
+                                                        <li>Backend: Node.js, PHP, Laravel</li>
+                                                        <li>Database: MySQL, Firebase, MongoDB</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -560,12 +568,13 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="mcollapse-item-4" data-bs-parent="#mfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">The development timeline depends on the complexity and features:
+                                                <p class="faq-text">
+                                                    The development timeline depends on the complexity and features:
                                                     <ul>
-                                                    <li>Basic app: <b>3–6 weeks</b></li>
-                                                    <li>Medium complexity app: <b>2–3 months</b></li>
-                                                    <li>Advanced app with integrations: <b>3–6 months</b></li> 
-                                                </ul>
+                                                        <li>Basic app: <b>3–6 weeks</b></li>
+                                                        <li>Medium complexity app: <b>2–3 months</b></li>
+                                                        <li>Advanced app with integrations: <b>3–6 months</b></li> 
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -743,16 +752,17 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="ucollapse-item-3" data-bs-parent="#ufaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">Our UI/UX design services typically include:
-                                                <ul>
-                                                    <li>User Research & Analysis</li>
-                                                    <li>Wireframing and Prototyping</li>
-                                                    <li>Mobile App UI Design</li>
-                                                    <li>Website UI Design</li>
-                                                    <li>Interaction Design</li>
-                                                    <li>Usability Testing</li>
-                                                    <li>Design System Creation</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    Our UI/UX design services typically include:
+                                                    <ul>
+                                                        <li>User Research & Analysis</li>
+                                                        <li>Wireframing and Prototyping</li>
+                                                        <li>Mobile App UI Design</li>
+                                                        <li>Website UI Design</li>
+                                                        <li>Interaction Design</li>
+                                                        <li>Usability Testing</li>
+                                                        <li>Design System Creation</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -769,14 +779,15 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="ucollapse-item-4" data-bs-parent="#ufaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use industry-standard design tools such as:
+                                                <p class="faq-text">
+                                                    We use industry-standard design tools such as:
                                                     <ul>
-                                                    <li>Figma</li>
-                                                    <li>Adobe XD</li>
-                                                    <li>Sketch</li>
-                                                    <li>Adobe Photoshop</li>
-                                                    <li>Adobe Illustrator</li>
-                                                </ul>
+                                                        <li>Figma</li>
+                                                        <li>Adobe XD</li>
+                                                        <li>Sketch</li>
+                                                        <li>Adobe Photoshop</li>
+                                                        <li>Adobe Illustrator</li>
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -865,7 +876,8 @@ include_once('elements/header.php');
 
                                         <div id="collapse-9" class="accordion-collapse collapse" role="region" aria-labelledby="ucollapse-item-9" data-bs-parent="#ufaqAccordion2">
                                             <div class="accordion-body">
-                                                <p class="faq-text">The timeline depends on project complexity:
+                                                <p class="faq-text">
+                                                    The timeline depends on project complexity:
                                                     <ul>
                                                         <li><b>Small project:</b>1–2 weeks</li>
                                                         <li><b>Medium project:</b>2–4 weeks</li>
@@ -949,16 +961,17 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="dmcollapse-item-2" data-bs-parent="#dmfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">Digital marketing typically includes:
-                                                <ul>
-                                                    <li>Search Engine Optimization (SEO)</li>
-                                                    <li>Social Media Marketing (SMM)</li>
-                                                    <li>Pay-Per-Click Advertising (PPC)</li>
-                                                    <li>Content Marketing</li>
-                                                    <li>Email Marketing</li>
-                                                    <li>Online Reputation Management (ORM)</li>
-                                                    <li>Conversion Rate Optimization (CRO)</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    Digital marketing typically includes:
+                                                    <ul>
+                                                        <li>Search Engine Optimization (SEO)</li>
+                                                        <li>Social Media Marketing (SMM)</li>
+                                                        <li>Pay-Per-Click Advertising (PPC)</li>
+                                                        <li>Content Marketing</li>
+                                                        <li>Email Marketing</li>
+                                                        <li>Online Reputation Management (ORM)</li>
+                                                        <li>Conversion Rate Optimization (CRO)</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -974,14 +987,15 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="dmcollapse-item-3" data-bs-parent="#dmfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use popular marketing platforms such as:
-                                                <ul>
-                                                    <li>Google Ads</li>
-                                                    <li>Google Analytics</li>
-                                                    <li>Facebook</li>
-                                                    <li>Instagram</li>
-                                                    <li>LinkedIn</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We use popular marketing platforms such as:
+                                                    <ul>
+                                                        <li>Google Ads</li>
+                                                        <li>Google Analytics</li>
+                                                        <li>Facebook</li>
+                                                        <li>Instagram</li>
+                                                        <li>LinkedIn</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -998,12 +1012,13 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="dmcollapse-item-4" data-bs-parent="#dmfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">The timeline depends on the strategy used:
+                                                <p class="faq-text">
+                                                    The timeline depends on the strategy used:
                                                     <ul>
-                                                    <li><b>SEO:</b> 3–6 months for noticeable results</li>
-                                                    <li><b>PPC Ads:</b> Immediate traffic once campaigns start</li>
-                                                    <li><b>Social Media Marketing:</b> 1–3 months for engagement growth</li>
-                                                </ul>
+                                                        <li><b>SEO:</b> 3–6 months for noticeable results</li>
+                                                        <li><b>PPC Ads:</b> Immediate traffic once campaigns start</li>
+                                                        <li><b>Social Media Marketing:</b> 1–3 months for engagement growth</li>
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -1166,15 +1181,16 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="cacollapse-item-2" data-bs-parent="#cafaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We provide a wide range of cloud solutions, including:
-                                                <ul>
-                                                    <li>Cloud Infrastructure Setup</li>
-                                                    <li>Cloud Migration Services</li>
-                                                    <li>Cloud Storage Solutions</li>
-                                                    <li>Cloud Application Development</li>
-                                                    <li>Cloud Backup & Disaster Recovery</li>
-                                                    <li>Cloud Security and Monitoring</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    We provide a wide range of cloud solutions, including:
+                                                    <ul>
+                                                        <li>Cloud Infrastructure Setup</li>
+                                                        <li>Cloud Migration Services</li>
+                                                        <li>Cloud Storage Solutions</li>
+                                                        <li>Cloud Application Development</li>
+                                                        <li>Cloud Backup & Disaster Recovery</li>
+                                                        <li>Cloud Security and Monitoring</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -1190,13 +1206,14 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="cacollapse-item-3" data-bs-parent="#cafaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text"> We work with leading cloud platforms such as:
-                                                <ul>
-                                                    <li>Amazon Web Services</li>
-                                                    <li>Microsoft Azure</li>
-                                                    <li>Google Cloud Platform</li> 
-                                                </ul>
-                                                These platforms provide scalable and secure infrastructure for modern applications.
+                                                <p class="faq-text">
+                                                    We work with leading cloud platforms such as:
+                                                    <ul>
+                                                        <li>Amazon Web Services</li>
+                                                        <li>Microsoft Azure</li>
+                                                        <li>Google Cloud Platform</li> 
+                                                    </ul>
+                                                    These platforms provide scalable and secure infrastructure for modern applications.
                                                 </p>
                                             </div>
 
@@ -1213,14 +1230,15 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="cacollapse-item-4" data-bs-parent="#cafaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">Cloud services offer several advantages, including:
+                                                <p class="faq-text">
+                                                    Cloud services offer several advantages, including:
                                                     <ul>
-                                                    <li>Scalability and flexibility</li>
-                                                    <li>Cost efficiency (pay-as-you-go model)</li>
-                                                    <li>High availability and reliability</li>
-                                                    <li>Improved data security</li>
-                                                    <li>Easy remote access from anywhere</li>
-                                                </ul>
+                                                        <li>Scalability and flexibility</li>
+                                                        <li>Cost efficiency (pay-as-you-go model)</li>
+                                                        <li>High availability and reliability</li>
+                                                        <li>Improved data security</li>
+                                                        <li>Easy remote access from anywhere</li>
+                                                    </ul>
                                                 </p> 
                                             </div>
 
@@ -1383,16 +1401,17 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="iccollapse-item-2" data-bs-parent="#icfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">IT consulting typically includes:
-                                                <ul>
-                                                    <li>IT Strategy and Planning</li>
-                                                    <li>Technology Assessment and Audits</li>
-                                                    <li>IT Infrastructure Design</li>
-                                                    <li>Cloud Consulting and Migration</li>
-                                                    <li>Cybersecurity Consulting</li>
-                                                    <li>Software and System Integration</li>
-                                                    <li>Digital Transformation Strategy</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    IT consulting typically includes:
+                                                    <ul>
+                                                        <li>IT Strategy and Planning</li>
+                                                        <li>Technology Assessment and Audits</li>
+                                                        <li>IT Infrastructure Design</li>
+                                                        <li>Cloud Consulting and Migration</li>
+                                                        <li>Cybersecurity Consulting</li>
+                                                        <li>Software and System Integration</li>
+                                                        <li>Digital Transformation Strategy</li>
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -1465,15 +1484,17 @@ include_once('elements/header.php');
 
                                         <div id="collapse-6" class="accordion-collapse collapse" role="region" aria-labelledby="iccollapse-item-6" data-bs-parent="#icfaqAccordion2">
                                             <div class="accordion-body">
-                                                <p class="faq-text">IT consulting services can support many industries, including:</p>
-                                                <ul>
-                                                    <li>Healthcare</li>
-                                                    <li>Finance and Banking</li>
-                                                    <li>E-commerce</li>
-                                                    <li>Education</li>
-                                                    <li>Manufacturing</li>
-                                                    <li>Travel and Hospitality</li> 
-                                                </ul>
+                                                <p class="faq-text">
+                                                    IT consulting services can support many industries, including:
+                                                    <ul>
+                                                        <li>Healthcare</li>
+                                                        <li>Finance and Banking</li>
+                                                        <li>E-commerce</li>
+                                                        <li>Education</li>
+                                                        <li>Manufacturing</li>
+                                                        <li>Travel and Hospitality</li> 
+                                                    </ul>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1612,16 +1633,17 @@ include_once('elements/header.php');
                                         <div id="collapse-3" class="accordion-collapse collapse" role="region" aria-labelledby="cscollapse-item-3" data-bs-parent="#csfaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">Our cybersecurity services include:
-                                                <ul>
-                                                    <li>Security Risk Assessment</li>
-                                                    <li>Network Security</li>
-                                                    <li>Application Security</li>
-                                                    <li>Vulnerability Scanning and Penetration Testing</li>
-                                                    <li>Security Monitoring and Incident Response</li>
-                                                    <li>Data Protection and Encryption</li>
-                                                    <li>Security Compliance and Audits</li> 
-                                                </ul>
+                                                <p class="faq-text">
+                                                    Our cybersecurity services include:
+                                                    <ul>
+                                                        <li>Security Risk Assessment</li>
+                                                        <li>Network Security</li>
+                                                        <li>Application Security</li>
+                                                        <li>Vulnerability Scanning and Penetration Testing</li>
+                                                        <li>Security Monitoring and Incident Response</li>
+                                                        <li>Data Protection and Encryption</li>
+                                                        <li>Security Compliance and Audits</li> 
+                                                    </ul>
                                                 </p>
                                             </div>
 
@@ -1678,14 +1700,16 @@ include_once('elements/header.php');
 
                                         <div id="collapse-6" class="accordion-collapse collapse" role="region" aria-labelledby="cscollapse-item-6" data-bs-parent="#csfaqAccordion2">
                                             <div class="accordion-body">
-                                                <p class="faq-text">Businesses can improve cybersecurity by:</p>
-                                                <ul>
-                                                    <li>Using strong passwords and multi-factor authentication</li>
-                                                    <li>Installing firewalls and antivirus software</li>
-                                                    <li>Encrypting sensitive data</li>
-                                                    <li>Regularly updating software and systems</li>
-                                                    <li>Monitoring networks for suspicious activities</li> 
-                                                </ul>
+                                                <p class="faq-text">
+                                                    Businesses can improve cybersecurity by:
+                                                    <ul>
+                                                        <li>Using strong passwords and multi-factor authentication</li>
+                                                        <li>Installing firewalls and antivirus software</li>
+                                                        <li>Encrypting sensitive data</li>
+                                                        <li>Regularly updating software and systems</li>
+                                                        <li>Monitoring networks for suspicious activities</li> 
+                                                    </ul>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1808,16 +1832,18 @@ include_once('elements/header.php');
                                             role="region" aria-labelledby="dacollapse-item-2" data-bs-parent="#dafaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">Our Data & Analytics services typically include:</p>
-                                                  <ul>
-                                                    <li>Data Collection and Integration</li>
-                                                    <li>Data Warehousing</li>
-                                                    <li>Data Visualization and Dashboards </li>
-                                                    <li>Business Intelligence (BI) Solutions</li>
-                                                    <li>Predictive Analytics</li>
-                                                    <li>Big Data Processing</li>
-                                                    <li>Data Governance and Management</li>
-                                                </ul>
+                                                <p class="faq-text">
+                                                    Our Data & Analytics services typically include:
+                                                    <ul>
+                                                        <li>Data Collection and Integration</li>
+                                                        <li>Data Warehousing</li>
+                                                        <li>Data Visualization and Dashboards </li>
+                                                        <li>Business Intelligence (BI) Solutions</li>
+                                                        <li>Predictive Analytics</li>
+                                                        <li>Big Data Processing</li>
+                                                        <li>Data Governance and Management</li>
+                                                    </ul>
+                                                </p>
                                             </div>
 
                                         </div>
@@ -1849,13 +1875,15 @@ include_once('elements/header.php');
                                         <div id="collapse-4" class="accordion-collapse collapse" role="region" aria-labelledby="dacollapse-item-4" data-bs-parent="#dafaqAccordion">
 
                                             <div class="accordion-body">
-                                                <p class="faq-text">We use industry-leading tools such as:</p>
-                                                <ul>
-                                                    <li>Microsoft Power BI</li>
-                                                    <li>Tableau</li>
-                                                    <li>Google Analytics</li>
-                                                    <li>Apache Hadoop</li>
-                                                </ul> 
+                                                <p class="faq-text">
+                                                    We use industry-leading tools such as:
+                                                    <ul>
+                                                        <li>Microsoft Power BI</li>
+                                                        <li>Tableau</li>
+                                                        <li>Google Analytics</li>
+                                                        <li>Apache Hadoop</li>
+                                                    </ul> 
+                                                </p>
                                             </div>
 
                                         </div>
