@@ -18,7 +18,7 @@ include_once('elements/header.php');
     <div class="container">
         <div class="breadcumb-content">
 
-            <h1 class="breadcumb-title" id="serviceTitle"></h1>
+            <h1 class="breadcumb-title" id="serviceTitle">Contact US</h1>
 
             <ul class="breadcumb-menu">
                 <li>
@@ -52,11 +52,6 @@ include_once('elements/header.php');
     </div>
 
 </section>
-
-<?php
-include_once('elements/appointment.php');
-include_once('elements/footer.php');
-?>
 
 
 <script>
@@ -145,3 +140,8 @@ console.log("Service slug:", service);
     })
     .catch(error => console.log(error));
 </script>
+
+<?php
+include_once('elements/appointment.php');
+include_once('elements/footer.php');
+?>
