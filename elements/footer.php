@@ -19,7 +19,7 @@
                                     </div>
                                     <div class="media-body">
                                         <span class="footer-contact_text">Quick Call Us:</span> 
-                                        <a href="tel:+918200017181" class="footer-contact_link">
+                                        <a href="tel:<?php echo str_replace(' ', '', callNumber() );?>" class="footer-contact_link">
                                             <?php echo callNumber();?>
                                         </a>
                                     </div>
