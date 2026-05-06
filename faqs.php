@@ -40,14 +40,14 @@ include_once('elements/header.php');
         <!-- Web Development Accordion -->
         <div class="accordion" id="webAccordion"> 
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="webheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseWeb" aria-expanded="true">
                         <span class="faq-title">Web Development Services</span>
                     </button>
                 </h2>
 
-                <div id="collapseWeb" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#webAccordion">
+                <div id="collapseWeb" class="accordion-collapse collapse" aria-labelledby="webheadingService" data-bs-parent="#webAccordion">
 
                     <div class="accordion-body">
 
@@ -255,14 +255,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="softwareAccordion"> 
             <!-- Web Development Accordion -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="swheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSoftware" aria-expanded="true">
                         <span class="faq-title">Software Development Services</span>
                     </button>
                 </h2>
 
-                <div id="collapseSoftware" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#softwareAccordion">
+                <div id="collapseSoftware" class="accordion-collapse collapse" aria-labelledby="swheadingService" data-bs-parent="#softwareAccordion">
 
                     <div class="accordion-body">
 
@@ -470,14 +470,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="mobileAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="mblheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseMobile" aria-expanded="true">
                        <span class="faq-title"> Mobile App Development </span>
                     </button>
                 </h2>
 
-                <div id="collapseMobile" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#mobileAccordion">
+                <div id="collapseMobile" class="accordion-collapse collapse" aria-labelledby="mblheadingService" data-bs-parent="#mobileAccordion">
 
                     <div class="accordion-body">
 
@@ -684,14 +684,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="uiuxAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="uixheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseUiUx" aria-expanded="true">
                        <span class="faq-title"> UI/UX Design Services </span>
                     </button>
                 </h2>
 
-                <div id="collapseUiUx" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#uiuxAccordion">
+                <div id="collapseUiUx" class="accordion-collapse collapse" aria-labelledby="uixheadingService" data-bs-parent="#uiuxAccordion">
 
                     <div class="accordion-body">
 
@@ -906,14 +906,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="digitalmarketingAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="dmheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseDigitalMarketing" aria-expanded="true">
                        <span class="faq-title"> Digital Marketing Services </span>
                     </button>
                 </h2>
 
-                <div id="collapseDigitalMarketing" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#digitalmarketingAccordion">
+                <div id="collapseDigitalMarketing" class="accordion-collapse collapse" aria-labelledby="dmheadingService" data-bs-parent="#digitalmarketingAccordion">
 
                     <div class="accordion-body">
 
@@ -1123,14 +1123,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="cloudAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="cldheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseCloud" aria-expanded="true">
                        <span class="faq-title"> Cloud Services </span>
                     </button>
                 </h2>
 
-                <div id="collapseCloud" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#cloudAccordion">
+                <div id="collapseCloud" class="accordion-collapse collapse" aria-labelledby="cldheadingService" data-bs-parent="#cloudAccordion">
 
                     <div class="accordion-body">
 
@@ -1340,14 +1340,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="it_consultingAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="itcheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseITconsulting" aria-expanded="true">
                        <span class="faq-title"> IT Consulting Services </span>
                     </button>
                 </h2>
 
-                <div id="collapseITconsulting" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#it_consultingAccordion">
+                <div id="collapseITconsulting" class="accordion-collapse collapse" aria-labelledby="itcheadingService" data-bs-parent="#it_consultingAccordion">
 
                     <div class="accordion-body">
 
@@ -1553,14 +1553,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="cybersecurityAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="csheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseCybersecurity" aria-expanded="true">
                        <span class="faq-title"> Cybersecurity Services  </span>
                     </button>
                 </h2>
 
-                <div id="collapseCybersecurity" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#cybersecurityAccordion">
+                <div id="collapseCybersecurity" class="accordion-collapse collapse" aria-labelledby="csheadingService" data-bs-parent="#cybersecurityAccordion">
 
                     <div class="accordion-body">
 
@@ -1765,14 +1765,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="data_analyticsAccordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="daheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseDataAnalytics" aria-expanded="true">
                        <span class="faq-title"> Data & Analytics Services  </span>
                     </button>
                 </h2>
 
-                <div id="collapseDataAnalytics" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#data_analyticsAccordion">
+                <div id="collapseDataAnalytics" class="accordion-collapse collapse" aria-labelledby="daheadingService" data-bs-parent="#data_analyticsAccordion">
 
                     <div class="accordion-body">
 
@@ -1974,14 +1974,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="ai_automation_Accordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="aiheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseAiAutomation" aria-expanded="true">
                        <span class="faq-title"> AI & Automation Services </span>
                     </button>
                 </h2>
 
-                <div id="collapseAiAutomation" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#ai_automation_Accordion">
+                <div id="collapseAiAutomation" class="accordion-collapse collapse" aria-labelledby="aiheadingService" data-bs-parent="#ai_automation_Accordion">
 
                     <div class="accordion-body">
 
@@ -2191,14 +2191,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="it_support_Accordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="itsheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseITsupport" aria-expanded="true">
                       <span class="faq-title">  IT Support & Maintenance </span> 
                     </button>
                 </h2>
 
-                <div id="collapseITsupport" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#it_support_Accordion">
+                <div id="collapseITsupport" class="accordion-collapse collapse" aria-labelledby="itsheadingService" data-bs-parent="#it_support_Accordion">
 
                     <div class="accordion-body">
 
@@ -2396,14 +2396,14 @@ include_once('elements/header.php');
         <div class="accordion mt-3" id="blockchain_Accordion"> 
  
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingService">
+                <h2 class="accordion-header" id="bcheadingService">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseBlockchain" aria-expanded="true">
                        <span class="faq-title"> Blockchain Development </span> 
                     </button>
                 </h2>
 
-                <div id="collapseBlockchain" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#blockchain_Accordion">
+                <div id="collapseBlockchain" class="accordion-collapse collapse" aria-labelledby="bcheadingService" data-bs-parent="#blockchain_Accordion">
 
                     <div class="accordion-body">
 
