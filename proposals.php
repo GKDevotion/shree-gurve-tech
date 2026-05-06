@@ -226,8 +226,8 @@ include_once('elements/header.php');
             </div>
             <div class="col-xxl-5 col-xl-6">
                 <div class="title-area mb-35"><span class="sub-title">
-                        <div class="icon-masking me-2"><span class="mask-icon"
-                                data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> <img
+                        <div class="icon-masking me-2"><div class="mask-icon"
+                                data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> <img
                                 src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape"></div>WHY CHOOSE US
                     </span>
                     <h2 class="sec-title">We Deal With The Aspects Professional <span class="text-theme">IT

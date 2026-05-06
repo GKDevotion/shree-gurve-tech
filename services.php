@@ -42,7 +42,7 @@ include_once('elements/header.php');
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></span>
+                            <div class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></div>
                             <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>" alt="shape">
                         </div>
                         CONTACT US

@@ -4,7 +4,7 @@
             <div class="col-xl-6 pe-xxl-5 mb-40 mb-xl-0">
                 <div class="title-area mb-35 text-xl-start text-center"><span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> 
+                            <div class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></div> 
                             <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
                         </div>
                         CONTACT NOW

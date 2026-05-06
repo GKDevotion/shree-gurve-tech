@@ -28,11 +28,11 @@ include_once( 'elements/home-top-slider.php' );
                                     <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_1.svg';?>" alt="Icon"> 
                                     <span class="dots"></span>
                                 </div>
-                                <h3 class="box-title">
+                                <label class="box-title">
                                     <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">
                                         Web Development Services
                                     </a>
-                                </h3>
+                                </label>
                                 <p class="service-featured_text">
                                     Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.
                                 </p>
@@ -47,11 +47,11 @@ include_once( 'elements/home-top-slider.php' );
                                     <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_2.svg';?>" alt="Icon"> 
                                     <span class="dots"></span>
                                 </div>
-                                <h3 class="box-title">
+                                <label class="box-title">
                                     <a href="<?php echo $seoArr['base_url'].'service-details/software-development';?>">
                                         Software Development Services
                                     </a>
-                                </h3>
+                                </label>
                                 <p class="service-featured_text">
                                     Software development involves designing, building, and maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency, and manage operations through reliable and scalable applications.
                                 </p>
@@ -66,11 +66,11 @@ include_once( 'elements/home-top-slider.php' );
                                     <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_3.svg';?>" alt="Icon"> 
                                     <span class="dots"></span>
                                 </div>
-                                <h3 class="box-title">
+                                <label class="box-title">
                                     <a href="<?php echo $seoArr['base_url'].'service-details/mobile-app-development';?>">
                                         Mobile App Development
                                     </a>
-                                </h3>
+                                </label>
                                 <p class="service-featured_text">
                                     Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services, and deliver seamless experiences on Android and iOS devices.
                                 </p>
@@ -85,11 +85,11 @@ include_once( 'elements/home-top-slider.php' );
                                     <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_4.svg';?>" alt="Icon"> 
                                     <span class="dots"></span>
                                 </div>
-                                <h3 class="box-title">
+                                <label class="box-title">
                                     <a href="<?php echo $seoArr['base_url'].'service-details/ui-ux-design';?>">
                                         UI/UX Design Services
                                     </a>
-                                </h3>
+                                </label>
                                 <p class="service-featured_text">
                                     UI/UX design focuses on creating visually appealing and user-friendly digital interfaces. It ensures websites and applications are easy to use, engaging, and provide a smooth experience for users.
                                 </p>
@@ -119,8 +119,8 @@ include_once( 'elements/home-top-slider.php' );
             <div class="col-xl-6">
                 <div class="ps-xxl-4 ms-xl-3">
                     <div class="title-area mb-35"><span class="sub-title">
-                            <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> <img
+                            <div class="icon-masking me-2"><div class="mask-icon"
+                                    data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> <img
                                     src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape"></div>About Us
                         </span>
                         <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">IT
@@ -168,7 +168,7 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="title-area text-center">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <div class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> 
                             <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         OUR SERVICES
@@ -350,7 +350,7 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <div class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> 
                             <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         GET BEST IT SOLUTION 2019
@@ -388,7 +388,7 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="title-area mb-35">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> 
+                            <div class="mask-icon" data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> 
                             <img src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape">
                         </div>
                         WHY CHOOSE US
@@ -473,8 +473,8 @@ include_once( 'elements/home-top-slider.php' );
                 <div class="col-xl-5">
                     <div class="pe-xxl-5 text-xl-start text-center">
                         <div class="title-area mb-35"><span class="sub-title">
-                                <div class="icon-masking me-2"><span class="mask-icon"
-                                        data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></span> <img
+                                <div class="icon-masking me-2"><div class="mask-icon"
+                                        data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>"></div> <img
                                         src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_1.svg';?>" alt="shape"></div>TESTIMONIALS
                             </span>
                             <h2 class="sec-title text-white">Let’s Here What Are The Customer <span

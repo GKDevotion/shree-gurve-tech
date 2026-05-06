@@ -30,8 +30,8 @@ include_once('elements/header.php');
     <div class="container">
 
         <div class="title-area text-center"><span class="sub-title">
-                <div class="icon-masking me-2"><span class="mask-icon"
-                        data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
+                <div class="icon-masking me-2"><div class="mask-icon"
+                        data-mask-src="assets/img/theme-img/title_shape_2.svg"></div> <img
                         src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>FAQ
             </span>
             <h2 class="sec-title">Talk To About Any <span class="text-theme">Question?</span></h2>

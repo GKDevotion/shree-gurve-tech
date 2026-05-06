@@ -1,4 +1,4 @@
-<section class="bg-top-right overflow-hidden space" id="blog-sec" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/blog_bg_1.png';?>">
+<div class="bg-top-right overflow-hidden space" id="blog-sec" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/blog_bg_1.png';?>">
     <div class="container">
         <div class="slider-area text-center">
             <div class="swiper th-slider"
@@ -56,4 +56,4 @@
     <div class="shape-mockup" data-bottom="0" data-left="0">
         <div class="particle-2 small" id="particle-4"></div>
     </div>
-</section>
+</div>

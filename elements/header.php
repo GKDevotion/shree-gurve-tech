@@ -49,9 +49,7 @@
             gtag('js', new Date());
 
             gtag('config', 'G-0YED9EGZHR');
-        </script>
         
-        <script type="text/javascript">
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
@@ -66,17 +64,17 @@
             <div id="loader" class="th-preloader">
                 <div class="animation-preloader">
                     <div class="txt-loading">
-                        <span preloader-text="S" class="characters">S</span>
-                        <span preloader-text="H" class="characters">H</span>
-                        <span preloader-text="R" class="characters">R</span>
-                        <span preloader-text="E" class="characters">E</span>
-                        <span preloader-text="E" class="characters">E</span>
-                        <span preloader-text="&nbsp;" class="characters">&nbsp;</span>
-                        <span preloader-text="G" class="characters">G</span>
-                        <span preloader-text="U" class="characters">U</span>
-                        <span preloader-text="R" class="characters">R</span>
-                        <span preloader-text="V" class="characters">V</span>
-                        <span preloader-text="E" class="characters">E</span>
+                        <span class="characters">S</span>
+                        <span class="characters">H</span>
+                        <span class="characters">R</span>
+                        <span class="characters">E</span>
+                        <span class="characters">E</span>
+                        <span class="characters">&nbsp;</span>
+                        <span class="characters">G</span>
+                        <span class="characters">U</span>
+                        <span class="characters">R</span>
+                        <span class="characters">V</span>
+                        <span class="characters">E</span>
                     </div>
                 </div>
             </div>
@@ -153,7 +151,7 @@
                                     </li>
                                     <li>
                                         <i class="fas fa-phone"></i>
-                                        <a href="tel:<?php echo callNumber();?>">
+                                        <a href="tel:<?php echo str_replace(' ', '', callNumber() );?>">
                                             <?php echo callNumber();?>
                                         </a>
                                     </li>
