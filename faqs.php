@@ -121,7 +121,6 @@ include_once('elements/header.php');
 
                                                     <div id="<?= $collapseId ?>"
                                                         class="accordion-collapse collapse"
-                                                        aria-labelledby="<?= $headingId ?>"
                                                         data-bs-parent="#<?= $sectionKey ?>-faqAccordion-<?= $colIndex ?>">
 
                                                         <div class="accordion-body">
