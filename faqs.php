@@ -71,7 +71,6 @@ include_once('elements/header.php');
 
                     <div id="<?= $section['collapse_id'] ?>"
                         class="accordion-collapse collapse"
-                        aria-labelledby="<?= $section['heading_id'] ?>"
                         data-bs-parent="#<?= $section['accordion_id'] ?>">
 
                         <div class="accordion-body">
