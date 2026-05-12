@@ -39,10 +39,12 @@ $services = json_decode($json, true);
                                 data-mask-src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>"></div> <img
                                 src="<?php echo $seoArr['base_url'].'assets/img/theme-img/title_shape_2.svg';?>" alt="shape"></div>contact with us!
                     </span>
-                    <h2 class="sec-title">Have Any Questions?</h2>
-                    <p class="sec-text">Enthusiastically disintermediate one-to-one leadership via business
-                        e-commerce. Dramatically reintermediate compelling process improvements rather than
-                        empowered relationships.</p>
+                    <h2 class="sec-title">
+                        Have Any Questions?
+                    </h2>
+                    <p class="sec-text">
+                        Enthusiastically disintermediate one-to-one leadership via business e-commerce. Dramatically reintermediate compelling process improvements rather than empowered relationships.
+                    </p>
                 </div>
 
                 <form id="contactForm" method="POST" action="save_contact.php"
@@ -99,7 +101,12 @@ $services = json_decode($json, true);
                     <div class="contact-info">
                         <div class="contact-info_icon"><i class="fas fa-location-dot"></i></div>
                         <div class="media-body">
-                            <h4 class="box-title">Our Office Address</h4><span class="contact-info_text">B710, Westgate by True value, Ahmedabad</span>
+                            <h4 class="box-title">
+                                Our Office Address
+                            </h4>
+                            <span class="contact-info_text">
+                                <?= representativeOfficeAddress(); ?>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -110,7 +117,9 @@ $services = json_decode($json, true);
                         <div class="media-body">
                             <h4 class="box-title">Call Us Anytime</h4>
                             <span class="contact-info_text">
-                                <a href="tel:+91 82000 17181">+91 82000 17181</a>
+                                <a href="tel:<?php echo str_replace(' ', '', callNumber() );?>">
+                                    <?php echo callNumber();?>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -122,7 +131,9 @@ $services = json_decode($json, true);
                         <div class="media-body">
                             <h4 class="box-title">Send An Email</h4>
                             <span class="contact-info_text">
-                                <a href="mailto:contact@shareegurve.com">contact@shareegurve.com</a>
+                                <a href="mailto:<?php echo contactEmail();?>">
+                                    <?php echo contactEmail();?>
+                                </a>
                             </span>
                         </div>
                     </div>
