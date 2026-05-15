@@ -72,7 +72,7 @@ include_once('elements/header.php');
                 let project = data[key];
 
                 html += `
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="project-card">
                         <div class="project-img">
                             <img src="${base_url}assets/img/project/${project.icon}" alt="${project.title}">
