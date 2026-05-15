@@ -149,5 +149,25 @@
     "canonical": "go-2-click",
     "h1_tag": "",
     "keyword": ""
+  },
+  "wealthora": {
+    "icon"  :"wealthora.jpg",
+    "title": "Wealthora",
+    "description": "Wealthora - Growing your Future",
+    "link": "https://wealthora.io/",
+    "meta_description" : "",
+    "canonical": "wealthora",
+    "h1_tag": "",
+    "keyword": ""
+  },
+  "the-euphoria": {
+    "icon"  :"the-euphoria.jpg",
+    "title": "The Euphoria",
+    "description": "Wealthora - Growing your Future",
+    "link": "https://theeuphoriagroup.com",
+    "meta_description" : "The Euphoria Group | Inbound & Outbound Professional Services",
+    "canonical": "the-euphoria",
+    "h1_tag": "",
+    "keyword": ""
   }
 }
