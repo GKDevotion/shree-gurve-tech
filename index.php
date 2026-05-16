@@ -201,7 +201,7 @@ include_once( 'elements/home-top-slider.php' );
                         Digital marketing helps businesses promote their products and services online through channels like search engines, social media, and advertising. It increases brand visibility, attracts potential customers, and drives business growth.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/digital-marketing';?>" class="th-btn">
-                        Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                        Degital Marketing <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
                         <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
@@ -225,7 +225,7 @@ include_once( 'elements/home-top-slider.php' );
                         Cloud services provide secure online infrastructure for storing data, running applications, and managing business systems. They help businesses improve scalability, accessibility, and operational efficiency without maintaining physical servers.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/cloud-services';?>" class="th-btn">
-                        Read More
+                        Cloud Services
                         <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
@@ -250,7 +250,7 @@ include_once( 'elements/home-top-slider.php' );
                         IT consulting helps businesses choose the right technology solutions to improve efficiency and support growth. It includes expert guidance on IT strategy, system implementation, and digital transformation.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/it-consulting-services';?>" class="th-btn">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        IT Consulting <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
                         <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
@@ -274,7 +274,7 @@ include_once( 'elements/home-top-slider.php' );
                         Cybersecurity protects systems, networks, and data from cyber threats and unauthorized access. It helps businesses ensure data privacy, prevent attacks, and maintain secure digital operations.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/cyber-security-services';?>" class="th-btn">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        Cyber Security <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
                         <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
@@ -298,7 +298,7 @@ include_once( 'elements/home-top-slider.php' );
                         Data & Analytics helps businesses collect, process, and analyze data to gain valuable insights. It supports better decision-making, improves performance, and identifies new business opportunities.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/data-analytics';?>" class="th-btn">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        Data Analytics <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
                         <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">
@@ -322,7 +322,7 @@ include_once( 'elements/home-top-slider.php' );
                         AI & Automation use intelligent technologies to automate repetitive tasks and improve business processes. It helps organizations increase efficiency, reduce costs, and make smarter decisions through data-driven insights.
                     </p>
                     <a href="<?php echo $seoArr['base_url'].'service-details/ai-automation';?>" class="th-btn">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        AI Automation <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                     <div class="bg-shape">
                         <img src="<?php echo $seoArr['base_url'].'assets/img/bg/service_card_bg.png';?>" alt="bg">

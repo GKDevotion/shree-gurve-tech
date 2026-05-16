@@ -66,7 +66,7 @@ include_once('elements/header.php');
                     </p>
 
                     <a href="<?php echo $seoArr['base_url'];?>proposal/jewellery-e-commerce" class="th-btn" target="_blank">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        Jewellery E-Commerce<i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
                     <div class="bg-shape">
@@ -97,7 +97,7 @@ include_once('elements/header.php');
                     </p>
 
                     <a href="<?php echo $seoArr['base_url'];?>proposal/smart-crm" class="th-btn" target="_blank">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        Smart CRM <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
                     <div class="bg-shape">
@@ -128,7 +128,7 @@ include_once('elements/header.php');
                     </p>
 
                     <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions" class="th-btn" target="_blank">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        ERP Solution <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
                     <div class="bg-shape">
@@ -159,7 +159,7 @@ include_once('elements/header.php');
                     </p>
 
                     <a href="<?php echo $seoArr['base_url'];?>proposal/erp-solutions" class="th-btn" target="_blank">
-                        Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                        HRMS Solution <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
 
                     <div class="bg-shape">

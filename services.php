@@ -92,7 +92,7 @@ include_once('elements/header.php');
                             </p>
 
                             <a href="${base_url}service-details/${key}" class="th-btn">
-                                Read More<i class="fa-regular fa-arrow-right ms-2"></i>
+                                ${service.title} <i class="fa-regular fa-arrow-right ms-2"></i>
                             </a>
 
                             <div class="bg-shape">
