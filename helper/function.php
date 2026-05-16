@@ -35,15 +35,15 @@ function representativeOfficeAddress(){
 }
 
 function facebookLink(){
-    return "facebook.com";
+    return "https://www.facebook.com/profile.php?id=61589868721671";
 }
 
 function linkedinLink(){
-    return "linkedin.com";
+    return "https://www.linkedin.com/in/gautam-kakadiya-816297a1/";
 }
 
 function twitterLink(){
-    return "twitter.com";
+    return "https://www.x.com";
 }
 
 function instagramLink(){
@@ -51,11 +51,11 @@ function instagramLink(){
 }
 
 function youtubeLink(){
-    return "youtube.com";
+    return "https://www.youtube.com/@ShreeGurave";
 }
 
 function whatsappLink(){
-    return "whatsapp.com";
+    return "https://wa.me/8200017181?text=Hi";
 }
 
 function getServiceChildMenu( $seoArr, $type=0 ){

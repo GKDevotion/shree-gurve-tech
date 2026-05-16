@@ -61,7 +61,7 @@
                                     </p>
                                     <div class="th-social">
                                         <a href="<?php echo facebookLink();?>"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="<?php echo twitterLink();?>"><i class="fab fa-twitter"></i></a>
+                                        <a href="<?php echo twitterLink();?>" class="d-none"><i class="fab fa-twitter"></i></a>
                                         <a href="<?php echo linkedinLink();?>"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="<?php echo instagramLink();?>"><i class="fab fa-instagram"></i></a>
                                         <a href="<?php echo youtubeLink();?>"><i class="fab fa-youtube"></i></a>
