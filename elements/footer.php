@@ -196,6 +196,8 @@
                 });
             }
         </script>
+
+        <div id="jsonLdContainer"></div>
     </body>
 
 </html>

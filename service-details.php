@@ -64,7 +64,6 @@ if (!service) {
     service = path[path.length - 1];
 }
 
-console.log("Service slug:", service);
     fetch("assets/data/services.json")
     .then(res => res.json())
     .then(data => {
@@ -114,9 +113,7 @@ console.log("Service slug:", service);
                 </div>
 
                 <h3 class="box-title">
-                    <a href="${item.link}">
-                        ${item.title}
-                    </a>
+                    ${item.title}
                 </h3>
 
                 <p class="service-card_text">
