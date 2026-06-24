@@ -1,0 +1,24 @@
+# robots.txt – Shree Gurve Technology
+# https://shreegurvetech.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block sensitive directories and files
+Disallow: /config.php
+Disallow: /database.sql
+Disallow: /contact/
+Disallow: /.htaccess
+Disallow: /includes/
+
+# Block common scan paths
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /phpmyadmin/
+Disallow: /admin/
+
+# Crawl delay for polite bots
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://shreegurvetech.com/sitemap.php
