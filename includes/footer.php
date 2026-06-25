@@ -11,7 +11,7 @@
                     <p>From idea to launch — we handle the technology so you can focus on your business.</p>
                 </div>
                 <div class="col-lg-5 text-lg-end" data-aos="fade-left">
-                    <a href="/contact-us" class="btn btn-light btn-lg me-3">Get a Free Quote</a>
+                    <a href="<?= getBaseUrl("contact-us")?>" class="btn btn-light btn-lg me-3">Get a Free Quote</a>
                     <a href="tel:+918200017181" class="btn btn-outline-light btn-lg">
                         <i class="bi bi-telephone-fill me-2"></i>Call Now
                     </a>
@@ -27,7 +27,7 @@
                 <!-- Brand Column -->
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-brand">
-                        <a href="/" class="footer-logo" aria-label="Shree Gurve Technology">
+                        <a href="<?= getBaseUrl()?>" class="footer-logo" aria-label="Shree Gurve Technology">
                             <span class="brand-sgt">SGT</span>
                             <div class="brand-name">
                                 <strong>Shree Gurve</strong>
@@ -50,12 +50,12 @@
                 <div class="col-lg-2 col-md-6 col-6">
                     <h5 class="footer-heading">Quick Links</h5>
                     <ul class="footer-links">
-                        <li><a href="/about-us">About Us</a></li>
-                        <li><a href="/services">Our Services</a></li>
-                        <li><a href="/solutions">Solutions</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="<?= getBaseUrl("about-us")?>">About Us</a></li>
+                        <li><a href="<?= getBaseUrl("services")?>">Our Services</a></li>
+                        <li><a href="<?= getBaseUrl("solutions")?>">Solutions</a></li>
+                        <li><a href="<?= getBaseUrl("projects")?>">Projects</a></li>
+                        <li><a href="<?= getBaseUrl("faqs")?>">FAQs</a></li>
+                        <li><a href="<?= getBaseUrl("contact-us")?>">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -63,14 +63,14 @@
                 <div class="col-lg-3 col-md-6 col-6">
                     <h5 class="footer-heading">IT Services</h5>
                     <ul class="footer-links">
-                        <li><a href="/service-details/web-development">Web Development</a></li>
-                        <li><a href="/service-details/software-development">Software Development</a></li>
-                        <li><a href="/service-details/mobile-app-development">Mobile App Development</a></li>
-                        <li><a href="/service-details/ui-ux-design">UI/UX Design</a></li>
-                        <li><a href="/service-details/digital-marketing">Digital Marketing</a></li>
-                        <li><a href="/service-details/cyber-security-services">Cybersecurity</a></li>
-                        <li><a href="/service-details/ai-automation">AI & Automation</a></li>
-                        <li><a href="/service-details/cloud-services">Cloud Services</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/web-development")?>">Web Development</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/software-development")?>">Software Development</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/mobile-app-development")?>">Mobile App Development</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/ui-ux-design")?>">UI/UX Design</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/digital-marketing")?>">Digital Marketing</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/cyber-security-services")?>">Cybersecurity</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/ai-automation")?>">AI & Automation</a></li>
+                        <li><a href="<?= getBaseUrl("service-details/cloud-services")?>">Cloud Services</a></li>
                     </ul>
                 </div>
 
@@ -108,9 +108,9 @@
                     <p class="mb-0">&copy; <?= date('Y') ?> Shree Gurve Technology. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="/terms-conditions">Terms &amp; Conditions</a>
-                    <a href="/privacy-policy">Privacy Policy</a>
-                    <a href="/cookie-policy">Cookie Policy</a>
+                    <a href="<?= getBaseUrl("terms-conditions")?>">Terms &amp; Conditions</a>
+                    <a href="<?= getBaseUrl("privacy-policy")?>">Privacy Policy</a>
+                    <a href="<?= getBaseUrl("cookie-policy")?>">Cookie Policy</a>
                 </div>
             </div>
         </div>
@@ -139,6 +139,6 @@
 <!-- Counter JS -->
 <script src="https://cdn.jsdelivr.net/npm/countup.js@2.8.0/dist/countUp.umd.js"></script>
 <!-- Custom JS -->
-<script src="/assets/js/main.js"></script>
+<script src="<?= getBaseUrl("assets/js/main.js")?>"></script>
 </body>
 </html>

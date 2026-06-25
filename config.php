@@ -5,13 +5,13 @@
  */
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'shreegurvetech');
+define('DB_NAME', 'core_shreegurvetech');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', '@dmin');
 define('DB_CHARSET', 'utf8mb4');
 
 define('SITE_NAME', 'Shree Gurve Technology');
-define('SITE_URL', 'https://shreegurvetech.com');
+define('SITE_URL', 'http://192.168.2.112/core/shree-gurve-tech/');
 define('SITE_EMAIL', 'contact@shreegurvetech.com');
 define('SITE_PHONE', '+91 82000 17181');
 define('SITE_ADDRESS', 'Surat - 395004, Gujarat, India');

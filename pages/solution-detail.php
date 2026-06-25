@@ -1,5 +1,5 @@
-<?php
-require_once __DIR__ . '/../config.php';
+<?php 
+include_once('config.php'); 
 
 $slug = basename($_SERVER['REQUEST_URI']);
 $slug = preg_replace('/[^a-z0-9\-]/', '', strtolower($slug));
@@ -226,7 +226,7 @@ $sol = $solutionsData[$slug];
 $pageTitle     = $sol['title'] . ' | Custom Business Software | Shree Gurve Technology Surat';
 $pageDesc      = $sol['tagline'] . '. Custom ' . $sol['title'] . ' built by Shree Gurve Technology, Surat India. Tailored to your business. Get a free demo.';
 $pageKeywords  = strtolower($sol['title']) . ' India, custom ' . strtolower($sol['title']) . ' Surat, ' . strtolower($sol['title']) . ' software Gujarat, Shree Gurve Technology';
-$pageCanonical = 'https://shreegurvetech.com/solution-details/' . $slug;
+$pageCanonical = getBaseUrl('solution-details/' . $slug );
 $currentPage   = 'solutions';
 
 $faqSchema = json_encode([
@@ -239,8 +239,9 @@ $faqSchema = json_encode([
     ], $sol['faqs'])
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
-include __DIR__ . '/../includes/header.php';
+include_once('includes/footer.php'); 
 ?>
+
 <script type="application/ld+json"><?= $faqSchema ?></script>
 
 <!-- Page Hero -->
@@ -412,21 +413,21 @@ include __DIR__ . '/../includes/header.php';
 </section>
 
 <script>
-document.getElementById('solSidebarForm').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const btn = e.target.querySelector('[type="submit"]');
-    const res = document.getElementById('solSidebarResult');
-    const orig = btn.innerHTML;
-    btn.disabled = true;
-    btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Sending…';
-    try {
-        const r = await fetch('/contact/submit.php', { method:'POST', body:new FormData(e.target), headers:{'X-Requested-With':'XMLHttpRequest'} });
-        const d = await r.json();
-        res.innerHTML = `<div class="alert alert-${d.success?'success':'danger'} mb-3">${d.message}</div>`;
-        if (d.success) e.target.reset();
-    } catch { res.innerHTML = '<div class="alert alert-danger mb-3">Error. Please try again.</div>'; }
-    finally { btn.disabled = false; btn.innerHTML = orig; }
-});
+    document.getElementById('solSidebarForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = e.target.querySelector('[type="submit"]');
+        const res = document.getElementById('solSidebarResult');
+        const orig = btn.innerHTML;
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Sending…';
+        try {
+            const r = await fetch('/contact/submit.php', { method:'POST', body:new FormData(e.target), headers:{'X-Requested-With':'XMLHttpRequest'} });
+            const d = await r.json();
+            res.innerHTML = `<div class="alert alert-${d.success?'success':'danger'} mb-3">${d.message}</div>`;
+            if (d.success) e.target.reset();
+        } catch { res.innerHTML = '<div class="alert alert-danger mb-3">Error. Please try again.</div>'; }
+        finally { btn.disabled = false; btn.innerHTML = orig; }
+    });
 </script>
 
 <section class="cta-section" aria-label="Call to Action">
@@ -442,4 +443,6 @@ document.getElementById('solSidebarForm').addEventListener('submit', async (e) =
     </div>
 </section>
 
-<?php include __DIR__ . '/../includes/footer.php'; ?>
+<?php 
+include_once('includes/footer.php'); 
+?>
