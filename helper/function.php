@@ -47,7 +47,7 @@ function twitterLink(){
 }
 
 function instagramLink(){
-    return "instagram.com";
+    return "https://www.instagram.com/shreegurvetech/";
 }
 
 function youtubeLink(){
@@ -55,7 +55,7 @@ function youtubeLink(){
 }
 
 function whatsappLink(){
-    return "https://wa.me/8200017181?text=Hi";
+    return "https://wa.me/8200017181?text=Hello%20Shree%20Gurve%20Tech%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services.%20Please%20assist%20me.%20Thank%20you%21";
 }
 
 function getServiceChildMenu( $seoArr, $type=0 ){
