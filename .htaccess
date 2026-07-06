@@ -10,6 +10,7 @@ RewriteRule ^service-details/([^/]+)$ service-details.php?slug=$1 [L,QSA]
 
 RewriteRule ^solution-details/([^/]+)$ solution-details.php?slug=$1 [L,QSA]
 
+RewriteRule ^services$ services.php?slug=$1 [L,QSA]
 RewriteRule ^projects$ projects.php?slug=$1 [L,QSA]
 RewriteRule ^about-us about-us.php?slug=$1 [L,QSA]
 RewriteRule ^gallery gallery.php?slug=$1 [L,QSA]
