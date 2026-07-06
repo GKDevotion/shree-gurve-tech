@@ -126,6 +126,9 @@ if (!service) {
 
             </div>
         </div>
+        <script type="application/ld+json">
+            ${item.ld_json}
+        </script>
         `;
 
         });

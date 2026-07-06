@@ -37,6 +37,8 @@
         "link": "solution-details/marketing-automation"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Customer Relationship Management (CRM) systems to manage leads, customers, sales, and support efficiently. Scalable CRM solutions for modern businesses.",
     "canonical": "crm-solutions",
     "h1_tag": "Customer Relationship Management (CRM) Systems Development",
@@ -80,6 +82,8 @@
         "link": "solution-details/production-planning"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Enterprise Resource Planning (ERP) systems to integrate and manage business processes including finance, HR, inventory, and operations efficiently.",
     "canonical": "erp-solutions",
     "h1_tag": "Enterprise Resource Planning (ERP) Systems Development",
@@ -123,6 +127,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Human Resource Management (HRM) systems to manage employee data, attendance, payroll, recruitment, and performance with efficient HR automation solutions.",
     "canonical": "hrms-solutions",
     "h1_tag": "Human Resource Management (HRM) Systems Development",
@@ -166,6 +172,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Project Management Systems to plan, track, and manage tasks, teams, and projects efficiently with advanced reporting and collaboration tools.",
     "canonical": "project-management-systems",
     "h1_tag": "Project Management Systems Development",
@@ -203,6 +211,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Helpdesk and Ticketing Systems to manage customer support requests, track issues, automate workflows, and improve service efficiency.",
     "canonical": "helpdesk-systems",
     "h1_tag": "Helpdesk & Ticketing Systems Development",
@@ -246,6 +256,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom School and Education Management Systems to manage student records, attendance, exams, fees, and communication efficiently.",
     "canonical": "education-management-systems",
     "h1_tag": "School & Education Management Systems Development",
@@ -289,6 +301,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Hospital and Healthcare Management Systems to manage patient records, appointments, billing, and hospital operations efficiently.",
     "canonical": "healthcare-management-systems",
     "h1_tag": "Hospital & Healthcare Management Systems Development",
@@ -332,6 +346,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Inventory Management Systems to track stock levels, manage products, automate inventory control, and improve business efficiency.",
     "canonical": "inventory-management-systems",
     "h1_tag": "Inventory Management Systems Development",
@@ -375,6 +391,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Accounting and Finance Management Systems to manage billing, invoicing, expenses, financial reports, and business accounting efficiently.",
     "canonical": "accounting-finance-systems",
     "h1_tag": "Accounting & Finance Management Systems Development",
@@ -418,6 +436,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom E-Commerce Management Systems to manage products, orders, payments, inventory, and customer data with scalable online store solutions.",
     "canonical": "ecommerce-management-systems",
     "h1_tag": "E-Commerce Management Systems Development",
@@ -461,6 +481,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Real Estate Management Systems to manage property listings, clients, sales, rentals, and real estate operations efficiently.",
     "canonical": "real-estate-management-systems",
     "h1_tag": "Real Estate Management Systems Development",
@@ -504,6 +526,8 @@
         "link": "solution-details"
       } 
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Travel and Tourism Management Systems to manage bookings, tour packages, customer records, and travel operations efficiently.",
     "canonical": "travel-tourism-management-systems",
     "h1_tag": "Travel & Tourism Management Systems Development",
@@ -547,6 +571,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Document Management Systems to securely store, organize, manage, and retrieve digital documents with advanced access control and workflow automation.",
     "canonical": "document-management-systems",
     "h1_tag": "Document Management Systems Development",
@@ -590,6 +616,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Learning Management Systems (LMS) to manage online courses, training programs, student progress, and digital learning platforms.",
     "canonical": "learning-management-systems",
     "h1_tag": "Learning Management Systems (LMS) Development",
@@ -633,6 +661,8 @@
         "link": "solution-details"
       }
     ],
+    "ld_json": {
+    },
     "meta_description" : "Custom Business Intelligence and Analytics Systems to transform data into actionable insights with dashboards, reports, and advanced data analysis tools.",
     "canonical": "business-intelligenceanalytics-systems",
     "h1_tag": "Business Intelligence & Analytics Systems Development",

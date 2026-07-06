@@ -22,3 +22,7 @@ RewriteRule ^proposal/jewellery-e-commerce proposal/jewellery-e-commerce.php?slu
 RewriteRule ^proposal/smart-crm proposal/smart-crm.php?slug=$1 [L,QSA]
 RewriteRule ^proposal/erp-solutions proposal/erp-solutions.php?slug=$1 [L,QSA]
 RewriteRule ^proposal/hrm-solutions proposal/hrm-solutions.php?slug=$1 [L,QSA]
+
+RewriteRule ^terms-conditions terms-conditions.php?slug=$1 [L,QSA]
+RewriteRule ^cookie-policy cookie-policy.php?slug=$1 [L,QSA]
+RewriteRule ^privacy-policy privacy-policy.php?slug=$1 [L,QSA]
