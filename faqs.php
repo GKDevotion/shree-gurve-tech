@@ -13,6 +13,224 @@ $seoArr = [
 
 include_once('elements/header.php');
 ?>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+
+    {
+      "@type":"FAQPage",
+      "@id":"https://www.shreegurvetech.com/faq#faq",
+      "url":"https://www.shreegurvetech.com/faq",
+      "name":"Frequently Asked Questions | Shree Gurve Technology",
+      "headline":"Frequently Asked Questions",
+      "description":"Find answers to common questions about Shree Gurve Technology's web development, software development, mobile apps, UI/UX, digital marketing, cloud services, AI, cybersecurity, blockchain, and IT consulting.",
+      "inLanguage":"en",
+      "mainEntity":[
+
+        {
+          "@type":"Question",
+          "name":"What web development services do you offer?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"We build responsive business websites, corporate websites, eCommerce stores, CMS websites, custom web applications, portals, and enterprise web solutions using modern technologies."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you develop custom software?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We design and develop custom software solutions tailored to your business processes, including ERP, CRM, inventory systems, HRMS, billing software, and enterprise applications."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide Android and iOS mobile app development?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We develop Android, iOS, and cross-platform mobile applications with intuitive UI, secure architecture, and scalable performance."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide UI/UX design services?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. Our UI/UX experts create wireframes, prototypes, dashboards, web interfaces, mobile app designs, and user-centric digital experiences."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"What digital marketing services do you provide?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Our digital marketing services include SEO, Google Ads (PPC), social media marketing, content marketing, email marketing, conversion optimization, and online branding."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you offer cloud services?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We provide AWS, Microsoft Azure, and Google Cloud solutions including migration, cloud infrastructure, cloud security, backup, disaster recovery, and managed cloud services."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"What IT consulting services do you provide?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"We help businesses with digital transformation, IT strategy, technology consulting, startup consulting, automation planning, and scalable technology solutions."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide cybersecurity services?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We offer security audits, firewall setup, penetration testing, network security, endpoint protection, vulnerability assessments, and data security solutions."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide data analytics services?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. Our services include business intelligence dashboards, big data analytics, reporting, data visualization, data warehousing, and decision support solutions."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide AI and automation solutions?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We develop AI-powered applications, chatbots, machine learning solutions, business automation systems, workflow automation, and AI integrations."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you provide IT support and maintenance?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We provide ongoing technical support, server monitoring, software updates, backup management, infrastructure maintenance, and managed IT services."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Do you offer blockchain development services?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Yes. We build blockchain applications, smart contracts, crypto wallets, NFT marketplaces, token solutions, and enterprise blockchain platforms."
+          }
+        }
+
+      ]
+    },
+
+    {
+      "@type":"WebPage",
+      "@id":"https://www.shreegurvetech.com/faq#webpage",
+      "url":"https://www.shreegurvetech.com/faq",
+      "name":"Frequently Asked Questions",
+      "isPartOf":{
+        "@id":"https://www.shreegurvetech.com/#website"
+      },
+      "breadcrumb":{
+        "@id":"https://www.shreegurvetech.com/faq#breadcrumb"
+      },
+      "about":{
+        "@id":"https://www.shreegurvetech.com/#organization"
+      }
+    },
+
+    {
+      "@type":"BreadcrumbList",
+      "@id":"https://www.shreegurvetech.com/faq#breadcrumb",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "position":1,
+          "name":"Home",
+          "item":"https://www.shreegurvetech.com/"
+        },
+        {
+          "@type":"ListItem",
+          "position":2,
+          "name":"Frequently Asked Questions",
+          "item":"https://www.shreegurvetech.com/faq"
+        }
+      ]
+    },
+
+    {
+      "@type":"HowTo",
+      "@id":"https://www.shreegurvetech.com/faq#workflow",
+      "name":"Our Project Workflow",
+      "step":[
+        {
+          "@type":"HowToStep",
+          "position":1,
+          "name":"Select Project",
+          "text":"Discuss business requirements and project objectives."
+        },
+        {
+          "@type":"HowToStep",
+          "position":2,
+          "name":"Project Analysis",
+          "text":"Analyze technical requirements and prepare implementation strategy."
+        },
+        {
+          "@type":"HowToStep",
+          "position":3,
+          "name":"Plan & Execute",
+          "text":"Develop, test, and deploy the solution."
+        },
+        {
+          "@type":"HowToStep",
+          "position":4,
+          "name":"Deliver Result",
+          "text":"Launch the project and provide ongoing maintenance and support."
+        }
+      ]
+    },
+
+    {
+      "@type":"Organization",
+      "@id":"https://www.shreegurvetech.com/#organization",
+      "name":"Shree Gurve Technology",
+      "url":"https://www.shreegurvetech.com/",
+      "logo":"https://www.shreegurvetech.com/assets/images/logo.png",
+      "telephone":"+91-8200017181",
+      "email":"contact@shreegurvetech.com"
+    },
+
+    {
+      "@type":"WebSite",
+      "@id":"https://www.shreegurvetech.com/#website",
+      "url":"https://www.shreegurvetech.com/",
+      "name":"Shree Gurve Technology",
+      "publisher":{
+        "@id":"https://www.shreegurvetech.com/#organization"
+      }
+    }
+
+  ]
+}
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">

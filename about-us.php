@@ -14,6 +14,253 @@ $seoArr = [
 include_once('elements/header.php');
 ?>
 
+<script type="application/ld+json">
+    {
+    "@context":"https://schema.org",
+    "@graph":[
+
+        {
+        "@type":"AboutPage",
+        "@id":"https://www.shreegurvetech.com/about-us#webpage",
+        "url":"https://www.shreegurvetech.com/about-us",
+        "name":"About Us | Shree Gurve Technology",
+        "headline":"About Shree Gurve Technology",
+        "description":"Learn about Shree Gurve Technology, a leading IT solutions company specializing in web development, software development, UI/UX design, mobile app development, digital marketing, cloud services, AI, cybersecurity, blockchain, and IT consulting.",
+        "isPartOf":{
+            "@id":"https://www.shreegurvetech.com/#website"
+        },
+        "about":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+        },
+        "primaryImageOfPage":{
+            "@type":"ImageObject",
+            "url":"https://www.shreegurvetech.com/assets/images/about-banner.jpg"
+        },
+        "breadcrumb":{
+            "@id":"https://www.shreegurvetech.com/about-us#breadcrumb"
+        },
+        "inLanguage":"en"
+        },
+
+        {
+        "@type":"BreadcrumbList",
+        "@id":"https://www.shreegurvetech.com/about-us#breadcrumb",
+        "itemListElement":[
+            {
+            "@type":"ListItem",
+            "position":1,
+            "name":"Home",
+            "item":"https://www.shreegurvetech.com/"
+            },
+            {
+            "@type":"ListItem",
+            "position":2,
+            "name":"About Us",
+            "item":"https://www.shreegurvetech.com/about-us"
+            }
+        ]
+        },
+
+        {
+        "@type":"Organization",
+        "@id":"https://www.shreegurvetech.com/#organization",
+        "name":"Shree Gurve Technology",
+        "url":"https://www.shreegurvetech.com/",
+        "logo":{
+            "@type":"ImageObject",
+            "url":"https://www.shreegurvetech.com/assets/images/logo.png"
+        },
+        "image":"https://www.shreegurvetech.com/assets/images/about-banner.jpg",
+        "description":"Shree Gurve Technology is a professional IT solutions company delivering innovative web development, software development, mobile applications, UI/UX design, digital marketing, cloud computing, cybersecurity, AI automation, blockchain, and IT consulting services.",
+        "telephone":"+91-8200017181",
+        "email":"contact@shreegurvetech.com",
+        "foundingDate":"2021",
+        "numberOfEmployees":"10-50",
+        "slogan":"Transforming Ideas into Digital Success",
+        "knowsAbout":[
+            "Web Development",
+            "Software Development",
+            "UI UX Design",
+            "Mobile App Development",
+            "Digital Marketing",
+            "Cloud Computing",
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Data Analytics",
+            "Blockchain Development",
+            "IT Consulting"
+        ]
+        },
+
+        {
+        "@type":"WebSite",
+        "@id":"https://www.shreegurvetech.com/#website",
+        "url":"https://www.shreegurvetech.com/",
+        "name":"Shree Gurve Technology",
+        "publisher":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+        },
+        "inLanguage":"en"
+        },
+
+        {
+        "@type":"HowTo",
+        "@id":"https://www.shreegurvetech.com/about-us#workflow",
+        "name":"Our Project Workflow",
+        "description":"How we successfully deliver software and IT projects.",
+        "step":[
+            {
+            "@type":"HowToStep",
+            "position":1,
+            "name":"Select Project",
+            "text":"Understand business goals and gather project requirements."
+            },
+            {
+            "@type":"HowToStep",
+            "position":2,
+            "name":"Project Analysis",
+            "text":"Analyze requirements, prepare architecture, and define milestones."
+            },
+            {
+            "@type":"HowToStep",
+            "position":3,
+            "name":"Plan & Execute",
+            "text":"Develop, test, optimize and deploy the solution."
+            },
+            {
+            "@type":"HowToStep",
+            "position":4,
+            "name":"Deliver Result",
+            "text":"Launch the solution and provide continuous support and maintenance."
+            }
+        ]
+        },
+
+        {
+        "@type":"ItemList",
+        "@id":"https://www.shreegurvetech.com/about-us#strengths",
+        "name":"Why Choose Shree Gurve Technology",
+        "itemListElement":[
+            {
+            "@type":"ListItem",
+            "position":1,
+            "name":"Big Data Analysis"
+            },
+            {
+            "@type":"ListItem",
+            "position":2,
+            "name":"High Quality Security"
+            },
+            {
+            "@type":"ListItem",
+            "position":3,
+            "name":"24/7 Online Support"
+            },
+            {
+            "@type":"ListItem",
+            "position":4,
+            "name":"Expert Development Team"
+            },
+            {
+            "@type":"ListItem",
+            "position":5,
+            "name":"Business Improvement"
+            },
+            {
+            "@type":"ListItem",
+            "position":6,
+            "name":"Easy & Scalable Solutions"
+            }
+        ]
+        },
+
+        {
+        "@type":"AggregateRating",
+        "@id":"https://www.shreegurvetech.com/about-us#rating",
+        "itemReviewed":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+        },
+        "ratingValue":"5",
+        "bestRating":"5",
+        "worstRating":"1",
+        "ratingCount":"66"
+        },
+
+        {
+        "@type":"Review",
+        "author":{
+            "@type":"Person",
+            "name":"Priya Shah"
+        },
+        "reviewRating":{
+            "@type":"Rating",
+            "ratingValue":"5"
+        },
+        "reviewBody":"Working with Shree Gurve Technology was an excellent experience. The team was professional, responsive and delivered outstanding results."
+        },
+
+        {
+        "@type":"Review",
+        "author":{
+            "@type":"Person",
+            "name":"Amit Patel"
+        },
+        "reviewRating":{
+            "@type":"Rating",
+            "ratingValue":"5"
+        },
+        "reviewBody":"Excellent software development services. The project exceeded expectations and significantly improved our online presence."
+        },
+
+        {
+        "@type":"FAQPage",
+        "@id":"https://www.shreegurvetech.com/about-us#faq",
+        "mainEntity":[
+
+            {
+            "@type":"Question",
+            "name":"Who is Shree Gurve Technology?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Shree Gurve Technology is an IT solutions company providing web development, mobile app development, software development, digital marketing, UI/UX design, AI, cloud computing, cybersecurity, blockchain development, and IT consulting services."
+            }
+            },
+
+            {
+            "@type":"Question",
+            "name":"What industries do you serve?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"We serve startups, SMEs, enterprises, eCommerce businesses, healthcare, education, finance, manufacturing, logistics, and many other industries."
+            }
+            },
+
+            {
+            "@type":"Question",
+            "name":"Do you provide ongoing support after project delivery?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. We provide long-term maintenance, security updates, cloud management, performance optimization, and technical support."
+            }
+            },
+
+            {
+            "@type":"Question",
+            "name":"Why choose Shree Gurve Technology?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"We combine experienced professionals, modern technologies, transparent communication, and scalable solutions to help businesses achieve digital growth."
+            }
+            }
+
+        ]
+        }
+
+    ]
+    }
+</script>
+
 <div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
     <div class="container">
         <div class="breadcumb-content">
