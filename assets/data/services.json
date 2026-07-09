@@ -47,212 +47,192 @@
       }
     ],
     "ld_json": {
-      "@context":"https://schema.org",
-      "@graph":[
-
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type":"Organization",
-          "@id":"https://shreegurvetech.com/#organization",
-          "name":"Shree Gurve Tech",
-          "url":"https://shreegurvetech.com",
-          "logo":"https://shreegurvetech.com/assets/images/logo.png",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "sameAs":[
+          "@type": "Organization",
+          "@id": "https://shreegurvetech.com/#organization",
+          "name": "Shree Gurve Tech",
+          "url": "https://shreegurvetech.com",
+          "logo": "https://shreegurvetech.com/assets/images/logo.png",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
             "https://facebook.com/yourpage",
             "https://linkedin.com/company/yourcompany",
             "https://instagram.com/yourprofile"
           ]
         },
-
         {
-          "@type":"WebSite",
-          "@id":"https://shreegurvetech.com/#website",
-          "url":"https://shreegurvetech.com",
-          "name":"Shree Gurve Tech",
-          "publisher":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "WebSite",
+          "@id": "https://shreegurvetech.com/#website",
+          "url": "https://shreegurvetech.com",
+          "name": "Shree Gurve Tech",
+          "publisher": {
+            "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
-          "@type":"WebPage",
-          "@id":"https://shreegurvetech.com/services/web-development/#webpage",
-          "url":"https://shreegurvetech.com/services/web-development",
-          "name":"Web Development Services | Shree Gurve Tech",
-          "description":"Professional web development services including custom websites, CMS development, eCommerce solutions, portal development, website maintenance and speed optimization.",
-          "isPartOf":{
-            "@id":"https://shreegurvetech.com/#website"
+          "@type": "WebPage",
+          "@id": "https://shreegurvetech.com/services/web-development/#webpage",
+          "url": "https://shreegurvetech.com/services/web-development",
+          "name": "Web Development Services | Shree Gurve Tech",
+          "description": "Professional web development services including custom websites, CMS development, eCommerce solutions, portal development, website maintenance and speed optimization.",
+          "isPartOf": {
+            "@id": "https://shreegurvetech.com/#website"
           },
-          "about":{
-            "@id":"https://shreegurvetech.com/services/web-development/#service"
+          "about": {
+            "@id": "https://shreegurvetech.com/services/web-development/#service"
           },
-          "breadcrumb":{
-            "@id":"https://shreegurvetech.com/services/web-development/#breadcrumb"
+          "breadcrumb": {
+            "@id": "https://shreegurvetech.com/services/web-development/#breadcrumb"
           },
-          "primaryImageOfPage":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/web-development-banner.jpg"
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/web-development-banner.jpg"
           }
         },
-
         {
-          "@type":"BreadcrumbList",
-          "@id":"https://shreegurvetech.com/services/web-development/#breadcrumb",
-          "itemListElement":[
+          "@type": "BreadcrumbList",
+          "@id": "https://shreegurvetech.com/services/web-development/#breadcrumb",
+          "itemListElement": [
             {
-              "@type":"ListItem",
-              "position":1,
-              "name":"Home",
-              "item":"https://shreegurvetech.com"
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://shreegurvetech.com"
             },
             {
-              "@type":"ListItem",
-              "position":2,
-              "name":"Services",
-              "item":"https://shreegurvetech.com/services"
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://shreegurvetech.com/services"
             },
             {
-              "@type":"ListItem",
-              "position":3,
-              "name":"Web Development Services",
-              "item":"https://shreegurvetech.com/services/web-development"
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Web Development Services",
+              "item": "https://shreegurvetech.com/services/web-development"
             }
           ]
         },
-
         {
-          "@type":"Service",
-          "@id":"https://shreegurvetech.com/services/web-development/#service",
-          "name":"Web Development Services",
-          "url":"https://shreegurvetech.com/services/web-development",
-          "provider":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "Service",
+          "@id": "https://shreegurvetech.com/services/web-development/#service",
+          "name": "Web Development Services",
+          "url": "https://shreegurvetech.com/services/web-development",
+          "provider": {
+            "@id": "https://shreegurvetech.com/#organization"
           },
-          "serviceType":"Website Development",
-          "category":"Software Development",
-          "description":"Custom web development services that help businesses establish a strong online presence with secure, responsive, scalable and high-performance websites.",
-          "areaServed":{
-            "@type":"Place",
-            "name":"Worldwide"
+          "serviceType": "Website Development",
+          "category": "Software Development",
+          "description": "Custom web development services that help businesses establish a strong online presence with secure, responsive, scalable and high-performance websites.",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
           },
-          "audience":{
-            "@type":"BusinessAudience",
-            "audienceType":"Startups, SMEs, Enterprises"
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "Startups, SMEs, Enterprises"
           },
-          "hasOfferCatalog":{
-            "@type":"OfferCatalog",
-            "name":"Web Development Solutions",
-            "itemListElement":[
-
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Web Development Solutions",
+            "itemListElement": [
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Custom Website Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Custom Website Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"CMS Development (WordPress, Joomla, Drupal)"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "CMS Development (WordPress, Joomla, Drupal)"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"E-commerce Website Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "E-commerce Website Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Portal Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Portal Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Website Maintenance"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website Maintenance"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Website Speed Optimization"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website Speed Optimization"
                 }
               }
-
             ]
           }
         },
-
         {
-          "@type":"ContactPoint",
-          "@id":"https://shreegurvetech.com/#sales",
-          "contactType":"Sales",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "availableLanguage":[
+          "@type": "ContactPoint",
+          "@id": "https://shreegurvetech.com/#sales",
+          "contactType": "Sales",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "availableLanguage": [
             "English",
             "Hindi"
           ]
         },
-
         {
-          "@type":"FAQPage",
-          "@id":"https://shreegurvetech.com/services/web-development/#faq",
-          "mainEntity":[
-
+          "@type": "FAQPage",
+          "@id": "https://shreegurvetech.com/services/web-development/#faq",
+          "mainEntity": [
             {
-              "@type":"Question",
-              "name":"What web development services do you provide?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We provide custom website development, CMS development, eCommerce website development, portal development, website maintenance and website speed optimization."
+              "@type": "Question",
+              "name": "What web development services do you provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide custom website development, CMS development, eCommerce website development, portal development, website maintenance and website speed optimization."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you build responsive websites?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Every website we develop is responsive, mobile-friendly and optimized for modern browsers."
+              "@type": "Question",
+              "name": "Do you build responsive websites?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Every website we develop is responsive, mobile-friendly and optimized for modern browsers."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Which technologies do you use for web development?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We work with PHP, Laravel, WordPress, React, Node.js, HTML5, CSS3, JavaScript and modern web technologies depending on project requirements."
+              "@type": "Question",
+              "name": "Which technologies do you use for web development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work with PHP, Laravel, WordPress, React, Node.js, HTML5, CSS3, JavaScript and modern web technologies depending on project requirements."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you provide website maintenance after launch?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We provide regular updates, security monitoring, backups, bug fixes and performance optimization."
+              "@type": "Question",
+              "name": "Do you provide website maintenance after launch?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We provide regular updates, security monitoring, backups, bug fixes and performance optimization."
               }
             }
-
           ]
         }
-
       ]
     }
   },
@@ -304,232 +284,210 @@
       }
     ],
     "ld_json": {
-      "@context":"https://schema.org",
-      "@graph":[
-
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type":"Organization",
-          "@id":"https://shreegurvetech.com/#organization",
-          "name":"Shree Gurve Tech",
-          "url":"https://shreegurvetech.com",
-          "logo":"https://shreegurvetech.com/assets/images/logo.png",
-          "image":"https://shreegurvetech.com/assets/images/logo.png",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "sameAs":[
+          "@type": "Organization",
+          "@id": "https://shreegurvetech.com/#organization",
+          "name": "Shree Gurve Tech",
+          "url": "https://shreegurvetech.com",
+          "logo": "https://shreegurvetech.com/assets/images/logo.png",
+          "image": "https://shreegurvetech.com/assets/images/logo.png",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
             "https://www.facebook.com/yourpage",
             "https://www.linkedin.com/company/yourcompany",
             "https://www.instagram.com/yourprofile",
             "https://www.youtube.com/@yourchannel"
           ]
         },
-
         {
-          "@type":"WebSite",
-          "@id":"https://shreegurvetech.com/#website",
-          "url":"https://shreegurvetech.com",
-          "name":"Shree Gurve Tech",
-          "publisher":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "WebSite",
+          "@id": "https://shreegurvetech.com/#website",
+          "url": "https://shreegurvetech.com",
+          "name": "Shree Gurve Tech",
+          "publisher": {
+            "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
-          "@type":"WebPage",
-          "@id":"https://shreegurvetech.com/services/software-development/#webpage",
-          "url":"https://shreegurvetech.com/services/software-development",
-          "name":"Software Development Services | Shree Gurve Tech",
-          "description":"Professional software development company delivering custom software, enterprise applications, SaaS platforms, ERP, CRM, legacy modernization and scalable business software solutions.",
-          "isPartOf":{
-            "@id":"https://shreegurvetech.com/#website"
+          "@type": "WebPage",
+          "@id": "https://shreegurvetech.com/services/software-development/#webpage",
+          "url": "https://shreegurvetech.com/services/software-development",
+          "name": "Software Development Services | Shree Gurve Tech",
+          "description": "Professional software development company delivering custom software, enterprise applications, SaaS platforms, ERP, CRM, legacy modernization and scalable business software solutions.",
+          "isPartOf": {
+            "@id": "https://shreegurvetech.com/#website"
           },
-          "about":{
-            "@id":"https://shreegurvetech.com/services/software-development/#service"
+          "about": {
+            "@id": "https://shreegurvetech.com/services/software-development/#service"
           },
-          "breadcrumb":{
-            "@id":"https://shreegurvetech.com/services/software-development/#breadcrumb"
+          "breadcrumb": {
+            "@id": "https://shreegurvetech.com/services/software-development/#breadcrumb"
           },
-          "primaryImageOfPage":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/software-development-banner.jpg"
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/software-development-banner.jpg"
           }
         },
-
         {
-          "@type":"BreadcrumbList",
-          "@id":"https://shreegurvetech.com/services/software-development/#breadcrumb",
-          "itemListElement":[
+          "@type": "BreadcrumbList",
+          "@id": "https://shreegurvetech.com/services/software-development/#breadcrumb",
+          "itemListElement": [
             {
-              "@type":"ListItem",
-              "position":1,
-              "name":"Home",
-              "item":"https://shreegurvetech.com"
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://shreegurvetech.com"
             },
             {
-              "@type":"ListItem",
-              "position":2,
-              "name":"Services",
-              "item":"https://shreegurvetech.com/services"
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://shreegurvetech.com/services"
             },
             {
-              "@type":"ListItem",
-              "position":3,
-              "name":"Software Development Services",
-              "item":"https://shreegurvetech.com/services/software-development"
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Software Development Services",
+              "item": "https://shreegurvetech.com/services/software-development"
             }
           ]
         },
-
         {
-          "@type":"Service",
-          "@id":"https://shreegurvetech.com/services/software-development/#service",
-          "name":"Software Development Services",
-          "url":"https://shreegurvetech.com/services/software-development",
-          "provider":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "Service",
+          "@id": "https://shreegurvetech.com/services/software-development/#service",
+          "name": "Software Development Services",
+          "url": "https://shreegurvetech.com/services/software-development",
+          "provider": {
+            "@id": "https://shreegurvetech.com/#organization"
           },
-          "serviceType":"Software Development",
-          "category":"IT Services",
-          "description":"Shree Gurve Tech develops secure, scalable and customized software solutions that streamline business operations, improve productivity and support digital transformation.",
-          "areaServed":{
-            "@type":"Place",
-            "name":"Worldwide"
+          "serviceType": "Software Development",
+          "category": "IT Services",
+          "description": "Shree Gurve Tech develops secure, scalable and customized software solutions that streamline business operations, improve productivity and support digital transformation.",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
           },
-          "audience":{
-            "@type":"BusinessAudience",
-            "audienceType":"Startups, SMEs, Enterprises"
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "Startups, SMEs, Enterprises"
           },
-          "hasOfferCatalog":{
-            "@type":"OfferCatalog",
-            "name":"Software Development Solutions",
-            "itemListElement":[
-
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Software Development Solutions",
+            "itemListElement": [
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Custom Software Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Custom Software Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Enterprise Software Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Enterprise Software Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Legacy Modernization"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Legacy Modernization"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"CRM Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "CRM Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"ERP Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "ERP Development"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"SaaS Application Development"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "SaaS Application Development"
                 }
               }
-
             ]
           }
         },
-
         {
-          "@type":"ContactPoint",
-          "@id":"https://shreegurvetech.com/#sales",
-          "contactType":"Sales",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "availableLanguage":[
+          "@type": "ContactPoint",
+          "@id": "https://shreegurvetech.com/#sales",
+          "contactType": "Sales",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "availableLanguage": [
             "English",
             "Hindi"
           ]
         },
-
         {
-          "@type":"FAQPage",
-          "@id":"https://shreegurvetech.com/services/software-development/#faq",
-          "mainEntity":[
-
+          "@type": "FAQPage",
+          "@id": "https://shreegurvetech.com/services/software-development/#faq",
+          "mainEntity": [
             {
-              "@type":"Question",
-              "name":"What software development services do you offer?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We provide custom software development, enterprise software development, SaaS application development, ERP development, CRM development and legacy modernization services."
+              "@type": "Question",
+              "name": "What software development services do you offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide custom software development, enterprise software development, SaaS application development, ERP development, CRM development and legacy modernization services."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you develop enterprise software?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We build secure, scalable enterprise software solutions that automate business processes and integrate with existing systems."
+              "@type": "Question",
+              "name": "Do you develop enterprise software?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We build secure, scalable enterprise software solutions that automate business processes and integrate with existing systems."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Can you modernize legacy software?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We upgrade legacy applications using modern technologies while preserving business logic and existing data."
+              "@type": "Question",
+              "name": "Can you modernize legacy software?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We upgrade legacy applications using modern technologies while preserving business logic and existing data."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you build SaaS applications?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We design and develop scalable cloud-based SaaS platforms with secure architecture, subscription management and API integrations."
+              "@type": "Question",
+              "name": "Do you build SaaS applications?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We design and develop scalable cloud-based SaaS platforms with secure architecture, subscription management and API integrations."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Which technologies do you use for software development?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Our team works with Laravel, PHP, .NET, Java, Python, Node.js, React, Vue.js, Angular, Flutter, MySQL, PostgreSQL, MongoDB and cloud platforms such as AWS and Microsoft Azure."
+              "@type": "Question",
+              "name": "Which technologies do you use for software development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our team works with Laravel, PHP, .NET, Java, Python, Node.js, React, Vue.js, Angular, Flutter, MySQL, PostgreSQL, MongoDB and cloud platforms such as AWS and Microsoft Azure."
               }
             }
-
           ]
         },
-
         {
-          "@type":"ContactAction",
-          "target":{
-            "@type":"EntryPoint",
-            "urlTemplate":"https://shreegurvetech.com/contact"
+          "@type": "ContactAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://shreegurvetech.com/contact"
           },
-          "name":"Request Software Development Consultation"
+          "name": "Request Software Development Consultation"
         }
-
       ]
     }
   },
@@ -583,7 +541,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -602,7 +559,6 @@
             "https://youtube.com/@yourchannel"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -612,7 +568,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/mobile-app-development/#webpage",
@@ -633,7 +588,6 @@
             "url": "https://shreegurvetech.com/assets/images/mobile-app-development-banner.jpg"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/mobile-app-development/#breadcrumb",
@@ -658,7 +612,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/mobile-app-development/#service",
@@ -682,7 +635,6 @@
             "@type": "OfferCatalog",
             "name": "Mobile App Development Solutions",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -690,7 +642,6 @@
                   "name": "Android App Development"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -698,7 +649,6 @@
                   "name": "iOS App Development"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -706,7 +656,6 @@
                   "name": "Hybrid App Development"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -714,7 +663,6 @@
                   "name": "Cross Platform App Development"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -722,7 +670,6 @@
                   "name": "Mobile App UI/UX Design"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -730,11 +677,9 @@
                   "name": "Application Maintenance & Support"
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#sales",
@@ -746,12 +691,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/mobile-app-development/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What mobile app development services do you provide?",
@@ -760,7 +703,6 @@
                 "text": "We provide Android app development, iOS app development, hybrid app development, cross-platform app development, mobile UI/UX design and application maintenance."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you develop apps for both Android and iOS?",
@@ -769,7 +711,6 @@
                 "text": "Yes. We build native Android apps, native iOS apps and cross-platform mobile applications using modern frameworks."
               }
             },
-
             {
               "@type": "Question",
               "name": "Which technologies do you use for mobile app development?",
@@ -778,7 +719,6 @@
                 "text": "Our developers work with Flutter, React Native, Kotlin, Java, Swift, SwiftUI, Firebase, REST APIs and modern cloud technologies."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you provide app maintenance after launch?",
@@ -787,7 +727,6 @@
                 "text": "Yes. We offer application maintenance, bug fixing, feature enhancements, security updates, performance optimization and version upgrades."
               }
             },
-
             {
               "@type": "Question",
               "name": "Can you build enterprise mobile applications?",
@@ -796,10 +735,8 @@
                 "text": "Yes. We develop enterprise mobility solutions with secure authentication, API integrations, cloud synchronization and scalable architecture."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request Mobile App Development Consultation",
@@ -808,7 +745,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -860,234 +796,212 @@
       }
     ],
     "ld_json": {
-      "@context":"https://schema.org",
-      "@graph":[
-
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type":"Organization",
-          "@id":"https://shreegurvetech.com/#organization",
-          "name":"Shree Gurve Tech",
-          "url":"https://shreegurvetech.com",
-          "logo":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/logo.png"
+          "@type": "Organization",
+          "@id": "https://shreegurvetech.com/#organization",
+          "name": "Shree Gurve Tech",
+          "url": "https://shreegurvetech.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/logo.png"
           },
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "sameAs":[
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
             "https://www.facebook.com/yourpage",
             "https://www.linkedin.com/company/yourcompany",
             "https://www.instagram.com/yourprofile",
             "https://www.youtube.com/@yourchannel"
           ]
         },
-
         {
-          "@type":"WebSite",
-          "@id":"https://shreegurvetech.com/#website",
-          "url":"https://shreegurvetech.com",
-          "name":"Shree Gurve Tech",
-          "publisher":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "WebSite",
+          "@id": "https://shreegurvetech.com/#website",
+          "url": "https://shreegurvetech.com",
+          "name": "Shree Gurve Tech",
+          "publisher": {
+            "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
-          "@type":"WebPage",
-          "@id":"https://shreegurvetech.com/services/ui-ux-design/#webpage",
-          "url":"https://shreegurvetech.com/services/ui-ux-design",
-          "name":"UI/UX Design Services | Shree Gurve Tech",
-          "description":"Professional UI/UX design services including website UI design, mobile app UI design, UX research, wireframing, prototyping, product design and admin dashboard design.",
-          "isPartOf":{
-            "@id":"https://shreegurvetech.com/#website"
+          "@type": "WebPage",
+          "@id": "https://shreegurvetech.com/services/ui-ux-design/#webpage",
+          "url": "https://shreegurvetech.com/services/ui-ux-design",
+          "name": "UI/UX Design Services | Shree Gurve Tech",
+          "description": "Professional UI/UX design services including website UI design, mobile app UI design, UX research, wireframing, prototyping, product design and admin dashboard design.",
+          "isPartOf": {
+            "@id": "https://shreegurvetech.com/#website"
           },
-          "about":{
-            "@id":"https://shreegurvetech.com/services/ui-ux-design/#service"
+          "about": {
+            "@id": "https://shreegurvetech.com/services/ui-ux-design/#service"
           },
-          "breadcrumb":{
-            "@id":"https://shreegurvetech.com/services/ui-ux-design/#breadcrumb"
+          "breadcrumb": {
+            "@id": "https://shreegurvetech.com/services/ui-ux-design/#breadcrumb"
           },
-          "primaryImageOfPage":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/ui-ux-design-banner.jpg"
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/ui-ux-design-banner.jpg"
           }
         },
-
         {
-          "@type":"BreadcrumbList",
-          "@id":"https://shreegurvetech.com/services/ui-ux-design/#breadcrumb",
-          "itemListElement":[
+          "@type": "BreadcrumbList",
+          "@id": "https://shreegurvetech.com/services/ui-ux-design/#breadcrumb",
+          "itemListElement": [
             {
-              "@type":"ListItem",
-              "position":1,
-              "name":"Home",
-              "item":"https://shreegurvetech.com"
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://shreegurvetech.com"
             },
             {
-              "@type":"ListItem",
-              "position":2,
-              "name":"Services",
-              "item":"https://shreegurvetech.com/services"
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://shreegurvetech.com/services"
             },
             {
-              "@type":"ListItem",
-              "position":3,
-              "name":"UI/UX Design Services",
-              "item":"https://shreegurvetech.com/services/ui-ux-design"
+              "@type": "ListItem",
+              "position": 3,
+              "name": "UI/UX Design Services",
+              "item": "https://shreegurvetech.com/services/ui-ux-design"
             }
           ]
         },
-
         {
-          "@type":"Service",
-          "@id":"https://shreegurvetech.com/services/ui-ux-design/#service",
-          "name":"UI/UX Design Services",
-          "url":"https://shreegurvetech.com/services/ui-ux-design",
-          "provider":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "Service",
+          "@id": "https://shreegurvetech.com/services/ui-ux-design/#service",
+          "name": "UI/UX Design Services",
+          "url": "https://shreegurvetech.com/services/ui-ux-design",
+          "provider": {
+            "@id": "https://shreegurvetech.com/#organization"
           },
-          "serviceType":"UI UX Design",
-          "category":"Design Services",
-          "description":"We create intuitive, visually appealing and user-centered digital experiences through UI design, UX research, wireframing, prototyping, product design and usability optimization.",
-          "areaServed":{
-            "@type":"Place",
-            "name":"Worldwide"
+          "serviceType": "UI UX Design",
+          "category": "Design Services",
+          "description": "We create intuitive, visually appealing and user-centered digital experiences through UI design, UX research, wireframing, prototyping, product design and usability optimization.",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
           },
-          "audience":{
-            "@type":"BusinessAudience",
-            "audienceType":"Startups, SMEs, Enterprises"
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "Startups, SMEs, Enterprises"
           },
-          "hasOfferCatalog":{
-            "@type":"OfferCatalog",
-            "name":"UI/UX Design Solutions",
-            "itemListElement":[
-
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "UI/UX Design Solutions",
+            "itemListElement": [
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Website UI Design"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website UI Design"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Mobile App UI Design"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mobile App UI Design"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"User Experience (UX) Research"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "User Experience (UX) Research"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Wireframing & Prototyping"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Wireframing & Prototyping"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Product Design"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Product Design"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Admin Dashboard & Panel Design"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Admin Dashboard & Panel Design"
                 }
               }
-
             ]
           }
         },
-
         {
-          "@type":"ContactPoint",
-          "@id":"https://shreegurvetech.com/#sales",
-          "contactType":"Sales",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "availableLanguage":[
+          "@type": "ContactPoint",
+          "@id": "https://shreegurvetech.com/#sales",
+          "contactType": "Sales",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "availableLanguage": [
             "English",
             "Hindi"
           ]
         },
-
         {
-          "@type":"FAQPage",
-          "@id":"https://shreegurvetech.com/services/ui-ux-design/#faq",
-          "mainEntity":[
-
+          "@type": "FAQPage",
+          "@id": "https://shreegurvetech.com/services/ui-ux-design/#faq",
+          "mainEntity": [
             {
-              "@type":"Question",
-              "name":"What UI/UX design services do you provide?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We provide website UI design, mobile app UI design, UX research, wireframing, prototyping, product design, dashboard design and usability optimization services."
+              "@type": "Question",
+              "name": "What UI/UX design services do you provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide website UI design, mobile app UI design, UX research, wireframing, prototyping, product design, dashboard design and usability optimization services."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Why is UI/UX design important?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"A well-designed UI and UX improves user satisfaction, increases engagement, simplifies navigation and helps improve business conversions."
+              "@type": "Question",
+              "name": "Why is UI/UX design important?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A well-designed UI and UX improves user satisfaction, increases engagement, simplifies navigation and helps improve business conversions."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you design both websites and mobile applications?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Our designers create responsive user experiences for websites, Android applications, iOS applications and cross-platform mobile apps."
+              "@type": "Question",
+              "name": "Do you design both websites and mobile applications?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our designers create responsive user experiences for websites, Android applications, iOS applications and cross-platform mobile apps."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"What tools do you use for UI/UX design?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We work with Figma, Adobe XD, Sketch, Photoshop, Illustrator, Miro, InVision and other modern UI/UX design tools."
+              "@type": "Question",
+              "name": "What tools do you use for UI/UX design?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work with Figma, Adobe XD, Sketch, Photoshop, Illustrator, Miro, InVision and other modern UI/UX design tools."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you provide clickable prototypes before development?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We create interactive wireframes and high-fidelity prototypes so clients can validate workflows and user experiences before development begins."
+              "@type": "Question",
+              "name": "Do you provide clickable prototypes before development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We create interactive wireframes and high-fidelity prototypes so clients can validate workflows and user experiences before development begins."
               }
             }
-
           ]
         },
-
         {
-          "@type":"ContactAction",
-          "name":"Request UI/UX Design Consultation",
-          "target":{
-            "@type":"EntryPoint",
-            "urlTemplate":"https://shreegurvetech.com/contact"
+          "@type": "ContactAction",
+          "name": "Request UI/UX Design Consultation",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -1139,234 +1053,212 @@
       }
     ],
     "ld_json": {
-      "@context":"https://schema.org",
-      "@graph":[
-
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type":"Organization",
-          "@id":"https://shreegurvetech.com/#organization",
-          "name":"Shree Gurve Tech",
-          "url":"https://shreegurvetech.com",
-          "logo":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/logo.png"
+          "@type": "Organization",
+          "@id": "https://shreegurvetech.com/#organization",
+          "name": "Shree Gurve Tech",
+          "url": "https://shreegurvetech.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/logo.png"
           },
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "sameAs":[
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
             "https://www.facebook.com/yourpage",
             "https://www.linkedin.com/company/yourcompany",
             "https://www.instagram.com/yourprofile",
             "https://www.youtube.com/@yourchannel"
           ]
         },
-
         {
-          "@type":"WebSite",
-          "@id":"https://shreegurvetech.com/#website",
-          "url":"https://shreegurvetech.com",
-          "name":"Shree Gurve Tech",
-          "publisher":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "WebSite",
+          "@id": "https://shreegurvetech.com/#website",
+          "url": "https://shreegurvetech.com",
+          "name": "Shree Gurve Tech",
+          "publisher": {
+            "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
-          "@type":"WebPage",
-          "@id":"https://shreegurvetech.com/services/digital-marketing/#webpage",
-          "url":"https://shreegurvetech.com/services/digital-marketing",
-          "name":"Digital Marketing Services | Shree Gurve Tech",
-          "description":"Professional digital marketing services including SEO, PPC, social media marketing, content marketing, email marketing and conversion rate optimization to help businesses grow online.",
-          "isPartOf":{
-            "@id":"https://shreegurvetech.com/#website"
+          "@type": "WebPage",
+          "@id": "https://shreegurvetech.com/services/digital-marketing/#webpage",
+          "url": "https://shreegurvetech.com/services/digital-marketing",
+          "name": "Digital Marketing Services | Shree Gurve Tech",
+          "description": "Professional digital marketing services including SEO, PPC, social media marketing, content marketing, email marketing and conversion rate optimization to help businesses grow online.",
+          "isPartOf": {
+            "@id": "https://shreegurvetech.com/#website"
           },
-          "about":{
-            "@id":"https://shreegurvetech.com/services/digital-marketing/#service"
+          "about": {
+            "@id": "https://shreegurvetech.com/services/digital-marketing/#service"
           },
-          "breadcrumb":{
-            "@id":"https://shreegurvetech.com/services/digital-marketing/#breadcrumb"
+          "breadcrumb": {
+            "@id": "https://shreegurvetech.com/services/digital-marketing/#breadcrumb"
           },
-          "primaryImageOfPage":{
-            "@type":"ImageObject",
-            "url":"https://shreegurvetech.com/assets/images/digital-marketing-banner.jpg"
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://shreegurvetech.com/assets/images/digital-marketing-banner.jpg"
           }
         },
-
         {
-          "@type":"BreadcrumbList",
-          "@id":"https://shreegurvetech.com/services/digital-marketing/#breadcrumb",
-          "itemListElement":[
+          "@type": "BreadcrumbList",
+          "@id": "https://shreegurvetech.com/services/digital-marketing/#breadcrumb",
+          "itemListElement": [
             {
-              "@type":"ListItem",
-              "position":1,
-              "name":"Home",
-              "item":"https://shreegurvetech.com"
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://shreegurvetech.com"
             },
             {
-              "@type":"ListItem",
-              "position":2,
-              "name":"Services",
-              "item":"https://shreegurvetech.com/services"
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://shreegurvetech.com/services"
             },
             {
-              "@type":"ListItem",
-              "position":3,
-              "name":"Digital Marketing Services",
-              "item":"https://shreegurvetech.com/services/digital-marketing"
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Digital Marketing Services",
+              "item": "https://shreegurvetech.com/services/digital-marketing"
             }
           ]
         },
-
         {
-          "@type":"Service",
-          "@id":"https://shreegurvetech.com/services/digital-marketing/#service",
-          "name":"Digital Marketing Services",
-          "url":"https://shreegurvetech.com/services/digital-marketing",
-          "provider":{
-            "@id":"https://shreegurvetech.com/#organization"
+          "@type": "Service",
+          "@id": "https://shreegurvetech.com/services/digital-marketing/#service",
+          "name": "Digital Marketing Services",
+          "url": "https://shreegurvetech.com/services/digital-marketing",
+          "provider": {
+            "@id": "https://shreegurvetech.com/#organization"
           },
-          "serviceType":"Digital Marketing",
-          "category":"Online Marketing Services",
-          "description":"Shree Gurve Tech provides comprehensive digital marketing solutions including SEO, PPC advertising, social media marketing, content marketing, email marketing and conversion rate optimization to improve online visibility, generate leads and increase business growth.",
-          "areaServed":{
-            "@type":"Place",
-            "name":"Worldwide"
+          "serviceType": "Digital Marketing",
+          "category": "Online Marketing Services",
+          "description": "Shree Gurve Tech provides comprehensive digital marketing solutions including SEO, PPC advertising, social media marketing, content marketing, email marketing and conversion rate optimization to improve online visibility, generate leads and increase business growth.",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
           },
-          "audience":{
-            "@type":"BusinessAudience",
-            "audienceType":"Startups, Small Businesses, Enterprises, E-commerce Businesses"
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "Startups, Small Businesses, Enterprises, E-commerce Businesses"
           },
-          "hasOfferCatalog":{
-            "@type":"OfferCatalog",
-            "name":"Digital Marketing Solutions",
-            "itemListElement":[
-
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital Marketing Solutions",
+            "itemListElement": [
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Search Engine Optimization (SEO)"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Search Engine Optimization (SEO)"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Social Media Marketing (SMM)"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Social Media Marketing (SMM)"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Google Ads & PPC Advertising"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Google Ads & PPC Advertising"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Content Marketing"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Content Marketing"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Email Marketing"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Email Marketing"
                 }
               },
-
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Conversion Rate Optimization (CRO)"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Conversion Rate Optimization (CRO)"
                 }
               }
-
             ]
           }
         },
-
         {
-          "@type":"ContactPoint",
-          "@id":"https://shreegurvetech.com/#sales",
-          "contactType":"Sales",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "availableLanguage":[
+          "@type": "ContactPoint",
+          "@id": "https://shreegurvetech.com/#sales",
+          "contactType": "Sales",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "availableLanguage": [
             "English",
             "Hindi"
           ]
         },
-
         {
-          "@type":"FAQPage",
-          "@id":"https://shreegurvetech.com/services/digital-marketing/#faq",
-          "mainEntity":[
-
+          "@type": "FAQPage",
+          "@id": "https://shreegurvetech.com/services/digital-marketing/#faq",
+          "mainEntity": [
             {
-              "@type":"Question",
-              "name":"What digital marketing services do you provide?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We provide SEO, Google Ads (PPC), social media marketing, content marketing, email marketing and conversion rate optimization services."
+              "@type": "Question",
+              "name": "What digital marketing services do you provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide SEO, Google Ads (PPC), social media marketing, content marketing, email marketing and conversion rate optimization services."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you provide Local SEO and Technical SEO?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Our SEO services include on-page SEO, off-page SEO, technical SEO, local SEO, keyword research, link building and performance optimization."
+              "@type": "Question",
+              "name": "Do you provide Local SEO and Technical SEO?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our SEO services include on-page SEO, off-page SEO, technical SEO, local SEO, keyword research, link building and performance optimization."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Which advertising platforms do you manage?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"We manage Google Ads, YouTube Ads, Meta Ads (Facebook & Instagram), LinkedIn Ads and other paid advertising campaigns."
+              "@type": "Question",
+              "name": "Which advertising platforms do you manage?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We manage Google Ads, YouTube Ads, Meta Ads (Facebook & Instagram), LinkedIn Ads and other paid advertising campaigns."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Do you provide monthly SEO reports?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We provide transparent monthly reports including keyword rankings, website traffic, conversions, campaign performance and optimization recommendations."
+              "@type": "Question",
+              "name": "Do you provide monthly SEO reports?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We provide transparent monthly reports including keyword rankings, website traffic, conversions, campaign performance and optimization recommendations."
               }
             },
-
             {
-              "@type":"Question",
-              "name":"Can digital marketing help generate more leads?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Our data-driven digital marketing strategies are designed to increase online visibility, generate qualified leads, improve conversions and maximize return on investment."
+              "@type": "Question",
+              "name": "Can digital marketing help generate more leads?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our data-driven digital marketing strategies are designed to increase online visibility, generate qualified leads, improve conversions and maximize return on investment."
               }
             }
-
           ]
         },
-
         {
-          "@type":"ContactAction",
-          "name":"Request Digital Marketing Consultation",
-          "target":{
-            "@type":"EntryPoint",
-            "urlTemplate":"https://shreegurvetech.com/contact"
+          "@type": "ContactAction",
+          "name": "Request Digital Marketing Consultation",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -1420,7 +1312,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -1439,7 +1330,6 @@
             "https://www.youtube.com/@yourchannel"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -1449,7 +1339,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/cloud-services/#webpage",
@@ -1470,7 +1359,6 @@
             "url": "https://shreegurvetech.com/assets/images/cloud-services-banner.jpg"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/cloud-services/#breadcrumb",
@@ -1495,7 +1383,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/cloud-services/#service",
@@ -1519,7 +1406,6 @@
             "@type": "OfferCatalog",
             "name": "Cloud Computing Services",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1527,7 +1413,6 @@
                   "name": "Cloud Infrastructure Setup"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1535,7 +1420,6 @@
                   "name": "AWS Cloud Services"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1543,7 +1427,6 @@
                   "name": "Microsoft Azure Services"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1551,7 +1434,6 @@
                   "name": "Google Cloud Platform (GCP) Services"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1559,7 +1441,6 @@
                   "name": "Cloud Migration"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1567,7 +1448,6 @@
                   "name": "Cloud Application Development"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1575,7 +1455,6 @@
                   "name": "Cloud Security"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1583,11 +1462,9 @@
                   "name": "Cloud Backup & Disaster Recovery"
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#sales",
@@ -1599,12 +1476,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/cloud-services/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What cloud services do you provide?",
@@ -1613,7 +1488,6 @@
                 "text": "We provide cloud infrastructure setup, AWS, Microsoft Azure, Google Cloud Platform (GCP), cloud migration, cloud application development, cloud security, backup and disaster recovery solutions."
               }
             },
-
             {
               "@type": "Question",
               "name": "Which cloud platforms do you support?",
@@ -1622,7 +1496,6 @@
                 "text": "Our team works with Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform (GCP) to design, deploy and manage cloud environments."
               }
             },
-
             {
               "@type": "Question",
               "name": "Can you migrate existing applications to the cloud?",
@@ -1631,7 +1504,6 @@
                 "text": "Yes. We offer end-to-end cloud migration services, including assessment, planning, migration, testing and post-migration optimization with minimal downtime."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you provide cloud security services?",
@@ -1640,7 +1512,6 @@
                 "text": "Yes. Our cloud security services include identity and access management (IAM), encryption, network security, monitoring, compliance and security best practices."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you offer cloud backup and disaster recovery solutions?",
@@ -1649,10 +1520,8 @@
                 "text": "Yes. We implement automated cloud backup, disaster recovery planning, business continuity solutions and data protection strategies."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request Cloud Services Consultation",
@@ -1661,7 +1530,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -1709,7 +1577,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -1728,7 +1595,6 @@
             "https://www.youtube.com/@yourchannel"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -1738,7 +1604,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/it-consulting/#webpage",
@@ -1759,7 +1624,6 @@
             "url": "https://shreegurvetech.com/assets/images/it-consulting-banner.jpg"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/it-consulting/#breadcrumb",
@@ -1784,7 +1648,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/it-consulting/#service",
@@ -1808,7 +1671,6 @@
             "@type": "OfferCatalog",
             "name": "IT Consulting Solutions",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1816,7 +1678,6 @@
                   "name": "Technology Consulting"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1824,7 +1685,6 @@
                   "name": "Digital Transformation Consulting"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1832,7 +1692,6 @@
                   "name": "IT Strategy Planning"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1840,7 +1699,6 @@
                   "name": "Business Process Automation"
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -1848,11 +1706,9 @@
                   "name": "Startup IT Consulting"
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#sales",
@@ -1864,12 +1720,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/it-consulting/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What IT consulting services do you provide?",
@@ -1878,7 +1732,6 @@
                 "text": "We provide technology consulting, IT strategy planning, digital transformation consulting, business process automation and startup IT consulting services."
               }
             },
-
             {
               "@type": "Question",
               "name": "How can IT consulting benefit my business?",
@@ -1887,7 +1740,6 @@
                 "text": "IT consulting helps businesses choose the right technology, improve operational efficiency, reduce costs, strengthen security, automate processes and accelerate digital transformation."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you provide digital transformation consulting?",
@@ -1896,7 +1748,6 @@
                 "text": "Yes. We help organizations modernize legacy systems, implement cloud technologies, automate workflows and improve customer experiences through digital transformation."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you work with startups and small businesses?",
@@ -1905,7 +1756,6 @@
                 "text": "Yes. We provide startup IT consulting including technology selection, software architecture, MVP planning, cloud strategy and scalable technology roadmaps."
               }
             },
-
             {
               "@type": "Question",
               "name": "Can you help automate business processes?",
@@ -1914,10 +1764,8 @@
                 "text": "Yes. We identify repetitive workflows and implement automation solutions that improve productivity, reduce operational costs and increase efficiency."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request IT Consulting",
@@ -1926,7 +1774,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -1974,7 +1821,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -2005,7 +1851,6 @@
             "Cyber Threat Prevention"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -2015,7 +1860,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/cybersecurity/#webpage",
@@ -2032,7 +1876,6 @@
             "@id": "https://shreegurvetech.com/services/cybersecurity/#breadcrumb"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/cybersecurity/#breadcrumb",
@@ -2057,7 +1900,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/cybersecurity/#service",
@@ -2081,7 +1923,6 @@
             "@type": "OfferCatalog",
             "name": "Cybersecurity Solutions",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2090,7 +1931,6 @@
                   "description": "Comprehensive assessment of IT infrastructure to identify vulnerabilities, security gaps and compliance risks."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2099,7 +1939,6 @@
                   "description": "Protecting business networks against cyber threats, malware and unauthorized access."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2108,7 +1947,6 @@
                   "description": "Implementing encryption, access controls and security policies to protect sensitive business information."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2117,7 +1955,6 @@
                   "description": "Professional firewall deployment, configuration and monitoring for enhanced network protection."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2126,11 +1963,9 @@
                   "description": "Simulated cyber attacks to identify vulnerabilities before malicious attackers exploit them."
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#contact",
@@ -2142,12 +1977,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/cybersecurity/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What cybersecurity services do you provide?",
@@ -2156,7 +1989,6 @@
                 "text": "We provide security audits, network security, data protection, firewall setup, penetration testing, vulnerability assessment and cybersecurity consulting."
               }
             },
-
             {
               "@type": "Question",
               "name": "Why does my business need cybersecurity services?",
@@ -2165,7 +1997,6 @@
                 "text": "Cybersecurity services help protect your systems, applications and sensitive business data from cyber attacks, ransomware, malware and unauthorized access."
               }
             },
-
             {
               "@type": "Question",
               "name": "What is penetration testing?",
@@ -2174,7 +2005,6 @@
                 "text": "Penetration testing simulates real-world cyber attacks to identify security weaknesses before hackers can exploit them."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you provide firewall configuration and management?",
@@ -2183,7 +2013,6 @@
                 "text": "Yes. We configure, deploy and manage enterprise firewall solutions to protect networks from external threats."
               }
             },
-
             {
               "@type": "Question",
               "name": "Can you help protect customer and business data?",
@@ -2192,10 +2021,8 @@
                 "text": "Yes. We implement encryption, access controls, monitoring, backup strategies and security policies to safeguard sensitive information."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request Cybersecurity Consultation",
@@ -2204,7 +2031,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -2252,7 +2078,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -2285,7 +2110,6 @@
             "Decision Intelligence"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -2295,7 +2119,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/data-analytics/#webpage",
@@ -2312,7 +2135,6 @@
             "@id": "https://shreegurvetech.com/services/data-analytics/#breadcrumb"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/data-analytics/#breadcrumb",
@@ -2337,7 +2159,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/data-analytics/#service",
@@ -2361,7 +2182,6 @@
             "@type": "OfferCatalog",
             "name": "Data & Analytics Solutions",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2370,7 +2190,6 @@
                   "description": "Advanced analytics solutions that uncover trends, patterns and business insights for better decision-making."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2379,7 +2198,6 @@
                   "description": "Business intelligence dashboards, KPI reporting and interactive analytics for informed business decisions."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2388,7 +2206,6 @@
                   "description": "Interactive dashboards and visual reports that simplify complex business data."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2397,7 +2214,6 @@
                   "description": "Scalable big data processing and analytics for structured and unstructured business data."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2406,11 +2222,9 @@
                   "description": "Centralized enterprise data warehousing solutions for analytics, reporting and decision support."
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#contact",
@@ -2422,12 +2236,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/data-analytics/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What Data & Analytics services do you provide?",
@@ -2436,7 +2248,6 @@
                 "text": "We provide Data Analytics Solutions, Business Intelligence (BI), Data Visualization, Big Data Solutions and Data Warehousing services."
               }
             },
-
             {
               "@type": "Question",
               "name": "How can data analytics help my business?",
@@ -2445,7 +2256,6 @@
                 "text": "Data analytics helps businesses discover trends, monitor KPIs, improve operational efficiency, predict outcomes and make data-driven business decisions."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you build Business Intelligence dashboards?",
@@ -2454,7 +2264,6 @@
                 "text": "Yes. We develop interactive Business Intelligence dashboards and reporting solutions that provide real-time business insights."
               }
             },
-
             {
               "@type": "Question",
               "name": "What is data warehousing?",
@@ -2463,7 +2272,6 @@
                 "text": "Data warehousing centralizes data from multiple sources into a single repository for reporting, analytics and business intelligence."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you provide Big Data solutions?",
@@ -2472,10 +2280,8 @@
                 "text": "Yes. We implement scalable Big Data solutions capable of processing large volumes of structured and unstructured data for advanced analytics."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request Data Analytics Consultation",
@@ -2484,7 +2290,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -2532,7 +2337,6 @@
     "ld_json": {
       "@context": "https://schema.org",
       "@graph": [
-
         {
           "@type": "Organization",
           "@id": "https://shreegurvetech.com/#organization",
@@ -2565,7 +2369,6 @@
             "AI Integration"
           ]
         },
-
         {
           "@type": "WebSite",
           "@id": "https://shreegurvetech.com/#website",
@@ -2575,7 +2378,6 @@
             "@id": "https://shreegurvetech.com/#organization"
           }
         },
-
         {
           "@type": "WebPage",
           "@id": "https://shreegurvetech.com/services/ai-automation/#webpage",
@@ -2592,7 +2394,6 @@
             "@id": "https://shreegurvetech.com/services/ai-automation/#breadcrumb"
           }
         },
-
         {
           "@type": "BreadcrumbList",
           "@id": "https://shreegurvetech.com/services/ai-automation/#breadcrumb",
@@ -2617,7 +2418,6 @@
             }
           ]
         },
-
         {
           "@type": "Service",
           "@id": "https://shreegurvetech.com/services/ai-automation/#service",
@@ -2641,7 +2441,6 @@
             "@type": "OfferCatalog",
             "name": "AI & Automation Solutions",
             "itemListElement": [
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2650,7 +2449,6 @@
                   "description": "Custom AI-powered applications that automate business processes, analyze data and improve operational efficiency."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2659,7 +2457,6 @@
                   "description": "Intelligent AI chatbots for websites, WhatsApp, mobile apps and customer support automation."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2668,7 +2465,6 @@
                   "description": "Machine learning models for prediction, classification, recommendation and intelligent business insights."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2677,7 +2473,6 @@
                   "description": "Workflow automation solutions that reduce manual effort, eliminate repetitive tasks and increase productivity."
                 }
               },
-
               {
                 "@type": "Offer",
                 "itemOffered": {
@@ -2686,11 +2481,9 @@
                   "description": "Integration of AI technologies into existing business systems, CRM, ERP and enterprise applications."
                 }
               }
-
             ]
           }
         },
-
         {
           "@type": "ContactPoint",
           "@id": "https://shreegurvetech.com/#contact",
@@ -2702,12 +2495,10 @@
             "Hindi"
           ]
         },
-
         {
           "@type": "FAQPage",
           "@id": "https://shreegurvetech.com/services/ai-automation/#faq",
           "mainEntity": [
-
             {
               "@type": "Question",
               "name": "What AI and Automation services do you provide?",
@@ -2716,7 +2507,6 @@
                 "text": "We provide AI application development, chatbot development, machine learning solutions, workflow automation, business process automation and AI integration services."
               }
             },
-
             {
               "@type": "Question",
               "name": "How can AI help my business?",
@@ -2725,7 +2515,6 @@
                 "text": "AI helps automate repetitive tasks, improve customer service, analyze business data, optimize operations, reduce costs and support better business decisions."
               }
             },
-
             {
               "@type": "Question",
               "name": "Do you develop AI chatbots?",
@@ -2734,7 +2523,6 @@
                 "text": "Yes. We develop intelligent AI chatbots for websites, mobile apps, WhatsApp and customer support platforms using modern AI technologies."
               }
             },
-
             {
               "@type": "Question",
               "name": "What industries can benefit from AI automation?",
@@ -2743,7 +2531,6 @@
                 "text": "AI automation benefits healthcare, finance, retail, education, manufacturing, logistics, real estate, eCommerce and many other industries."
               }
             },
-
             {
               "@type": "Question",
               "name": "Can AI be integrated into existing business software?",
@@ -2752,10 +2539,8 @@
                 "text": "Yes. We integrate AI capabilities into existing ERP, CRM, websites, mobile applications and enterprise software to improve business efficiency."
               }
             }
-
           ]
         },
-
         {
           "@type": "ContactAction",
           "name": "Request AI Consultation",
@@ -2764,7 +2549,6 @@
             "urlTemplate": "https://shreegurvetech.com/contact"
           }
         }
-
       ]
     }
   },
@@ -2816,150 +2600,150 @@
       }
     ],
     "ld_json": {
-      "@context":"https://schema.org",
-      "@graph":[
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type":"Service",
-          "@id":"https://www.shreegurvetech.com/services/it-support-maintenance/#service",
-          "serviceType":"IT Support & Maintenance",
-          "name":"IT Support & Maintenance Services",
-          "description":"Professional IT support and maintenance services including technical support, system monitoring, software updates, server maintenance, backup & disaster recovery, and remote IT support for businesses.",
-          "provider":{
-            "@type":"Organization",
-            "@id":"https://www.shreegurvetech.com/#organization"
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/services/it-support-maintenance/#service",
+          "serviceType": "IT Support & Maintenance",
+          "name": "IT Support & Maintenance Services",
+          "description": "Professional IT support and maintenance services including technical support, system monitoring, software updates, server maintenance, backup & disaster recovery, and remote IT support for businesses.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.shreegurvetech.com/#organization"
           },
-          "url":"https://www.shreegurvetech.com/services/it-support-maintenance",
-          "areaServed":{
-            "@type":"Country",
-            "name":"India"
+          "url": "https://www.shreegurvetech.com/services/it-support-maintenance",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
           },
-          "availableChannel":{
-            "@type":"ServiceChannel",
-            "servicePhone":{
-              "@type":"ContactPoint",
-              "telephone":"+91-8200017181",
-              "contactType":"Customer Support"
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "servicePhone": {
+              "@type": "ContactPoint",
+              "telephone": "+91-8200017181",
+              "contactType": "Customer Support"
             },
-            "serviceUrl":"https://www.shreegurvetech.com/contact"
+            "serviceUrl": "https://www.shreegurvetech.com/contact"
           },
-          "hasOfferCatalog":{
-            "@type":"OfferCatalog",
-            "name":"IT Support & Maintenance Services",
-            "itemListElement":[
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "IT Support & Maintenance Services",
+            "itemListElement": [
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Technical Support"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Technical Support"
                 }
               },
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"System Monitoring"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "System Monitoring"
                 }
               },
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Software Updates & Patch Management"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Software Updates & Patch Management"
                 }
               },
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Server & Network Maintenance"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Server & Network Maintenance"
                 }
               },
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Backup & Disaster Recovery"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Backup & Disaster Recovery"
                 }
               },
               {
-                "@type":"Offer",
-                "itemOffered":{
-                  "@type":"Service",
-                  "name":"Remote IT Support"
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Remote IT Support"
                 }
               }
             ]
           }
         },
         {
-          "@type":"BreadcrumbList",
-          "itemListElement":[
+          "@type": "BreadcrumbList",
+          "itemListElement": [
             {
-              "@type":"ListItem",
-              "position":1,
-              "name":"Home",
-              "item":"https://www.shreegurvetech.com/"
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
             },
             {
-              "@type":"ListItem",
-              "position":2,
-              "name":"Services",
-              "item":"https://www.shreegurvetech.com/services"
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://www.shreegurvetech.com/services"
             },
             {
-              "@type":"ListItem",
-              "position":3,
-              "name":"IT Support & Maintenance",
-              "item":"https://www.shreegurvetech.com/services/it-support-maintenance"
+              "@type": "ListItem",
+              "position": 3,
+              "name": "IT Support & Maintenance",
+              "item": "https://www.shreegurvetech.com/services/it-support-maintenance"
             }
           ]
         },
         {
-          "@type":"FAQPage",
-          "mainEntity":[
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type":"Question",
-              "name":"What is included in IT support and maintenance services?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Our IT support and maintenance services include technical support, system monitoring, software updates, server and network maintenance, backup solutions, disaster recovery planning, and remote IT assistance."
+              "@type": "Question",
+              "name": "What is included in IT support and maintenance services?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our IT support and maintenance services include technical support, system monitoring, software updates, server and network maintenance, backup solutions, disaster recovery planning, and remote IT assistance."
               }
             },
             {
-              "@type":"Question",
-              "name":"Do you provide remote IT support?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We offer secure remote IT support to quickly diagnose and resolve technical issues without requiring onsite visits."
+              "@type": "Question",
+              "name": "Do you provide remote IT support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We offer secure remote IT support to quickly diagnose and resolve technical issues without requiring onsite visits."
               }
             },
             {
-              "@type":"Question",
-              "name":"Can you maintain servers and business networks?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. We manage servers, network infrastructure, performance optimization, security updates, and preventive maintenance for businesses of all sizes."
+              "@type": "Question",
+              "name": "Can you maintain servers and business networks?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We manage servers, network infrastructure, performance optimization, security updates, and preventive maintenance for businesses of all sizes."
               }
             },
             {
-              "@type":"Question",
-              "name":"Why are regular software updates important?",
-              "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Regular software updates improve security, fix vulnerabilities, enhance performance, and ensure compatibility with the latest technologies."
+              "@type": "Question",
+              "name": "Why are regular software updates important?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Regular software updates improve security, fix vulnerabilities, enhance performance, and ensure compatibility with the latest technologies."
               }
             }
           ]
         },
         {
-          "@type":"Organization",
-          "@id":"https://www.shreegurvetech.com/#organization",
-          "name":"Shree Gurve Technology",
-          "url":"https://www.shreegurvetech.com",
-          "logo":"https://www.shreegurvetech.com/assets/images/logo.png",
-          "telephone":"+91-8200017181",
-          "email":"contact@shreegurvetech.com",
-          "sameAs":[
+          "@type": "Organization",
+          "@id": "https://www.shreegurvetech.com/#organization",
+          "name": "Shree Gurve Technology",
+          "url": "https://www.shreegurvetech.com",
+          "logo": "https://www.shreegurvetech.com/assets/images/logo.png",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
             "https://www.facebook.com/",
             "https://www.linkedin.com/",
             "https://www.instagram.com/"

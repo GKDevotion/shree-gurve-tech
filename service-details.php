@@ -53,6 +53,10 @@ include_once('elements/header.php');
 
 </section>
 
+<script id="schema-script" type="application/ld+json">
+            
+</script>
+
 <script>
   // Get slug from URL (works for both formats)
 const urlParams = new URLSearchParams(window.location.search);
@@ -99,39 +103,39 @@ if (!service) {
 
         serviceData.services.forEach((item, index) => {
 
-        let number = (index + 1).toString().padStart(1, '0');
+            let number = (index + 1).toString().padStart(1, '0');
 
-        html += `
-            <div class="col-md-6 col-xl-4">
-                <div class="service-card">
+            html += `
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
 
-                <div class="service-card_number">${number}</div>
+                    <div class="service-card_number">${number}</div>
 
-                <div class="shape-icon">
-                    <img src="${base_url}assets/img/icon/${item.icon}" alt="Icon">
-                    <span class="dots"></span>
+                    <div class="shape-icon">
+                        <img src="${base_url}assets/img/icon/${item.icon}" alt="Icon">
+                        <span class="dots"></span>
+                    </div>
+
+                    <h3 class="box-title">
+                        ${item.title}
+                    </h3>
+
+                    <p class="service-card_text">
+                        ${item.text}
+                    </p>
+
+                    <div class="bg-shape">
+                        <img src="${base_url}assets/img/bg/service_card_bg.png" alt="bg">
+                    </div>
+
                 </div>
-
-                <h3 class="box-title">
-                    ${item.title}
-                </h3>
-
-                <p class="service-card_text">
-                    ${item.text}
-                </p>
-
-                <div class="bg-shape">
-                    <img src="${base_url}assets/img/bg/service_card_bg.png" alt="bg">
-                </div>
-
             </div>
-        </div>
-        <script type="application/ld+json">
-            ${item.ld_json}
-        </script>
+            
         `;
-
+        
         });
+        
+        $('#schema-script').text(JSON.stringify(serviceData.ld_json));
 
         document.getElementById("serviceList").innerHTML = html;
 

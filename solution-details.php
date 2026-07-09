@@ -53,6 +53,9 @@ include_once('elements/header.php');
 
 </section>
 
+<script id="schema-script" type="application/ld+json">
+            
+</script>
 
 <script>
   // Get slug from URL (works for both formats)
@@ -72,7 +75,7 @@ console.log("Service slug:", service);
     .then(data => {
 
         const serviceData = data[service];
-
+        
         if (!serviceData) {
             console.log("Solution not found");
             return;
@@ -102,41 +105,40 @@ console.log("Service slug:", service);
 
         serviceData.solutions.forEach((item, index) => {
 
-        let number = (index + 1).toString().padStart(1, '0');
+            let number = (index + 1).toString().padStart(1, '0');
 
-        html += `
-            <div class="col-md-6 col-xl-4">
-                <div class="service-card">
+            html += `
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
 
-                    <div class="service-card_number">${number}</div>
+                        <div class="service-card_number">${number}</div>
 
-                    <div class="shape-icon">
-                        <img src="${base_url}assets/img/icon/${item.icon}" alt="${item.text}">
-                        <span class="dots"></span>
+                        <div class="shape-icon">
+                            <img src="${base_url}assets/img/icon/${item.icon}" alt="${item.text}">
+                            <span class="dots"></span>
+                        </div>
+
+                        <h3 class="box-title">
+                            <a href="${item.link}" title="${item.text}">
+                                ${item.title}
+                            </a>
+                        </h3>
+
+                        <p class="service-card_text">
+                            ${item.text}
+                        </p>
+
+                        <div class="bg-shape">
+                            <img src="${base_url}assets/img/bg/service_card_bg.png" alt="${item.text}">
+                        </div>
+
                     </div>
-
-                    <h3 class="box-title">
-                        <a href="${item.link}" title="${item.text}">
-                            ${item.title}
-                        </a>
-                    </h3>
-
-                    <p class="service-card_text">
-                        ${item.text}
-                    </p>
-
-                    <div class="bg-shape">
-                        <img src="${base_url}assets/img/bg/service_card_bg.png" alt="${item.text}">
-                    </div>
-
                 </div>
-            </div>
-            <script type="application/ld+json">
-                ${item.ld_json}
-            </script>
-        `;
-
+            `;
+           
         });
+        
+        $('#schema-script').text(JSON.stringify(serviceData.ld_json));
 
         document.getElementById("serviceList").innerHTML = html;
 
