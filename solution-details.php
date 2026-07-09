@@ -105,32 +105,35 @@ console.log("Service slug:", service);
         let number = (index + 1).toString().padStart(1, '0');
 
         html += `
-        <div class="col-md-6 col-xl-4">
-        <div class="service-card">
+            <div class="col-md-6 col-xl-4">
+                <div class="service-card">
 
-        <div class="service-card_number">${number}</div>
+                    <div class="service-card_number">${number}</div>
 
-        <div class="shape-icon">
-            <img src="${base_url}assets/img/icon/${item.icon}" alt="${item.text}">
-            <span class="dots"></span>
-        </div>
+                    <div class="shape-icon">
+                        <img src="${base_url}assets/img/icon/${item.icon}" alt="${item.text}">
+                        <span class="dots"></span>
+                    </div>
 
-        <h3 class="box-title">
-            <a href="${item.link}" title="${item.text}">
-                ${item.title}
-            </a>
-        </h3>
+                    <h3 class="box-title">
+                        <a href="${item.link}" title="${item.text}">
+                            ${item.title}
+                        </a>
+                    </h3>
 
-        <p class="service-card_text">
-            ${item.text}
-        </p>
+                    <p class="service-card_text">
+                        ${item.text}
+                    </p>
 
-        <div class="bg-shape">
-            <img src="${base_url}assets/img/bg/service_card_bg.png" alt="${item.text}">
-        </div>
+                    <div class="bg-shape">
+                        <img src="${base_url}assets/img/bg/service_card_bg.png" alt="${item.text}">
+                    </div>
 
+                </div>
             </div>
-        </div>
+            <script type="application/ld+json">
+                ${item.ld_json}
+            </script>
         `;
 
         });
