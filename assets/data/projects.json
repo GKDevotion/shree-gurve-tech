@@ -169,5 +169,15 @@
     "canonical": "the-euphoria",
     "h1_tag": "",
     "keyword": ""
+  },
+  "divaine-tech": {
+    "icon"  :"divaine-tech.jpg",
+    "title": "Divaine Tech",
+    "description": "Divaine Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://www.divainetech.io/",
+    "meta_description" : "Divaine Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "divaine-tech",
+    "h1_tag": "",
+    "keyword": ""
   }
 }
