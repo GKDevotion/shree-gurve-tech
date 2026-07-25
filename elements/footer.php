@@ -153,18 +153,7 @@
         </div>
         
         <script src="<?php echo $seoArr['base_url'].'assets/js/vendor/jquery-3.7.1.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/swiper-bundle.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/bootstrap.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.magnific-popup.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.counterup.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/imagesloaded.pkgd.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/isotope.pkgd.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/tilt.jquery.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/gsap.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/ScrollTrigger.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/smooth-scroll.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/aos.min.js';?>" defer></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/main.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/app.bundle.js';?>" defer></script>
 
         <script defer>
             AOS.init({

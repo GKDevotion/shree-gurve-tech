@@ -40,14 +40,7 @@
         <meta name="twitter:description" content="<?php echo $seoArr['description'];?>">
         <meta name="twitter:image" content="<?php echo $seoArr['base_url'].'assets/img/Gurve-tech.png';?>">
 
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/fontawesome.min.css">
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/magnific-popup.min.css">
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/style.css?v=0.01">
-
-        <!-- AOS Animation (now local, no CDN dependency) -->
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/aos.min.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/app.bundle.css">
 
         <script>
             var base_url = "<?php echo $seoArr['base_url'];?>";
