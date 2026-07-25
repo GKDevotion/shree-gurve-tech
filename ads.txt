@@ -1,0 +1,16 @@
+# ads.txt for shreegurvetech.com
+#
+# This file is currently a placeholder. No ad network is active yet.
+# Once you sign up with an ad network (e.g. Google AdSense), add one line
+# per network in this format:
+#
+#   <ad-system-domain>, <your-publisher-id>, <relationship>, <certification-id>
+#
+# Example for Google AdSense (replace pub-0000000000000000 with YOUR real ID,
+# found in AdSense under Account > Settings > Account information):
+#   google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# "DIRECT" = you sell your own inventory directly.
+# "RESELLER" = a third party is authorized to sell on your behalf.
+#
+# Add more lines below as you add more ad networks / partners.
