@@ -44,7 +44,7 @@
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/fontawesome.min.css">
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/magnific-popup.min.css">
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/style.css?v=0.01">
 
         <!-- AOS Animation (now local, no CDN dependency) -->
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/aos.min.css">
