@@ -32,7 +32,7 @@ include_once('elements/header.php');
                 <div class="col-md-6 col-xl-4">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image"> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
                             <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
                                 <i class="far fa-plus"></i>
                             </a>
@@ -42,7 +42,7 @@ include_once('elements/header.php');
                 <div class="col-md-6 col-xl-4">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image"> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
                             <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
                                 <i class="far fa-plus"></i>
                             </a>
@@ -52,7 +52,7 @@ include_once('elements/header.php');
                 <div class="col-md-6 col-xl-4">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image"> 
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
                             <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
                                 <i class="far fa-plus"></i>
                             </a>

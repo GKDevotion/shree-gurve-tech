@@ -26,7 +26,19 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+        <!-- Open Graph / Twitter Card (shared across all pages) -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="<?php echo $seoArr['title'];?>">
+        <meta property="og:description" content="<?php echo $seoArr['description'];?>">
+        <meta property="og:url" content="<?php echo $seoArr['base_url'].$seoArr['canonical'];?>">
+        <meta property="og:image" content="<?php echo $seoArr['base_url'].'assets/img/Gurve-tech.png';?>">
+        <meta property="og:site_name" content="Shree Gurve Technology">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="<?php echo $seoArr['title'];?>">
+        <meta name="twitter:description" content="<?php echo $seoArr['description'];?>">
+        <meta name="twitter:image" content="<?php echo $seoArr['base_url'].'assets/img/Gurve-tech.png';?>">
 
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/fontawesome.min.css">
@@ -34,8 +46,8 @@
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/style.css">
 
-        <!-- AOS Animation -->
-        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+        <!-- AOS Animation (now local, no CDN dependency) -->
+        <link rel="stylesheet" href="<?php echo $seoArr['base_url'];?>/assets/css/aos.min.css">
 
         <script>
             var base_url = "<?php echo $seoArr['base_url'];?>";

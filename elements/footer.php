@@ -153,24 +153,20 @@
         </div>
         
         <script src="<?php echo $seoArr['base_url'].'assets/js/vendor/jquery-3.7.1.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/swiper-bundle.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/bootstrap.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.magnific-popup.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.counterup.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/circle-progress.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery-ui.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/imagesloaded.pkgd.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/isotope.pkgd.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/tilt.jquery.min.js';?>"></script>
-        <!-- <script src="assets/js/gsap.min.js"></script> -->
-        <script src="<?php echo $seoArr['base_url'].'assets/js/ScrollTrigger.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/smooth-scroll.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/particles.min.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/particles-config.js';?>"></script>
-        <script src="<?php echo $seoArr['base_url'].'assets/js/main.js';?>"></script>
-        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/swiper-bundle.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/bootstrap.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.magnific-popup.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/jquery.counterup.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/imagesloaded.pkgd.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/isotope.pkgd.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/tilt.jquery.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/gsap.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/ScrollTrigger.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/smooth-scroll.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/aos.min.js';?>" defer></script>
+        <script src="<?php echo $seoArr['base_url'].'assets/js/main.js';?>" defer></script>
 
-        <script>
+        <script defer>
             AOS.init({
                 duration:1000,
                 once:true

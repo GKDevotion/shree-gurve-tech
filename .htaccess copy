@@ -99,3 +99,19 @@ RewriteRule ^privacy-policy privacy-policy.php?slug=$1 [L,QSA]
     Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule>
 
+# --------------------------------------------
+# 7. Block access to sensitive files
+# --------------------------------------------
+<Files "contact.txt">
+    Require all denied
+</Files>
+
+<Files "appointment.txt">
+    Require all denied
+</Files>
+
+<Files "function.php">
+    Require all denied
+</Files>
+
+Options -Indexes
