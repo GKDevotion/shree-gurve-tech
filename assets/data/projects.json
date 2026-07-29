@@ -13,7 +13,7 @@
   "devotion-estate": {
     "icon"  :"devotion-estate.jpg",
     "title": "Devotion Estate",
-    "description": "At Devotion Estate, we are a team of experienced professionals who are passionate about real estate. Our expertise spans residential, commercial & investment properties. Whether you are buying your first home, looking for a lucrative investment, or seeking the perfect commercial space, we are here to guide you every step of the way.",
+    "description": "At Devotion Estate, we are a team of experienced professionals who are passionate about real estate. Our expertise spans residential, commercial, and investment properties. Whether you are buying your first home, looking for a lucrative investment, or seeking the perfect commercial space, we are here to guide you every step of the way.",
     "link": "https://devotionestate.com",
     "meta_description" : "",
     "canonical": "devotion-estate",
@@ -23,7 +23,7 @@
   "devotion-tourism": {
     "icon"  :"devotion-tourism.jpg",
     "title": "Devotion Tourism",
-    "description": "Business travel doesn't have to be a hassle. Our best in the industry travel advisors provide a complete suite of travel services for discerning corporate clients, whether individual travelers or groups of any size. From exclusively negotiated airfares & custom travel arrangements, to transfers, visas & other privileges, we strive to create authentic and personalized travel experiences.",
+    "description": "Business travel doesn't have to be a hassle. Our best in the industry travel advisors provide a complete suite of travel services for discerning corporate clients, whether individual travelers or groups of any size. From exclusively negotiated airfares & custom travel arrangements, to transfers, visas, and other privileges, we strive to create authentic and personalized travel experiences.",
     "link": "https://devotiontourism.com",
     "meta_description" : "",
     "canonical": "devotion-tourism",
@@ -83,7 +83,7 @@
   "crest-view-tech": {
     "icon"  :"crest-view-tech.jpg",
     "title": "Crest View Tech",
-    "description": "We help companies adopt modern, scalable & secure technology systems that accelerate growth and improve operational excellence.",
+    "description": "We help companies adopt modern, scalable, and secure technology systems that accelerate growth and improve operational excellence.",
     "link": "https://www.crestviewtech.io",
     "meta_description" : "",
     "canonical": "crest-view-tech",
@@ -113,7 +113,7 @@
   "select-stock": {
     "icon"  :"select-stock.jpg",
     "title": "Select Stock",
-    "description": "SelectStock is a privately owned Indian e-commerce trading and distribution company, built with a strong focus on product research, demand analysis & efficient online retail execution.",
+    "description": "SelectStock is a privately owned Indian e-commerce trading and distribution company, built with a strong focus on product research, demand analysis, and efficient online retail execution.",
     "link": "https://selectstock.in",
     "meta_description" : "",
     "canonical": "select-stock",
@@ -123,7 +123,7 @@
   "keshav-tech": {
     "icon"  :"keshv-tech.jpg",
     "title": "Keshav Tech",
-    "description": "Keshav Tech is a passionate collective of engineers, designers & marketers dedicated to building the digital future.",
+    "description": "Keshav Tech is a passionate collective of engineers, designers, and marketers dedicated to building the digital future.",
     "link": "https://keshavtech.ae",
     "meta_description" : "",
     "canonical": "keshav-tech",
@@ -133,7 +133,7 @@
   "the-tax-counsel": {
     "icon"  :"the-tax-counsel.jpg",
     "title": "The Tax Counsel",
-    "description": "The Tax Counsel™ is a premier law firm based in Newport Beach, California, specializing in a broad range of legal services tailored to meet the specific needs of our clients. We focus on federal and California matters across various practice areas including Tax Resolution, Tax Litigation & Bankruptcy, providing expert assistance to clients facing tax controversy issues.",
+    "description": "The Tax Counsel™ is a premier law firm based in Newport Beach, California, specializing in a broad range of legal services tailored to meet the specific needs of our clients. We focus on federal and California matters across various practice areas including Tax Resolution, Tax Litigation, and Bankruptcy, providing expert assistance to clients facing tax controversy issues.",
     "link": "https://thetaxcounsel.com",
     "meta_description" : "",
     "canonical": "the-tax-counsel",
@@ -143,7 +143,7 @@
   "go-2-click": {
     "icon"  :"go-2-clik.jpg",
     "title": "Go 2 Clik",
-    "description": "Go2Clik is a fast, simple & reliable URL shortener built to make sharing links easier and smarter.",
+    "description": "Go2Clik is a fast, simple, and reliable URL shortener built to make sharing links easier and smarter.",
     "link": "https://go2clik.com",
     "meta_description" : "",
     "canonical": "go-2-click",
