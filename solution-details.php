@@ -32,7 +32,7 @@ include_once('elements/header.php');
     <div class="container">
         <div class="breadcumb-content">
 
-            <h1 class="breadcumb-title"><?php echo htmlspecialchars( $solution['title'] );?></h1>
+            <h1 class="breadcumb-title"><?php echo htmlspecialchars( $solution['h1_tag'] );?></h1>
 
             <ul class="breadcumb-menu">
                 <li>
@@ -45,7 +45,7 @@ include_once('elements/header.php');
                         Solutions
                     </a>
                 </li>
-                <li><?php echo htmlspecialchars( $solution['title'] );?></li>
+                <li><?php echo htmlspecialchars( $solution['h1_tag'] );?></li>
             </ul>
 
         </div>
@@ -57,7 +57,7 @@ include_once('elements/header.php');
     <div class="container">
 
         <div class="text-center mt-5">
-            <h2 class="section-heading"><?php echo htmlspecialchars( $solution['title'] );?></h2>
+            <h2 class="section-heading"><?php echo htmlspecialchars( $solution['meta_title'] );?></h2>
             <p class="section-sub"><?php echo htmlspecialchars( $solution['description'] );?></p>
         </div>
 
@@ -74,7 +74,7 @@ include_once('elements/header.php');
                         </div>
 
                         <h3 class="box-title">
-                            <a href="<?php echo $seoArr['base_url'].htmlspecialchars( $item['link'] );?>" title="<?php echo htmlspecialchars( $item['title'] );?>">
+                            <a href="<?php echo $seoArr['base_url'].htmlspecialchars( $item['link'] );?>" title="<?php echo htmlspecialchars( $item['h1_tag'] );?>">
                                 <?php echo htmlspecialchars( $item['title'] );?>
                             </a>
                         </h3>
