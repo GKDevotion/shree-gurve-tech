@@ -76,18 +76,92 @@ $allFaqs = [
     ],
 ];
 
-// Generate FAQ schema for all
-$allFaqSchema = [];
-foreach ($allFaqs as $cat => $faqList) {
-    foreach ($faqList as $faq) {
-        $allFaqSchema[] = [
-            "@type" => "Question",
-            "name" => $faq['q'],
-            "acceptedAnswer" => ["@type" => "Answer", "text" => $faq['a']]
-        ];
+include_once('elements/header.php');
+?>
+
+<?php
+    // Build FAQPage schema directly from the same data source that renders
+    // the visible accordion below, so schema always matches on-page content.
+    $faqMainEntity = [];
+    foreach ( getFAQsList() as $section ) {
+        foreach ( $section['faqs'] as $faq ) {
+            $answerText = $faq['answer'];
+            if ( is_array( $answerText ) ) {
+                $answerText = $answerText[0] . ' ' . implode( ', ', $answerText[1] );
+            }
+            $faqMainEntity[] = [
+                '@type' => 'Question',
+                'name' => $faq['question'],
+                'acceptedAnswer' => [
+                    '@type' => 'Answer',
+                    'text' => strip_tags( $answerText ),
+                ],
+            ];
+        }
     }
-}
-$faqSchema = json_encode(["@context"=>"https://schema.org","@type"=>"FAQPage","mainEntity"=>$allFaqSchema], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
+    $faqSchema = [
+        '@context' => 'https://schema.org',
+        '@graph' => [
+            [
+                '@type' => 'FAQPage',
+                '@id' => $seoArr['base_url'].'faqs#faq',
+                'url' => $seoArr['base_url'].'faqs',
+                'name' => 'Frequently Asked Questions | Shree Gurve Technology',
+                'inLanguage' => 'en',
+                'mainEntity' => $faqMainEntity,
+            ],
+            [
+                '@type' => 'WebPage',
+                '@id' => $seoArr['base_url'].'faqs#webpage',
+                'url' => $seoArr['base_url'].'faqs',
+                'name' => 'Frequently Asked Questions',
+                'isPartOf' => [ '@id' => $seoArr['base_url'].'#website' ],
+                'breadcrumb' => [ '@id' => $seoArr['base_url'].'faqs#breadcrumb' ],
+                'about' => [ '@id' => $seoArr['base_url'].'#organization' ],
+            ],
+            [
+                '@type' => 'BreadcrumbList',
+                '@id' => $seoArr['base_url'].'faqs#breadcrumb',
+                'itemListElement' => [
+                    [ '@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $seoArr['base_url'] ],
+                    [ '@type' => 'ListItem', 'position' => 2, 'name' => 'Frequently Asked Questions', 'item' => $seoArr['base_url'].'faqs' ],
+                ],
+            ],
+            [
+                '@type' => 'HowTo',
+                '@id' => $seoArr['base_url'].'faqs#workflow',
+                'name' => 'Our Project Workflow',
+                'step' => [
+                    [ '@type' => 'HowToStep', 'position' => 1, 'name' => 'Select Project', 'text' => 'Discuss business requirements and project objectives.' ],
+                    [ '@type' => 'HowToStep', 'position' => 2, 'name' => 'Project Analysis', 'text' => 'Analyze technical requirements and prepare implementation strategy.' ],
+                    [ '@type' => 'HowToStep', 'position' => 3, 'name' => 'Plan & Execute', 'text' => 'Develop, test, and deploy the solution.' ],
+                    [ '@type' => 'HowToStep', 'position' => 4, 'name' => 'Deliver Result', 'text' => 'Launch the project and provide ongoing maintenance and support.' ],
+                ],
+            ],
+            [
+                '@type' => 'Organization',
+                '@id' => $seoArr['base_url'].'#organization',
+                'name' => 'Shree Gurve Technology',
+                'url' => $seoArr['base_url'],
+                'logo' => $seoArr['base_url'].'assets/images/logo.png',
+                'telephone' => callNumber(),
+                'email' => contactEmail(),
+            ],
+            [
+                '@type' => 'WebSite',
+                '@id' => $seoArr['base_url'].'#website',
+                'url' => $seoArr['base_url'],
+                'name' => 'Shree Gurve Technology',
+                'publisher' => [ '@id' => $seoArr['base_url'].'#organization' ],
+            ],
+        ],
+    ];
+?>
+<script type="application/ld+json">
+<?php echo json_encode( $faqSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );?>
+</script>
+{
 
 include __DIR__ . '/includes/header.php';
 ?>

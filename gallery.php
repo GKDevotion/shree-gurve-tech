@@ -54,33 +54,36 @@ $cats = ['All','Office','Team','Events','Work'];
     </div>
 </section>
 
-<section class="section-py" aria-label="Photo Gallery">
-    <div class="container">
-        <!-- Filter -->
-        <div class="d-flex flex-wrap gap-2 justify-content-center mb-5" data-aos="fade-up">
-            <?php foreach ($cats as $cat): ?>
-                <button class="btn btn-sm gallery-filter <?= $cat === 'All' ? 'btn-primary' : 'btn-outline-primary' ?>"
-                        data-filter="<?= htmlspecialchars($cat) ?>">
-                    <?= htmlspecialchars($cat) ?>
-                </button>
-            <?php endforeach; ?>
-        </div>
-
-        <!-- Grid -->
-        <div class="row g-4" id="galleryGrid">
-            <?php foreach ($galleryItems as $i => $item):
-                $c = $colors[$item['cat']]; ?>
-                <div class="col-lg-3 col-md-4 col-6 gallery-item" data-category="<?= htmlspecialchars($item['cat']) ?>"
-                     data-aos="fade-up" data-aos-delay="<?= ($i % 4) * 60 ?>">
-                    <div class="gallery-card" role="img" aria-label="<?= htmlspecialchars($item['label']) ?>">
-                        <!-- Placeholder visual (replace with real <img> tags) -->
-                        <div class="gallery-placeholder" style="background:<?= $c['bg'] ?>;border:1px solid <?= $c['ic'] ?>22;">
-                            <i class="bi <?= htmlspecialchars($item['icon']) ?>" style="color:<?= $c['ic'] ?>;font-size:2.5rem;"></i>
-                            <span class="gallery-cat-badge" style="background:<?= $c['ic'] ?>;"><?= htmlspecialchars($item['cat']) ?></span>
+    <div class="space-top space-extra-bottom">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-xl-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
+                            <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
+                                <i class="far fa-plus"></i>
+                            </a>
                         </div>
-                        <div class="gallery-info">
-                            <h6><?= htmlspecialchars($item['label']) ?></h6>
-                            <p><?= htmlspecialchars($item['desc']) ?></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
+                            <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
+                                <i class="far fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="gallery-card">
+                        <div class="gallery-img">
+                            <img src="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" alt="gallery image" loading="lazy" decoding="async"> 
+                            <a href="<?php echo $seoArr['base_url'].'assets/img/gallery/gallery_1_1.jpg';?>" class="play-btn style3 popup-image">
+                                <i class="far fa-plus"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

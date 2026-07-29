@@ -1,31 +1,66 @@
 <?php
-require_once __DIR__ . '/config.php';
+include_once('helper/function.php');
+
+// Tell browsers and search engines this really is a 404, not a normal page
 http_response_code(404);
-$pageTitle = '404 – Page Not Found | Shree Gurve Technology';
-$pageDesc  = 'The page you are looking for could not be found.';
-$pageCanonical = 'https://shreegurvetech.com/404';
-$currentPage = '';
-include __DIR__ . '/includes/header.php';
+
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => '404',
+    'title' => "Page Not Found (404) - Shree Gurve Technology",
+    'description' => "The page you're looking for doesn't exist or may have been moved. Explore our services, projects, or get in touch with Shree Gurve Technology.",
+    'h1_tag' => "Page Not Found",
+    'keyword' => "404, page not found, Shree Gurve Technology",
+];
+
+include_once('elements/header.php');
 ?>
-<section style="min-height:70vh;display:flex;align-items:center;background:var(--gray-light);" aria-label="404 Error Page">
-    <div class="container text-center" data-aos="zoom-in">
-        <div style="font-size:8rem;font-weight:900;line-height:1;background:linear-gradient(135deg,var(--primary),var(--electric));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px;">404</div>
-        <h1 style="font-size:1.8rem;font-weight:700;margin-bottom:12px;">Oops! Page Not Found</h1>
-        <p style="color:var(--gray-mid);max-width:440px;margin:0 auto 32px;">The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
-        <div class="d-flex gap-3 justify-content-center flex-wrap">
-            <a href="/" class="btn btn-primary btn-lg">Go to Homepage</a>
-            <a href="/contact-us" class="btn btn-outline-primary btn-lg">Contact Us</a>
-        </div>
-        <div class="mt-5">
-            <p style="font-size:0.85rem;color:var(--gray-mid);">Or jump to:</p>
-            <div class="d-flex gap-2 justify-content-center flex-wrap">
-                <a href="/services" class="btn btn-sm btn-outline-primary">Services</a>
-                <a href="/solutions" class="btn btn-sm btn-outline-primary">Solutions</a>
-                <a href="/projects" class="btn btn-sm btn-outline-primary">Projects</a>
-                <a href="/about-us" class="btn btn-sm btn-outline-primary">About</a>
-                <a href="/faqs" class="btn btn-sm btn-outline-primary">FAQs</a>
-            </div>
+
+<meta name="robots" content="noindex, follow">
+
+<div class="breadcumb-wrapper" data-bg-src="<?php echo $seoArr['base_url'].'assets/img/bg/breadcumb-bg.jpg';?>">
+    <div class="container">
+        <div class="breadcumb-content">
+            <h1 class="breadcumb-title">404</h1>
+            <ul class="breadcumb-menu">
+                <li><a href="<?php echo $seoArr['base_url'];?>">Home</a></li>
+                <li>Page Not Found</li>
+            </ul>
         </div>
     </div>
-</section>
-<?php include __DIR__ . '/includes/footer.php'; ?>
+</div>
+
+<div class="space text-center">
+    <div class="container">
+
+        <div class="title-area text-center">
+            <span class="sub-title">ERROR 404</span>
+            <h2 class="sec-title">
+                Oops! This Page <span class="text-theme fw-normal">Went Missing</span>
+            </h2>
+            <p class="mt-3" style="max-width:600px;margin-left:auto;margin-right:auto;">
+                The page you're looking for doesn't exist, may have been moved, or the link you followed is broken. Don't worry — the rest of the site is working fine. Here are some helpful places to go instead:
+            </p>
+        </div>
+
+        <div class="row justify-content-center gy-3 mt-4">
+            <div class="col-auto">
+                <a href="<?php echo $seoArr['base_url'];?>" class="th-btn">Back to Home</a>
+            </div>
+            <div class="col-auto">
+                <a href="<?php echo $seoArr['base_url'].'services';?>" class="th-btn style3">Our Services</a>
+            </div>
+            <div class="col-auto">
+                <a href="<?php echo $seoArr['base_url'].'projects';?>" class="th-btn style3">Our Projects</a>
+            </div>
+            <div class="col-auto">
+                <a href="<?php echo $seoArr['base_url'].'contact-us';?>" class="th-btn style3">Contact Us</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<?php
+include_once('elements/footer.php');
+?>

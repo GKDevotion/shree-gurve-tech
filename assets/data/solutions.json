@@ -1,0 +1,1748 @@
+{
+
+  "crm-solutions": {
+    "icon"  :"service_card_1.svg",
+    "title": "Customer Relationship Management (CRM) Systems",
+    "meta_title": "Custom CRM Software Development Services | Shree Gurve Tech",
+    "description": "Boost customer relationships with custom CRM software development services. We build secure, scalable & user-friendly CRM solutions tailored to your business needs.",
+    "solutions": [
+      {
+        "title": "Lead Management System",
+        "text": "Efficiently capture, track & manage potential leads to ensure better follow-ups and higher conversion rates.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details/lead-Management-system"
+      },
+      {
+        "title": "Sales Pipeline Management",
+        "text": "Organize and monitor the entire sales process from lead generation to deal closure with clear visibility of each stage.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details/sales-pipeline-management"
+      },
+      {
+        "title": "Customer Support System",
+        "text": "Manage customer inquiries, support tickets & service requests to provide faster and more effective customer support.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details/customer-support-system"
+      },
+      {
+        "title": "Contact Management",
+        "text": "Centralized system to store, organize & manage customer contact information, communication history & interactions.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details/contact-management"
+      },
+      {
+        "title": "Marketing Automation",
+        "text": "Automate marketing activities such as email campaigns, lead nurturing & customer engagement to improve marketing efficiency and results.",
+        "icon": "service_card_6.svg",
+        "link": "solution-details/marketing-automation"
+      }
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Customer Relationship Management (CRM) Systems",
+              "item": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems"
+            }
+          ]
+        },
+
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems/#software",
+          "name": "Customer Relationship Management (CRM) Systems",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "CRM Software",
+          "operatingSystem": "Web",
+          "description": "Shree Gurve Technology develops custom Customer Relationship Management (CRM) systems that help businesses manage leads, sales pipelines, customer interactions, marketing automation & support operations efficiently.",
+          "url": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems",
+          "image": "https://www.shreegurvetech.com/assets/images/services/crm-systems.jpg",
+          "publisher": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.shreegurvetech.com/contact-us"
+          },
+          "featureList": [
+            "Lead Management System",
+            "Sales Pipeline Management",
+            "Customer Support System",
+            "Contact Management",
+            "Marketing Automation"
+          ]
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems/#service",
+          "serviceType": "CRM Development Services",
+          "name": "Customer Relationship Management (CRM) Systems",
+          "description": "Custom CRM development services that streamline customer management, sales automation, marketing campaigns & customer support.",
+          "provider": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Worldwide"
+          },
+          "url": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "CRM Features",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Lead Management System"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sales Pipeline Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Customer Support System"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Contact Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Marketing Automation"
+                }
+              }
+            ]
+          }
+        },
+
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.shreegurvetech.com/solutions/customer-relationship-management-crm-systems/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a CRM system?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Customer Relationship Management (CRM) system helps businesses manage customer information, sales, marketing & support processes from a centralized platform."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop a custom CRM solution?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Shree Gurve Technology develops fully customized CRM solutions tailored to your business workflow, sales process & customer management requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do CRM systems support marketing automation?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our CRM systems include marketing automation features such as email campaigns, lead nurturing, customer segmentation & campaign tracking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the CRM integrate with third-party software?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We integrate CRM solutions with ERP systems, accounting software, payment gateways, email services, WhatsApp APIs & other business applications."
+              }
+            }
+          ]
+        }
+
+      ]
+    },
+    "meta_description" : "Streamline sales, customer support & business operations with custom CRM software solutions. Secure, scalable & tailored to meet your unique business goals.",
+    "canonical": "crm-solutions",
+    "h1_tag": "Customer Relationship Management (CRM) Systems Development",
+    "keyword": "customer relationship management system, CRM software development, custom CRM development, CRM system for business, CRM software solutions, sales and customer management system, lead management CRM, CRM development company, business CRM software, CRM solutions for enterprises"
+  },
+
+  "erp-solutions": {
+    "icon"  :"service_card_2.svg",
+    "title": "ERP Software Development Services | Custom Enterprise Resource Planning Solutions",
+    "meta_title": "ERP Software Development Services | Custom ERP Solutions",
+    "description": "Software development involves designing, building & maintaining custom software solutions tailored to business needs. It helps organizations automate processes, improve efficiency & manage operations through reliable and scalable applications.",
+    "solutions": [
+      {
+        "title": "Inventory Management",
+        "text": "Track and manage stock levels, product movement & warehouse operations efficiently to avoid shortages and overstocking.",
+        "icon": "service_card_7.svg",
+        "link": "solution-details/inventory-management"
+      },
+      {
+        "title": "Accounting & Finance",
+        "text": "Integrated financial management system for handling accounting, invoicing, budgeting, tax calculations & financial reporting.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details/accounting-and-finance"
+      },
+      {
+        "title": "Procurement Management",
+        "text": "Streamline purchasing processes including vendor management, purchase orders, approvals & procurement tracking.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details/procurement-management"
+      },
+      {
+        "title": "Supply Chain Management",
+        "text": "Optimize the flow of goods, information & resources across suppliers, manufacturers & distributors to improve operational efficiency.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details/supply-chain-management"
+      },
+      {
+        "title": "Production Planning",
+        "text": "Plan and manage manufacturing processes, resource allocation & production schedules to ensure timely product delivery and optimal resource use.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details/production-planning"
+      }
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Enterprise Resource Planning (ERP) Systems",
+              "item": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems"
+            }
+          ]
+        },
+
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems/#software",
+          "name": "Enterprise Resource Planning (ERP) Systems",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "ERP Software",
+          "operatingSystem": "Web",
+          "url": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems",
+          "image": "https://www.shreegurvetech.com/assets/images/solutions/erp-systems.jpg",
+          "description": "Shree Gurve Technology develops custom ERP software that integrates inventory, accounting, procurement, production & supply chain management into a single scalable platform for business automation.",
+          "publisher": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.shreegurvetech.com/contact-us"
+          },
+          "featureList": [
+            "Inventory Management",
+            "Accounting & Finance",
+            "Procurement Management",
+            "Supply Chain Management",
+            "Production Planning"
+          ]
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems/#service",
+          "name": "Enterprise Resource Planning (ERP) Development",
+          "serviceType": "Custom ERP Software Development",
+          "url": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems",
+          "description": "Custom ERP software development services designed to automate business operations, streamline workflows, improve productivity & provide real-time business insights.",
+          "provider": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Worldwide"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "ERP Modules",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Inventory Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Accounting & Finance"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Procurement Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Supply Chain Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Production Planning"
+                }
+              }
+            ]
+          }
+        },
+
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.shreegurvetech.com/solutions/enterprise-resource-planning-erp-systems/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is an ERP system?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An Enterprise Resource Planning (ERP) system integrates core business processes such as inventory, accounting, procurement, manufacturing & reporting into a single centralized platform."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop a custom ERP solution?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Shree Gurve Technology develops fully customized ERP systems tailored to your industry, business processes & operational requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which ERP modules do you provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our ERP solutions include Inventory Management, Accounting & Finance, Procurement Management, Supply Chain Management, Production Planning, HR, CRM, Sales, Purchasing & Reporting modules."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can ERP software integrate with existing business applications?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our ERP systems can integrate with CRM software, accounting systems, payment gateways, eCommerce platforms, HRMS, warehouse management systems & third-party APIs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is your ERP software scalable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our ERP solutions are designed to scale with your business, allowing new users, modules & integrations to be added as your organization grows."
+              }
+            }
+          ]
+        }
+
+      ]
+    },
+    "meta_description" : "Transform your business with custom ERP software development services. We build secure, scalable ERP solutions to automate operations, improve productivity & drive growth.",
+    "canonical": "erp-solutions",
+    "h1_tag": "ERP Software Development Services",
+    "keyword": "enterprise resource planning systems, ERP software development, custom ERP development, ERP solutions for business, enterprise management software, ERP system for companies, business process automation ERP, ERP development company, integrated business management system, ERP software solutions"
+  },
+
+  "hrms-solutions": {
+    "icon"  :"service_card_3.svg",
+    "title": "HRM Software Development Services | Custom Human Resource Management Systems",
+    "meta_title": "HRM Software Development Services | Custom HRMS",
+    "description": "Mobile app development involves creating user-friendly applications for smartphones and tablets. It helps businesses connect with customers, improve services & deliver seamless experiences on Android and iOS devices.",
+    "solutions": [
+      {
+        "title": "Employee Management",
+        "text": "Centralized system to manage employee information, profiles, roles & organizational hierarchy efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Attendance & Leave Management",
+        "text": "Track employee attendance, working hours & leave requests with automated approvals and accurate record keeping.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Payroll Management",
+        "text": "Automated payroll processing including salary calculations, tax deductions, bonuses & payslip generation.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Recruitment System (ATS)",
+        "text": "Applicant Tracking System to manage job postings, candidate applications, interview scheduling & hiring processes.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Performance Management",
+        "text": "Evaluate employee performance through goal tracking, appraisals, feedback & productivity analysis to support professional growth.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Human Resource Management (HRM) Systems",
+              "item": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems"
+            }
+          ]
+        },
+
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems/#software",
+          "name": "Human Resource Management (HRM) Systems",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "HRM Software",
+          "operatingSystem": "Web",
+          "url": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems",
+          "image": "https://www.shreegurvetech.com/assets/images/solutions/hrm-systems.jpg",
+          "description": "Shree Gurve Technology develops custom Human Resource Management (HRM) systems to simplify employee management, attendance tracking, payroll processing, recruitment & performance management from one centralized platform.",
+          "publisher": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.shreegurvetech.com/contact-us"
+          },
+          "featureList": [
+            "Employee Management",
+            "Attendance & Leave Management",
+            "Payroll Management",
+            "Recruitment System (ATS)",
+            "Performance Management"
+          ]
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems/#service",
+          "name": "Human Resource Management (HRM) Software Development",
+          "serviceType": "Custom HRM Software Development",
+          "url": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems",
+          "description": "We develop custom HRM software solutions that automate HR operations including employee records, attendance, payroll, recruitment, leave management & performance tracking.",
+          "provider": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Worldwide"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "HRM Modules",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Employee Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Attendance & Leave Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Payroll Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Recruitment System (ATS)"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Performance Management"
+                }
+              }
+            ]
+          }
+        },
+
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.shreegurvetech.com/solutions/human-resource-management-hrm-systems/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is an HRM system?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Human Resource Management (HRM) system is software that helps organizations manage employee information, attendance, payroll, recruitment, leave requests & performance from a centralized platform."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop a custom HRM system?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Shree Gurve Technology develops custom HRM software tailored to your organization's workflow, HR policies, approval processes & reporting requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does your HRM software include payroll management?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our HRM software includes payroll processing, salary calculations, tax deductions, bonuses, reimbursements, payslip generation & payroll reporting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the HRM system integrate with biometric attendance devices?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our HRM solutions support integration with biometric devices, RFID systems, attendance machines, payroll software, ERP platforms & third-party applications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the HRM software scalable for growing businesses?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our HRM solutions are scalable and can support startups, SMEs & enterprises by adding users, departments, modules & integrations as your business grows."
+              }
+            }
+          ]
+        }
+
+      ]
+    },
+    "meta_description" : "Simplify HR operations with custom HRM software development services. We build secure, scalable HRMS solutions for payroll, attendance, recruitment & employee management.",
+    "canonical": "hrms-solutions",
+    "h1_tag": "HRM Software Development Services",
+    "keyword": "human resource management system, HRM software development, HR management software,employee management system, HR automation software, payroll management system, attendance management software, custom HRM development, HR software solutions, HR management system for companies"
+  },
+
+  "project-management-systems": {
+    "icon"  :"service_card_4.svg",
+    "title": "Project Management Software Development | Custom Project Management Systems",
+    "meta_title": "Project Management Software Development Services",
+    "description": "Develop custom project management software with task tracking, team collaboration, resource planning, time tracking, reporting & workflow automation tailored to your business.",
+    "solutions": [
+      {
+        "title": "Task Management",
+        "text": "Create, assign & track tasks efficiently to ensure project activities are completed on time and within scope.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Project Planning & Scheduling",
+        "text": "Plan project timelines, milestones & deliverables with clear scheduling to keep projects organized and on track.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Team Collaboration",
+        "text": "Enable seamless communication and collaboration among team members through shared workspaces, comments & file sharing.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Time Tracking",
+        "text": "Monitor time spent on tasks and projects to improve productivity, resource allocation & project costing.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Project Reporting & Analytics",
+        "text": "Generate detailed reports and performance insights to track project progress, identify bottlenecks & support better decision-making.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.shreegurvetech.com/solutions/project-management-systems",
+          "url": "https://www.shreegurvetech.com/solutions/project-management-systems",
+          "name": "Project Management Systems | Shree Gurve Technology",
+          "headline": "Project Management Systems",
+          "description": "Shree Gurve Technology develops custom Project Management Systems that help businesses manage tasks, schedules, team collaboration, time tracking & project analytics.",
+          "inLanguage": "en-IN",
+          "isPartOf": {
+            "@id": "https://www.shreegurvetech.com/#website"
+          },
+          "about": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://www.shreegurvetech.com/assets/images/project-management-banner.jpg"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/solutions/project-management-systems#service",
+          "name": "Project Management System Development",
+          "serviceType": "Custom Project Management Software Development",
+          "provider": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "url": "https://www.shreegurvetech.com/solutions/project-management-systems",
+          "description": "We build custom Project Management Systems that simplify project planning, task management, collaboration, reporting, scheduling & resource tracking for businesses.",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://www.shreegurvetech.com/contact-us"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Project Management Solutions",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Task Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Project Planning & Scheduling"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Team Collaboration"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Time Tracking"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Project Reporting & Analytics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.shreegurvetech.com/solutions/project-management-systems#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Project Management Systems",
+              "item": "https://www.shreegurvetech.com/solutions/project-management-systems"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.shreegurvetech.com/solutions/project-management-systems#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a Project Management System?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Project Management System is software that helps businesses plan, organize, monitor & complete projects efficiently through task management, scheduling, collaboration & reporting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop a custom Project Management System?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Shree Gurve Technology develops custom Project Management Systems tailored to your workflow, business processes, team size & reporting requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What features can be included?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Features include task management, project scheduling, Gantt charts, team collaboration, file sharing, resource allocation, notifications, dashboards, reports, analytics & role-based access."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the system integrate with other software?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We integrate Project Management Systems with CRM, ERP, HRM, accounting software, cloud storage, email platforms & third-party APIs."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.shreegurvetech.com/#organization",
+          "name": "Shree Gurve Technology",
+          "url": "https://www.shreegurvetech.com",
+          "logo": "https://www.shreegurvetech.com/assets/images/logo.png",
+          "email": "contact@shreegurvetech.com",
+          "telephone": "+91-8200017181",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.linkedin.com/",
+            "https://www.instagram.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.shreegurvetech.com/#website",
+          "url": "https://www.shreegurvetech.com",
+          "name": "Shree Gurve Technology",
+          "publisher": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          }
+        }
+      ]
+    },
+    "meta_description" : "Boost team productivity with custom project management software development. We build secure, scalable solutions for task management, collaboration, planning & reporting.",
+    "canonical": "project-management-systems",
+    "h1_tag": "Project Management Software Development Services",
+    "keyword": "project management system, project management software development, custom project management software, task management system, team collaboration software, project tracking system, workflow management software, project planning software, project management solutions, business project management system"
+  },
+
+  "helpdesk-systems": {
+    "icon"  :"service_card_5.svg",
+    "title": "Helpdesk & Ticketing Software Development | Custom Customer Support Management Systems",
+    "meta_title": "Helpdesk & Ticketing Software Development Services",
+    "description": "Develop custom helpdesk software with ticket tracking, knowledge base, live chat, SLA management, reporting, automation & multi-channel customer support.",
+    "solutions": [
+      {
+        "title": "Customer Support Ticket System",
+        "text": "Manage customer queries and support requests through a structured ticketing system to ensure timely responses and efficient issue resolution.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Issue Tracking",
+        "text": "Track, prioritize & manage technical issues or customer problems from reporting to resolution with clear status updates.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "SLA Management",
+        "text": "Monitor and enforce Service Level Agreements to ensure support requests are handled within defined response and resolution times.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Knowledge Base",
+        "text": "Create and manage a centralized repository of guides, FAQs & solutions to help customers and support teams quickly resolve common issues.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+      "@context":"https://schema.org",
+      "@graph":[
+        {
+          "@type":"WebPage",
+          "@id":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems",
+          "url":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems",
+          "name":"Helpdesk / Ticketing Systems | Shree Gurve Technology",
+          "headline":"Helpdesk / Ticketing Systems",
+          "description":"Custom Helpdesk and Ticketing System development for customer support, issue tracking, SLA management & knowledge base solutions.",
+          "inLanguage":"en-IN",
+          "isPartOf":{
+            "@id":"https://www.shreegurvetech.com/#website"
+          },
+          "about":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+          },
+          "primaryImageOfPage":{
+            "@type":"ImageObject",
+            "url":"https://www.shreegurvetech.com/assets/images/helpdesk-ticketing-banner.jpg"
+          }
+        },
+        {
+          "@type":"Service",
+          "@id":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems#service",
+          "name":"Helpdesk & Ticketing System Development",
+          "serviceType":"Custom Helpdesk Software Development",
+          "provider":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+          },
+          "url":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems",
+          "description":"Shree Gurve Technology develops scalable Helpdesk and Ticketing Systems to streamline customer support, issue tracking, SLA monitoring & knowledge management.",
+          "areaServed":{
+            "@type":"Country",
+            "name":"India"
+          },
+          "availableChannel":{
+            "@type":"ServiceChannel",
+            "serviceUrl":"https://www.shreegurvetech.com/contact-us"
+          },
+          "hasOfferCatalog":{
+            "@type":"OfferCatalog",
+            "name":"Helpdesk & Ticketing Solutions",
+            "itemListElement":[
+              {
+                "@type":"Offer",
+                "itemOffered":{
+                  "@type":"Service",
+                  "name":"Customer Support Ticket System"
+                }
+              },
+              {
+                "@type":"Offer",
+                "itemOffered":{
+                  "@type":"Service",
+                  "name":"Issue Tracking"
+                }
+              },
+              {
+                "@type":"Offer",
+                "itemOffered":{
+                  "@type":"Service",
+                  "name":"SLA Management"
+                }
+              },
+              {
+                "@type":"Offer",
+                "itemOffered":{
+                  "@type":"Service",
+                  "name":"Knowledge Base"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type":"BreadcrumbList",
+          "@id":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems#breadcrumb",
+          "itemListElement":[
+            {
+              "@type":"ListItem",
+              "position":1,
+              "name":"Home",
+              "item":"https://www.shreegurvetech.com/"
+            },
+            {
+              "@type":"ListItem",
+              "position":2,
+              "name":"Solutions",
+              "item":"https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type":"ListItem",
+              "position":3,
+              "name":"Helpdesk / Ticketing Systems",
+              "item":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems"
+            }
+          ]
+        },
+        {
+          "@type":"FAQPage",
+          "@id":"https://www.shreegurvetech.com/solutions/helpdesk-ticketing-systems#faq",
+          "mainEntity":[
+            {
+              "@type":"Question",
+              "name":"What is a Helpdesk Ticketing System?",
+              "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"A Helpdesk Ticketing System is software that manages customer inquiries, support requests & technical issues through organized tickets until they are resolved."
+              }
+            },
+            {
+              "@type":"Question",
+              "name":"Can you develop a custom Helpdesk solution?",
+              "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. We develop fully customized Helpdesk and Ticketing Systems based on your business workflow, support process & customer service requirements."
+              }
+            },
+            {
+              "@type":"Question",
+              "name":"What features are included?",
+              "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Features include ticket management, issue tracking, SLA monitoring, email integration, agent assignment, customer portal, knowledge base, reporting & analytics."
+              }
+            },
+            {
+              "@type":"Question",
+              "name":"Can the Helpdesk System integrate with CRM or ERP?",
+              "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. We integrate Helpdesk systems with CRM, ERP, HRM, email services, live chat platforms, WhatsApp, APIs & third-party business applications."
+              }
+            }
+          ]
+        },
+        {
+          "@type":"Organization",
+          "@id":"https://www.shreegurvetech.com/#organization",
+          "name":"Shree Gurve Technology",
+          "url":"https://www.shreegurvetech.com",
+          "logo":"https://www.shreegurvetech.com/assets/images/logo.png",
+          "telephone":"+91-8200017181",
+          "email":"contact@shreegurvetech.com",
+          "sameAs":[
+            "https://www.facebook.com/",
+            "https://www.linkedin.com/",
+            "https://www.instagram.com/"
+          ]
+        },
+        {
+          "@type":"WebSite",
+          "@id":"https://www.shreegurvetech.com/#website",
+          "url":"https://www.shreegurvetech.com",
+          "name":"Shree Gurve Technology",
+          "publisher":{
+            "@id":"https://www.shreegurvetech.com/#organization"
+          }
+        }
+      ]
+    },
+    "meta_description" : "Enhance customer support with custom helpdesk and ticketing software. We build secure, scalable solutions for ticket management, automation, SLA tracking & multi-channel support.",
+    "canonical": "helpdesk-systems",
+    "h1_tag": "Helpdesk & Ticketing Software Development Services",
+    "keyword": "helpdesk ticketing system, helpdesk software development, customer support ticket system, IT helpdesk management system, support ticket management software, issue tracking system, helpdesk automation software, customer service management system, ticket management software, helpdesk solution for businesses"
+  },
+
+  "education-management-systems": {
+    "icon"  :"service_card_6.svg",
+    "title": "School Management Software Development | Custom Education Management Systems",
+    "meta_title": "School Management Software Development Services",
+    "description": "Develop custom school management software with student information, admissions, attendance, fee management, exams, timetables & parent communication features.",
+    "solutions": [
+      {
+        "title": "Student Information System",
+        "text": "A centralized platform to manage student records, personal details, academic history & enrollment information efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Attendance Management",
+        "text": "Automated system to track and manage student attendance, generate reports & monitor attendance patterns.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Online Examination System",
+        "text": "Digital platform for conducting online tests, managing question banks, evaluating results & generating performance reports.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Fee Management",
+        "text": "Streamlined system to manage student fee collection, payment tracking, receipts & financial reporting.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Parent Portal",
+        "text": "A dedicated portal that allows parents to monitor their child’s academic progress, attendance, fee status & school announcements.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.shreegurvetech.com/solutions/school-education-management-systems",
+          "url": "https://www.shreegurvetech.com/solutions/school-education-management-systems",
+          "name": "School / Education Management Systems | Shree Gurve Technology",
+          "headline": "School / Education Management Systems",
+          "description": "Shree Gurve Technology develops custom School and Education Management Systems to simplify student management, attendance, examinations, fee collection & parent communication.",
+          "inLanguage": "en-IN",
+          "isPartOf": {
+            "@id": "https://www.shreegurvetech.com/#website"
+          },
+          "about": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://www.shreegurvetech.com/assets/images/school-management-banner.jpg"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.shreegurvetech.com/solutions/school-education-management-systems#service",
+          "name": "School & Education Management System Development",
+          "serviceType": "Custom School ERP Development",
+          "provider": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          },
+          "url": "https://www.shreegurvetech.com/solutions/school-education-management-systems",
+          "description": "We develop secure School and Education Management Systems with student information management, attendance tracking, online examinations, fee management, parent portals & academic reporting.",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://www.shreegurvetech.com/contact-us"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "School Management Solutions",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Student Information System"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Attendance Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Online Examination System"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Fee Management"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Parent Portal"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.shreegurvetech.com/solutions/school-education-management-systems#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://www.shreegurvetech.com/solutions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "School / Education Management Systems",
+              "item": "https://www.shreegurvetech.com/solutions/school-education-management-systems"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.shreegurvetech.com/solutions/school-education-management-systems#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a School Management System?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A School Management System is software that helps educational institutions manage students, admissions, attendance, examinations, fee collection, staff & parent communication from one platform."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop a custom School ERP?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Shree Gurve Technology develops customized School ERP solutions for schools, colleges, coaching institutes, universities & educational organizations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What modules are included?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Modules include Student Information System, Attendance Management, Online Examination, Fee Management, Parent Portal, Staff Management, Timetable, Library, Transport & Report Cards."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the system support online learning?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We integrate online classes, virtual classrooms, video conferencing, assignments, digital learning materials, notifications & mobile applications."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.shreegurvetech.com/#organization",
+          "name": "Shree Gurve Technology",
+          "url": "https://www.shreegurvetech.com",
+          "logo": "https://www.shreegurvetech.com/assets/images/logo.png",
+          "telephone": "+91-8200017181",
+          "email": "contact@shreegurvetech.com",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.linkedin.com/",
+            "https://www.instagram.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.shreegurvetech.com/#website",
+          "url": "https://www.shreegurvetech.com",
+          "name": "Shree Gurve Technology",
+          "publisher": {
+            "@id": "https://www.shreegurvetech.com/#organization"
+          }
+        }
+      ]
+    },
+    "meta_description" : "Simplify school operations with custom school management software. We build secure, scalable education management systems for admissions, attendance, fees, exams & communication.",
+    "canonical": "education-management-systems",
+    "h1_tag": "School Management Software Development Services",
+    "keyword": "school management system, education management software, school ERP system, student information system, school administration software, online school management system, education ERP software, school automation system, school management software development, education management solutions"
+  },
+
+  "healthcare-management-systems": {
+    "icon"  :"service_card_7.svg",
+    "title": "Hospital Management Software Development | Custom Healthcare Management Systems",
+    "meta_title": "Hospital Management Software Development Services",
+    "description": "Develop custom hospital management software with EHR/EMR, appointments, billing, pharmacy, laboratory, inventory & patient management for healthcare providers.",
+    "solutions": [
+      {
+        "title": "Patient Management System",
+        "text": "Centralized system to manage patient records, medical history, appointments & treatment details efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Appointment Scheduling",
+        "text": "Online appointment booking and scheduling system that helps manage doctor availability and reduce patient waiting time.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Electronic Medical Records (EMR)",
+        "text": "Secure digital storage of patient medical records, prescriptions, lab reports & treatment history for quick and easy access.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Billing & Insurance Management",
+        "text": "Automated billing system that manages patient invoices, insurance claims, payment tracking & financial reports.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Pharmacy Management",
+        "text": "System to manage medicine inventory, prescriptions, stock levels & pharmacy billing efficiently.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/#service",
+          "name": "Hospital & Healthcare Management System Development",
+          "alternateName": "Healthcare Software Development",
+          "serviceType": "Healthcare Management Software Development",
+          "description": "Shree Gurve Technology develops custom Hospital & Healthcare Management Systems including patient management, appointment scheduling, EMR/EHR, pharmacy management, billing & insurance, laboratory management & healthcare automation solutions.",
+          "url": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/",
+          "provider": {
+            "@id": "https://shreegurvetech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Worldwide"
+          },
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Hospitals, Clinics, Diagnostic Centers, Healthcare Providers"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "price": "0",
+            "priceCurrency": "INR",
+            "url": "https://shreegurvetech.com/contact-us/"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/#webpage",
+          "url": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/",
+          "name": "Hospital & Healthcare Management System Development | Shree Gurve Technology",
+          "description": "Custom Hospital Management Software, EMR/EHR, Appointment Scheduling, Pharmacy Management, Billing & Insurance & Healthcare ERP solutions.",
+          "isPartOf": {
+            "@id": "https://shreegurvetech.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://shreegurvetech.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Solutions",
+              "item": "https://shreegurvetech.com/solutions/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Hospital & Healthcare Management Systems",
+              "item": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://shreegurvetech.com/solutions/hospital-healthcare-management-systems/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a Hospital Management System?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Hospital Management System is software that automates patient registration, appointments, medical records, billing, pharmacy, laboratory & administrative operations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you develop custom healthcare software?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We develop fully customized healthcare management software tailored to hospitals, clinics, diagnostic centers & healthcare organizations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you provide Electronic Medical Record (EMR) solutions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We develop secure Electronic Medical Record (EMR) and Electronic Health Record (EHR) systems with role-based access and patient history management."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the software include appointment scheduling?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our healthcare solutions include online appointment booking, doctor scheduling, patient queue management & automated reminders."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "meta_description" : "Improve healthcare operations with custom hospital management software. We build secure, scalable systems for patient records, appointments, billing, pharmacy & more.",
+    "canonical": "healthcare-management-systems",
+    "h1_tag": "Hospital Management Software Development Services",
+    "keyword": "hospital management system, healthcare management software, hospital ERP system, patient management system, hospital administration software, clinic management software, healthcare software development, hospital automation system, medical management software, healthcare management solutions"
+  },
+
+  "inventory-management-systems": {
+    "icon"  :"service_card_8.svg",
+    "title": "Inventory Management Software Development | Custom Stock Management Systems",
+    "meta_title": "Inventory Management Software Development Services",
+    "description": "Develop custom inventory management software with real-time stock tracking, warehouse management, barcode scanning, purchase orders & inventory analytics.",
+    "solutions": [
+      {
+        "title": "Stock Tracking",
+        "text": "Real-time monitoring of inventory levels to ensure accurate stock availability and prevent shortages or overstocking.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Warehouse Management",
+        "text": "Efficient management of warehouse operations including storage, stock movement & inventory organization.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Purchase & Supplier Management",
+        "text": "Manage purchase orders, supplier details & procurement processes to ensure smooth supply chain operations.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Order Management",
+        "text": "Track customer orders from placement to delivery, ensuring accurate order processing and fulfillment.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Inventory Reports & Analytics",
+        "text": "Generate detailed reports and insights on stock movement, inventory valuation & demand trends to support better business decisions.",
+        "icon": "service_card_6.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Optimize inventory with custom inventory management software. We build secure, scalable solutions for stock tracking, warehouse management, order processing & reporting.",
+    "canonical": "inventory-management-systems",
+    "h1_tag": "Inventory Management Software Development Services",
+    "keyword": "inventory management system, inventory management software, stock management system, warehouse inventory software, product inventory tracking system, inventory control software, custom inventory management software, inventory automation system, warehouse management system, inventory management solutions"
+  },
+
+  "accounting-finance-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Accounting & Finance Software Development | Custom Business Financial Management Systems",
+    "meta_title": "Accounting & Finance Software Development Services",
+    "description": "Develop custom accounting and finance software with invoicing, expense tracking, payroll, tax management, budgeting, financial reporting & ERP integration.",
+    "solutions": [
+      {
+        "title": "Financial Accounting",
+        "text": "Comprehensive system to manage general ledger, financial transactions & accurate financial records for business operations.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Invoicing & Billing Management",
+        "text": "Create, manage & track invoices, payments & billing processes to ensure smooth financial transactions.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Expense Management",
+        "text": "Monitor and control business expenses with proper tracking, categorization & approval workflows.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Tax Management",
+        "text": "Automate tax calculations, compliance & reporting to ensure accurate tax filing and regulatory adherence.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Financial Reporting & Analytics",
+        "text": "Generate detailed financial reports, balance sheets, profit & loss statements & insights to support strategic financial decisions.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Simplify financial operations with custom accounting and finance software. We build secure, scalable solutions for bookkeeping, invoicing, payroll, tax & financial reporting.",
+    "canonical": "accounting-finance-systems",
+    "h1_tag": "Accounting & Finance Software Development Services",
+    "keyword": "accounting management system, finance management software, accounting software development, financial management system, billing and invoicing software, business accounting software, accounting automation system, finance ERP software, custom accounting software, accounting and finance solutions"
+  },
+
+  "ecommerce-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "E-Commerce Software Development | Custom Online Store Management Systems",
+    "meta_title": "E-Commerce Software Development Services",
+    "description": "Develop custom e-commerce solutions with product management, secure payment gateways, inventory, order tracking, customer accounts & mobile-friendly shopping experiences.",
+    "solutions": [
+      {
+        "title": "Product Management",
+        "text": "Manage product listings, categories, descriptions, pricing & inventory from a centralized dashboard.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Order Management",
+        "text": "Track and process customer orders, payments, shipping & delivery status efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Payment Gateway Integration",
+        "text": "Secure integration with multiple payment gateways to enable smooth and safe online transactions.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Customer Management",
+        "text": "Store and manage customer profiles, order history, preferences & communication for better customer relationships.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Sales Reports & Analytics",
+        "text": "Generate detailed reports on sales performance, customer behavior & revenue trends to support business growth.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Grow your online business with custom e-commerce software development. We build secure, scalable online stores with payments, inventory, orders & multi-vendor features.",
+    "canonical": "ecommerce-management-systems",
+    "h1_tag": "E-Commerce Software Development Services",
+    "keyword": "e-commerce management system, e-commerce software development, online store management system, e-commerce platform development, custom e-commerce software, online shopping management system, e-commerce business software, order management system, e-commerce automation software, e-commerce solutions for businesses"
+  },
+
+  "real-estate-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Real Estate Software Development | Custom Property Management Systems",
+    "meta_title": "Real Estate Software Development Services",
+    "description": "Develop custom real estate software with property listings, CRM, tenant management, lease tracking, online payments, analytics & mobile-friendly solutions.",
+    "solutions": [
+      {
+        "title": "Property Management",
+        "text": "Manage property listings, details, pricing, availability & property documentation from a centralized system.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Property Listing Portal",
+        "text": "Create and manage online property listings with images, descriptions & advanced search features for buyers and renters.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Tenant Management",
+        "text": "Track tenant details, lease agreements, rental history & communication for efficient tenant management.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Rent & Payment Management",
+        "text": "Automate rent collection, payment tracking, invoicing & financial records for property owners and managers.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Property Reports & Analytics",
+        "text": "Generate detailed reports on property performance, occupancy rates, revenue & investment insights.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Streamline real estate operations with custom property management software. We build secure, scalable solutions for listings, CRM, rentals, sales & property management.",
+    "canonical": "real-estate-management-systems",
+    "h1_tag": "Real Estate Software Development Services",
+    "keyword": "real estate management system, real estate software development, property management software, real estate CRM system, property listing management system, real estate automation software, real estate business management system, property sales management software, custom real estate software, real estate solutions for agencies"
+  },
+
+  "travel-tourism-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Travel & Tourism Software Development | Custom Travel Management Systems",
+    "meta_title": "Travel & Tourism Software Development Services",
+    "description": "Develop custom travel software with online booking, hotel and flight reservations, itinerary planning, CRM, payment integration & travel management features.",
+    "solutions": [
+      {
+        "title": "Tour Package Management",
+        "text": "Create and manage tour packages, itineraries, pricing & availability for customers easily.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Booking & Reservation System",
+        "text": "Manage hotel, flight & tour reservations with a centralized booking system for smooth operations.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Customer Management",
+        "text": "Maintain customer profiles, booking history, preferences & communication for better customer service.",
+        "icon": "service_card_3.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Payment & Billing Management",
+        "text": "Handle secure online payments, invoicing & transaction tracking for tourism services.",
+        "icon": "service_card_4.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Travel Reports & Analytics",
+        "text": "Generate detailed reports on bookings, revenue, customer trends & business performance.",
+        "icon": "service_card_5.svg",
+        "link": "solution-details"
+      } 
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Grow your travel business with custom travel and tourism software. We build secure, scalable solutions for booking, reservations, itineraries, CRM & travel management.",
+    "canonical": "travel-tourism-management-systems",
+    "h1_tag": "Travel & Tourism Software Development Services",
+    "keyword": "travel management system, tourism management software, travel booking management system, tour operator software, travel agency management system, tourism ERP software, travel automation system, tour package management software, travel business management system, custom travel software development"
+  },
+
+  "document-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Document Management Software Development | Custom Digital Document Management Systems",
+    "meta_title": "Document Management Software Development Services",
+    "description": "Develop custom document management software with secure file storage, document sharing, version control, workflow automation, e-signatures & advanced search capabilities.",
+    "solutions": [
+      {
+        "title": "Document Storage & Organization",
+        "text": "Securely store, organize & manage digital documents with structured folders and easy access controls.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Document Search & Retrieval",
+        "text": "Quickly find and retrieve documents using advanced search, filters & indexing features.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Version Control",
+        "text": "Track document revisions and maintain version history to ensure users always access the latest and correct files.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Access Control & Security",
+        "text": "Manage user permissions and protect sensitive documents with role-based access and secure authentication.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Document Sharing & Collaboration",
+        "text": "Enable teams to share, review & collaborate on documents efficiently with controlled access and updates.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Manage documents efficiently with custom document management software. We build secure, scalable solutions for digital storage, workflows, version control & collaboration.",
+    "canonical": "document-management-systems",
+    "h1_tag": "Document Management Software Development Services",
+    "keyword": "document management system, document management software, digital document management system, document storage management software, enterprise document management system, document workflow management software, document automation system, secure document management solution, file management system software, document management software development"
+  },
+
+  "learning-management-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Learning Management Software Development | Custom LMS Platforms",
+    "meta_title": "Learning Management Software Development Services",
+    "description": "Develop custom LMS platforms with course creation, student management, quizzes, certifications, live classes, reporting & mobile learning for schools and businesses.",
+    "solutions": [
+      {
+        "title": "Course Management",
+        "text": "Create, organize & manage online courses, lessons & learning materials in a structured and easy-to-access platform.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Student Enrollment & Management",
+        "text": "Manage student registrations, course enrollments, profiles & learning progress efficiently.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Online Assessments & Quizzes",
+        "text": "Conduct online tests, quizzes & assignments with automated evaluation and performance tracking.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Progress Tracking & Reporting",
+        "text": "Monitor learner progress, course completion rates & performance through detailed reports and analytics.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Certification Management",
+        "text": "Automatically generate and manage digital certificates for students upon successful course completion.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Empower online learning with custom LMS development. We build secure, scalable learning management systems with course management, assessments, progress tracking & certifications.",
+    "canonical": "learning-management-systems",
+    "h1_tag": "Learning Management Software Development Services",
+    "keyword": "learning management system, LMS software development, online learning management system, e-learning management software, LMS platform development, training management system, online course management software, education LMS software, corporate training management system, LMS solutions for businesses"
+  },
+
+  "business-intelligenceanalytics-systems": {
+    "icon"  :"service_card_9.svg",
+    "title": "Business Intelligence & Analytics Software Development | Custom BI Solutions",
+    "meta_title": "Business Intelligence & Analytics Software Development",
+    "description": "Develop custom BI software with interactive dashboards, real-time reporting, data visualization, KPI tracking, predictive analytics & seamless data integration.",
+    "solutions": [
+      {
+        "title": "Data Integration",
+        "text": "Collect and integrate data from multiple sources such as databases, applications & external systems for unified analysis.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Data Dashboards",
+        "text": "Create interactive dashboards that present key business metrics and performance indicators in a clear visual format.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Data Visualization",
+        "text": "Transform complex data into charts, graphs & visual reports to help stakeholders understand insights quickly.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Predictive Analytics",
+        "text": "Use advanced analytics and data modeling techniques to forecast trends, identify opportunities & support strategic decisions.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      },
+      {
+        "title": "Business Reporting",
+        "text": "Generate automated reports that provide accurate insights into business performance, operations & growth trends.",
+        "icon": "service_card_2.svg",
+        "link": "solution-details"
+      }
+    ],
+    "ld_json": {
+    },
+    "meta_description" : "Turn data into insights with custom Business Intelligence and analytics software. We build secure, scalable BI solutions with dashboards, reporting, data visualization & predictive analytics.",
+    "canonical": "business-intelligenceanalytics-systems",
+    "h1_tag": "Business Intelligence & Analytics Software Development Services",
+    "keyword": "business intelligence systems, business analytics software, BI software development, data analytics solutions, business intelligence tools, data visualization software, reporting and analytics system, business data analysis platform, BI dashboard software, business intelligence solutions"
+  }
+}

@@ -1,11 +1,15 @@
 <?php
 require_once __DIR__ . '/config.php';
 
-$pageTitle     = 'Shree Gurve Technology – Web Development, Software & IT Services in Surat';
-$pageDesc      = 'Shree Gurve Technology is a leading IT solutions company in Surat, India. We deliver web development, software development, mobile apps, UI/UX design, digital marketing & AI automation. Get a free quote today.';
-$pageKeywords  = 'web development company Surat, software development India, mobile app development, IT solutions Surat, digital marketing, UI UX design, Shree Gurve Technology';
-$pageCanonical = 'https://shreegurvetech.com/';
-$currentPage   = 'home';
+$seoArr = [
+    'base_url' => getBaseUrl(),
+    'canonical' => '',
+    'title' => "Shree Gurve Technology - Web Dev, Software Dev & IT Services",
+    'meta_description' => "Shree Gurve Technology is a professional IT company offering web development, software development, mobile app development, UI/UX design, and digital solutions.",
+    'h1_tag' => "Professional IT Services & Technology Solutions",
+    'description' => "Shree Gurve Technology is a leading IT solutions company delivering innovative digital services since 2019. We help startups, enterprises build scalable software, websites, mobile apps and technology solutions worldwide.",
+    'keyword' => "IT company in India, web development company, software development services, mobile app development company, custom software development, IT solutions provider, digital transformation services, technology consulting services, web design company, Shree Gurve Technology",
+];
 
 // Homepage FAQ schema (AEO - Answer Engine Optimization)
 $faqSchema = json_encode([
@@ -25,6 +29,7 @@ include __DIR__ . '/includes/header.php';
 ?>
 <script type="application/ld+json"><?= $faqSchema ?></script>
 
+<<<<<<< HEAD
 <!-- ── HERO ───────────────────────────────────────────────── -->
 <section class="hero" aria-label="Hero">
     <div class="hero-particles" aria-hidden="true"></div>
@@ -84,6 +89,268 @@ include __DIR__ . '/includes/header.php';
                             <div>
                                 <div class="card-val">50+</div>
                                 <div class="card-lbl">Projects Delivered</div>
+=======
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://shreegurvetech.com/#organization",
+                "name": "Shree Gurve Tech",
+                "alternateName": "SGT",
+                "url": "https://shreegurvetech.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://shreegurvetech.com/assets/images/logo.png"
+                },
+                "image": "https://shreegurvetech.com/assets/images/office.jpg",
+                "description": "Shree Gurve Tech provides website development, software development, mobile application development, digital marketing, cloud services, cybersecurity, AI automation, UI/UX design and IT consulting services.",
+                "email": "contact@shreegurvetech.com",
+                "telephone": "+91-8200017181",
+                "sameAs": [
+                    "https://facebook.com/yourpage",
+                    "https://linkedin.com/company/yourcompany",
+                    "https://instagram.com/yourprofile"
+                ],
+                "knowsAbout": [
+                    "Software Development",
+                    "Website Development",
+                    "Mobile App Development",
+                    "UI UX Design",
+                    "Digital Marketing",
+                    "SEO",
+                    "Cloud Computing",
+                    "Cyber Security",
+                    "Artificial Intelligence",
+                    "Automation",
+                    "Laravel",
+                    "PHP",
+                    "React",
+                    "Node.js",
+                    "Flutter"
+                ]
+            },
+
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://shreegurvetech.com/#business",
+                "name": "Shree Gurve Tech",
+                "url": "https://shreegurvetech.com/",
+                "image": "https://shreegurvetech.com/assets/images/office.jpg",
+                "priceRange": "₹₹",
+                "telephone": "+91-8200017181",
+                "email": "contact@shreegurvetech.com",
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Worldwide"
+                },
+                "serviceType": [
+                    "Website Development",
+                    "Software Development",
+                    "Mobile App Development",
+                    "Digital Marketing",
+                    "Cloud Services",
+                    "Cyber Security",
+                    "AI Automation",
+                    "IT Consulting"
+                ],
+                "parentOrganization": {
+                    "@id": "https://shreegurvetech.com/#organization"
+                }
+            },
+
+            {
+                "@type": "WebSite",
+                "@id": "https://shreegurvetech.com/#website",
+                "url": "https://shreegurvetech.com/",
+                "name": "Shree Gurve Tech",
+                "publisher": {
+                    "@id": "https://shreegurvetech.com/#organization"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://shreegurvetech.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            },
+
+            {
+                "@type": "WebPage",
+                "@id": "https://shreegurvetech.com/#homepage",
+                "url": "https://shreegurvetech.com/",
+                "name": "Shree Gurve Tech | Software Development Company",
+                "isPartOf": {
+                    "@id": "https://shreegurvetech.com/#website"
+                },
+                "about": {
+                    "@id": "https://shreegurvetech.com/#organization"
+                },
+                "description": "Professional software development company providing web development, mobile app development, AI automation, digital marketing, cybersecurity, cloud solutions and IT consulting.",
+                "primaryImageOfPage": {
+                    "@type": "ImageObject",
+                    "url": "https://shreegurvetech.com/assets/images/banner.jpg"
+                },
+                "breadcrumb": {
+                    "@id": "https://shreegurvetech.com/#breadcrumb"
+                },
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                    ".hero-title",
+                    ".hero-description"
+                    ]
+                }
+            },
+
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://shreegurvetech.com/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://shreegurvetech.com/"
+                        }
+                    ]
+                },
+
+                {
+                "@type": "OfferCatalog",
+                "@id": "https://shreegurvetech.com/#services",
+                "name": "IT Services",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Website Development"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Mobile App Development"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "UI UX Design"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Digital Marketing"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cloud Services"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cyber Security"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Data Analytics"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI Automation"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "IT Consulting"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "@type": "FAQPage",
+                "@id": "https://shreegurvetech.com/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What services does Shree Gurve Tech provide?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We provide website development, software development, mobile app development, digital marketing, cloud solutions, AI automation, cybersecurity, UI/UX design and IT consulting."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you develop custom software?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We build custom software, ERP, CRM, SaaS platforms, web applications and enterprise solutions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you provide SEO services?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We offer technical SEO, local SEO, on-page SEO, off-page SEO, PPC and complete digital marketing services."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you work with international clients?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We serve startups, SMEs and enterprises across the globe."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+</script>
+<section class="space-top">
+    <div class="container z-index-common">
+        <div class="slider-area">
+            <div class="swiper th-slider has-shadow"
+                data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-featured">
+                            <div class="service-featured_content">
+                                <div class="shape-icon">
+                                    <img src="<?php echo $seoArr['base_url'].'assets/img/icon/service_featured_1.svg';?>" alt="Icon"> 
+                                    <span class="dots"></span>
+                                </div>
+                                <label class="box-title">
+                                    <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>">
+                                        Web Development Services
+                                    </a>
+                                </label>
+                                <p class="service-featured_text">
+                                    Web development involves creating and maintaining websites that help businesses build a strong online presence. It includes designing responsive, secure, and user-friendly websites that work smoothly across all devices.
+                                </p>
+                                <a href="<?php echo $seoArr['base_url'].'service-details/web-development';?>" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+>>>>>>> master
                             </div>
                         </div>
                     </div>

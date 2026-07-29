@@ -5,53 +5,15 @@
 
 RewriteEngine On
 
-# --------------------------------------------
-# 1. Force HTTPS (skipped on localhost/127.0.0.1 for local WAMP/XAMPP testing)
-# --------------------------------------------
-RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
-
-# --------------------------------------------
-# 2. Force non-www (canonical single domain) - also skipped locally
-#    NOTE: If you prefer www, flip this block (see comment).
-# --------------------------------------------
-RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
-
-# --- To force WWW instead, comment block above and use this:
-# RewriteCond %{HTTP_HOST} !^www\. [NC]
-# RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
-
-# --------------------------------------------
-# 3. Existing clean-URL rewrites (unchanged)
-# --------------------------------------------
-
 # Allow real files/folders
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# ── Clean URL Routing ────────────────────────────────────────
-# Home
-RewriteRule ^$ /index.php [L]
+# Service details URL
 
-# Static pages
-RewriteRule ^about-us/?$      /about-us.php    [L]
-RewriteRule ^services/?$      /services.php    [L]
-RewriteRule ^solutions/?$     /solutions.php   [L]
-RewriteRule ^projects/?$      /projects.php    [L]
-RewriteRule ^faqs/?$          /faqs.php        [L]
-RewriteRule ^gallery/?$       /gallery.php     [L]
-RewriteRule ^contact-us/?$    /contact-us.php  [L]
-RewriteRule ^proposals/?$     /proposals.php   [L]
-RewriteRule ^privacy-policy/?$  /privacy-policy.php   [L]
-RewriteRule ^terms-conditions/? /terms-conditions.php  [L]
-RewriteRule ^cookie-policy/?$   /cookie-policy.php     [L]
+RewriteRule ^service-details/([^/]+)$ service-details.php?slug=$1 [L,QSA]
 
-# Sitemap & Robots
-RewriteRule ^sitemap\.xml$    /sitemap.php [L]
-RewriteRule ^sitemap/?$       /sitemap.php [L]
+RewriteRule ^solution-details/([^/]+)$ solution-details.php?slug=$1 [L,QSA]
 
 RewriteRule ^services$ services.php?slug=$1 [L,QSA]
 RewriteRule ^projects$ projects.php?slug=$1 [L,QSA]
@@ -71,13 +33,6 @@ RewriteRule ^solution-details/crm-solutions solution-details.php?slug=$1 [L,QSA]
 RewriteRule ^terms-conditions terms-conditions.php?slug=$1 [L,QSA]
 RewriteRule ^cookie-policy cookie-policy.php?slug=$1 [L,QSA]
 RewriteRule ^privacy-policy privacy-policy.php?slug=$1 [L,QSA]
-
-# Catch-all: anything else that isn't a real file/folder or a route above -> custom 404
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ 404.php [L]
-
-ErrorDocument 404 /404.php
 
 # --------------------------------------------
 # 4. Compression (gzip/deflate) - big perf win
@@ -139,7 +94,6 @@ ErrorDocument 404 /404.php
 # --------------------------------------------
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
-    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
