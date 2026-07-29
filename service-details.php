@@ -34,7 +34,7 @@ include_once('elements/header.php');
     <div class="container">
         <div class="breadcumb-content">
 
-            <h1 class="breadcumb-title"><?php echo htmlspecialchars( $service['h1_tag'] );?></h1>
+            <h1 class="breadcumb-title"><?php echo htmlspecialchars( $service['title'] );?></h1>
 
             <ul class="breadcumb-menu">
                 <li>
@@ -47,7 +47,7 @@ include_once('elements/header.php');
                         Services
                     </a>
                 </li>
-                <li><?php echo htmlspecialchars( $service['h1_tag'] );?></li>
+                <li><?php echo htmlspecialchars( $service['title'] );?></li>
             </ul>
 
         </div>
@@ -59,7 +59,7 @@ include_once('elements/header.php');
     <div class="container">
 
         <div class="text-center mt-5">
-            <h2 class="section-heading"><?php echo htmlspecialchars( $service['meta_title'] );?></h2>
+            <h2 class="section-heading"><?php echo htmlspecialchars( $service['title'] );?></h2>
             <p class="section-sub"><?php echo htmlspecialchars( $service['description'] );?></p>
         </div>
 

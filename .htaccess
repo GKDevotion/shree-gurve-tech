@@ -32,28 +32,14 @@ RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# ── Clean URL Routing ────────────────────────────────────────
-# Home
-RewriteRule ^$ /index.php [L]
+# Service details URL
 
-# Static pages
-RewriteRule ^about-us/?$      /about-us.php    [L]
-RewriteRule ^services/?$      /services.php    [L]
-RewriteRule ^solutions/?$     /solutions.php   [L]
-RewriteRule ^projects/?$      /projects.php    [L]
-RewriteRule ^faqs/?$          /faqs.php        [L]
-RewriteRule ^gallery/?$       /gallery.php     [L]
-RewriteRule ^contact-us/?$    /contact-us.php  [L]
-RewriteRule ^proposals/?$     /proposals.php   [L]
-RewriteRule ^privacy-policy/?$  /privacy-policy.php   [L]
-RewriteRule ^terms-conditions/? /terms-conditions.php  [L]
-RewriteRule ^cookie-policy/?$   /cookie-policy.php     [L]
+RewriteRule ^service-details/([^/]+)$ service-details.php?slug=$1 [L,QSA]
 
-# Sitemap & Robots
-RewriteRule ^sitemap\.xml$    /sitemap.php [L]
-RewriteRule ^sitemap/?$       /sitemap.php [L]
+RewriteRule ^solution-details/([^/]+)$ solution-details.php?slug=$1 [L,QSA]
 
 RewriteRule ^services$ services.php?slug=$1 [L,QSA]
+RewriteRule ^tools$ tools.php?slug=$1 [L,QSA]
 RewriteRule ^projects$ projects.php?slug=$1 [L,QSA]
 RewriteRule ^about-us about-us.php?slug=$1 [L,QSA]
 RewriteRule ^gallery gallery.php?slug=$1 [L,QSA]

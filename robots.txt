@@ -1,24 +1,43 @@
-# robots.txt – Shree Gurve Technology
-# https://shreegurvetech.com/robots.txt
+# Shree Gurve Technology - robots.txt
 
+# Default: allow everything
 User-agent: *
 Allow: /
+Disallow: /helper/
+Disallow: /save_contact.php
+Disallow: /save_appointment.php
+Disallow: /assets/data/
 
-# Block sensitive directories and files
-Disallow: /config.php
-Disallow: /database.sql
-Disallow: /contact/
-Disallow: /.htaccess
-Disallow: /includes/
+# Search engines
+User-agent: Googlebot
+Allow: /
 
-# Block common scan paths
-Disallow: /wp-admin/
-Disallow: /wp-login.php
-Disallow: /phpmyadmin/
-Disallow: /admin/
+User-agent: Bingbot
+Allow: /
 
-# Crawl delay for polite bots
-Crawl-delay: 5
+# AI / answer-engine crawlers (GEO - allow so AI assistants can cite this site)
+User-agent: GPTBot
+Allow: /
 
-# Sitemap location
-Sitemap: https://shreegurvetech.com/sitemap.php
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://shreegurvetech.com/sitemap.xml
