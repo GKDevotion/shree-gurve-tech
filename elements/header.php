@@ -127,6 +127,16 @@
                         <li class="">
                             <a href="<?php echo $seoArr['base_url'].'projects';?>">Projects</a>
                         </li>
+
+                        <li class="menu-item-has-children">
+                            <a href="javascript:void(0)">Tools</a>
+                            <ul class="sub-menu">
+                                <?php echo getToolsChildMenu( $seoArr, 1 );?>
+                                <?php echo getToolsChildMenu( $seoArr, 2 );?>
+                                <?php echo getToolsChildMenu( $seoArr, 3 );?>
+                            </ul>
+                        </li>
+
                         <li class="menu-item-has-children">
                             <a href="javascript:void(0)">Solutions</a>
                             <ul class="sub-menu">
@@ -244,6 +254,28 @@
                                         <li class="">
                                             <a href="<?php echo $seoArr['base_url'].'projects';?>">Projects</a>
                                         </li>
+
+                                        <li class="menu-item-has-children mega-menu-wrap">
+                                            <a href="javascript:void(0)">Tools</a>
+                                            <ul class="mega-menu">
+                                                <li>
+                                                    <ul>
+                                                        <?php echo getToolsChildMenu( $seoArr, 1 );?>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <?php echo getToolsChildMenu( $seoArr, 2 );?>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <?php echo getToolsChildMenu( $seoArr, 3 );?>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
                                         <li class="menu-item-has-children mega-menu-wrap">
                                             <a href="javascript:void(0)">Solutions</a>
                                             <ul class="mega-menu">

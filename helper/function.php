@@ -145,6 +145,65 @@ function getCompanyChildMenu( $seoArr, $type=0 ){
     }
 }
 
+function getToolsChildMenu( $seoArr, $type=0 ){
+    if( $type == 1 ){
+        return '
+            <li>
+                <a href="https://merge-pdf.shreegurvetech.com" target="_blank" rel="noopener">Merge PDF</a>
+            </li>
+            <li>
+                <a href="https://split-page.shreegurvetech.com" target="_blank" rel="noopener">Split PDF Pages</a>
+            </li>
+            <li>
+                <a href="https://remove-page.shreegurvetech.com" target="_blank" rel="noopener">Remove PDF Pages</a>
+            </li>
+            <li>
+                <a href="https://pdf-editor.shreegurvetech.com" target="_blank" rel="noopener">PDF Editor</a>
+            </li>
+            <li>
+                <a href="https://stamp-sign-pdf.shreegurvetech.com" target="_blank" rel="noopener">Stamp &amp; Sign PDF</a>
+            </li>
+        ';
+    }
+
+    if( $type == 2 ){
+        return '
+            <li>
+                <a href="https://img-compress.shreegurvetech.com" target="_blank" rel="noopener">Image Compressor</a>
+            </li>
+            <li>
+                <a href="https://pdf-image-studio.shreegurvetech.com" target="_blank" rel="noopener">PDF Image Studio</a>
+            </li>
+            <li>
+                <a href="https://rmiwm.shreegurvetech.com" target="_blank" rel="noopener">Remove Image Watermark</a>
+            </li>
+            <li>
+                <a href="https://rmvwm.shreegurvetech.com" target="_blank" rel="noopener">Remove Video Watermark</a>
+            </li>
+            <li>
+                <a href="https://flipbook.shreegurvetech.com" target="_blank" rel="noopener">Flipbook Maker</a>
+            </li>
+        ';
+    }
+
+    if( $type == 3 ){
+        return '
+            <li>
+                <a href="https://social-genius.shreegurvetech.com" target="_blank" rel="noopener">Social Genius</a>
+            </li>
+            <li>
+                <a href="https://leadscout.shreegurvetech.com" target="_blank" rel="noopener">LeadScout</a>
+            </li>
+            <li>
+                <a href="https://secure-gateway.shreegurvetech.com" target="_blank" rel="noopener">Secure Gateway</a>
+            </li>
+            <li>
+                <a href="'.$seoArr['base_url'].'tools'.'">View All Tools</a>
+            </li>
+        ';
+    }
+}
+
 function getSolutionChildMenu( $seoArr, $type=0 ){
     
     if( $type == 1 ){
