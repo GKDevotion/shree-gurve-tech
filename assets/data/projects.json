@@ -179,5 +179,35 @@
     "canonical": "divaine-tech",
     "h1_tag": "",
     "keyword": ""
+  },
+  "jjr-tech": {
+    "icon"  :"jjr-tech.jpg",
+    "title": "JJR Technology",
+    "description": "jjr Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://jjrtech.io/",
+    "meta_description" : "jjr Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "jjr-tech",
+    "h1_tag": "",
+    "keyword": ""
+  },
+  "adhira-tech": {
+    "icon"  :"adhira-tech.jpg",
+    "title": "Adhira Technology",
+    "description": "adhira Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://adhiratech.io/",
+    "meta_description" : "adhira Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "adhira-tech",
+    "h1_tag": "",
+    "keyword": ""
+  },
+  "innotell-tech": {
+    "icon"  :"innotell-tech.jpg",
+    "title": "Innotell Technology",
+    "description": "innotell Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://innotelltech.com/",
+    "meta_description" : "innotell Tech offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "innotell-tech",
+    "h1_tag": "",
+    "keyword": ""
   }
 }
