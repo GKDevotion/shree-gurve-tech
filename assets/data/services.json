@@ -42,7 +42,7 @@
       {
         "title": "Speed Optimization",
         "text": "Improve loading performance and user experience with advanced optimization techniques.",
-        "icon": "service_card_7.svg",
+        "icon": "speed-optimize.svg",
         "link": "service-details"
       }
     ],
