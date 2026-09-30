@@ -74,7 +74,7 @@ include_once('elements/header.php');
                         </div>
 
                         <h3 class="box-title">
-                            <a href="<?php echo $seoArr['base_url'].htmlspecialchars( $item['link'] );?>" title="<?php echo htmlspecialchars( $item['h1_tag'] );?>">
+                            <a href="<?php echo $seoArr['base_url'].htmlspecialchars( $item['link'] );?>" title="<?php echo htmlspecialchars( $item['title'] );?>">
                                 <?php echo htmlspecialchars( $item['title'] );?>
                             </a>
                         </h3>
