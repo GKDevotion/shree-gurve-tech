@@ -144,7 +144,7 @@ include_once('elements/header.php');
                     <div class="service-card_number">HRMS</div>
 
                     <div class="shape-icon">
-                        <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/hrm-solutions.png" alt="HRM Solutions">
+                        <img src="<?php echo $seoArr['base_url'];?>assets/img/proposal/hrms-solution.png" alt="HRM Solutions">
                         <span class="dots"></span>
                     </div>
 
