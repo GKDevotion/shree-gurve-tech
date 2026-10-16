@@ -30,4 +30,5 @@ sitemap.xml
 *.ttf
 *.ufm
 contact.txt
-.htaccess
+.htaccessstorage/leads/*
+!storage/leads/.gitkeep

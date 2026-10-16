@@ -1,5 +1,5 @@
 <?php
-include_once('../helper/function.php');
+require_once __DIR__ . '/../app/bootstrap.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
@@ -22,7 +22,7 @@ include_once('../helper/function.php');
         <meta name="author" content="SGTech Technologies Pvt. Ltd." />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="theme-color" content="#0d2137" />
-        <link rel="canonical" href="<?= getBaseUrl(); ?>/proposals/" />
+        <link rel="canonical" href="<?= getBaseUrl(); ?>proposals/" />
 
         <!-- Geo SEO -->
         <meta name="geo.region" content="IN-GJ" />
@@ -32,11 +32,11 @@ include_once('../helper/function.php');
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="<?= getBaseUrl(); ?>/proposal/hrm-solutions" />
+        <meta property="og:url" content="<?= getBaseUrl(); ?>proposal/hrm-solutions" />
         <meta property="og:title" content="SGTech HRMS | Smart HR Software for India" />
         <meta property="og:description"
             content="Automate payroll, attendance, leave, recruitment & compliance with SGTech — the all-in-one HRMS built for Indian businesses." />
-        <meta property="og:image" content="<?= getBaseUrl(); ?>/assets/img/header-250.png" />
+        <meta property="og:image" content="<?= getBaseUrl(); ?>assets/img/header-250.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="SGTech HRMS" />
@@ -49,7 +49,7 @@ include_once('../helper/function.php');
         <meta name="twitter:title" content="SGTech HRMS | Smart HR Software for India" />
         <meta name="twitter:description"
             content="Automate payroll, attendance, leave, recruitment & compliance with SGTech HRMS." />
-        <meta name="twitter:image" content="<?= getBaseUrl(); ?>/assets/img/header-250.png" />
+        <meta name="twitter:image" content="<?= getBaseUrl(); ?>assets/img/header-250.png" />
 
         <!-- Structured Data – Organization -->
         <script type="application/ld+json">
@@ -58,7 +58,7 @@ include_once('../helper/function.php');
             "@type": "Organization",
             "name": "Shree Gurve Technology",
             "url": "<?= getBaseUrl(); ?>",
-            "logo": "<?= getBaseUrl(); ?>/assets/img/header-250.png",
+            "logo": "<?= getBaseUrl(); ?>assets/img/header-250.png",
             "description": "Cloud-based HRMS software for Indian SMEs and enterprises.",
             "foundingDate": "2020",
             "address": {
