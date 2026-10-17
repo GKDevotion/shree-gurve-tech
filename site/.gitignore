@@ -32,3 +32,4 @@ sitemap.xml
 contact.txt
 .htaccessstorage/leads/*
 !storage/leads/.gitkeep
+lead.jsonl
