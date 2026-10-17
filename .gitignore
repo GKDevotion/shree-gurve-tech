@@ -26,7 +26,6 @@ tests
 robots.txt
 signature
 sitemap.xml
-*.json
 *.ttf
 *.ufm
 contact.txt
