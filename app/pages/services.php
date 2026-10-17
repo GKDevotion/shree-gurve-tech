@@ -19,13 +19,15 @@ component('page-hero', [
     'title'   => 'IT services for every stage of your business',
     'lead'    => 'Web, mobile, cloud, security, data and AI - one team to plan, build and look after your technology.',
     'crumbs'  => page('crumbs'),
+    'after'   => render_component('finder', ['label' => 'Search services', 'placeholder' => 'Search services, e.g. React, SEO, payment…', 'for' => '#service-grid']),
 ]);
 ?>
 <section class="section">
     <div class="container">
-        <div class="grid grid--3">
+        <div class="grid grid--3" id="service-grid">
             <?php foreach ($svc as $slug => $s) component('card-link', ['slug' => $slug, 'item' => $s, 'type' => 'service']); ?>
         </div>
+        <p class="empty" data-empty hidden>Nothing matches that. <a href="<?= e(url('contact-us')) ?>"><strong>Tell us what you need</strong></a> - we build custom software too.</p>
     </div>
 </section>
 

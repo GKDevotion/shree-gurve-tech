@@ -133,6 +133,8 @@ function php_data(string $name): array
     static $cache = [];
     return $cache[$name] ??= (require APP_DIR . "/data/{$name}.php");
 }
+function short_names(): array { return php_data('short'); }
+function short_title(string $slug, array $item): string { return short_names()[$slug] ?? $item['title']; }
 function faqs(): array      { return php_data('faqs'); }
 function tools(): array     { return php_data('tools'); }
 function proposals(): array { return php_data('proposals'); }
@@ -335,6 +337,31 @@ function clean_ld(?array $ld, string $path): array
         $nodes[] = $node;
     }
     return $nodes;
+}
+
+/** Flat index used by the header search palette (served at /search-index.json). */
+function search_index(): array
+{
+    $out = [];
+    foreach (services() as $slug => $s) {
+        $out[] = ['t' => short_title($slug, $s), 'g' => 'Service', 'u' => url('service-details/' . $slug), 'd' => excerpt($s['description'], 110),
+                  'k' => implode(' ', array_map(static fn ($x) => $x['title'] . ' ' . ($x['text'] ?? ''), $s['services'] ?? []))];
+    }
+    foreach (solutions() as $slug => $s) {
+        $out[] = ['t' => short_title($slug, $s), 'g' => 'Solution', 'u' => url('solution-details/' . $slug), 'd' => excerpt($s['description'], 110),
+                  'k' => implode(' ', array_map(static fn ($x) => $x['title'] . ' ' . ($x['text'] ?? ''), $s['solutions'] ?? []))];
+    }
+    foreach (tools() as $items) foreach ($items as $t) {
+        $out[] = ['t' => $t['name'], 'g' => 'Free tool', 'u' => $t['url'], 'd' => $t['desc'], 'k' => '', 'x' => 1];
+    }
+    foreach (projects() as $p) {
+        $out[] = ['t' => $p['title'], 'g' => 'Project', 'u' => url('projects'), 'd' => excerpt($p['description'] ?? '', 90), 'k' => ''];
+    }
+    foreach ([['Contact us', 'contact-us', 'phone email whatsapp quote enquiry'], ['About us', 'about-us', 'company team'], ['FAQs', 'faqs', 'questions help'],
+              ['Proposals', 'proposals', 'pricing quote ready-made'], ['Privacy policy', 'privacy-policy', ''], ['Terms & conditions', 'terms-conditions', '']] as [$t, $path, $k]) {
+        $out[] = ['t' => $t, 'g' => 'Page', 'u' => url($path), 'd' => '', 'k' => $k];
+    }
+    return $out;
 }
 
 /* ------------------------------------------------------------------ *

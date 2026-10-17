@@ -8,10 +8,6 @@ $steps = [
 ?>
 <ol class="steps">
     <?php foreach ($steps as $i => [$t, $d]): ?>
-        <li class="step">
-            <span class="step__num"><?= str_pad((string) ($i + 1), 2, '0', STR_PAD_LEFT) ?></span>
-            <h3><?= e($t) ?></h3>
-            <p><?= e($d) ?></p>
-        </li>
+        <li class="step"><span class="step__num"><?= str_pad((string) ($i + 1), 2, '0', STR_PAD_LEFT) ?></span><h3><?= e($t) ?></h3><p><?= e($d) ?></p></li>
     <?php endforeach; ?>
 </ol>

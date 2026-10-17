@@ -1,15 +1,6 @@
 <?php
-/**
- * @var string $title
- * @var string|null $eyebrow
- * @var string|null $lead
- * @var string|null $align  'center' | 'left' (default left)
- * @var string|null $link   [label, path] CTA shown on the right (desktop)
- */
-$eyebrow = $eyebrow ?? null;
-$lead    = $lead ?? null;
-$align   = $align ?? 'left';
-$link    = $link ?? null;
+/** @var string $title @var string|null $eyebrow @var string|null $lead @var string|null $align @var array|null $link [label, path] */
+$eyebrow = $eyebrow ?? null; $lead = $lead ?? null; $align = $align ?? 'left'; $link = $link ?? null;
 ?>
 <div class="section-head section-head--<?= e($align) ?>">
     <div class="section-head__text">

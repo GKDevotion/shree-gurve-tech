@@ -12,6 +12,12 @@ if ($path === 'api/lead') {
     require APP_DIR . '/api/lead.php';
     exit;
 }
+if ($path === 'search-index.json') {
+    header('Content-Type: application/json; charset=utf-8');
+    header('Cache-Control: public, max-age=3600');
+    echo json_encode(search_index(), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    exit;
+}
 if ($path === 'sitemap.xml') {
     require APP_DIR . '/api/sitemap.php';
     exit;

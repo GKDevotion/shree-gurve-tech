@@ -29,7 +29,7 @@ $socials = [
             <h2 class="footer__title">Services</h2>
             <ul>
                 <?php foreach (array_slice(services(), 0, 7, true) as $slug => $s): ?>
-                    <li><a href="<?= e(url('service-details/' . $slug)) ?>"><?= e($s['title']) ?></a></li>
+                    <li><a href="<?= e(url('service-details/' . $slug)) ?>"><?= e(short_title((string) $slug, $s)) ?></a></li>
                 <?php endforeach; ?>
                 <li><a class="footer__more" href="<?= e(url('services')) ?>">All services <?= icon('arrow-right', 14) ?></a></li>
             </ul>
@@ -39,7 +39,7 @@ $socials = [
             <h2 class="footer__title">Solutions</h2>
             <ul>
                 <?php foreach (array_slice(solutions(), 0, 7, true) as $slug => $s): ?>
-                    <li><a href="<?= e(url('solution-details/' . $slug)) ?>"><?= e($s['title']) ?></a></li>
+                    <li><a href="<?= e(url('solution-details/' . $slug)) ?>"><?= e(short_title((string) $slug, $s)) ?></a></li>
                 <?php endforeach; ?>
                 <li><a class="footer__more" href="<?= e(url('solutions')) ?>">All solutions <?= icon('arrow-right', 14) ?></a></li>
             </ul>

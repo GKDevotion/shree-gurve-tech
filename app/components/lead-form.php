@@ -43,7 +43,7 @@ $err     = ($_GET['error'] ?? '') !== '';
     <input type="hidden" name="ts" value="<?= time() ?>">
     <input type="hidden" name="source" value="<?= e($source) ?>">
 
-    <button class="btn btn--primary btn--lg" type="submit">
+    <button class="btn btn--primary" type="submit">
         <span class="btn__label">Send message</span> <?= icon('arrow-right', 18) ?>
     </button>
     <p class="form__status<?= $sent ? ' is-ok' : ($err ? ' is-error' : '') ?>" role="status" aria-live="polite"><?php

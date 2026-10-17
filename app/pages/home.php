@@ -144,11 +144,7 @@ $homeFaqs = array_slice(faqs()['web-development']['faqs'], 0, 5);
 <!-- PROCESS -->
 <section class="section section--white" id="process">
     <div class="container">
-        <?php component('section-head', [
-            'eyebrow' => 'How we work',
-            'title'   => 'A simple process, from first call to launch',
-            'align'   => 'center',
-        ]); ?>
+        <?php component('section-head', ['eyebrow' => 'How we work', 'title' => 'A simple process, from first call to launch', 'align' => 'center']); ?>
         <?php component('process'); ?>
     </div>
 </section>
@@ -156,11 +152,7 @@ $homeFaqs = array_slice(faqs()['web-development']['faqs'], 0, 5);
 <!-- TESTIMONIALS -->
 <section class="section" id="clients">
     <div class="container">
-        <?php component('section-head', [
-            'eyebrow' => 'Client feedback',
-            'title'   => 'What our clients say',
-            'align'   => 'center',
-        ]); ?>
+        <?php component('section-head', ['eyebrow' => 'Client feedback', 'title' => 'What our clients say', 'align' => 'center']); ?>
         <div class="quotes">
             <?php foreach (array_slice(testimonials(), 0, 3) as $t): ?>
                 <figure class="quote">
@@ -178,7 +170,7 @@ $homeFaqs = array_slice(faqs()['web-development']['faqs'], 0, 5);
     </div>
 </section>
 
-<!-- TOOLS + FAQ -->
+<!-- FAQ + TOOLS -->
 <section class="section section--sand">
     <div class="container split split--wide-left" style="align-items:start">
         <div>

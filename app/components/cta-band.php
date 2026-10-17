@@ -1,9 +1,5 @@
 <?php
-/**
- * Closing call-to-action used at the bottom of most pages.
- * @var string|null $title
- * @var string|null $text
- */
+/** @var string|null $title @var string|null $text */
 $title = $title ?? 'Have an idea? Let’s build it together.';
 $text  = $text ?? 'Tell us what you need - a website, an app or a full business system. We reply within one working day with next steps and a clear estimate.';
 ?>

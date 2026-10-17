@@ -27,7 +27,7 @@ component('page-hero', [
                 <li><?= icon('check', 24) ?><span>Mobile apps, UI/UX, cloud &amp; digital marketing</span></li>
             </ul>
         </div>
-        <div class="stats" style="grid-template-columns:repeat(2,1fr)">
+        <div class="stats">
             <div class="stat"><strong><?= years_in_business() ?>+</strong><span>Years in business</span></div>
             <div class="stat"><strong><?= count(projects()) ?>+</strong><span>Projects delivered</span></div>
             <div class="stat"><strong><?= count(services()) ?></strong><span>IT services</span></div>

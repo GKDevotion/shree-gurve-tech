@@ -20,13 +20,15 @@ component('page-hero', [
     'lead'    => 'From CRM and ERP to industry-specific management systems - we build software around your processes, not the other way around.',
     'crumbs'  => page('crumbs'),
     'actions' => '<a class="btn btn--primary btn--lg" href="' . e(url('proposals')) . '">Browse ready-made proposals ' . icon('arrow-right', 18) . '</a>',
+    'after'   => render_component('finder', ['label' => 'Search solutions', 'placeholder' => 'Search solutions, e.g. school, inventory, payroll…', 'for' => '#solution-grid']),
 ]);
 ?>
 <section class="section">
     <div class="container">
-        <div class="grid grid--3">
+        <div class="grid grid--3" id="solution-grid">
             <?php foreach ($sol as $slug => $s) component('card-link', ['slug' => $slug, 'item' => $s, 'type' => 'solution']); ?>
         </div>
+        <p class="empty" data-empty hidden>Nothing matches that. <a href="<?= e(url('contact-us')) ?>"><strong>Tell us what you need</strong></a> - most of our systems are custom.</p>
     </div>
 </section>
 <?php component('cta-band', ['title' => 'Need something that isn’t on the list?', 'text' => 'Most of our systems are custom. Tell us about your workflow and we’ll scope the right solution.']); ?>

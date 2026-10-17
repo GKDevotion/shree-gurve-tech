@@ -1,16 +1,10 @@
 <?php
 /**
  * Inner-page header.
- * @var string $title
- * @var string|null $eyebrow
- * @var string|null $lead
- * @var array $crumbs   [[label, path], ...]  (last item = current page, path may be '')
- * @var string|null $actions  pre-rendered HTML for buttons
+ * @var string $title  @var string|null $eyebrow  @var string|null $lead
+ * @var array $crumbs   [[label, path], ...]  @var string|null $actions  @var string|null $after
  */
-$eyebrow = $eyebrow ?? null;
-$lead    = $lead ?? null;
-$crumbs  = $crumbs ?? [];
-$actions = $actions ?? null;
+$eyebrow = $eyebrow ?? null; $lead = $lead ?? null; $crumbs = $crumbs ?? []; $actions = $actions ?? null; $after = $after ?? null;
 ?>
 <section class="page-hero">
     <div class="container">
@@ -33,6 +27,7 @@ $actions = $actions ?? null;
             <h1><?= e($title) ?></h1>
             <?php if ($lead): ?><p class="lead"><?= e($lead) ?></p><?php endif; ?>
             <?php if ($actions): ?><div class="page-hero__actions"><?= $actions ?></div><?php endif; ?>
+            <?= $after ?>
         </div>
     </div>
 </section>

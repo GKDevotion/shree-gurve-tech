@@ -63,6 +63,7 @@ $isLocal = in_array($_SERVER['SERVER_NAME'] ?? '', ['localhost', '127.0.0.1', ':
 </main>
 
 <?php include APP_DIR . '/layout/footer.php'; ?>
+<?php include APP_DIR . '/layout/palette.php'; ?>
 
 <a class="wa-fab" href="<?= e(cfg('social.whatsapp')) ?>" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
     <?= icon('whatsapp', 26) ?>

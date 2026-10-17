@@ -14,7 +14,7 @@ $megaLinks = static function (array $items, string $base, callable $iconFor): st
     foreach ($items as $slug => $item) {
         $html .= '<li><a href="' . e(url($base . '/' . $slug)) . '">'
             . '<span class="mega__icon">' . icon($iconFor($slug), 18) . '</span>'
-            . '<span>' . e($item['title']) . '</span></a></li>';
+            . '<span>' . e(short_title((string) $slug, $item)) . '</span></a></li>';
     }
     return $html;
 };
@@ -101,9 +101,11 @@ $megaLinks = static function (array $items, string $base, callable $iconFor): st
         </nav>
 
         <div class="header__actions">
+            <button class="search-btn" type="button" data-search-open aria-label="Search services and solutions"><?= icon('search', 18) ?><span>Search</span><kbd>Ctrl K</kbd></button>
+            <button class="icon-btn search-icon" type="button" data-search-open aria-label="Search"><?= icon('search', 20) ?></button>
             <a class="header__phone" href="<?= e(tel_href()) ?>"><?= icon('phone', 18) ?><span><?= e(cfg('contact.phone')) ?></span></a>
             <a class="btn btn--dark btn--sm header__cta" href="<?= e(url('contact-us')) ?>">Start a project</a>
-            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" data-drawer-open>
+            <button class="nav-toggle menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" data-drawer-open>
                 <?= icon('menu', 24) ?>
             </button>
         </div>
@@ -126,7 +128,7 @@ $megaLinks = static function (array $items, string $base, callable $iconFor): st
                 <summary>Services <?= icon('chevron-down', 18) ?></summary>
                 <ul>
                     <?php foreach ($svc as $slug => $s): ?>
-                        <li><a href="<?= e(url('service-details/' . $slug)) ?>"><?= e($s['title']) ?></a></li>
+                        <li><a href="<?= e(url('service-details/' . $slug)) ?>"><?= e(short_title((string) $slug, $s)) ?></a></li>
                     <?php endforeach; ?>
                     <li><a class="drawer__all" href="<?= e(url('services')) ?>">All services <?= icon('arrow-right', 16) ?></a></li>
                 </ul>
@@ -136,7 +138,7 @@ $megaLinks = static function (array $items, string $base, callable $iconFor): st
                 <summary>Solutions <?= icon('chevron-down', 18) ?></summary>
                 <ul>
                     <?php foreach ($sol as $slug => $s): ?>
-                        <li><a href="<?= e(url('solution-details/' . $slug)) ?>"><?= e($s['title']) ?></a></li>
+                        <li><a href="<?= e(url('solution-details/' . $slug)) ?>"><?= e(short_title((string) $slug, $s)) ?></a></li>
                     <?php endforeach; ?>
                     <li><a class="drawer__all" href="<?= e(url('solutions')) ?>">All solutions <?= icon('arrow-right', 16) ?></a></li>
                 </ul>
