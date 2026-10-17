@@ -32,3 +32,15 @@ Local test: `php -S localhost:8000 dev-router.php`
 
 ## Colours
 All colours are CSS variables at the top of `assets/css/main.css` (`--accent` = cobalt #1f4fd8, `--accent-dark` = same blue lightened for use on black). Change there only.
+
+
+## October 2026 refresh
+
+- Refreshed the visual theme with brighter surfaces, clearer contrast, softer cards, responsive spacing, and reduced-motion-aware interactions. Existing brand colors and page content are preserved.
+- Added UTF-8-safe fallbacks for the small set of `mbstring` functions used by this project, so the site can start on PHP hosting without the extension. If available, native `mbstring` functions are used as normal.
+- Removed captured enquiry submissions and temporary rate-limit data from the distributable package. The `storage/leads/` directory remains available for runtime writes. Keep this directory blocked from public access in production.
+- Basic local route smoke tests passed for the homepage, key content pages, a detail page, search JSON, sitemap, and 404 handling.
+
+### Local setup
+
+Extract this archive into your local web root so the project is available at `/core/shree-gurve-tech/site/`. For Apache, keep `.htaccess` enabled (`mod_rewrite` and `AllowOverride All`) to use the clean URLs. On production, configure HTTPS and ensure the `storage/` directory cannot be served publicly.

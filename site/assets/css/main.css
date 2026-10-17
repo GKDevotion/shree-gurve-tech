@@ -520,3 +520,128 @@ a.contact-item:hover { border-color: var(--ink); }
     .site-header, .drawer, .site-footer, .wa-fab, .cta-band, .palette { display: none !important; }
     body { background: #fff; }
 }
+
+/* ---------- 13. Friendly visual refresh (October 2026) ----------
+   Brighter surfaces, clearer hierarchy and softer interactions while
+   preserving the existing Shree Gurve brand palette and markup. */
+:root {
+    --ink: #101828;
+    --ink-2: #18243a;
+    --ink-3: #253550;
+    --paper: #f7f9fd;
+    --sand: #edf3fb;
+    --line: #dfe6f1;
+    --text: #202b3c;
+    --muted: #5c687b;
+    --accent: #315eea;
+    --accent-strong: #2448c7;
+    --accent-soft: #eaf0ff;
+    --accent-dark: #a9c2ff;
+    --radius: 16px;
+    --radius-lg: 24px;
+    --shadow-sm: 0 2px 10px rgba(30, 55, 100, .055);
+    --shadow-md: 0 12px 34px rgba(30, 55, 100, .11);
+    --shadow-lg: 0 24px 70px rgba(20, 39, 80, .17);
+}
+body { background: var(--paper); }
+.site-header { background: rgba(250, 252, 255, .92); border-bottom-color: rgba(223,230,241,.75); }
+.brand img { transition: transform .2s ease; }
+.brand:hover img { transform: translateY(-1px); }
+.hero {
+    background: radial-gradient(ellipse at 78% 15%, rgba(91,139,255,.13), transparent 34%),
+                radial-gradient(ellipse at 5% 85%, rgba(64,198,201,.10), transparent 30%),
+                linear-gradient(180deg, #fbfcff 0%, #f4f7fd 100%);
+}
+.hero::before { opacity: .42; background-image: radial-gradient(circle at 1px 1px, rgba(49,94,234,.17) 1px, transparent 0); }
+.hero h1 { max-width: 13ch; letter-spacing: -.035em; line-height: 1.04; }
+.hero h1 em { color: var(--accent); font-style: normal; box-shadow: inset 0 -.24em 0 rgba(91,139,255,.2); }
+.hero .lead { max-width: 58ch; }
+.hero__visual { isolation: isolate; padding: .6rem; }
+.hero__blob { inset: 5% -2% -3% 9%; opacity: .88; background: linear-gradient(135deg,#315eea 0%,#648bff 55%,#42c7c5 120%); border-radius: 32% 68% 59% 41% / 47% 36% 64% 53%; }
+.browser { border: 1px solid rgba(255,255,255,.8); box-shadow: 0 22px 60px rgba(23,48,108,.18); border-radius: 17px; overflow: hidden; }
+.browser--front { transform: rotate(-1deg); }
+.browser--back { transform: rotate(3deg); }
+.hero__badge { border: 1px solid rgba(223,230,241,.8); border-radius: 16px; box-shadow: 0 16px 38px rgba(20,39,80,.14); }
+.btn { box-shadow: 0 0 transparent; }
+.btn--primary { background: linear-gradient(135deg,#315eea,#254dcc); box-shadow: 0 8px 20px rgba(49,94,234,.16); }
+.btn--primary:hover { background: linear-gradient(135deg,#2448c7,#1d3da9); box-shadow: 0 10px 26px rgba(49,94,234,.28); transform: translateY(-1px); }
+.btn--ghost { border-color: #cbd5e5; background: rgba(255,255,255,.68); }
+.btn--ghost:hover { border-color: var(--ink); }
+.card { border-color: #e1e8f3; box-shadow: var(--shadow-sm); transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.card--link:hover { transform: translateY(-5px); border-color: #b9caff; box-shadow: var(--shadow-md); }
+.card__icon { background: #edf2ff; color: var(--accent); }
+.card--link:hover .card__icon { background: var(--accent); color: #fff; }
+.section--dark { background: radial-gradient(ellipse at 85% 10%, rgba(49,94,234,.2), transparent 38%), #101828; }
+.section--sand { background: linear-gradient(180deg,#edf3fb 0%,#f4f7fc 100%); }
+.section-head h2, .section-head h3 { letter-spacing: -.025em; }
+.eyebrow { color: #53627a; }
+.eyebrow::before { width: 1.9rem; height: 3px; border-radius: 99px; }
+input, select, textarea { border-radius: 12px; }
+input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(49,94,234,.1); outline: none; }
+.wa-fab { box-shadow: 0 10px 28px rgba(17,110,73,.25); transition: transform .2s ease, box-shadow .2s ease; }
+.wa-fab:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(17,110,73,.3); }
+:where(a,button,input,select,textarea,[tabindex]):focus-visible { outline: 3px solid #7da0ff; outline-offset: 3px; }
+@media (max-width: 599px) {
+    :root { --section: 3.4rem; --gutter: 1.1rem; }
+    .hero { padding-block: 2.6rem 3.4rem; }
+    .hero h1 { font-size: clamp(2.45rem, 10.5vw, 3.4rem); }
+    .hero__actions { display: grid; grid-template-columns: 1fr; }
+    .hero__actions .btn { width: 100%; }
+    .hero__facts { gap: .7rem 1rem; font-size: .86rem; }
+    .hero__visual { margin-top: .25rem; }
+    .hero__badge { left: 0; bottom: -5%; padding: .65rem .8rem; }
+    .section-head { align-items: flex-start; }
+    .card { padding: 1.2rem; }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+    .hero__grid { gap: 2.6rem; }
+    .hero__visual { max-width: 31rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .card, .btn, .brand img, .wa-fab { transition: none !important; }
+}
+
+/* ---------- UX refresh: navigation mega menus + project portfolio ---------- */
+@media (min-width: 1100px) {
+    .nav__panel { z-index: 1000; padding-top: .85rem; }
+    .mega { padding: 1.35rem 1.45rem 1.4rem; border-radius: 22px; border-color: rgba(190, 204, 228, .8); box-shadow: 0 24px 70px rgba(25, 42, 75, .16); background: rgba(255,255,255,.98); backdrop-filter: blur(18px); }
+    .mega__head { padding-bottom: 1rem; margin-bottom: .85rem; }
+    .mega__head strong { font-size: 1.28rem; font-weight: 600; color: var(--ink); }
+    .mega__head a { padding: .55rem .7rem; border-radius: 9px; transition: background .2s, transform .2s; }
+    .mega__head a:hover { background: var(--accent-soft); transform: translateX(2px); }
+    .mega__cols { gap: .35rem 1.1rem; }
+    .mega__cols > ul { display: grid; align-content: start; gap: .18rem; }
+    .mega li a { min-height: 48px; padding: .48rem .55rem; border: 1px solid transparent; border-radius: 12px; transition: background .18s, border-color .18s, transform .18s; }
+    .mega li a:hover, .mega li a:focus-visible { background: #f2f6ff; border-color: #e0e9ff; transform: translateX(2px); }
+    .mega__icon { width: 36px; height: 36px; border-radius: 11px; background: #111a2c; color: #b9d0ff; box-shadow: inset 0 1px 0 rgba(255,255,255,.12); }
+    .nav__panel--sm { min-width: 250px; }
+    .drop { padding: .55rem; border-radius: 16px; box-shadow: 0 22px 55px rgba(25,42,75,.16); }
+    .drop a { padding: .75rem .85rem; border-radius: 10px; }
+}
+
+.project { border-radius: 24px; border-color: #dce5f4; box-shadow: 0 8px 26px rgba(26, 45, 78, .045); }
+.project:hover { transform: translateY(-6px); border-color: #c7d6f2; box-shadow: 0 20px 48px rgba(26,45,78,.13); }
+.project__media { position: relative; aspect-ratio: 16 / 9; background: #eef3fb; border-bottom: 1px solid #e7edf7; }
+.project__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,25,45,0) 55%, rgba(15,25,45,.12)); pointer-events: none; opacity: .65; transition: opacity .25s; }
+.project:hover .project__media::after { opacity: .25; }
+.project__media img { object-fit: cover; object-position: top center; }
+.project__body { gap: .65rem; padding: 1.25rem 1.35rem 1.35rem; }
+.project__title { font-size: clamp(1.12rem, 1.45vw, 1.35rem); line-height: 1.25; }
+.project__title a { color: #253247; }
+.project__body p { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; min-height: 5.4em; line-height: 1.55; color: #65738b; }
+.project__host { position: relative; z-index: 1; align-self: flex-start; gap: .45rem; margin-top: auto; padding: .45rem .65rem; border-radius: 9px; background: #f1f5ff; color: #315eea; overflow-wrap: anywhere; transition: background .2s, color .2s; }
+.project:hover .project__host { background: #315eea; color: #fff; }
+#work .grid { align-items: stretch; }
+#project-grid { align-items: stretch; row-gap: 1.5rem; }
+#project-grid .project { min-height: 100%; }
+@media (max-width: 1099px) {
+    .mega__cols { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 599px) {
+    .project { border-radius: 18px; }
+    .project__body { padding: 1rem 1.05rem 1.1rem; }
+    .project__body p { min-height: 0; -webkit-line-clamp: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .project, .project__media img, .project__host, .mega li a, .mega__head a { transition: none !important; }
+}

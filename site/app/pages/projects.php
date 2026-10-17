@@ -9,7 +9,7 @@ page([
 component('page-hero', [
     'eyebrow' => 'Portfolio',
     'title'   => 'Our projects',
-    'lead'    => count($all) . ' live websites and platforms we have designed, built and launched.',
+    'lead'    => count($all) . ' live websites and platforms designed, built and launched for clients across industries. Browse the work below or search by project name.',
     'crumbs'  => page('crumbs'),
     'after'   => render_component('finder', ['label' => 'Search projects', 'placeholder' => 'Search projects…', 'for' => '#project-grid']),
 ]);
