@@ -219,5 +219,25 @@
     "canonical": "innotell-tech",
     "h1_tag": "",
     "keyword": ""
+  },
+  "dvi-international": {
+    "icon"  :"dvi-international.jpg",
+    "title": "DVI International",
+    "description": "DVI International offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://dviinternational.com/",
+    "meta_description" : "DVI International offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "dvi-international",
+    "h1_tag": "",
+    "keyword": ""
+  },
+  "titan-wave": {
+    "icon"  :"titan-wave.jpg",
+    "title": "Titan Wave",
+    "description": "Titan Wave offers innovative IT solutions, web development, software development and digital transformation services.",
+    "link": "https://thetitanwave.com/",
+    "meta_description" : "Titan Wave offers innovative IT solutions, web development, software development and digital transformation services.",
+    "canonical": "titan-wave",
+    "h1_tag": "",
+    "keyword": ""
   }
 }

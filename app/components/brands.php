@@ -1,5 +1,5 @@
 <?php
-$brands = [['adbookee','ADbookee'],['cosmos-globe','Cosmos Globe'],['crest-view-tech','Crest View Technologies'],['devotion-group-1','Devotion Group'],['keshav-tech','Keshav Technologies'],['pvl-tourism','PVL Tours & Travels'],['rishaan-tech','Rishaan Techno'],['select-stock-1','Select Stock'],['zedcapital','Zed Capital']];
+$brands = [['adbookee','ADbookee'],['cosmos-globe','Cosmos Globe'],['crest-view-tech','Crest View Technologies'],['devotion-group-1','Devotion Group'],['keshav-tech','Keshav Technologies'],['pvl-tourism','PVL Tours & Travels'],['rishaan-tech','Rishaan Techno'],['select-stock','Select Stock'],['dvi-international','DVI International'],['titan-wave','Titan Wave'],['zedcapital','Zed Capital']];
 ?>
 <section class="brands" aria-label="Companies we have worked with">
     <div class="container">

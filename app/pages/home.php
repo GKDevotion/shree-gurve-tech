@@ -17,7 +17,7 @@ page([
     ]],
 ]);
 
-$featured = array_intersect_key($projects, array_flip(['crest-view-tech', 'devotion-bullion', 'cosmos-globe', 'zed-capital', 'wealthora', 'the-tax-counsel']));
+$featured = array_intersect_key($projects, array_flip(['crest-view-tech', 'devotion-bullion', 'cosmos-globe', 'zed-capital', 'wealthora', 'the-tax-counsel', 'titan-wave', 'dvi-international']));
 $homeFaqs = array_slice(faqs()['web-development']['faqs'], 0, 5);
 ?>
 
